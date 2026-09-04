@@ -1,0 +1,2065 @@
+================================================================================
+SANKET — DATA AUDIT REPORT
+Generated: 2026-09-03 23:01:44
+Files audited: 40
+================================================================================
+
+INDIVIDUAL FILE PROFILES
+
+================================================================================
+FILE: 2025-07\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-07\Cost-Wise-Report.csv
+  Inferred month  : 2025-07
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 23,75,332'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 29,07,548'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 15,37,609'
+
+================================================================================
+FILE: 2025-07\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-07\Physical-Progress-Report.csv
+  Inferred month  : 2025-07
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '175', '70', '53', '30', '49'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '381959.22 (382705.77)', '282289.67 (289794.82)', '87019.51 (88945.7)', '52434.72 (58762.54)', '138759.24 (142691.53)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '24924.01', '30664.03', '17321.93', '20102.86', '65920.93'
+
+================================================================================
+FILE: 2025-07\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-07\Sector-Wise-Report.csv
+  Inferred month  : 2025-07
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 20
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : sector, state
+        samples     : 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution', 'Water Resources'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : project_count
+        samples     : '265', '119', '90', '61', '40'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : cost, original_and_revised_cost
+        samples     : '694806.78 (841006.53)', '168889.82 (166627.82)', '351248.78 (383479.93)', '142976.51 (149491.25)', '93248.95 (195107.96)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : expenditure
+        samples     : '525897.83', '54350.12', '184032.26', '52183.05', '138396.86'
+
+================================================================================
+FILE: 2025-07\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-07\State-Wise-Report.csv
+  Inferred month  : 2025-07
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Gujarat', 'Jharkhand', 'Odisha', 'Uttar Pradesh'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 28
+        semantics   : project_count
+        samples     : '108', '73', '64', '63', '62'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '408703.59 (527681.39)', '397607.96 (525462.88)', '159298.46 (171098.36)', '181268.62 (189864.84)', '250078.33 (336422.4)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '357609.4', '394515.63', '71213.36', '93795.09', '266754.07'
+
+================================================================================
+FILE: 2025-08\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-08\Cost-Wise-Report.csv
+  Inferred month  : 2025-08
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 23,75,332'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 29,07,548'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 15,37,609'
+
+================================================================================
+FILE: 2025-08\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-08\Physical-Progress-Report.csv
+  Inferred month  : 2025-08
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '175', '70', '53', '30', '49'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '381959.22 (382705.77)', '282289.67 (289794.82)', '87019.51 (88945.7)', '52434.72 (58762.54)', '138759.24 (142691.53)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '24924.01', '30664.03', '17321.93', '20102.86', '65920.93'
+
+================================================================================
+FILE: 2025-08\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-08\Sector-Wise-Report.csv
+  Inferred month  : 2025-08
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 20
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : sector, state
+        samples     : 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution', 'Water Resources'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : project_count
+        samples     : '265', '119', '90', '61', '40'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : cost, original_and_revised_cost
+        samples     : '694806.78 (841006.53)', '168889.82 (166627.82)', '351248.78 (383479.93)', '142976.51 (149491.25)', '93248.95 (195107.96)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : expenditure
+        samples     : '525897.83', '54350.12', '184032.26', '52183.05', '138396.86'
+
+================================================================================
+FILE: 2025-08\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-08\State-Wise-Report.csv
+  Inferred month  : 2025-08
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Gujarat', 'Jharkhand', 'Odisha', 'Uttar Pradesh'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 28
+        semantics   : project_count
+        samples     : '108', '73', '64', '63', '62'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '408703.59 (527681.39)', '397607.96 (525462.88)', '159298.46 (171098.36)', '181268.62 (189864.84)', '250078.33 (336422.4)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '357609.4', '394515.63', '71213.36', '93795.09', '266754.07'
+
+================================================================================
+FILE: 2025-09\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-09\Cost-Wise-Report.csv
+  Inferred month  : 2025-09
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 25,33,122'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 30,63,324'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 15,85,712'
+
+================================================================================
+FILE: 2025-09\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-09\Physical-Progress-Report.csv
+  Inferred month  : 2025-09
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '154', '71', '53', '32', '49'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '347612.72 (347775.59)', '452825.8 (460240.14)', '93571.95 (93571.94)', '56064.67 (64346.69)', '137595.4 (143338.39)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '31666.72', '34247.64', '18794.03', '21634.93', '66860.49'
+
+================================================================================
+FILE: 2025-09\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-09\Sector-Wise-Report.csv
+  Inferred month  : 2025-09
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 21
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : sector, state
+        samples     : 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution', 'Water Resources'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 19
+        semantics   : project_count
+        samples     : '250', '120', '89', '65', '39'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : cost, original_and_revised_cost
+        samples     : '816697.63 (965840.63)', '174830.29 (172568.29)', '349435.78 (378612.78)', '149516.43 (156031.17)', '93740.23 (193594.13)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : expenditure
+        samples     : '533163.69', '56468.92', '182908.81', '57066.68', '137305.9'
+
+================================================================================
+FILE: 2025-09\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-09\State-Wise-Report.csv
+  Inferred month  : 2025-09
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Gujarat', 'Jharkhand', 'Uttar Pradesh', 'Odisha'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 26
+        semantics   : project_count
+        samples     : '109', '74', '66', '62', '57'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '425549.94 (545048.73)', '401353.25 (531213.33)', '165923.86 (178488.46)', '249968.17 (334587.94)', '174651.84 (183248.03)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '377423.41', '397370.99', '74395.55', '269509.89', '95635.51'
+
+================================================================================
+FILE: 2025-10\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-10\Cost-Wise-Report.csv
+  Inferred month  : 2025-10
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 25,52,632'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 30,83,532'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 16,11,188'
+
+================================================================================
+FILE: 2025-10\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-10\Physical-Progress-Report.csv
+  Inferred month  : 2025-10
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '168', '67', '59', '32', '51'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '369058.14 (369207.01)', '446089.06 (453107.23)', '105237.84 (105751.61)', '46543.46 (54316.21)', '152235.66 (156324.9)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '33566.81', '35284.46', '21016.65', '16823.82', '72481.12'
+
+================================================================================
+FILE: 2025-10\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-10\Sector-Wise-Report.csv
+  Inferred month  : 2025-10
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 20
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : sector, state
+        samples     : 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution', 'Water Resources'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 18
+        semantics   : project_count
+        samples     : '259', '118', '86', '68', '39'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : cost, original_and_revised_cost
+        samples     : '842708.21 (992533.85)', '159637.96 (157375.95)', '348775.78 (377914.55)', '150796.17 (157310.91)', '93740.23 (193594.13)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : expenditure
+        samples     : '538550.64', '49200.05', '185369.27', '59403.74', '138529.51'
+
+================================================================================
+FILE: 2025-10\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-10\State-Wise-Report.csv
+  Inferred month  : 2025-10
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Gujarat', 'Jharkhand', 'Odisha', 'Uttar Pradesh'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 23
+        semantics   : project_count
+        samples     : '113', '76', '67', '62', '60'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '430807.29 (550307.85)', '397766.39 (527744.09)', '167382.99 (180414.25)', '182764.78 (191361.01)', '248667.17 (333516.47)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '383630.61', '400282.66', '75601.09', '97459.83', '270522.07'
+
+================================================================================
+FILE: 2025-11\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-11\Cost-Wise-Report.csv
+  Inferred month  : 2025-11
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 24,18,198'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 29,54,787'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 15,74,942'
+
+================================================================================
+FILE: 2025-11\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-11\Physical-Progress-Report.csv
+  Inferred month  : 2025-11
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '162', '68', '62', '36', '48'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '348004.54 (348232.75)', '308121.81 (315947.59)', '108753.34 (109066.06)', '60466.12 (67329.87)', '143445.17 (145779.49)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '27511.01', '34397.19', '20895.63', '19289.5', '64130.51'
+
+================================================================================
+FILE: 2025-11\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-11\Sector-Wise-Report.csv
+  Inferred month  : 2025-11
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 20
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : sector, state
+        samples     : 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution', 'Water Resources'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 19
+        semantics   : project_count
+        samples     : '260', '117', '95', '64', '39'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : cost, original_and_revised_cost
+        samples     : '696643.16 (850436.57)', '159359.32 (157097.31)', '355051.01 (384189.78)', '153554.68 (159517.97)', '93740.23 (193594.13)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 20
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : expenditure
+        samples     : '544630.05', '48896.62', '188847.4', '57184.49', '139573.2'
+
+================================================================================
+FILE: 2025-11\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-11\State-Wise-Report.csv
+  Inferred month  : 2025-11
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Gujarat', 'Jharkhand', 'Odisha', 'West Bengal'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 25
+        semantics   : project_count
+        samples     : '114', '75', '67', '61', '60'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '435372.53 (554677.16)', '395988.91 (525967.16)', '170388.09 (181863.35)', '179356.17 (189046.89)', '134308.04 (148733.14)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '379894.49', '402024.94', '73353.53', '98183.04', '70283.82'
+
+================================================================================
+FILE: 2025-12\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-12\Cost-Wise-Report.csv
+  Inferred month  : 2025-12
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 29,68,248'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 35,10,920'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 19,01,163'
+
+================================================================================
+FILE: 2025-12\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-12\Physical-Progress-Report.csv
+  Inferred month  : 2025-12
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '257', '71', '76', '65', '77'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '429025.52 (429796.89)', '270834.63 (273160.01)', '175314.2 (175122.97)', '89753.18 (96528.03)', '164770.96 (167483.61)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '28424.05', '31108.89', '32188.05', '26898.27', '66248.86'
+
+================================================================================
+FILE: 2025-12\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-12\Sector-Wise-Report.csv
+  Inferred month  : 2025-12
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 21
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : sector, state
+        samples     : 'Roads & Highways', 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 19
+        semantics   : project_count
+        samples     : '584', '251', '115', '93', '63'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : cost, original_and_revised_cost
+        samples     : '527441.16 (537798.67)', '705752.59 (856854.01)', '158367.68 (156105.67)', '353462.93 (381880.79)', '152121.4 (158084.97)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 21
+        missing     : 0 (0.0%)
+        unique      : 21
+        semantics   : expenditure
+        samples     : '185963.95', '688175.12', '48265.26', '191900.78', '59380.79'
+
+================================================================================
+FILE: 2025-12\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2025-12\State-Wise-Report.csv
+  Inferred month  : 2025-12
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Uttar Pradesh', 'Andhra Pradesh', 'Bihar', 'Gujarat'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 30
+        semantics   : project_count
+        samples     : '162', '120', '102', '97', '85'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '493558.1 (611218.67)', '299855.03 (376439.84)', '176614.11 (230870.67)', '182856.83 (191794.13)', '378256.01 (476486.48)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '396863.94', '261553.31', '121981.56', '141041.82', '359662.36'
+
+================================================================================
+FILE: 2026-01\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-01\Cost-Wise-Report.csv
+  Inferred month  : 2026-01
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 33,71,816'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 39,24,534'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 20,01,893'
+
+================================================================================
+FILE: 2026-01\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-01\Physical-Progress-Report.csv
+  Inferred month  : 2026-01
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '300', '98', '88', '78', '90'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '562841.91 (559414.42)', '289776.82 (292524.04)', '179514.27 (179098.92)', '118460.45 (124481.87)', '215558.37 (217258.55)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '25046.26', '30167.53', '34249.87', '32587.65', '91527.39'
+
+================================================================================
+FILE: 2026-01\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-01\Sector-Wise-Report.csv
+  Inferred month  : 2026-01
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 22
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : sector, state
+        samples     : 'Roads & Highways', 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 20
+        semantics   : project_count
+        samples     : '863', '251', '118', '93', '70'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : cost, original_and_revised_cost
+        samples     : '799040.39 (814341.45)', '697517.25 (850970.91)', '185977.27 (183715.26)', '353598.97 (382327.64)', '206140.79 (212104.36)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : expenditure
+        samples     : '247872.26', '700909.44', '48546.78', '191043.75', '61527.48'
+
+================================================================================
+FILE: 2026-01\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-01\State-Wise-Report.csv
+  Inferred month  : 2026-01
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Uttar Pradesh', 'Andhra Pradesh', 'Gujarat', 'Bihar'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 28
+        semantics   : project_count
+        samples     : '180', '159', '125', '119', '114'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '507258.65 (627146.77)', '376614.18 (451984.71)', '200004.85 (253484.2)', '415591.9 (516772.67)', '224527.85 (234547.82)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '412581.51', '269474.12', '131250.46', '374346.57', '142083.45'
+
+================================================================================
+FILE: 2026-02\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-02\Cost-Wise-Report.csv
+  Inferred month  : 2026-02
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 36,32,088'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 41,98,684'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 19,71,456'
+
+================================================================================
+FILE: 2026-02\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-02\Physical-Progress-Report.csv
+  Inferred month  : 2026-02
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '291', '127', '125', '98', '114'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '566383.95 (564502.81)', '292504.17 (294890.11)', '239194.17 (235596.18)', '144451.41 (149584)', '237011.7 (237473.8)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '31616.87', '33122.82', '37169.38', '42500.66', '97176.55'
+
+================================================================================
+FILE: 2026-02\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-02\Sector-Wise-Report.csv
+  Inferred month  : 2026-02
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 22
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : sector, state
+        samples     : 'Roads & Highways', 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 19
+        semantics   : project_count
+        samples     : '1108', '247', '120', '96', '69'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : cost, original_and_revised_cost
+        samples     : '1023675.67 (1051567.26)', '693607.15 (844707.36)', '190252.37 (187990.36)', '367211.08 (395613.29)', '203950.25 (209913.82)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : expenditure
+        samples     : '323514.82', '563949.55', '48934.69', '191970.51', '62393.44'
+
+================================================================================
+FILE: 2026-02\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-02\State-Wise-Report.csv
+  Inferred month  : 2026-02
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Uttar Pradesh', 'Andhra Pradesh', 'Gujarat', 'Bihar'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 31
+        semantics   : project_count
+        samples     : '215', '180', '141', '127', '125'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '545731.48 (670461.98)', '429013.4 (504586.99)', '207321 (260802.22)', '429276.67 (531759.28)', '240033.81 (249863.59)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '424126.28', '286639.37', '135941.47', '383145.07', '96430.33'
+
+================================================================================
+FILE: 2026-03\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-03\Cost-Wise-Report.csv
+  Inferred month  : 2026-03
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 35,88,861'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 41,50,159'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 19,92,964'
+
+================================================================================
+FILE: 2026-03\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-03\Physical-Progress-Report.csv
+  Inferred month  : 2026-03
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : project_count
+        samples     : '246', '127', '116', '111', '113'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '527250.99 (525157.16)', '283340.18 (287100.93)', '233499.83 (230340.27)', '165888.54 (171676.34)', '170075.47 (170962.47)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '33477.02', '32701.1', '38049.1', '48815.73', '64685.15'
+
+================================================================================
+FILE: 2026-03\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-03\Sector-Wise-Report.csv
+  Inferred month  : 2026-03
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 22
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : sector, state
+        samples     : 'Roads & Highways', 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 16
+        semantics   : project_count
+        samples     : '1120', '246', '119', '93', '68'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : cost, original_and_revised_cost
+        samples     : '1034561.22 (1060739.73)', '690682.92 (841906.58)', '189003.44 (186741.43)', '363711.6 (392245.55)', '203786.64 (209750.21)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : expenditure
+        samples     : '351917.45', '571254.58', '49559.67', '198328.45', '65534.82'
+
+================================================================================
+FILE: 2026-03\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-03\State-Wise-Report.csv
+  Inferred month  : 2026-03
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Uttar Pradesh', 'Andhra Pradesh', 'Bihar', 'Madhya Pradesh'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 31
+        semantics   : project_count
+        samples     : '212', '177', '138', '129', '123'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '542172.58 (666446.46)', '396749.25 (472008.46)', '211024.61 (264097.7)', '246061.51 (256634.85)', '307764.77 (318694.68)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '428925.08', '262117.33', '143210.64', '102049.23', '121098.26'
+
+================================================================================
+FILE: 2026-04\Cost-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-04\Cost-Wise-Report.csv
+  Inferred month  : 2026-04
+  Dataset type    : Cost-Wise-Report
+  Title line      : Cost Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 1
+  Column count    : 4
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Cost-wise summary with very few rows — likely national-level aggregate
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : unknown
+        non-null    : 0
+        missing     : 1 (100.0%)
+        unique      : 0
+        samples     : 
+    [1] col_1
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 37,12,662'
+    [2] col_2
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 42,78,402'
+    [3] col_3
+        dtype       : currency
+        non-null    : 1
+        missing     : 0 (0.0%)
+        unique      : 1
+        semantics   : cost
+        samples     : '₹ 20,36,107'
+
+================================================================================
+FILE: 2026-04\Physical-Progress-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-04\Physical-Progress-Report.csv
+  Inferred month  : 2026-04
+  Dataset type    : Physical-Progress-Report
+  Title line      : Physical Progress
+  Encoding        : utf-8-sig
+  Row count       : 11
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Physical-progress report with progress-range buckets (aggregate histogram)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : progress_range
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : physical_progress
+        samples     : '0-10', '10-20', '20-30', '30-40', '40-50'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 10
+        semantics   : project_count
+        samples     : '263', '127', '116', '114', '112'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : cost, original_and_revised_cost
+        samples     : '583075.57 (582366.56)', '317668.64 (321832.78)', '230319.33 (227753.15)', '176933.31 (178976.31)', '159105.36 (160386.92)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 11
+        missing     : 0 (0.0%)
+        unique      : 11
+        semantics   : expenditure
+        samples     : '34794.39', '36715.3', '37618.03', '50606.99', '61437.08'
+
+================================================================================
+FILE: 2026-04\Sector-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-04\Sector-Wise-Report.csv
+  Inferred month  : 2026-04
+  Dataset type    : Sector-Wise-Report
+  Title line      : Sector Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 22
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : Sector-wise aggregation (rows represent sectors, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : sector, state
+        samples     : 'Roads & Highways', 'Railways', 'Coal', 'Oil & Gas', 'Transmission & Distribution'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 19
+        semantics   : project_count
+        samples     : '1108', '247', '120', '96', '69'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : cost, original_and_revised_cost
+        samples     : '1023675.67 (1051567.26)', '693607.15 (844707.36)', '190252.37 (187990.36)', '367211.08 (395613.29)', '203950.25 (209913.82)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 22
+        missing     : 0 (0.0%)
+        unique      : 22
+        semantics   : expenditure
+        samples     : '323514.82', '563949.55', '48934.69', '191970.51', '62393.44'
+
+================================================================================
+FILE: 2026-04\State-Wise-Report.csv
+------------------------------------------------------------
+  Absolute path   : C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\raw\2026-04\State-Wise-Report.csv
+  Inferred month  : 2026-04
+  Dataset type    : State-Wise-Report
+  Title line      : State Wise Details
+  Encoding        : utf-8-sig
+  Row count       : 34
+  Column count    : 5
+  Duplicate rows  : 0
+  Granularity     : AGGREGATE
+    Reason        : State-wise aggregation (rows represent states, not individual projects)
+  Possible ID cols: (none detected)
+
+  COLUMNS:
+    [0] col_0
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        samples     : '1', '2', '3', '4', '5'
+    [1] col_1
+        dtype       : text
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : state
+        samples     : 'Maharashtra', 'Uttar Pradesh', 'Andhra Pradesh', 'Bihar', 'Madhya Pradesh'
+    [2] col_2
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 30
+        semantics   : project_count
+        samples     : '213', '182', '142', '133', '125'
+    [3] col_3
+        dtype       : numeric_parenthetical
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : cost, original_and_revised_cost
+        samples     : '542567.88 (667045.23)', '401452.12 (476742.08)', '218753.69 (271824.5)', '257120.33 (267926.01)', '309604.06 (322477.61)'
+    [4] col_4
+        dtype       : numeric
+        non-null    : 34
+        missing     : 0 (0.0%)
+        unique      : 34
+        semantics   : expenditure
+        samples     : '431680.03', '266899.6', '146693.06', '105218.06', '124125.98'
+
+================================================================================
+CROSS-MONTH SCHEMA COMPARISON
+================================================================================
+
+  Dataset: Cost-Wise-Report
+  Months covered: 2025-07, 2025-08, 2025-09, 2025-10, 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04
+  Column counts by month: {'2025-07': 4, '2025-08': 4, '2025-09': 4, '2025-10': 4, '2025-11': 4, '2025-12': 4, '2026-01': 4, '2026-02': 4, '2026-03': 4, '2026-04': 4}
+  Row counts by month   : {'2025-07': 1, '2025-08': 1, '2025-09': 1, '2025-10': 1, '2025-11': 1, '2025-12': 1, '2026-01': 1, '2026-02': 1, '2026-03': 1, '2026-04': 1}
+  Schema consistency: CONSISTENT
+------------------------------------------------------------
+
+  Dataset: Physical-Progress-Report
+  Months covered: 2025-07, 2025-08, 2025-09, 2025-10, 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04
+  Column counts by month: {'2025-07': 5, '2025-08': 5, '2025-09': 5, '2025-10': 5, '2025-11': 5, '2025-12': 5, '2026-01': 5, '2026-02': 5, '2026-03': 5, '2026-04': 5}
+  Row counts by month   : {'2025-07': 11, '2025-08': 11, '2025-09': 11, '2025-10': 11, '2025-11': 11, '2025-12': 11, '2026-01': 11, '2026-02': 11, '2026-03': 11, '2026-04': 11}
+  Schema consistency: CONSISTENT
+------------------------------------------------------------
+
+  Dataset: Sector-Wise-Report
+  Months covered: 2025-07, 2025-08, 2025-09, 2025-10, 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04
+  Column counts by month: {'2025-07': 5, '2025-08': 5, '2025-09': 5, '2025-10': 5, '2025-11': 5, '2025-12': 5, '2026-01': 5, '2026-02': 5, '2026-03': 5, '2026-04': 5}
+  Row counts by month   : {'2025-07': 20, '2025-08': 20, '2025-09': 21, '2025-10': 20, '2025-11': 20, '2025-12': 21, '2026-01': 22, '2026-02': 22, '2026-03': 22, '2026-04': 22}
+  Schema consistency: CONSISTENT
+------------------------------------------------------------
+
+  Dataset: State-Wise-Report
+  Months covered: 2025-07, 2025-08, 2025-09, 2025-10, 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04
+  Column counts by month: {'2025-07': 5, '2025-08': 5, '2025-09': 5, '2025-10': 5, '2025-11': 5, '2025-12': 5, '2026-01': 5, '2026-02': 5, '2026-03': 5, '2026-04': 5}
+  Row counts by month   : {'2025-07': 34, '2025-08': 34, '2025-09': 34, '2025-10': 34, '2025-11': 34, '2025-12': 34, '2026-01': 34, '2026-02': 34, '2026-03': 34, '2026-04': 34}
+  Schema consistency: CONSISTENT
+------------------------------------------------------------
+
+================================================================================
+SEMANTIC COLUMN SUMMARY
+================================================================================
+
+  COST
+    - Cost-Wise-Report[2025-07].col_1
+    - Cost-Wise-Report[2025-07].col_2
+    - Cost-Wise-Report[2025-07].col_3
+    - Physical-Progress-Report[2025-07].col_3
+    - Sector-Wise-Report[2025-07].col_3
+    - State-Wise-Report[2025-07].col_3
+    ... and 54 more occurrences
+
+  EXPENDITURE
+    - Physical-Progress-Report[2025-07].col_4
+    - Sector-Wise-Report[2025-07].col_4
+    - State-Wise-Report[2025-07].col_4
+    ... and 27 more occurrences
+
+  ORIGINAL_AND_REVISED_COST
+    - Physical-Progress-Report[2025-07].col_3
+    - Sector-Wise-Report[2025-07].col_3
+    - State-Wise-Report[2025-07].col_3
+    ... and 27 more occurrences
+
+  PHYSICAL_PROGRESS
+    - Physical-Progress-Report[2025-07].col_1
+    ... and 9 more occurrences
+
+  PROJECT_COUNT
+    - Physical-Progress-Report[2025-07].col_2
+    - Sector-Wise-Report[2025-07].col_2
+    - State-Wise-Report[2025-07].col_2
+    ... and 27 more occurrences
+
+  SECTOR
+    - Sector-Wise-Report[2025-07].col_1
+    ... and 9 more occurrences
+
+  STATE
+    - Sector-Wise-Report[2025-07].col_1
+    - State-Wise-Report[2025-07].col_1
+    ... and 18 more occurrences
+
+================================================================================
+PROJECT IDENTIFIER COLUMN CANDIDATES
+================================================================================
+  No explicit project identifier columns detected.
+  NOTE: PAIMANA aggregate reports typically do not contain
+  per-project identifiers. Project-level data may need to be
+  obtained from the detailed PAIMANA portal or API.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

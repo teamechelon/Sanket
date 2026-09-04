@@ -1,0 +1,35 @@
+SANKET — FORMAT PILOT REPORT
+Generated during extraction-layer takeover
+
+Verified source findings
+========================
+- The prior audit's early/quarterly "no project table" result is false. April,
+  May and June 2025 use Table 7, "Project List: Ongoing Projects as of ...".
+  The first quarterly report likewise has a Table 7 project list for the
+  April--June quarter. All are text-based and need dedicated parsing.
+- The prior audit's assertion that April--July 2026 had no legacy codes is
+  false. April pages contain both project codes and legacy OCMS codes; its
+  layout differs because agencies and post-serial identifiers move between
+  lines.
+
+Implemented pilot
+=================
+`extract_new_format_b` is now routed for April--July 2026. It consumes both
+project-code/date/cost and legacy-code/PMGID parenthetical lines, preventing
+those lines from becoming part of the next project's name.
+
+April 2026 quality checks
+=========================
+- 1,981 consecutive serial numbers (1 through 1,981); no serial gaps.
+- 1,794 project codes, 1,000 legacy OCMS codes, 1,938 agencies, and 1,908
+  states extracted.
+- Ten records on source page 54 are manually verified in
+  `tests/golden_records/new_format_b_april_2026.json`.
+- `python -m unittest tests/test_new_format_b.py -v` passes.
+
+Decision
+========
+April 2026 is conditionally passing at the currently tested scope. May--July
+use the same handler and show complete serial sequences, but are pilot-only
+until their own source-verified golden records are added. Every other format
+is unvalidated. Full extraction is NOT SAFE.

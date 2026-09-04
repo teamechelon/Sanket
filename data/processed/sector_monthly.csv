@@ -1,0 +1,211 @@
+report_month,sector,project_count,original_cost_crores,revised_cost_crores,expenditure_crores,source_file,source_type
+2025-07,Railways,265.0,694806.78,841006.53,525897.83,Sector-Wise-Report.csv,aggregate_csv
+2025-07,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,496.63,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Construction,2.0,901.9,901.89,612.46,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Inland Waterways,3.0,72858.82,72550.79,30287.07,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Healthcare,4.0,4848.0,5185.95,2752.22,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Shipping,5.0,4823.34,4823.34,2020.93,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Metals & Mining,10.0,14436.35,16872.72,6190.03,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Telecommunication,14.0,150849.85,272942.38,72122.54,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Energy Storage,16.0,81301.48,120185.17,90497.54,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Steel,19.0,16748.25,19986.54,7969.76,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Real Estate,6.0,37591.1,37591.1,552.88,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Aviation & Aviation Infrastructure,26.0,23049.84,23511.04,24879.77,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Education,30.0,12754.41,12685.45,8159.38,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Waste & Water,33.0,10124.72,10124.72,20705.99,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Electricity Generation,35.0,270283.7,329636.76,155932.21,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Water Resources,40.0,93248.95,195107.96,138396.86,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Transmission & Distribution,61.0,142976.51,149491.25,52183.05,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Oil & Gas,90.0,351248.78,383479.93,184032.26,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Coal,119.0,168889.82,166627.82,54350.12,Sector-Wise-Report.csv,aggregate_csv
+2025-07,Urban Public Transport,21.0,223016.77,243598.3,159569.88,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Telecommunication,14.0,150849.85,272942.38,72122.54,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Metals & Mining,10.0,14436.35,16872.72,6190.03,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Real Estate,6.0,37591.1,37591.1,552.88,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Shipping,5.0,4823.34,4823.34,2020.93,Sector-Wise-Report.csv,aggregate_csv
+2025-08,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,496.63,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Inland Waterways,3.0,72858.82,72550.79,30287.07,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Construction,2.0,901.9,901.89,612.46,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Energy Storage,16.0,81301.48,120185.17,90497.54,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Healthcare,4.0,4848.0,5185.95,2752.22,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Steel,19.0,16748.25,19986.54,7969.76,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Water Resources,40.0,93248.95,195107.96,138396.86,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Aviation & Aviation Infrastructure,26.0,23049.84,23511.04,24879.77,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Education,30.0,12754.41,12685.45,8159.38,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Waste & Water,33.0,10124.72,10124.72,20705.99,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Electricity Generation,35.0,270283.7,329636.76,155932.21,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Transmission & Distribution,61.0,142976.51,149491.25,52183.05,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Oil & Gas,90.0,351248.78,383479.93,184032.26,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Coal,119.0,168889.82,166627.82,54350.12,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Railways,265.0,694806.78,841006.53,525897.83,Sector-Wise-Report.csv,aggregate_csv
+2025-08,Urban Public Transport,21.0,223016.77,243598.3,159569.88,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Telecommunication,15.0,152734.45,274826.98,72372.76,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Metals & Mining,10.0,14436.35,16872.72,6382.86,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Shipping,7.0,16499.18,16499.18,9272.35,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Healthcare,4.0,4848.0,5185.95,2794.65,Sector-Wise-Report.csv,aggregate_csv
+2025-09,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,496.63,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Construction,3.0,1545.9,1545.89,710.67,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Logistics Infrastructure,1.0,171.0,211.61,137.51,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Energy Storage,16.0,81301.48,120224.17,91358.55,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Inland Waterways,3.0,68792.18,68504.15,31128.36,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Steel,20.0,19266.64,22504.93,8277.97,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Real Estate,6.0,37591.1,37591.1,646.25,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Aviation & Aviation Infrastructure,26.0,23049.84,23511.04,24583.31,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Coal,120.0,174830.29,172568.29,56468.92,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Oil & Gas,89.0,349435.78,378612.78,182908.81,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Transmission & Distribution,65.0,149516.43,156031.17,57066.68,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Water Resources,39.0,93740.23,193594.13,137305.9,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Railways,250.0,816697.63,965840.63,533163.69,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Electricity Generation,35.0,270283.7,329636.76,160639.77,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Waste & Water,33.0,10124.72,10124.72,34842.36,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Education,29.0,12467.21,12401.18,7891.19,Sector-Wise-Report.csv,aggregate_csv
+2025-09,Urban Public Transport,22.0,235216.87,255798.4,167262.65,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Healthcare,19.0,8424.21,9004.56,5958.28,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Construction,3.0,1545.9,1545.89,719.36,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Inland Waterways,3.0,68792.18,68504.15,32489.29,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Real Estate,6.0,37591.1,37591.1,648.73,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Shipping,10.0,16923.41,17089.87,10374.98,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Metals & Mining,10.0,14436.35,16872.72,6490.07,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Telecommunication,15.0,152734.45,274826.98,77354.94,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Energy Storage,16.0,81301.48,120224.17,93188.65,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Steel,20.0,19266.64,22504.93,8653.34,Sector-Wise-Report.csv,aggregate_csv
+2025-10,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,496.63,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Aviation & Aviation Infrastructure,26.0,23049.84,23511.04,24797.14,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Railways,259.0,842708.21,992533.85,538550.64,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Coal,118.0,159637.96,157375.95,49200.05,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Oil & Gas,86.0,348775.78,377914.55,185369.27,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Transmission & Distribution,68.0,150796.17,157310.91,59403.74,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Urban Public Transport,22.0,235216.87,255798.4,168648.32,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Electricity Generation,36.0,273619.55,332952.95,161521.88,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Waste & Water,33.0,10124.72,10124.72,40330.65,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Education,30.0,13373.68,13012.92,8462.33,Sector-Wise-Report.csv,aggregate_csv
+2025-10,Water Resources,39.0,93740.23,193594.13,138529.51,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Steel,20.0,19266.64,22504.93,8979.27,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Construction,2.0,899.37,899.37,194.43,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Inland Waterways,3.0,68792.18,68504.15,33296.83,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Real Estate,6.0,37591.1,37591.1,715.23,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Metals & Mining,7.0,10044.36,12480.73,6763.36,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Shipping,9.0,15124.41,15290.87,8975.5,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Telecommunication,15.0,152734.45,274826.98,77535.98,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Energy Storage,18.0,81884.05,120806.74,94581.97,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Healthcare,20.0,13012.27,14296.95,4332.54,Sector-Wise-Report.csv,aggregate_csv
+2025-11,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,515.97,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Urban Public Transport,23.0,238843.11,259424.64,171215.56,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Education,31.0,16021.65,15534.29,8505.19,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Waste & Water,32.0,9937.92,9962.25,5975.01,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Electricity Generation,36.0,275175.55,336178.78,165130.23,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Water Resources,39.0,93740.23,193594.13,139573.2,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Transmission & Distribution,64.0,153554.68,159517.97,57184.49,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Oil & Gas,95.0,355051.01,384189.78,188847.4,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Coal,117.0,159359.32,157097.31,48896.62,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Railways,260.0,696643.16,850436.57,544630.05,Sector-Wise-Report.csv,aggregate_csv
+2025-11,Aviation & Aviation Infrastructure,25.0,19949.84,20411.04,9093.09,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Energy Storage,18.0,81884.05,120754.28,95874.25,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Telecommunication,14.0,151923.46,274015.99,77210.74,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Shipping,9.0,15124.41,15290.87,9130.93,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Metals & Mining,7.0,10044.36,12480.73,6920.98,Sector-Wise-Report.csv,aggregate_csv
+2025-12,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,545.51,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Inland Waterways,2.0,5546.18,5258.15,4100.49,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Construction,2.0,899.37,899.37,209.57,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Steel,19.0,18161.41,21399.7,8617.56,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Real Estate,6.0,37591.1,37591.1,810.96,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Healthcare,22.0,16604.22,18612.53,5998.04,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Oil & Gas,93.0,353462.93,381880.79,191900.78,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Aviation & Aviation Infrastructure,25.0,21237.66,22451.66,9260.93,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Education,29.0,15418.91,14866.73,8254.39,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Waste & Water,31.0,9664.14,9688.47,5739.31,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Electricity Generation,37.0,280742.33,339525.34,150605.54,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Water Resources,39.0,93740.23,193594.13,140622.27,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Transmission & Distribution,63.0,152121.4,158084.97,59380.79,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Urban Public Transport,25.0,311946.96,332528.49,203575.23,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Coal,115.0,158367.68,156105.67,48265.26,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Railways,251.0,705752.59,856854.01,688175.12,Sector-Wise-Report.csv,aggregate_csv
+2025-12,Roads & Highways,584.0,527441.16,537798.67,185963.95,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Energy Storage,17.0,81207.16,120038.39,96246.4,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Telecommunication,14.0,151923.46,274015.99,77232.29,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Shipping,9.0,15124.41,15290.87,9338.98,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Metals & Mining,7.0,10044.36,12480.73,7172.81,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Logistics Infrastructure,1.0,763.0,763.0,430.0,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Construction,2.0,899.37,899.37,222.37,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Inland Waterways,2.0,5546.18,5258.15,4149.62,Sector-Wise-Report.csv,aggregate_csv
+2026-01,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,545.51,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Steel,19.0,18161.41,21399.7,8959.01,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Real Estate,6.0,37591.1,37582.1,13207.34,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Aviation & Aviation Infrastructure,26.0,21600.76,22814.76,9677.27,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Urban Public Transport,28.0,335215.64,355797.17,205666.48,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Education,30.0,15617.88,15065.7,8356.02,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Railways,251.0,697517.25,850970.91,700909.44,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Coal,118.0,185977.27,183715.26,48546.78,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Oil & Gas,93.0,353598.97,382327.64,191043.75,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Transmission & Distribution,70.0,206140.79,212104.36,61527.48,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Roads & Highways,863.0,799040.39,814341.45,247872.26,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Electricity Generation,38.0,310690.33,369473.34,154880.77,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Healthcare,37.0,21179.22,25630.61,9754.47,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Waste & Water,31.0,9664.14,9732.67,5777.93,Sector-Wise-Report.csv,aggregate_csv
+2026-01,Water Resources,39.0,93740.23,193594.13,140375.93,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Steel,19.0,18161.41,21399.7,9471.99,Sector-Wise-Report.csv,aggregate_csv
+2026-02,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,545.51,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Construction,2.0,899.37,899.37,232.77,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Inland Waterways,2.0,5546.18,5258.15,4190.19,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Real Estate,6.0,37591.1,37582.1,13929.25,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Logistics Infrastructure,1.0,763.0,763.0,430.0,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Shipping,9.0,15124.41,15290.87,9338.98,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Telecommunication,14.0,151923.46,274015.99,77298.07,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Energy Storage,17.0,81207.16,120038.39,98707.47,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Aviation & Aviation Infrastructure,26.0,21600.76,22814.76,10079.87,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Metals & Mining,7.0,10044.36,12480.73,7284.31,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Waste & Water,30.0,9428.41,9496.94,5598.35,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Education,30.0,15617.88,15065.7,8502.74,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Healthcare,37.0,21179.22,25630.61,9929.58,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Electricity Generation,38.0,310690.33,369473.34,159125.31,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Water Resources,41.0,117826.11,221647.32,157621.1,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Transmission & Distribution,69.0,203950.25,209913.82,62393.44,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Oil & Gas,96.0,367211.08,395613.29,191970.51,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Coal,120.0,190252.37,187990.36,48934.69,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Railways,247.0,693607.15,844707.36,563949.55,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Roads & Highways,1108.0,1023675.67,1051567.26,323514.82,Sector-Wise-Report.csv,aggregate_csv
+2026-02,Urban Public Transport,28.0,335215.64,355797.17,208407.32,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Energy Storage,15.0,80140.16,118910.68,100403.08,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Telecommunication,12.0,151125.15,273253.44,77020.95,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Shipping,7.0,14726.15,14766.76,9770.72,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Logistics Infrastructure,1.0,763.0,763.0,430.0,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Construction,2.0,899.37,899.37,260.49,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Inland Waterways,2.0,5546.18,5258.15,4340.0,Sector-Wise-Report.csv,aggregate_csv
+2026-03,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,611.24,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Steel,18.0,17811.66,21049.95,9797.06,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Real Estate,6.0,37591.1,37582.1,14977.01,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Urban Public Transport,26.0,299557.47,320189.0,180184.42,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Metals & Mining,6.0,9689.36,11899.73,7407.84,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Education,30.0,15617.88,15065.7,8781.28,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Waste & Water,30.0,9428.41,9496.94,5639.26,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Electricity Generation,36.0,303249.73,358519.34,156578.82,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Healthcare,36.0,20969.86,25421.25,10008.54,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Water Resources,41.0,117826.11,221647.32,159574.65,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Transmission & Distribution,68.0,203786.64,209750.21,65534.82,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Oil & Gas,93.0,363711.6,392245.55,198328.45,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Coal,119.0,189003.44,186741.43,49559.67,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Railways,246.0,690682.92,841906.58,571254.58,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Roads & Highways,1120.0,1034561.22,1060739.73,351917.45,Sector-Wise-Report.csv,aggregate_csv
+2026-03,Aviation & Aviation Infrastructure,26.0,21600.76,22814.76,10583.3,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Steel,19.0,18161.41,21399.7,9471.99,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Energy Storage,17.0,81207.16,120038.39,98707.47,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Telecommunication,14.0,151923.46,274015.99,77298.07,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Inland Waterways,2.0,5546.18,5258.15,4190.19,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Metals & Mining,7.0,10044.36,12480.73,7284.31,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Real Estate,6.0,37591.1,37582.1,13929.25,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Construction,2.0,899.37,899.37,232.77,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Aviation & Aviation Infrastructure,26.0,21600.76,22814.76,10079.87,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Shipping,9.0,15124.41,15290.87,9338.98,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Urban Public Transport,28.0,335215.64,355797.17,208407.32,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Water Resources,41.0,117826.11,221647.32,157621.1,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Education,30.0,15617.88,15065.7,8502.74,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Healthcare,37.0,21179.22,25630.61,9929.58,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Electricity Generation,38.0,310690.33,369473.34,159125.31,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Transmission & Distribution,69.0,203950.25,209913.82,62393.44,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Oil & Gas,96.0,367211.08,395613.29,191970.51,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Coal,120.0,190252.37,187990.36,48934.69,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Railways,247.0,693607.15,844707.36,563949.55,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Roads & Highways,1108.0,1023675.67,1051567.26,323514.82,Sector-Wise-Report.csv,aggregate_csv
+2026-04,"Tourism, Hospitality & Wellness",1.0,573.0,1238.05,545.51,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Waste & Water,30.0,9428.41,9496.94,5598.35,Sector-Wise-Report.csv,aggregate_csv
+2026-04,Logistics Infrastructure,1.0,763.0,763.0,430.0,Sector-Wise-Report.csv,aggregate_csv

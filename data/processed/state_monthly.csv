@@ -1,0 +1,341 @@
+report_month,state,project_count,original_cost_crores,revised_cost_crores,expenditure_crores,source_file,source_type
+2025-07,Maharashtra,108.0,408703.59,527681.39,357609.4,State-Wise-Report.csv,aggregate_csv
+2025-07,Himachal Pradesh,11.0,25881.08,30480.26,14310.48,State-Wise-Report.csv,aggregate_csv
+2025-07,Arunachal Pradesh,10.0,101282.16,162592.27,104473.14,State-Wise-Report.csv,aggregate_csv
+2025-07,Kerala,9.0,14290.94,19848.89,8976.01,State-Wise-Report.csv,aggregate_csv
+2025-07,Sikkim,8.0,29905.83,39351.55,29446.5,State-Wise-Report.csv,aggregate_csv
+2025-07,Uttarakhand,7.0,54002.87,68408.94,46189.68,State-Wise-Report.csv,aggregate_csv
+2025-07,Nagaland,6.0,23666.28,25254.95,17266.31,State-Wise-Report.csv,aggregate_csv
+2025-07,Jammu & Kashmir,14.0,28221.18,33998.69,16163.53,State-Wise-Report.csv,aggregate_csv
+2025-07,Meghalaya,4.0,15842.81,17431.48,12292.91,State-Wise-Report.csv,aggregate_csv
+2025-07,Mizoram,3.0,14850.56,16439.23,11838.64,State-Wise-Report.csv,aggregate_csv
+2025-07,Ladakh,3.0,1105.6,1229.84,870.41,State-Wise-Report.csv,aggregate_csv
+2025-07,Goa,3.0,6060.18,6438.31,6106.87,State-Wise-Report.csv,aggregate_csv
+2025-07,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,84091.85,State-Wise-Report.csv,aggregate_csv
+2025-07,Puducherry,2.0,1331.34,1525.34,1107.93,State-Wise-Report.csv,aggregate_csv
+2025-07,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-07,Tripura,4.0,15241.66,16752.51,12218.08,State-Wise-Report.csv,aggregate_csv
+2025-07,Punjab,16.0,39563.9,41044.69,23547.2,State-Wise-Report.csv,aggregate_csv
+2025-07,Manipur,5.0,30647.77,40172.12,29261.54,State-Wise-Report.csv,aggregate_csv
+2025-07,Tamil Nadu,20.0,114834.03,126585.74,40378.81,State-Wise-Report.csv,aggregate_csv
+2025-07,Haryana,18.0,129800.26,206927.45,171957.43,State-Wise-Report.csv,aggregate_csv
+2025-07,Gujarat,73.0,397607.96,525462.88,394515.63,State-Wise-Report.csv,aggregate_csv
+2025-07,Jharkhand,64.0,159298.46,171098.36,71213.36,State-Wise-Report.csv,aggregate_csv
+2025-07,Odisha,63.0,181268.62,189864.84,93795.09,State-Wise-Report.csv,aggregate_csv
+2025-07,Uttar Pradesh,62.0,250078.33,336422.4,266754.07,State-Wise-Report.csv,aggregate_csv
+2025-07,Rajasthan,54.0,212893.14,325116.55,237371.17,State-Wise-Report.csv,aggregate_csv
+2025-07,Madhya Pradesh,54.0,166095.43,178215.77,83662.69,State-Wise-Report.csv,aggregate_csv
+2025-07,West Bengal,58.0,129564.84,141866.29,67125.94,State-Wise-Report.csv,aggregate_csv
+2025-07,Chhattisgarh,51.0,123601.17,128915.94,51139.69,State-Wise-Report.csv,aggregate_csv
+2025-07,Bihar,49.0,125377.44,136380.01,70793.13,State-Wise-Report.csv,aggregate_csv
+2025-07,Karnataka,40.0,97995.94,113376.03,71868.7,State-Wise-Report.csv,aggregate_csv
+2025-07,Assam,32.0,68791.17,106598.87,85144.57,State-Wise-Report.csv,aggregate_csv
+2025-07,Telangana,31.0,47368.35,63929.78,29725.77,State-Wise-Report.csv,aggregate_csv
+2025-07,Delhi,27.0,136838.1,137390.09,52467.4,State-Wise-Report.csv,aggregate_csv
+2025-07,Andhra Pradesh,51.0,130551.7,184356.5,101854.1,State-Wise-Report.csv,aggregate_csv
+2025-08,Himachal Pradesh,11.0,25881.08,30480.26,14310.48,State-Wise-Report.csv,aggregate_csv
+2025-08,Nagaland,6.0,23666.28,25254.95,17266.31,State-Wise-Report.csv,aggregate_csv
+2025-08,Arunachal Pradesh,10.0,101282.16,162592.27,104473.14,State-Wise-Report.csv,aggregate_csv
+2025-08,Kerala,9.0,14290.94,19848.89,8976.01,State-Wise-Report.csv,aggregate_csv
+2025-08,Sikkim,8.0,29905.83,39351.55,29446.5,State-Wise-Report.csv,aggregate_csv
+2025-08,Uttarakhand,7.0,54002.87,68408.94,46189.68,State-Wise-Report.csv,aggregate_csv
+2025-08,Manipur,5.0,30647.77,40172.12,29261.54,State-Wise-Report.csv,aggregate_csv
+2025-08,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-08,Tripura,4.0,15241.66,16752.51,12218.08,State-Wise-Report.csv,aggregate_csv
+2025-08,Mizoram,3.0,14850.56,16439.23,11838.64,State-Wise-Report.csv,aggregate_csv
+2025-08,Ladakh,3.0,1105.6,1229.84,870.41,State-Wise-Report.csv,aggregate_csv
+2025-08,Goa,3.0,6060.18,6438.31,6106.87,State-Wise-Report.csv,aggregate_csv
+2025-08,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,84091.85,State-Wise-Report.csv,aggregate_csv
+2025-08,Puducherry,2.0,1331.34,1525.34,1107.93,State-Wise-Report.csv,aggregate_csv
+2025-08,Jammu & Kashmir,14.0,28221.18,33998.69,16163.53,State-Wise-Report.csv,aggregate_csv
+2025-08,Meghalaya,4.0,15842.81,17431.48,12292.91,State-Wise-Report.csv,aggregate_csv
+2025-08,Punjab,16.0,39563.9,41044.69,23547.2,State-Wise-Report.csv,aggregate_csv
+2025-08,Andhra Pradesh,51.0,130551.7,184356.5,101854.1,State-Wise-Report.csv,aggregate_csv
+2025-08,Tamil Nadu,20.0,114834.03,126585.74,40378.81,State-Wise-Report.csv,aggregate_csv
+2025-08,Haryana,18.0,129800.26,206927.45,171957.43,State-Wise-Report.csv,aggregate_csv
+2025-08,Maharashtra,108.0,408703.59,527681.39,357609.4,State-Wise-Report.csv,aggregate_csv
+2025-08,Gujarat,73.0,397607.96,525462.88,394515.63,State-Wise-Report.csv,aggregate_csv
+2025-08,Jharkhand,64.0,159298.46,171098.36,71213.36,State-Wise-Report.csv,aggregate_csv
+2025-08,Odisha,63.0,181268.62,189864.84,93795.09,State-Wise-Report.csv,aggregate_csv
+2025-08,West Bengal,58.0,129564.84,141866.29,67125.94,State-Wise-Report.csv,aggregate_csv
+2025-08,Rajasthan,54.0,212893.14,325116.55,237371.17,State-Wise-Report.csv,aggregate_csv
+2025-08,Uttar Pradesh,62.0,250078.33,336422.4,266754.07,State-Wise-Report.csv,aggregate_csv
+2025-08,Chhattisgarh,51.0,123601.17,128915.94,51139.69,State-Wise-Report.csv,aggregate_csv
+2025-08,Bihar,49.0,125377.44,136380.01,70793.13,State-Wise-Report.csv,aggregate_csv
+2025-08,Karnataka,40.0,97995.94,113376.03,71868.7,State-Wise-Report.csv,aggregate_csv
+2025-08,Assam,32.0,68791.17,106598.87,85144.57,State-Wise-Report.csv,aggregate_csv
+2025-08,Telangana,31.0,47368.35,63929.78,29725.77,State-Wise-Report.csv,aggregate_csv
+2025-08,Delhi,27.0,136838.1,137390.09,52467.4,State-Wise-Report.csv,aggregate_csv
+2025-08,Madhya Pradesh,54.0,166095.43,178215.77,83662.69,State-Wise-Report.csv,aggregate_csv
+2025-09,Himachal Pradesh,11.0,25881.08,30480.26,14495.05,State-Wise-Report.csv,aggregate_csv
+2025-09,Nagaland,6.0,23666.28,25254.95,17524.86,State-Wise-Report.csv,aggregate_csv
+2025-09,Arunachal Pradesh,11.0,101491.54,162801.65,104808.59,State-Wise-Report.csv,aggregate_csv
+2025-09,Kerala,10.0,16089.94,21632.08,10386.58,State-Wise-Report.csv,aggregate_csv
+2025-09,Sikkim,8.0,29905.83,39351.55,29561.28,State-Wise-Report.csv,aggregate_csv
+2025-09,Uttarakhand,7.0,54002.87,68408.94,46396.68,State-Wise-Report.csv,aggregate_csv
+2025-09,Manipur,5.0,30647.77,40172.12,29312.67,State-Wise-Report.csv,aggregate_csv
+2025-09,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-09,Tripura,4.0,15241.66,16752.51,12275.02,State-Wise-Report.csv,aggregate_csv
+2025-09,Mizoram,3.0,14850.56,16439.23,11889.77,State-Wise-Report.csv,aggregate_csv
+2025-09,Ladakh,3.0,1105.6,1229.84,926.56,State-Wise-Report.csv,aggregate_csv
+2025-09,Goa,3.0,6060.18,6438.31,6131.17,State-Wise-Report.csv,aggregate_csv
+2025-09,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,85453.18,State-Wise-Report.csv,aggregate_csv
+2025-09,Puducherry,2.0,1331.34,1525.34,1107.93,State-Wise-Report.csv,aggregate_csv
+2025-09,Jammu & Kashmir,14.0,28221.18,34037.69,16446.59,State-Wise-Report.csv,aggregate_csv
+2025-09,Meghalaya,4.0,15842.81,17431.48,12344.04,State-Wise-Report.csv,aggregate_csv
+2025-09,Punjab,16.0,39563.9,41045.05,25051.76,State-Wise-Report.csv,aggregate_csv
+2025-09,West Bengal,56.0,127647.51,139948.96,67550.35,State-Wise-Report.csv,aggregate_csv
+2025-09,Tamil Nadu,19.0,114474.73,126476.44,41548.38,State-Wise-Report.csv,aggregate_csv
+2025-09,Maharashtra,109.0,425549.94,545048.73,377423.41,State-Wise-Report.csv,aggregate_csv
+2025-09,Gujarat,74.0,401353.25,531213.33,397370.99,State-Wise-Report.csv,aggregate_csv
+2025-09,Jharkhand,66.0,165923.86,178488.46,74395.55,State-Wise-Report.csv,aggregate_csv
+2025-09,Uttar Pradesh,62.0,249968.17,334587.94,269509.89,State-Wise-Report.csv,aggregate_csv
+2025-09,Odisha,57.0,174651.84,183248.03,95635.51,State-Wise-Report.csv,aggregate_csv
+2025-09,Madhya Pradesh,56.0,170397.27,184925.26,87668.83,State-Wise-Report.csv,aggregate_csv
+2025-09,Rajasthan,56.0,214933.5,327156.91,240321.52,State-Wise-Report.csv,aggregate_csv
+2025-09,Haryana,18.0,129800.26,206927.45,173408.71,State-Wise-Report.csv,aggregate_csv
+2025-09,Chhattisgarh,52.0,120189.19,125088.44,56122.12,State-Wise-Report.csv,aggregate_csv
+2025-09,Bihar,50.0,127584.25,138306.01,70965.93,State-Wise-Report.csv,aggregate_csv
+2025-09,Andhra Pradesh,47.0,124362.24,178166.9,103275.67,State-Wise-Report.csv,aggregate_csv
+2025-09,Karnataka,38.0,95655.64,111285.73,72873.2,State-Wise-Report.csv,aggregate_csv
+2025-09,Assam,31.0,67041.17,101668.87,81258.0,State-Wise-Report.csv,aggregate_csv
+2025-09,Telangana,31.0,44009.03,60570.46,30983.06,State-Wise-Report.csv,aggregate_csv
+2025-09,Delhi,28.0,137284.31,137839.23,55072.28,State-Wise-Report.csv,aggregate_csv
+2025-10,Punjab,15.0,39196.9,40648.05,25979.99,State-Wise-Report.csv,aggregate_csv
+2025-10,Himachal Pradesh,11.0,25881.08,30529.6,14620.04,State-Wise-Report.csv,aggregate_csv
+2025-10,Arunachal Pradesh,11.0,101491.54,162801.65,106745.73,State-Wise-Report.csv,aggregate_csv
+2025-10,Kerala,10.0,16089.94,21632.53,10598.45,State-Wise-Report.csv,aggregate_csv
+2025-10,Uttarakhand,8.0,54105.27,68706.57,46289.99,State-Wise-Report.csv,aggregate_csv
+2025-10,Sikkim,8.0,29905.83,39351.55,29020.53,State-Wise-Report.csv,aggregate_csv
+2025-10,Nagaland,6.0,23666.28,25254.95,17779.34,State-Wise-Report.csv,aggregate_csv
+2025-10,Mizoram,3.0,14850.56,16439.23,12089.29,State-Wise-Report.csv,aggregate_csv
+2025-10,Meghalaya,4.0,15842.81,17431.48,12549.56,State-Wise-Report.csv,aggregate_csv
+2025-10,Tripura,4.0,15241.66,16752.51,12501.76,State-Wise-Report.csv,aggregate_csv
+2025-10,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-10,Ladakh,3.0,1105.6,1229.84,979.43,State-Wise-Report.csv,aggregate_csv
+2025-10,Goa,3.0,6060.18,6438.31,6370.26,State-Wise-Report.csv,aggregate_csv
+2025-10,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,87178.19,State-Wise-Report.csv,aggregate_csv
+2025-10,Jammu & Kashmir,15.0,28352.23,34202.62,18282.45,State-Wise-Report.csv,aggregate_csv
+2025-10,Manipur,6.0,31554.24,40783.86,30066.86,State-Wise-Report.csv,aggregate_csv
+2025-10,Puducherry,2.0,1331.34,1525.34,1128.28,State-Wise-Report.csv,aggregate_csv
+2025-10,Haryana,18.0,129800.26,206927.45,176073.39,State-Wise-Report.csv,aggregate_csv
+2025-10,Delhi,28.0,137284.31,137839.23,55696.04,State-Wise-Report.csv,aggregate_csv
+2025-10,Tamil Nadu,20.0,114627.68,126629.84,43180.67,State-Wise-Report.csv,aggregate_csv
+2025-10,Maharashtra,113.0,430807.29,550307.85,383630.61,State-Wise-Report.csv,aggregate_csv
+2025-10,Gujarat,76.0,397766.39,527744.09,400282.66,State-Wise-Report.csv,aggregate_csv
+2025-10,Jharkhand,67.0,167382.99,180414.25,75601.09,State-Wise-Report.csv,aggregate_csv
+2025-10,Uttar Pradesh,60.0,248667.17,333516.47,270522.07,State-Wise-Report.csv,aggregate_csv
+2025-10,West Bengal,57.0,129106.64,141339.08,68454.84,State-Wise-Report.csv,aggregate_csv
+2025-10,Madhya Pradesh,57.0,170716.27,185244.26,89937.76,State-Wise-Report.csv,aggregate_csv
+2025-10,Odisha,62.0,182764.78,191361.01,97459.83,State-Wise-Report.csv,aggregate_csv
+2025-10,Andhra Pradesh,51.0,129035.81,182840.47,103817.32,State-Wise-Report.csv,aggregate_csv
+2025-10,Bihar,51.0,128195.99,139384.37,71848.1,State-Wise-Report.csv,aggregate_csv
+2025-10,Chhattisgarh,51.0,120260.7,125145.95,51522.28,State-Wise-Report.csv,aggregate_csv
+2025-10,Karnataka,44.0,98956.79,114586.88,73896.35,State-Wise-Report.csv,aggregate_csv
+2025-10,Telangana,34.0,47037.68,63599.11,32697.25,State-Wise-Report.csv,aggregate_csv
+2025-10,Assam,32.0,67184.4,101823.62,82828.82,State-Wise-Report.csv,aggregate_csv
+2025-10,Rajasthan,56.0,214933.5,327156.91,243520.53,State-Wise-Report.csv,aggregate_csv
+2025-11,Nagaland,6.0,23666.28,25254.95,17940.18,State-Wise-Report.csv,aggregate_csv
+2025-11,Himachal Pradesh,11.0,25881.08,31626.71,14967.86,State-Wise-Report.csv,aggregate_csv
+2025-11,Kerala,11.0,16947.94,22490.53,9365.35,State-Wise-Report.csv,aggregate_csv
+2025-11,Arunachal Pradesh,11.0,101491.54,162801.65,108201.68,State-Wise-Report.csv,aggregate_csv
+2025-11,Uttarakhand,8.0,54105.27,68706.57,46938.78,State-Wise-Report.csv,aggregate_csv
+2025-11,Sikkim,8.0,29905.83,38993.6,29809.05,State-Wise-Report.csv,aggregate_csv
+2025-11,Manipur,6.0,31554.24,40783.86,30354.92,State-Wise-Report.csv,aggregate_csv
+2025-11,Jammu & Kashmir,13.0,27745.4,33928.63,16676.95,State-Wise-Report.csv,aggregate_csv
+2025-11,Mizoram,4.0,15076.27,16664.94,12199.56,State-Wise-Report.csv,aggregate_csv
+2025-11,Tripura,4.0,15241.66,16752.51,12609.16,State-Wise-Report.csv,aggregate_csv
+2025-11,Goa,3.0,6060.18,6438.31,6370.26,State-Wise-Report.csv,aggregate_csv
+2025-11,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,88518.84,State-Wise-Report.csv,aggregate_csv
+2025-11,Ladakh,2.0,816.89,941.13,719.08,State-Wise-Report.csv,aggregate_csv
+2025-11,Puducherry,2.0,1331.34,1525.34,1128.32,State-Wise-Report.csv,aggregate_csv
+2025-11,Meghalaya,4.0,15842.81,17431.48,12649.52,State-Wise-Report.csv,aggregate_csv
+2025-11,Punjab,15.0,39196.9,40648.05,24105.36,State-Wise-Report.csv,aggregate_csv
+2025-11,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-11,Tamil Nadu,20.0,114627.68,126405.91,43930.9,State-Wise-Report.csv,aggregate_csv
+2025-11,Maharashtra,114.0,435372.53,554677.16,379894.49,State-Wise-Report.csv,aggregate_csv
+2025-11,Gujarat,75.0,395988.91,525967.16,402024.94,State-Wise-Report.csv,aggregate_csv
+2025-11,Jharkhand,67.0,170388.09,181863.35,73353.53,State-Wise-Report.csv,aggregate_csv
+2025-11,Odisha,61.0,179356.17,189046.89,98183.04,State-Wise-Report.csv,aggregate_csv
+2025-11,West Bengal,61.0,134308.04,148733.14,70283.82,State-Wise-Report.csv,aggregate_csv
+2025-11,Uttar Pradesh,60.0,247935.17,332784.47,250843.3,State-Wise-Report.csv,aggregate_csv
+2025-11,Madhya Pradesh,58.0,172508.27,187060.59,84210.29,State-Wise-Report.csv,aggregate_csv
+2025-11,Haryana,17.0,128134.26,205056.88,172309.3,State-Wise-Report.csv,aggregate_csv
+2025-11,Bihar,53.0,132581.37,143769.91,72565.33,State-Wise-Report.csv,aggregate_csv
+2025-11,Andhra Pradesh,52.0,133571.8,188108.37,104758.91,State-Wise-Report.csv,aggregate_csv
+2025-11,Chhattisgarh,51.0,121342.23,129647.3,53182.02,State-Wise-Report.csv,aggregate_csv
+2025-11,Karnataka,46.0,104499.78,120129.87,73388.15,State-Wise-Report.csv,aggregate_csv
+2025-11,Telangana,34.0,47041.55,63602.98,33160.19,State-Wise-Report.csv,aggregate_csv
+2025-11,Assam,33.0,68312.88,102952.1,82231.3,State-Wise-Report.csv,aggregate_csv
+2025-11,Delhi,27.0,139411.5,139414.43,53496.64,State-Wise-Report.csv,aggregate_csv
+2025-11,Rajasthan,55.0,213267.5,324938.91,244937.07,State-Wise-Report.csv,aggregate_csv
+2025-12,Haryana,25.0,137386.26,214605.28,177431.8,State-Wise-Report.csv,aggregate_csv
+2025-12,Himachal Pradesh,24.0,34965.13,42938.03,106359.59,State-Wise-Report.csv,aggregate_csv
+2025-12,Nagaland,24.0,29533.33,31676.05,18412.67,State-Wise-Report.csv,aggregate_csv
+2025-12,Delhi,19.0,133694.17,134853.51,52506.66,State-Wise-Report.csv,aggregate_csv
+2025-12,Uttarakhand,18.0,61030.95,75214.72,50901.06,State-Wise-Report.csv,aggregate_csv
+2025-12,Arunachal Pradesh,16.0,61698.52,86638.73,46251.95,State-Wise-Report.csv,aggregate_csv
+2025-12,Mizoram,15.0,22069.22,23802.45,12836.17,State-Wise-Report.csv,aggregate_csv
+2025-12,Goa,5.0,6928.4,7229.21,6677.59,State-Wise-Report.csv,aggregate_csv
+2025-12,Meghalaya,13.0,19980.87,21504.72,12888.42,State-Wise-Report.csv,aggregate_csv
+2025-12,Tripura,12.0,20132.36,21667.74,12663.22,State-Wise-Report.csv,aggregate_csv
+2025-12,Ladakh,5.0,2001.16,2125.4,721.79,State-Wise-Report.csv,aggregate_csv
+2025-12,Puducherry,4.0,5819.51,5841.01,2452.55,State-Wise-Report.csv,aggregate_csv
+2025-12,Dadra & Nagar Haveli and Daman & Diu,3.0,112756.26,112756.26,89696.38,State-Wise-Report.csv,aggregate_csv
+2025-12,Kerala,26.0,58672.27,67012.35,23319.33,State-Wise-Report.csv,aggregate_csv
+2025-12,Sikkim,14.0,32535.04,41518.89,30259.5,State-Wise-Report.csv,aggregate_csv
+2025-12,Manipur,28.0,39986.65,49216.27,34905.07,State-Wise-Report.csv,aggregate_csv
+2025-12,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2025-12,Punjab,39.0,70472.29,75152.44,127749.5,State-Wise-Report.csv,aggregate_csv
+2025-12,Maharashtra,162.0,493558.1,611218.67,396863.94,State-Wise-Report.csv,aggregate_csv
+2025-12,Uttar Pradesh,120.0,299855.03,376439.84,261553.31,State-Wise-Report.csv,aggregate_csv
+2025-12,Andhra Pradesh,102.0,176614.11,230870.67,121981.56,State-Wise-Report.csv,aggregate_csv
+2025-12,Bihar,97.0,182856.83,191794.13,141041.82,State-Wise-Report.csv,aggregate_csv
+2025-12,Gujarat,97.0,378256.01,476486.48,359662.36,State-Wise-Report.csv,aggregate_csv
+2025-12,Jharkhand,85.0,193068.88,204030.85,84908.77,State-Wise-Report.csv,aggregate_csv
+2025-12,Odisha,85.0,190500.45,202191.92,102761.29,State-Wise-Report.csv,aggregate_csv
+2025-12,Jammu & Kashmir,33.0,50659.06,56480.41,26040.18,State-Wise-Report.csv,aggregate_csv
+2025-12,West Bengal,72.0,142002.58,156778.23,73922.88,State-Wise-Report.csv,aggregate_csv
+2025-12,Karnataka,70.0,140095.19,155173.84,87702.86,State-Wise-Report.csv,aggregate_csv
+2025-12,Rajasthan,69.0,217412.95,328492.6,246815.92,State-Wise-Report.csv,aggregate_csv
+2025-12,Assam,66.0,98017.38,133012.19,85302.0,State-Wise-Report.csv,aggregate_csv
+2025-12,Telangana,64.0,63351.33,81524.5,41032.32,State-Wise-Report.csv,aggregate_csv
+2025-12,Chhattisgarh,62.0,131321.36,140402.73,57869.78,State-Wise-Report.csv,aggregate_csv
+2025-12,Tamil Nadu,45.0,151965.55,163654.12,58247.9,State-Wise-Report.csv,aggregate_csv
+2025-12,Madhya Pradesh,77.0,204021.97,218560.02,92265.52,State-Wise-Report.csv,aggregate_csv
+2026-01,Manipur,34.0,41847.27,51076.89,36106.77,State-Wise-Report.csv,aggregate_csv
+2026-01,Uttarakhand,29.0,65408.12,79638.26,54479.07,State-Wise-Report.csv,aggregate_csv
+2026-01,Kerala,29.0,61451.3,71147.72,24529.68,State-Wise-Report.csv,aggregate_csv
+2026-01,Himachal Pradesh,27.0,37962.0,46932.99,107827.02,State-Wise-Report.csv,aggregate_csv
+2026-01,Mizoram,25.0,29497.41,31230.64,14685.3,State-Wise-Report.csv,aggregate_csv
+2026-01,Nagaland,25.0,29857.31,32000.03,19141.39,State-Wise-Report.csv,aggregate_csv
+2026-01,Delhi,22.0,149255.97,152295.07,76581.9,State-Wise-Report.csv,aggregate_csv
+2026-01,Tripura,14.0,21779.92,23315.3,12963.85,State-Wise-Report.csv,aggregate_csv
+2026-01,Meghalaya,15.0,21497.25,22932.59,13205.77,State-Wise-Report.csv,aggregate_csv
+2026-01,Sikkim,15.0,32785.04,42154.1,31399.16,State-Wise-Report.csv,aggregate_csv
+2026-01,Puducherry,5.0,7000.63,7414.19,2653.61,State-Wise-Report.csv,aggregate_csv
+2026-01,Goa,5.0,6928.4,7229.21,6693.68,State-Wise-Report.csv,aggregate_csv
+2026-01,Ladakh,5.0,2001.16,2125.4,1495.67,State-Wise-Report.csv,aggregate_csv
+2026-01,Dadra & Nagar Haveli and Daman & Diu,4.0,114666.0,115408.5,91796.63,State-Wise-Report.csv,aggregate_csv
+2026-01,Haryana,37.0,157609.74,236918.46,180916.97,State-Wise-Report.csv,aggregate_csv
+2026-01,Arunachal Pradesh,20.0,65553.31,90493.52,46770.25,State-Wise-Report.csv,aggregate_csv
+2026-01,Andaman & Nicobar,1.0,209.88,209.88,0.0,State-Wise-Report.csv,aggregate_csv
+2026-01,Jammu & Kashmir,47.0,60822.0,67198.51,28932.36,State-Wise-Report.csv,aggregate_csv
+2026-01,Tamil Nadu,59.0,165660.89,176159.38,61638.0,State-Wise-Report.csv,aggregate_csv
+2026-01,Punjab,48.0,82350.82,88861.2,131194.57,State-Wise-Report.csv,aggregate_csv
+2026-01,Maharashtra,180.0,507258.65,627146.77,412581.51,State-Wise-Report.csv,aggregate_csv
+2026-01,Uttar Pradesh,159.0,376614.18,451984.71,269474.12,State-Wise-Report.csv,aggregate_csv
+2026-01,Andhra Pradesh,125.0,200004.85,253484.2,131250.46,State-Wise-Report.csv,aggregate_csv
+2026-01,Bihar,114.0,224527.85,234547.82,142083.45,State-Wise-Report.csv,aggregate_csv
+2026-01,Madhya Pradesh,101.0,276043.14,290650.21,105842.49,State-Wise-Report.csv,aggregate_csv
+2026-01,Jharkhand,96.0,194210.02,205152.0,82010.16,State-Wise-Report.csv,aggregate_csv
+2026-01,Gujarat,119.0,415591.9,516772.67,374346.57,State-Wise-Report.csv,aggregate_csv
+2026-01,Odisha,95.0,200733.13,213051.07,105025.04,State-Wise-Report.csv,aggregate_csv
+2026-01,Assam,87.0,118789.14,154841.94,95308.98,State-Wise-Report.csv,aggregate_csv
+2026-01,West Bengal,79.0,147217.35,162061.59,75364.46,State-Wise-Report.csv,aggregate_csv
+2026-01,Rajasthan,75.0,247196.98,359788.86,261223.31,State-Wise-Report.csv,aggregate_csv
+2026-01,Telangana,72.0,71522.17,90305.35,43061.9,State-Wise-Report.csv,aggregate_csv
+2026-01,Chhattisgarh,68.0,136247.39,145735.51,59894.43,State-Wise-Report.csv,aggregate_csv
+2026-01,Karnataka,96.0,171730.62,187507.72,93976.03,State-Wise-Report.csv,aggregate_csv
+2026-02,Delhi,24.0,153628.9,158522.94,81628.2,State-Wise-Report.csv,aggregate_csv
+2026-02,Manipur,34.0,41306.42,50536.04,35718.08,State-Wise-Report.csv,aggregate_csv
+2026-02,Himachal Pradesh,33.0,45165.7,55291.16,22437.9,State-Wise-Report.csv,aggregate_csv
+2026-02,Kerala,31.0,70697.16,80124.93,26185.09,State-Wise-Report.csv,aggregate_csv
+2026-02,Mizoram,25.0,29497.41,31230.64,14822.93,State-Wise-Report.csv,aggregate_csv
+2026-02,Nagaland,25.0,29857.31,32000.03,19497.61,State-Wise-Report.csv,aggregate_csv
+2026-02,Ladakh,4.0,1602.79,1727.03,1276.19,State-Wise-Report.csv,aggregate_csv
+2026-02,Andaman & Nicobar,4.0,863.85,1291.36,0.0,State-Wise-Report.csv,aggregate_csv
+2026-02,Sikkim,17.0,33314.72,42915.98,32007.15,State-Wise-Report.csv,aggregate_csv
+2026-02,Meghalaya,15.0,21497.25,22932.59,13294.61,State-Wise-Report.csv,aggregate_csv
+2026-02,Tripura,13.0,21323.04,22858.42,13038.77,State-Wise-Report.csv,aggregate_csv
+2026-02,Goa,7.0,7789.73,7943.74,6782.69,State-Wise-Report.csv,aggregate_csv
+2026-02,Puducherry,6.0,8358.94,8576.63,3736.95,State-Wise-Report.csv,aggregate_csv
+2026-02,Dadra & Nagar Haveli and Daman & Diu,5.0,114864.06,115648.07,92998.89,State-Wise-Report.csv,aggregate_csv
+2026-02,Haryana,44.0,167232.27,247202.68,185792.8,State-Wise-Report.csv,aggregate_csv
+2026-02,Arunachal Pradesh,22.0,66941.63,91921.74,47744.71,State-Wise-Report.csv,aggregate_csv
+2026-02,Uttarakhand,48.0,76978.62,91601.92,56935.86,State-Wise-Report.csv,aggregate_csv
+2026-02,Jharkhand,103.0,200605.38,211472.19,84515.18,State-Wise-Report.csv,aggregate_csv
+2026-02,Punjab,54.0,88428.21,95425.29,45296.37,State-Wise-Report.csv,aggregate_csv
+2026-02,Maharashtra,215.0,545731.48,670461.98,424126.28,State-Wise-Report.csv,aggregate_csv
+2026-02,Uttar Pradesh,180.0,429013.4,504586.99,286639.37,State-Wise-Report.csv,aggregate_csv
+2026-02,Andhra Pradesh,141.0,207321.0,260802.22,135941.47,State-Wise-Report.csv,aggregate_csv
+2026-02,Gujarat,127.0,429276.67,531759.28,383145.07,State-Wise-Report.csv,aggregate_csv
+2026-02,Madhya Pradesh,125.0,311491.93,324070.84,120464.0,State-Wise-Report.csv,aggregate_csv
+2026-02,Karnataka,121.0,201206.49,221539.6,106628.39,State-Wise-Report.csv,aggregate_csv
+2026-02,Bihar,125.0,240033.81,249863.59,96430.33,State-Wise-Report.csv,aggregate_csv
+2026-02,Assam,89.0,120747.03,156799.83,98670.14,State-Wise-Report.csv,aggregate_csv
+2026-02,Telangana,88.0,85474.18,105123.11,47566.19,State-Wise-Report.csv,aggregate_csv
+2026-02,West Bengal,86.0,151520.45,165472.81,78190.43,State-Wise-Report.csv,aggregate_csv
+2026-02,Rajasthan,81.0,250247.95,361726.93,264451.69,State-Wise-Report.csv,aggregate_csv
+2026-02,Chhattisgarh,79.0,145607.84,156000.68,63138.07,State-Wise-Report.csv,aggregate_csv
+2026-02,Tamil Nadu,70.0,176320.25,182712.87,63410.1,State-Wise-Report.csv,aggregate_csv
+2026-02,Odisha,108.0,209683.81,226185.72,117770.33,State-Wise-Report.csv,aggregate_csv
+2026-02,Jammu & Kashmir,49.0,62939.64,69316.15,30884.54,State-Wise-Report.csv,aggregate_csv
+2026-03,Delhi,23.0,123354.9,128248.94,57607.13,State-Wise-Report.csv,aggregate_csv
+2026-03,Manipur,36.0,42345.22,51574.84,36934.81,State-Wise-Report.csv,aggregate_csv
+2026-03,Kerala,32.0,72129.16,83910.38,29787.27,State-Wise-Report.csv,aggregate_csv
+2026-03,Himachal Pradesh,32.0,42738.35,53032.35,22247.89,State-Wise-Report.csv,aggregate_csv
+2026-03,Mizoram,25.0,29497.41,31230.64,15053.26,State-Wise-Report.csv,aggregate_csv
+2026-03,Nagaland,25.0,29857.31,32000.03,19738.13,State-Wise-Report.csv,aggregate_csv
+2026-03,Ladakh,4.0,1664.27,1824.27,1326.9,State-Wise-Report.csv,aggregate_csv
+2026-03,Meghalaya,16.0,21991.77,23362.29,13943.25,State-Wise-Report.csv,aggregate_csv
+2026-03,Tripura,13.0,21323.04,22858.42,13214.17,State-Wise-Report.csv,aggregate_csv
+2026-03,Goa,7.0,7789.73,7943.74,6800.9,State-Wise-Report.csv,aggregate_csv
+2026-03,Puducherry,6.0,8358.94,8576.63,3952.36,State-Wise-Report.csv,aggregate_csv
+2026-03,Dadra & Nagar Haveli and Daman & Diu,5.0,114864.06,115648.07,95662.59,State-Wise-Report.csv,aggregate_csv
+2026-03,Andaman & Nicobar,4.0,863.85,1291.36,0.0,State-Wise-Report.csv,aggregate_csv
+2026-03,Haryana,43.0,166862.27,246832.68,186922.28,State-Wise-Report.csv,aggregate_csv
+2026-03,Sikkim,17.0,33314.72,42915.98,32720.04,State-Wise-Report.csv,aggregate_csv
+2026-03,Jammu & Kashmir,47.0,60382.03,66609.58,31106.24,State-Wise-Report.csv,aggregate_csv
+2026-03,Arunachal Pradesh,22.0,66941.63,91921.74,48506.43,State-Wise-Report.csv,aggregate_csv
+2026-03,Punjab,53.0,86902.9,93488.75,44058.79,State-Wise-Report.csv,aggregate_csv
+2026-03,Maharashtra,212.0,542172.58,666446.46,428925.08,State-Wise-Report.csv,aggregate_csv
+2026-03,Uttar Pradesh,177.0,396749.25,472008.46,262117.33,State-Wise-Report.csv,aggregate_csv
+2026-03,Andhra Pradesh,138.0,211024.61,264097.7,143210.64,State-Wise-Report.csv,aggregate_csv
+2026-03,Bihar,129.0,246061.51,256634.85,102049.23,State-Wise-Report.csv,aggregate_csv
+2026-03,Uttarakhand,51.0,73824.5,83851.77,51397.53,State-Wise-Report.csv,aggregate_csv
+2026-03,Gujarat,122.0,421445.52,523895.4,383975.92,State-Wise-Report.csv,aggregate_csv
+2026-03,Karnataka,118.0,197250.72,216195.46,109559.32,State-Wise-Report.csv,aggregate_csv
+2026-03,Madhya Pradesh,123.0,307764.77,318694.68,121098.26,State-Wise-Report.csv,aggregate_csv
+2026-03,Jharkhand,104.0,201981.94,212953.77,86550.63,State-Wise-Report.csv,aggregate_csv
+2026-03,Telangana,89.0,85852.0,105464.41,51531.67,State-Wise-Report.csv,aggregate_csv
+2026-03,Assam,88.0,120333.35,156431.72,100535.52,State-Wise-Report.csv,aggregate_csv
+2026-03,West Bengal,84.0,150362.19,164314.55,79175.37,State-Wise-Report.csv,aggregate_csv
+2026-03,Rajasthan,81.0,250081.55,361596.29,267985.62,State-Wise-Report.csv,aggregate_csv
+2026-03,Chhattisgarh,78.0,145258.09,155650.93,65870.18,State-Wise-Report.csv,aggregate_csv
+2026-03,Tamil Nadu,70.0,176925.25,185610.61,68652.31,State-Wise-Report.csv,aggregate_csv
+2026-03,Odisha,108.0,209629.14,225905.05,122551.83,State-Wise-Report.csv,aggregate_csv
+2026-04,Haryana,42.0,166649.08,246619.49,188087.0,State-Wise-Report.csv,aggregate_csv
+2026-04,Manipur,36.0,42345.22,51574.84,37075.91,State-Wise-Report.csv,aggregate_csv
+2026-04,Himachal Pradesh,34.0,45627.3,55947.21,25144.55,State-Wise-Report.csv,aggregate_csv
+2026-04,Kerala,33.0,75934.16,88105.38,31194.14,State-Wise-Report.csv,aggregate_csv
+2026-04,Arunachal Pradesh,25.0,89510.4,114490.51,49213.84,State-Wise-Report.csv,aggregate_csv
+2026-04,Mizoram,25.0,29497.41,31230.64,15194.92,State-Wise-Report.csv,aggregate_csv
+2026-04,Dadra & Nagar Haveli and Daman & Diu,5.0,114864.06,115648.07,95774.45,State-Wise-Report.csv,aggregate_csv
+2026-04,Delhi,24.0,124061.9,128955.94,58781.19,State-Wise-Report.csv,aggregate_csv
+2026-04,Meghalaya,18.0,31620.67,33009.19,15612.23,State-Wise-Report.csv,aggregate_csv
+2026-04,Sikkim,17.0,33314.72,42915.98,33117.78,State-Wise-Report.csv,aggregate_csv
+2026-04,Tripura,13.0,21323.04,22858.42,13645.42,State-Wise-Report.csv,aggregate_csv
+2026-04,Goa,8.0,9681.73,9835.74,6860.9,State-Wise-Report.csv,aggregate_csv
+2026-04,Puducherry,6.0,8358.94,8576.63,4021.18,State-Wise-Report.csv,aggregate_csv
+2026-04,Jammu & Kashmir,47.0,60382.03,66609.58,31898.6,State-Wise-Report.csv,aggregate_csv
+2026-04,Nagaland,25.0,29857.31,32000.03,20074.39,State-Wise-Report.csv,aggregate_csv
+2026-04,Uttarakhand,51.0,73824.5,83906.8,51788.57,State-Wise-Report.csv,aggregate_csv
+2026-04,Jharkhand,105.0,201577.27,212549.1,87527.84,State-Wise-Report.csv,aggregate_csv
+2026-04,Tamil Nadu,70.0,177373.73,187518.08,71112.04,State-Wise-Report.csv,aggregate_csv
+2026-04,Andaman & Nicobar,4.0,863.85,1291.36,0.0,State-Wise-Report.csv,aggregate_csv
+2026-04,Maharashtra,213.0,542567.88,667045.23,431680.03,State-Wise-Report.csv,aggregate_csv
+2026-04,Uttar Pradesh,182.0,401452.12,476742.08,266899.6,State-Wise-Report.csv,aggregate_csv
+2026-04,Andhra Pradesh,142.0,218753.69,271824.5,146693.06,State-Wise-Report.csv,aggregate_csv
+2026-04,Bihar,133.0,257120.33,267926.01,105218.06,State-Wise-Report.csv,aggregate_csv
+2026-04,Madhya Pradesh,125.0,309604.06,322477.61,124125.98,State-Wise-Report.csv,aggregate_csv
+2026-04,Punjab,56.0,90524.59,97124.01,47644.83,State-Wise-Report.csv,aggregate_csv
+2026-04,Karnataka,123.0,222193.94,241138.68,113040.36,State-Wise-Report.csv,aggregate_csv
+2026-04,Odisha,113.0,223598.41,239874.32,125308.58,State-Wise-Report.csv,aggregate_csv
+2026-04,Telangana,91.0,87533.63,107153.24,52339.46,State-Wise-Report.csv,aggregate_csv
+2026-04,Assam,90.0,122133.56,158231.93,102650.67,State-Wise-Report.csv,aggregate_csv
+2026-04,West Bengal,82.0,147446.81,161399.17,79608.82,State-Wise-Report.csv,aggregate_csv
+2026-04,Rajasthan,81.0,255480.73,366995.47,272004.83,State-Wise-Report.csv,aggregate_csv
+2026-04,Chhattisgarh,78.0,145258.09,156041.9,66976.2,State-Wise-Report.csv,aggregate_csv
+2026-04,Gujarat,123.0,425591.21,527736.01,388320.33,State-Wise-Report.csv,aggregate_csv
+2026-04,Ladakh,4.0,1664.27,1824.27,1326.9,State-Wise-Report.csv,aggregate_csv

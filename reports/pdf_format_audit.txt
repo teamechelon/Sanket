@@ -1,0 +1,996 @@
+================================================================================
+SANKET — PDF FORMAT AUDIT REPORT
+================================================================================
+Total PDFs audited: 17
+
+SUMMARY TABLE
+--------------------------------------------------------------------------------
+Filename                                   Month      Fmt                Pg    Proj   Parser                        
+--------------------------------------------------------------------------------
+FRApril2025.pdf                            2025-04                       273   0      PARSER_NEEDS_NEW_HANDLER      
+FR_May2025.pdf                             2025-05                       212   0      PARSER_NEEDS_NEW_HANDLER      
+FR_JUNE_2025.pdf                           2025-06                       234   0      PARSER_NEEDS_NEW_HANDLER      
+QPISR_QR_1st_2025-26.pdf                   2025-06                       261   0      PARSER_NEEDS_NEW_HANDLER      
+FlashReport_July_2025.pdf                  2025-07    OLD_FORMAT_A       67    725    PARSER_COMPATIBLE             
+FlashReport_August_2025.pdf                2025-08    OLD_FORMAT_B       67    738    PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_September_2025.pdf             2025-09    TRANSITIONAL_FORMAT 72    732    PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_October_2025.pdf               2025-10    TRANSITIONAL_FORMAT 73    756    PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_November_2025.pdf              2025-11    TRANSITIONAL_FORMAT 73    763    PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_December_2025.pdf              2025-12    TRANSITIONAL_FORMAT 108   1305   PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_January_2026.pdf               2026-01    TRANSITIONAL_FORMAT 134   1595   PARSER_NEEDS_MINOR_ADAPTATION 
+FlashReport_February_2026.pdf              2026-02    NEW_FORMAT_A       168   1828   PARSER_COMPATIBLE             
+FlashReport_March_2026.pdf                 2026-03    NEW_FORMAT_A       157   1822   PARSER_COMPATIBLE             
+FlashReport_April2026.pdf                  2026-04    NEW_FORMAT_B       163   1862   PARSER_NEEDS_NEW_HANDLER      
+FlashReport_May2026.pdf                    2026-05    NEW_FORMAT_B       163   1868   PARSER_NEEDS_NEW_HANDLER      
+FlashReport_June_2026.pdf                  2026-06    NEW_FORMAT_B       161   1734   PARSER_NEEDS_NEW_HANDLER      
+FlashReport_July_2026-1.pdf                2026-07    NEW_FORMAT_B       153   1659   PARSER_NEEDS_NEW_HANDLER      
+
+================================================================================
+FORMAT CLASSES DISCOVERED
+================================================================================
+
+   (4 PDFs)
+  ────────────────────────────────────────
+    - FRApril2025.pdf (2025-04)
+    - FR_May2025.pdf (2025-05)
+    - FR_JUNE_2025.pdf (2025-06)
+    - QPISR_QR_1st_2025-26.pdf (2025-06)
+    Characteristics:
+      Legacy codes: 
+      Agency layout: 
+      Record pattern: 
+      Sector headers: 
+
+  NEW_FORMAT_A (2 PDFs)
+  ────────────────────────────────────────
+    - FlashReport_February_2026.pdf (2026-02)
+    - FlashReport_March_2026.pdf (2026-03)
+    Characteristics:
+      Legacy codes: YES
+      Agency layout: MIXED
+      Record pattern: MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code -> legacy_code
+      Sector headers: YES
+      Legacy code samples: ['(N04000106)', '(N04000091)', '(N04000103)']
+      Paren line samples: ['(01/2024) (05/2026) (265.91)', '(10/2018) (05/2026) (1216.9)', '(01/2024) (06/2026) (320.47)']
+
+  NEW_FORMAT_B (4 PDFs)
+  ────────────────────────────────────────
+    - FlashReport_April2026.pdf (2026-04)
+    - FlashReport_May2026.pdf (2026-05)
+    - FlashReport_June_2026.pdf (2026-06)
+    - FlashReport_July_2026-1.pdf (2026-07)
+    Characteristics:
+      Legacy codes: NO
+      Agency layout: MIXED
+      Record pattern: MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+      Sector headers: YES
+      Paren line samples: ['(07/2022) (05/2026) (4546.26)', '(04/2020) (07/2026) (9265)', '(06/2020) (06/2026) (8255)']
+
+  OLD_FORMAT_A (1 PDFs)
+  ────────────────────────────────────────
+    - FlashReport_July_2025.pdf (2025-07)
+    Characteristics:
+      Legacy codes: NO
+      Agency layout: MIXED
+      Record pattern: MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+      Sector headers: YES
+      Paren line samples: ['(Ministry of Coal) (-) (1799.64)', '(Damodar Valley Corporation) (-) (17673)', '(Power Grid Corporation of India Limited [POWERGRID]) (-) (2886)']
+
+  OLD_FORMAT_B (1 PDFs)
+  ────────────────────────────────────────
+    - FlashReport_August_2025.pdf (2025-08)
+    Characteristics:
+      Legacy codes: NO
+      Agency layout: MIXED
+      Record pattern: MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+      Sector headers: YES
+      Paren line samples: ['(09/2020) (12/2025) (611.8)', '(08/2023) (12/2025) (347.15)', '(03/2018) (11/2025) (1712)']
+
+  TRANSITIONAL_FORMAT (5 PDFs)
+  ────────────────────────────────────────
+    - FlashReport_September_2025.pdf (2025-09)
+    - FlashReport_October_2025.pdf (2025-10)
+    - FlashReport_November_2025.pdf (2025-11)
+    - FlashReport_December_2025.pdf (2025-12)
+    - FlashReport_January_2026.pdf (2026-01)
+    Characteristics:
+      Legacy codes: NO
+      Agency layout: MIXED
+      Record pattern: MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+      Sector headers: YES
+      Paren line samples: ['(09/2020) (12/2025) (611.8)', '(08/2023) (12/2025) (347.15)', '(03/2018) (11/2025) (1712)']
+
+================================================================================
+PARSER COMPATIBILITY
+================================================================================
+
+  PARSER_COMPATIBLE (3 PDFs)
+    - FlashReport_July_2025.pdf
+    - FlashReport_February_2026.pdf
+    - FlashReport_March_2026.pdf
+
+  PARSER_NEEDS_MINOR_ADAPTATION (6 PDFs)
+    - FlashReport_August_2025.pdf
+    - FlashReport_September_2025.pdf
+    - FlashReport_October_2025.pdf
+    - FlashReport_November_2025.pdf
+    - FlashReport_December_2025.pdf
+    - FlashReport_January_2026.pdf
+
+  PARSER_NEEDS_NEW_HANDLER (8 PDFs)
+    - FRApril2025.pdf
+    - FR_May2025.pdf
+    - FR_JUNE_2025.pdf
+    - QPISR_QR_1st_2025-26.pdf
+    - FlashReport_April2026.pdf
+    - FlashReport_May2026.pdf
+    - FlashReport_June_2026.pdf
+    - FlashReport_July_2026-1.pdf
+
+================================================================================
+RISK ASSESSMENT
+================================================================================
+
+  HIGH RISK (8 PDFs)
+    - FRApril2025.pdf: 
+    - FR_May2025.pdf: 
+    - FR_JUNE_2025.pdf: 
+    - QPISR_QR_1st_2025-26.pdf: 
+    - FlashReport_April2026.pdf: TOTAL_LINES(31)
+    - FlashReport_May2026.pdf: TOTAL_LINES(31)
+    - FlashReport_June_2026.pdf: TOTAL_LINES(31)
+    - FlashReport_July_2026-1.pdf: TOTAL_LINES(31)
+
+  MEDIUM RISK (9 PDFs)
+    - FlashReport_July_2025.pdf: TOTAL_LINES(33)
+    - FlashReport_August_2025.pdf: TOTAL_LINES(29)
+    - FlashReport_September_2025.pdf: TOTAL_LINES(31)
+    - FlashReport_October_2025.pdf: TOTAL_LINES(31)
+    - FlashReport_November_2025.pdf: TOTAL_LINES(31)
+    - FlashReport_December_2025.pdf: TOTAL_LINES(31)
+    - FlashReport_January_2026.pdf: TOTAL_LINES(32)
+    - FlashReport_February_2026.pdf: TOTAL_LINES(32)
+    - FlashReport_March_2026.pdf: TOTAL_LINES(32)
+
+================================================================================
+DETAILED PER-PDF ANALYSIS
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FRApril2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-04
+  Report Type:         MONTHLY
+  Total Pages:         273
+  Format Class:        
+  Table 6 Range:       pages 0–0 (0 pages)
+  Approx Projects:     0
+  Legacy Codes:        
+  Agency Layout:       
+    - On SL line:      0
+    - Separate line:   0
+  Record Pattern:      
+  Page Break Pattern:  
+  Sector Headers:      
+  Special Patterns:    
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Notes: NO 'All Ongoing Projects' TABLE FOUND. 
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FR_May2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-05
+  Report Type:         MONTHLY
+  Total Pages:         212
+  Format Class:        
+  Table 6 Range:       pages 0–0 (0 pages)
+  Approx Projects:     0
+  Legacy Codes:        
+  Agency Layout:       
+    - On SL line:      0
+    - Separate line:   0
+  Record Pattern:      
+  Page Break Pattern:  
+  Sector Headers:      
+  Special Patterns:    
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Notes: NO 'All Ongoing Projects' TABLE FOUND. 
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FR_JUNE_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-06
+  Report Type:         MONTHLY
+  Total Pages:         234
+  Format Class:        
+  Table 6 Range:       pages 0–0 (0 pages)
+  Approx Projects:     0
+  Legacy Codes:        
+  Agency Layout:       
+    - On SL line:      0
+    - Separate line:   0
+  Record Pattern:      
+  Page Break Pattern:  
+  Sector Headers:      
+  Special Patterns:    
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Notes: NO 'All Ongoing Projects' TABLE FOUND. 
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: QPISR_QR_1st_2025-26.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-06
+  Report Type:         QUARTERLY
+  Total Pages:         261
+  Format Class:        
+  Table 6 Range:       pages 0–0 (0 pages)
+  Approx Projects:     0
+  Legacy Codes:        
+  Agency Layout:       
+    - On SL line:      0
+    - Separate line:   0
+  Record Pattern:      
+  Page Break Pattern:  
+  Sector Headers:      
+  Special Patterns:    
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Notes: NO 'All Ongoing Projects' TABLE FOUND. 
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_July_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-07
+  Report Type:         MONTHLY
+  Total Pages:         67
+  Format Class:        OLD_FORMAT_A
+  Table 6 Range:       pages 2–66 (32 pages)
+  Approx Projects:     725
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      599
+    - Separate line:   162
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (27 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(33)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_COMPATIBLE
+  Column Headers Detected:
+    | Table 3: Ongoing Projects of North Eastern Region
+    | Table 4: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p37] 1 Andhra Pradesh 01/2024 45.54 31
+    | [p37] 2 Airport. Andhra Pradesh 09/2020 464.55 77
+    | [p37] 3 (Airport Authority of India [AAI]) Andhra Pradesh 08/2023 81.23 49
+    | [p37] 4 (Adani Airport Holdings Limited) Assam 03/2018 0 94.1
+    | [p37] 5 (Airport Authority of India [AAI]) Bihar 03/2025 0 1
+  Parenthetical Line Samples:
+    | (Ministry of Coal) (-) (1799.64)
+    | (Damodar Valley Corporation) (-) (17673)
+    | (Power Grid Corporation of India Limited [POWERGRID]) (-) (2886)
+    | (Power Grid Corporation of India Limited [POWERGRID]) (-) (329)
+    | (Power Grid Corporation of India Limited [POWERGRID]) (-) (501)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 38 starts with continuation: 'Development of Lal Bahadur Shastri International airport, Varanasi including C/o...'
+    | Page 39 starts with continuation: 'RPR MAGADH EXP OCP...'
+    | Page 40 starts with continuation: 'BHATADI EXPANSION OC...'
+    | Page 41 starts with continuation: 'BALARAM EXPANSION OCP...'
+    | Page 43 starts with continuation: 'OMKARESHWAR FLOATING SOLAR POWER PROJECT [90 MW]...'
+  Notes: Table label: Table 4 | Serial numbers detected: 725 | Project codes: 709 | Legacy codes: 0 | Triple paren lines: 38 | Dates on SL line: 722 | Sector/ministry headers: 46 | Total lines: 33 | Agency on SL line: 599 | Agency separate: 162 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_August_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-08
+  Report Type:         MONTHLY
+  Total Pages:         67
+  Format Class:        OLD_FORMAT_B
+  Table 6 Range:       pages 2–66 (32 pages)
+  Approx Projects:     738
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      612
+    - Separate line:   158
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (26 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(29)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Ongoing Projects of North Eastern Region
+    | Table 4: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p37] 1 Andhra Pradesh 50.06 34
+    | [p37] 2 Airport. Andhra Pradesh 473.27 79
+    | [p37] 3 (Airport Authority of India [AAI]) Andhra Pradesh 90.56 51
+    | [p37] 4 (Adani Airport Holdings Limited) Assam 2335.44 91
+    | [p37] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (12/2025) (611.8)
+    | (08/2023) (12/2025) (347.15)
+    | (03/2018) (11/2025) (1712)
+    | (03/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 38 starts with continuation: 'Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and...'
+    | Page 39 starts with continuation: 'EPR PUNDI OCP...'
+    | Page 40 starts with continuation: 'DHUPTALA OC [SASTI UG TO OC ]...'
+    | Page 41 starts with continuation: 'BASUNDHARA WEST EXTENSION OPEN...'
+    | Page 43 starts with continuation: 'Rangit-IV HE Project [120 MW] executed by Jal Power Corporation Ltd. [JPCL] -A...'
+  Notes: Table label: Table 4 | Serial numbers detected: 738 | Project codes: 717 | Legacy codes: 0 | Triple paren lines: 646 | Dates on SL line: 0 | Sector/ministry headers: 42 | Total lines: 29 | Agency on SL line: 612 | Agency separate: 158 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_September_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-09
+  Report Type:         MONTHLY
+  Total Pages:         72
+  Format Class:        TRANSITIONAL_FORMAT
+  Table 6 Range:       pages 2–71 (32 pages)
+  Approx Projects:     732
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      601
+    - Separate line:   162
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (27 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p42] 1 Andhra Pradesh 59.43 35
+    | [p42] 2 Airport. Andhra Pradesh 494.08 81
+    | [p42] 3 (Airport Authority of India [AAI]) Andhra Pradesh 95.46 54
+    | [p42] 4 (Adani Airport Holdings Limited) Assam 2397.37 91
+    | [p42] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (12/2025) (611.8)
+    | (08/2023) (12/2025) (347.15)
+    | (03/2018) (11/2025) (1712)
+    | (03/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 43 starts with continuation: 'Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and...'
+    | Page 44 starts with continuation: 'EPR PUNDI OCP...'
+    | Page 45 starts with continuation: 'DINESH[MAKARDHOKRA-III] OC...'
+    | Page 46 starts with continuation: 'BHARATPUR RE-ORGANIZATION OCP...'
+    | Page 48 starts with continuation: 'TEESTA-VI HE PROJECT, SIKKIM [500 MW], executed by LANCO TEESTA HYDRO...'
+  Notes: Table label: Table 6 | Serial numbers detected: 732 | Project codes: 712 | Legacy codes: 0 | Triple paren lines: 640 | Dates on SL line: 0 | Sector/ministry headers: 44 | Total lines: 31 | Agency on SL line: 601 | Agency separate: 162 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_October_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-10
+  Report Type:         MONTHLY
+  Total Pages:         73
+  Format Class:        TRANSITIONAL_FORMAT
+  Table 6 Range:       pages 2–72 (33 pages)
+  Approx Projects:     756
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      614
+    - Separate line:   173
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (26 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p42] 1 Andhra Pradesh 67.22 39
+    | [p42] 2 Airport. Andhra Pradesh 507.14 84
+    | [p42] 3 (Airport Authority of India [AAI]) Andhra Pradesh 102.43 57
+    | [p42] 4 (Adani Airport Holdings Limited) Assam 2397.37 91
+    | [p42] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (12/2025) (611.8)
+    | (08/2023) (12/2025) (347.15)
+    | (03/2018) (11/2025) (1712)
+    | (03/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 43 starts with continuation: 'Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and...'
+    | Page 44 starts with continuation: 'EPR AMRAPALI OCP...'
+    | Page 45 starts with continuation: 'SAONER UG MINE -1 EXPANSION 1....'
+    | Page 46 starts with continuation: 'Naini Coal Mine...'
+    | Page 48 starts with continuation: 'Rangit-IV HE Project [120 MW] executed by Jal Power Corporation Ltd. [JPCL] -A...'
+  Notes: Table label: Table 6 | Serial numbers detected: 756 | Project codes: 736 | Legacy codes: 0 | Triple paren lines: 655 | Dates on SL line: 0 | Sector/ministry headers: 46 | Total lines: 31 | Agency on SL line: 614 | Agency separate: 173 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_November_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-11
+  Report Type:         MONTHLY
+  Total Pages:         73
+  Format Class:        TRANSITIONAL_FORMAT
+  Table 6 Range:       pages 2–72 (33 pages)
+  Approx Projects:     763
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      620
+    - Separate line:   175
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (28 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p42] 1 Andhra Pradesh 76.65 42
+    | [p42] 2 Airport. Andhra Pradesh 523.14 86
+    | [p42] 3 (Airport Authority of India [AAI]) Andhra Pradesh 109.62 64
+    | [p42] 4 (Adani Airport Holdings Limited) Assam 2456.07 94
+    | [p42] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (03/2026) (611.8)
+    | (08/2023) (03/2026) (347.15)
+    | (03/2018) (11/2025) (1712)
+    | (03/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 44 starts with continuation: 'CHITRA EAST OC...'
+    | Page 45 starts with continuation: 'NEW MAJRI UG TO OC 3 MTY COST...'
+    | Page 46 starts with continuation: 'BHUBANESWARI EXPN OCP 50 MTY...'
+    | Page 48 starts with continuation: 'Singrauli Super Thermal Power Project, Stage-III [2x800 MW]...'
+    | Page 49 starts with continuation: 'Implementation of Transmission Systems in the State of Jharkhand consisting of...'
+  Notes: Table label: Table 6 | Serial numbers detected: 763 | Project codes: 738 | Legacy codes: 0 | Triple paren lines: 655 | Dates on SL line: 0 | Sector/ministry headers: 46 | Total lines: 31 | Agency on SL line: 620 | Agency separate: 175 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_December_2025.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2025-12
+  Report Type:         MONTHLY
+  Total Pages:         108
+  Format Class:        TRANSITIONAL_FORMAT
+  Table 6 Range:       pages 2–107 (60 pages)
+  Approx Projects:     1305
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      734
+    - Separate line:   644
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (53 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p50] 1 Andhra Pradesh 88.87 46
+    | [p50] 2 Airport. Andhra Pradesh 523.14 87
+    | [p50] 3 (Airport Authority of India [AAI]) Andhra Pradesh 129.31 68
+    | [p50] 4 (Adani Airport Holdings Limited) Assam 2514.59 96
+    | [p50] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (03/2026) (611.8)
+    | (08/2023) (03/2026) (347.15)
+    | (03/2018) (03/2026) (2520)
+    | (03/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 52 starts with continuation: 'JHARKHAND-LAIYO OCP...'
+    | Page 53 starts with continuation: 'MAKARDHOKRA EXPN OC 4.9 MTY...'
+    | Page 54 starts with continuation: 'HINGULA II OC EXPN PH III 15 M...'
+    | Page 56 starts with continuation: 'Tapovan-Vishnugad HEP [4x130 MW]...'
+    | Page 57 starts with continuation: 'Implementation of Transmission Systems in the State of Jharkhand consisting of...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1305 | Project codes: 1298 | Legacy codes: 0 | Triple paren lines: 938 | Dates on SL line: 2 | Sector/ministry headers: 47 | Total lines: 31 | Agency on SL line: 734 | Agency separate: 644 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_January_2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-01
+  Report Type:         MONTHLY
+  Total Pages:         134
+  Format Class:        TRANSITIONAL_FORMAT
+  Table 6 Range:       pages 2–133 (74 pages)
+  Approx Projects:     1595
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      827
+    - Separate line:   870
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (68 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(32)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_NEEDS_MINOR_ADAPTATION
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p62] 1 Andhra Pradesh 97.14 50
+    | [p62] 2 Airport. Andhra Pradesh 523.14 87
+    | [p62] 3 (Airport Authority of India [AAI]) Andhra Pradesh 135.95 73
+    | [p62] 4 (Adani Airport Holdings Limited) Assam 2558.19 96
+    | [p62] 5 (Airport Authority of India [AAI]) Bihar 0 1
+  Parenthetical Line Samples:
+    | (09/2020) (07/2026) (611.8)
+    | (08/2023) (03/2026) (347.15)
+    | (03/2018) (03/2026) (2520)
+    | (04/2025) (-) (1413)
+    | (07/2024) (-) (911.66)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701121)
+    | (706724)
+    | (612183)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 63 starts with continuation: 'Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and...'
+    | Page 64 starts with continuation: 'CHITRA EAST OC...'
+    | Page 65 starts with continuation: 'SAONER UG MINE -1 EXPANSION 1....'
+    | Page 66 starts with continuation: 'BASUNDHARA WEST EXTENSION OPEN...'
+    | Page 67 starts with continuation: 'NLC Talabira Thermal Power Project...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1595 | Project codes: 1601 | Legacy codes: 0 | Triple paren lines: 1093 | Dates on SL line: 4 | Sector/ministry headers: 48 | Total lines: 32 | Agency on SL line: 827 | Agency separate: 870 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_February_2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-02
+  Report Type:         MONTHLY
+  Total Pages:         168
+  Format Class:        NEW_FORMAT_A
+  Table 6 Range:       pages 2–167 (105 pages)
+  Approx Projects:     1828
+  Legacy Codes:        YES
+  Agency Layout:       MIXED
+    - On SL line:      595
+    - Separate line:   534
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code -> legacy_code
+  Page Break Pattern:  RECORDS_SPLIT (96 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(32)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_COMPATIBLE
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p65] 1 (Airport Authority of India [AAI]) Andhra Pradesh 104.54 53
+    | [p65] 2 Andhra Pradesh 523.14 87
+    | [p65] 3 Andhra Pradesh 141.08 76
+    | [p65] 4 Assam 2591.82 97
+    | [p65] 5 Bihar 4.88 1
+  Legacy Code Samples:
+    | (N04000106)
+    | (N04000091)
+    | (N04000103)
+    | (N04000083)
+    | (N04000112)
+  Parenthetical Line Samples:
+    | (01/2024) (05/2026) (265.91)
+    | (10/2018) (05/2026) (1216.9)
+    | (01/2024) (06/2026) (320.47)
+    | (02/2024) (04/2026) (322.45)
+    | (10/2022) (08/2026) (500.48)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701101)
+    | (611047)
+    | (612787)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 66 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 67 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 68 starts with continuation: 'CHUPERBHITA SIMLONG OCP MDO 6...'
+    | Page 69 starts with continuation: 'SASTI EXPANSION OPENCAST...'
+    | Page 70 starts with continuation: 'SUBHADRA OCP...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1828 | Project codes: 1005 | Legacy codes: 1165 | Triple paren lines: 658 | Dates on SL line: 4 | Sector/ministry headers: 48 | Total lines: 32 | Agency on SL line: 595 | Agency separate: 534 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_March_2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-03
+  Report Type:         MONTHLY
+  Total Pages:         157
+  Format Class:        NEW_FORMAT_A
+  Table 6 Range:       pages 2–156 (104 pages)
+  Approx Projects:     1822
+  Legacy Codes:        YES
+  Agency Layout:       MIXED
+    - On SL line:      594
+    - Separate line:   540
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code -> legacy_code
+  Page Break Pattern:  RECORDS_SPLIT (98 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(32)
+  Risk Level:          MEDIUM
+  Parser Compat:       PARSER_COMPATIBLE
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p55] 1 (Airport Authority of India [AAI]) Andhra Pradesh 120.19 60
+    | [p55] 2 Andhra Pradesh 523.14 87.2
+    | [p55] 3 Andhra Pradesh 165.11 86
+    | [p55] 4 Assam 2602.19 97
+    | [p55] 5 Bihar 7.64 1.28
+  Legacy Code Samples:
+    | (N04000106)
+    | (N04000091)
+    | (N04000103)
+    | (N04000083)
+    | (N04000112)
+  Parenthetical Line Samples:
+    | (01/2024) (05/2026) (265.91)
+    | (10/2018) (05/2026) (1216.9)
+    | (01/2024) (06/2026) (320.47)
+    | (02/2024) (04/2026) (322.45)
+    | (10/2022) (08/2026) (500.48)
+  Project Code Samples:
+    | (612786)
+    | (701107)
+    | (701101)
+    | (611047)
+    | (612787)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 56 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 57 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 58 starts with continuation: 'CHUPERBHITA SIMLONG OCP MDO 6...'
+    | Page 59 starts with continuation: 'NEW MAJRI UG TO OC 3 MTY COST...'
+    | Page 60 starts with continuation: 'SIARMAL OCP...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1822 | Project codes: 1013 | Legacy codes: 1164 | Triple paren lines: 659 | Dates on SL line: 4 | Sector/ministry headers: 48 | Total lines: 32 | Agency on SL line: 594 | Agency separate: 540 | Risks: MANY_PAGE_BREAKS
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_April2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-04
+  Report Type:         MONTHLY
+  Total Pages:         163
+  Format Class:        NEW_FORMAT_B
+  Table 6 Range:       pages 2–162 (110 pages)
+  Approx Projects:     1862
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      601
+    - Separate line:   1704
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (102 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p55] 1 (Airport Authority of India [AAI]) Andhra Pradesh 129.07 65
+    | [p55] 2 Andhra Pradesh 523.14 87.2
+    | [p55] 3 Andhra Pradesh 170.79 90
+    | [p55] 4 Assam 2627.39 98
+    | [p55] 5 Bihar 7.64 1.28
+  Parenthetical Line Samples:
+    | (07/2022) (05/2026) (4546.26)
+    | (04/2020) (07/2026) (9265)
+    | (06/2020) (06/2026) (8255)
+    | (09/2019) (-) (6684.81)
+    | (09/2017) (12/2029) (108000)
+  Project Code Samples:
+    | (701107)
+    | (612789)
+    | (612793)
+    | (615345)
+    | (617069)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 56 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 57 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 58 starts with continuation: 'TETARIAKHAR OC...'
+    | Page 59 starts with continuation: 'DHUPTALA OC [SASTI UG TO OC ]...'
+    | Page 60 starts with continuation: 'BINA KAKRI AMALGAMATION EXPANS...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1862 | Project codes: 538 | Legacy codes: 0 | Triple paren lines: 8 | Dates on SL line: 4 | Sector/ministry headers: 47 | Total lines: 31 | Agency on SL line: 601 | Agency separate: 1704 | Risks: MANY_PAGE_BREAKS, LOW_CODE_RATIO
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_May2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-05
+  Report Type:         MONTHLY
+  Total Pages:         163
+  Format Class:        NEW_FORMAT_B
+  Table 6 Range:       pages 2–162 (111 pages)
+  Approx Projects:     1868
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      604
+    - Separate line:   1700
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (99 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p54] 1 (Airport Authority of India [AAI]) Andhra Pradesh 142.62 70
+    | [p54] 2 Andhra Pradesh 523.14 87.2
+    | [p54] 3 Andhra Pradesh 189.48 92
+    | [p54] 4 Assam 2639.99 98.5
+    | [p54] 5 Bihar 7.64 2.43
+  Parenthetical Line Samples:
+    | (04/2020) (07/2026) (9265)
+    | (09/2019) (-) (6684.81)
+    | (09/2017) (12/2029) (108000)
+    | (01/2012) (12/2025) (124005)
+    | (05/2024) (03/2026) (1884.6)
+  Project Code Samples:
+    | (701107)
+    | (612789)
+    | (612793)
+    | (615345)
+    | (617069)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 55 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 56 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 57 starts with continuation: 'CHUPERBHITA SIMLONG OCP MDO 6...'
+    | Page 58 starts with continuation: 'SAONER UG MINE -1 EXPANSION 1....'
+    | Page 59 starts with continuation: 'KHADIA EXPANSION [10 TO 16 MTP...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1868 | Project codes: 546 | Legacy codes: 0 | Triple paren lines: 6 | Dates on SL line: 5 | Sector/ministry headers: 47 | Total lines: 31 | Agency on SL line: 604 | Agency separate: 1700 | Risks: MANY_PAGE_BREAKS, LOW_CODE_RATIO
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_June_2026.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-06
+  Report Type:         MONTHLY
+  Total Pages:         161
+  Format Class:        NEW_FORMAT_B
+  Table 6 Range:       pages 2–159 (103 pages)
+  Approx Projects:     1734
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      550
+    - Separate line:   504
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (96 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p59] 1 (Airport Authority of India [AAI]) Andhra Pradesh 153.62 75
+    | [p59] 2 Andhra Pradesh 527.74 88.25
+    | [p59] 3 Andhra Pradesh 189.48 94.5
+    | [p59] 4 Assam 2660.15 99.3
+    | [p59] 5 Bihar 9.56 2.86
+  Parenthetical Line Samples:
+    | (04/2020) (07/2026) (9265)
+    | (09/2019) (-) (6684.81)
+    | (09/2017) (12/2029) (108000)
+    | (01/2012) (12/2025) (124005)
+    | (05/2024) (12/2026) (1884.6)
+  Project Code Samples:
+    | (701107)
+    | (612789)
+    | (612793)
+    | (615345)
+    | (617069)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 60 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 61 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 62 starts with continuation: 'CHUPERBHITA SIMLONG OCP MDO 6...'
+    | Page 63 starts with continuation: 'SAONER UG MINE -1 EXPANSION 1....'
+    | Page 64 starts with continuation: 'KHADIA EXPANSION [10 TO 16 MTP...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1734 | Project codes: 503 | Legacy codes: 0 | Triple paren lines: 6 | Dates on SL line: 5 | Sector/ministry headers: 47 | Total lines: 31 | Agency on SL line: 550 | Agency separate: 504 | Risks: MANY_PAGE_BREAKS, LOW_CODE_RATIO
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: FlashReport_July_2026-1.pdf
+────────────────────────────────────────────────────────────────────────────────
+  Report Month:        2026-07
+  Report Type:         MONTHLY
+  Total Pages:         153
+  Format Class:        NEW_FORMAT_B
+  Table 6 Range:       pages 2–152 (100 pages)
+  Approx Projects:     1659
+  Legacy Codes:        NO
+  Agency Layout:       MIXED
+    - On SL line:      536
+    - Separate line:   498
+  Record Pattern:      MULTI_LINE: name_lines -> sl_no_line -> paren_triple -> project_code
+  Page Break Pattern:  RECORDS_SPLIT (93 occurrences)
+  Sector Headers:      YES
+  Special Patterns:    TOTAL_LINES(31)
+  Risk Level:          HIGH
+  Parser Compat:       PARSER_NEEDS_NEW_HANDLER
+  Column Headers Detected:
+    | Table 3: Completed Projects
+    | Table 4: Newly Added Projects
+    | Table 6: All Ongoing Projects
+  Serial Number Line Samples:
+    | [p55] 1 (Airport Authority of India [AAI]) Andhra Pradesh 176.38 80
+    | [p55] 2 Andhra Pradesh 572.99 89.7
+    | [p55] 3 Andhra Pradesh 189.48 96
+    | [p55] 4 Assam 2670.23 99.5
+    | [p55] 5 Bihar 15.53 4.15
+  Parenthetical Line Samples:
+    | (09/2017) (12/2029) (108000.00)
+    | (01/2012) (12/2025) (124005.00)
+    | (05/2024) (12/2026) (1884.60)
+    | (09/2021) (11/2026) (604.60)
+  Project Code Samples:
+    | (701107)
+    | (612789)
+    | (612793)
+    | (615345)
+    | (617069)
+  Sector/Ministry Header Samples:
+    | Ministry of Civil Aviation
+    | Aviation & Aviation Infrastructure
+    | Ministry of Coal
+    | Coal
+    | Electricity Generation
+  Page Break Issues:
+    | Page 56 starts with continuation: 'Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope...'
+    | Page 57 starts with continuation: 'MADANNAGAR OCP 12 MTY - MDO...'
+    | Page 58 starts with continuation: 'CHUPERBHITA SIMLONG OCP MDO 6...'
+    | Page 59 starts with continuation: 'SAONER UG MINE -1 EXPANSION 1....'
+    | Page 60 starts with continuation: 'KHADIA EXPANSION [10 TO 16 MTP...'
+  Notes: Table label: Table 6 | Serial numbers detected: 1659 | Project codes: 497 | Legacy codes: 0 | Triple paren lines: 4 | Dates on SL line: 5 | Sector/ministry headers: 47 | Total lines: 31 | Agency on SL line: 536 | Agency separate: 498 | Risks: MANY_PAGE_BREAKS, LOW_CODE_RATIO
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+  READY TO EXTRACT (3 PDFs):
+    ✓ FlashReport_July_2025.pdf
+    ✓ FlashReport_February_2026.pdf
+    ✓ FlashReport_March_2026.pdf
+
+  NEEDS MINOR ADAPTATION (6 PDFs):
+    ~ FlashReport_August_2025.pdf — OLD_FORMAT_B
+    ~ FlashReport_September_2025.pdf — TRANSITIONAL_FORMAT
+    ~ FlashReport_October_2025.pdf — TRANSITIONAL_FORMAT
+    ~ FlashReport_November_2025.pdf — TRANSITIONAL_FORMAT
+    ~ FlashReport_December_2025.pdf — TRANSITIONAL_FORMAT
+    ~ FlashReport_January_2026.pdf — TRANSITIONAL_FORMAT
+
+  NEEDS NEW HANDLER (8 PDFs):
+    ✗ FRApril2025.pdf — 
+    ✗ FR_May2025.pdf — 
+    ✗ FR_JUNE_2025.pdf — 
+    ✗ QPISR_QR_1st_2025-26.pdf — 
+    ✗ FlashReport_April2026.pdf — NEW_FORMAT_B
+    ✗ FlashReport_May2026.pdf — NEW_FORMAT_B
+    ✗ FlashReport_June_2026.pdf — NEW_FORMAT_B
+    ✗ FlashReport_July_2026-1.pdf — NEW_FORMAT_B
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

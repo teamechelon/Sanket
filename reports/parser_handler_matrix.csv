@@ -1,0 +1,8 @@
+format,months,section,handler,status,notes
+EARLY_FORMAT,2025-04 to 2025-06,Table 7 Project List: Ongoing Projects as of,none,EXTRACTABLE_WITH_NEW_HANDLER,Machine-readable text and project-level records verified; current Table 6 detector cannot find this title.
+QUARTERLY,2025-Q1,Table 7 Project List: Ongoing Projects during 1st Quarter,none,EXTRACTABLE_WITH_NEW_HANDLER,Keep outside project_monthly until its quarter-end temporal meaning and overlap are validated.
+OLD_FORMAT_A,2025-07,All Ongoing Projects,legacy state machine,UNVALIDATED,No golden records; current row count and fields require source verification.
+OLD_FORMAT_B,2025-08,All Ongoing Projects,legacy state machine,UNVALIDATED,No golden records; current row count and fields require source verification.
+TRANSITIONAL_FORMAT,2025-09 to 2026-01,All Ongoing Projects,legacy state machine,UNVALIDATED,Shared-handler decision has not been validated against representative source records.
+NEW_FORMAT_A,2026-02 to 2026-03,All Ongoing Projects,legacy state machine,UNVALIDATED,No golden records; current row count and field alignment require source verification.
+NEW_FORMAT_B,2026-04 to 2026-07,All Ongoing Projects,extract_new_format_b,APRIL_PILOT_PASSES,April has ten source-verified golden records; May--July need their own golden records before stable status.

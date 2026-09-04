@@ -1,0 +1,6 @@
+# SANKET — PAIMANA Data Foundation
+# SIH 2026 · Problem Statement 26103
+
+pandas>=2.0
+numpy>=1.24
+pdfplumber>=0.10

@@ -1,0 +1,94 @@
+======================================================================
+SANKET — CSV PROCESSING QUALITY REPORT
+======================================================================
+
+──────────────────────────────────────────────────
+Dataset: cost_overview_monthly
+──────────────────────────────────────────────────
+  Rows: 10
+  Columns: ['report_month', 'original_cost_crores', 'revised_cost_crores', 'expenditure_crores', 'source_file', 'source_type']
+  Months: ['2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04']
+
+  Missing values:
+
+  Numeric summaries:
+    original_cost_crores: min=2375332.00, max=3712662.00, mean=2952829.10, nulls=0
+    revised_cost_crores: min=2907548.00, max=4278402.00, mean=3497943.80, nulls=0
+    expenditure_crores: min=1537609.00, max=2036107.00, mean=1775064.30, nulls=0
+
+  Duplicate rows: 0
+
+  Sample (first 3 rows):
+    {'report_month': '2025-07', 'original_cost_crores': 2375332.0, 'revised_cost_crores': 2907548.0, 'expenditure_crores': 1537609.0, 'source_file': 'Cost-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-08', 'original_cost_crores': 2375332.0, 'revised_cost_crores': 2907548.0, 'expenditure_crores': 1537609.0, 'source_file': 'Cost-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-09', 'original_cost_crores': 2533122.0, 'revised_cost_crores': 3063324.0, 'expenditure_crores': 1585712.0, 'source_file': 'Cost-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+
+──────────────────────────────────────────────────
+Dataset: physical_progress_monthly
+──────────────────────────────────────────────────
+  Rows: 110
+  Columns: ['report_month', 'progress_range', 'project_count', 'original_cost_crores', 'revised_cost_crores', 'expenditure_crores', 'source_file', 'source_type']
+  Months: ['2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04']
+
+  Missing values:
+
+  Numeric summaries:
+    project_count: min=8.00, max=503.00, mean=118.19, nulls=0
+    original_cost_crores: min=9468.01, max=947105.92, mean=268439.02, nulls=0
+    revised_cost_crores: min=14287.17, max=1204206.73, mean=317994.89, nulls=0
+    expenditure_crores: min=16823.82, max=914361.38, mean=161369.48, nulls=0
+
+  Duplicate rows: 0
+
+  Sample (first 3 rows):
+    {'report_month': '2025-07', 'progress_range': '0-10', 'project_count': 175.0, 'original_cost_crores': 381959.22, 'revised_cost_crores': 382705.77, 'expenditure_crores': 24924.01, 'source_file': 'Physical-Progress-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'progress_range': '10-20', 'project_count': 70.0, 'original_cost_crores': 282289.67, 'revised_cost_crores': 289794.82, 'expenditure_crores': 30664.03, 'source_file': 'Physical-Progress-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'progress_range': '20-30', 'project_count': 53.0, 'original_cost_crores': 87019.51, 'revised_cost_crores': 88945.7, 'expenditure_crores': 17321.93, 'source_file': 'Physical-Progress-Report.csv', 'source_type': 'aggregate_csv'}
+
+──────────────────────────────────────────────────
+Dataset: sector_monthly
+──────────────────────────────────────────────────
+  Rows: 210
+  Columns: ['report_month', 'sector', 'project_count', 'original_cost_crores', 'revised_cost_crores', 'expenditure_crores', 'source_file', 'source_type']
+  Months: ['2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04']
+
+  Missing values:
+
+  Numeric summaries:
+    project_count: min=1.00, max=1120.00, mean=61.75, nulls=0
+    original_cost_crores: min=171.00, max=1034561.22, mean=140227.23, nulls=0
+    revised_cost_crores: min=211.61, max=1060739.73, mean=166189.14, nulls=0
+    expenditure_crores: min=137.51, max=700909.44, mean=84219.01, nulls=0
+
+  Duplicate rows: 0
+
+  Sample (first 3 rows):
+    {'report_month': '2025-07', 'sector': 'Railways', 'project_count': 265.0, 'original_cost_crores': 694806.78, 'revised_cost_crores': 841006.53, 'expenditure_crores': 525897.83, 'source_file': 'Sector-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'sector': 'Tourism, Hospitality & Wellness', 'project_count': 1.0, 'original_cost_crores': 573.0, 'revised_cost_crores': 1238.05, 'expenditure_crores': 496.63, 'source_file': 'Sector-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'sector': 'Construction', 'project_count': 2.0, 'original_cost_crores': 901.9, 'revised_cost_crores': 901.89, 'expenditure_crores': 612.46, 'source_file': 'Sector-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+
+──────────────────────────────────────────────────
+Dataset: state_monthly
+──────────────────────────────────────────────────
+  Rows: 340
+  Columns: ['report_month', 'state', 'project_count', 'original_cost_crores', 'revised_cost_crores', 'expenditure_crores', 'source_file', 'source_type']
+  Months: ['2025-07', '2025-08', '2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04']
+
+  Missing values:
+
+  Numeric summaries:
+    project_count: min=1.00, max=215.00, mean=44.14, nulls=0
+    original_cost_crores: min=209.88, max=545731.48, mean=116749.18, nulls=0
+    revised_cost_crores: min=209.88, max=670461.98, mean=140866.25, nulls=0
+    expenditure_crores: min=0.00, max=431680.03, mean=85686.43, nulls=0
+
+  Duplicate rows: 0
+
+  Sample (first 3 rows):
+    {'report_month': '2025-07', 'state': 'Maharashtra', 'project_count': 108.0, 'original_cost_crores': 408703.59, 'revised_cost_crores': 527681.39, 'expenditure_crores': 357609.4, 'source_file': 'State-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'state': 'Himachal Pradesh', 'project_count': 11.0, 'original_cost_crores': 25881.08, 'revised_cost_crores': 30480.26, 'expenditure_crores': 14310.48, 'source_file': 'State-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+    {'report_month': '2025-07', 'state': 'Arunachal Pradesh', 'project_count': 10.0, 'original_cost_crores': 101282.16, 'revised_cost_crores': 162592.27, 'expenditure_crores': 104473.14, 'source_file': 'State-Wise-Report.csv', 'source_type': 'aggregate_csv'}
+
+======================================================================
+END OF CSV QUALITY REPORT
+======================================================================

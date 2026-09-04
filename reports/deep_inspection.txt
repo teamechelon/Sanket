@@ -1,0 +1,4933 @@
+SANKET — DEEP PDF FORMAT INSPECTION
+================================================================================
+Inspecting 12 PDF samples across all format classes
+
+
+================================================================================
+FORMAT CLASS: EARLY_FORMAT
+FILE: FRApril2025.pdf
+================================================================================
+Total pages: 273
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'Expenditure' found on 258 pages: [7, 8, 9, 11, 12]...[266, 267, 268]
+  'Ministry of' found on pages: [4, 5, 271]
+  'Ongoing Projects' found on 256 pages: [2, 7, 8, 9, 10]...[266, 267, 268]
+  'Project Code' found on 258 pages: [11, 12, 13, 14, 15]...[266, 267, 268]
+  'Project Name' found on 258 pages: [11, 12, 13, 14, 15]...[266, 267, 268]
+  'Sl. No' found on pages: [7, 8, 9, 11, 12, 13, 14, 15, 16, 17]
+  'project' found on 268 pages: [2, 3, 4, 5, 6]...[267, 268, 272]
+
+--- PAGE 1/273 ---
+  | 
+
+--- PAGE 2/273 ---
+  | MOSPI_ April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | CONTENTS
+  | Synopsis ……………………………………………………………………………………………….………....1-2
+  | List of Tables ………………………………………………….…………...............................................…3-235
+  | Table:-1. Overview of Ongoing Projects: Sector-wise Distribution…….……................................…3-4
+  | Table:-2. Overview of Ongoing Projects: State-wise Distribution…………....................................…5-6
+  | Table:-3. Project List: Completed during April 2025…….……......................................................…7-10
+  | Table:-4. Project List: Added during April 2025….……………........................................................11-13
+  | Table:-5. Project List: Ongoing Projects of North-East Region………………………………..….....14-38
+  | Table:-6. Project List: Ongoing Projects as of 30th April 2025……………..…………………….....39-264
+
+--- PAGE 3/273 ---
+  | MOSPI_ April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | SYNOPSIS
+
+--- PAGE 4/273 ---
+  | Ministry of Statistics and Programme Implementation_April,2025
+  | Flash Report - Central Sector Infrastructure Projects Costing Rs. 150 crore & above
+  | .
+  | 1
+
+--- PAGE 5/273 ---
+  | Ministry of Statistics and Programme Implementation_April,2025
+  | Note: This report is as of April 2025, based on the (non-exhaustive) list of projects and information as reported by Line
+  | Ministries/ implementing agencies on the OCMS (www.cspm.gov.in) portal latest by 8th May 2025.
+  | ****
+  | 2
+
+--- PAGE 6/273 ---
+  | MOSPI_ April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | LIST OF TABLES
+
+--- PAGE 11/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-3. Project List: Completed during April 2025
+  | Sector Sl. No. Project Name Original Date of Commissioning Cumulative
+  | (Agency Name) Cost Original Expenditure
+  | (Project Code) in Rs. Crore (MM/YYYY) in Rs. Crore
+  | (State Name)
+  | CIVIL AVIATION
+  | 1 UPGRADATION OF PASSENGER TERMINAL BUILDING 951.28 10/2021 1,084.94
+  | AND AIRSIDE FACILITIES AT TIRUCHIRAPALLI
+  | INTERNATIONAL AI
+  | (AAI)
+  | (N04000075)
+  | (TAMIL NADU)
+  | 2 CO CIVIL AVIATION REASEARCH ORG. (PH-II) AT 353.61 05/2022 303.22
+  | BEGUMPET AIRPORT, HYDRABAD
+  | (AAI)
+  | (N04000086)
+  | (TELANGANA)
+  | 3 EXT AND STR. OF EXISTING RUNWAY 08/26 AT 177.10 02/2020 143.08
+  | TIRUPATI AIRPORT
+  | (AAI)
+  | (N04000089)
+  | (ANDHRA PRADESH)
+  | PETROLEUM
+  | 4 REVAMPING OF FACILITIES AT VIZAG TERMINAL 355.00 04/2022 249.00
+  | (IOCL)
+  | (N16000343)
+  | (ANDHRA PRADESH)
+  | 5 MUMBAI HIGH NORTH REDEVELOPMENT PHASE-IV 3,228.80 03/2022 3,867.19
+  | (ONGC)
+  | (N16000358)
+  | (MAHARASHTRA)
+  | 6 AUGMENTATION OF FACILITIES AT THE EXISTING 456.00 03/2024 271.44
+  | RAIPUR DEPOT
+  | (HPCL)
+  | (N16000413)
+  | (CHHATTISGARH)
+  | POWER
+  | 7 TRANSMISSION NETWORK EXPANSION IN GUJARAT TO 186.19 03/2025 91.53
+  | INCREASE ATC FROM ISTS: PART C
+  | (PGCIL)
+  | (N18000338)
+  | (MULTI STATE)
+  | 8 TRANSMISSION SYSTEM ASSOCIATED WITH WESTERN 271.69 09/2024 192.03
+  | REGION EXPANSION SCHEME XXVII
+  | (PGCIL)
+  | (N18000354)
+  | (CHHATTISGARH)
+  | 7
+
+--- PAGE 51/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th April 2025
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 60 6L ACCESS CONTROLLED 12-2022 11/2025 992.89 163.14 42.06
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | VANKARAKUNTA 45.700 KM. TO {11/2025} {992.89}
+  | ODULAPALLE 72.000 KM. OF NH
+  | (NHAI)
+  | (N24001843)
+  | 61 6L ACCESS CONTROLLED 12-2022 10/2025 1,058.90 249.94 42.47
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | ODULAPALLE 72.000 KM. TO {10/2025} {1,058.90}
+  | NALLACHERUVUPALLI 96.300
+  | KM.
+  | (NHAI)
+  | (N24001844)
+  | 62 6L ACCESS CONTROLLED 2-2023 10/2025 1,253.24 156.15 16.50
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | NALLACHERUVU PALLI 96.300 {10/2025} {1,253.24}
+  | KM. TO YERRAGUDIPADU
+  | 129.000
+  | (NHAI)
+  | (N24001845)
+  | 63 6L ACCESS CONTROLLED 2-2023 10/2025 1,200.42 57.99 5.20
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | YERRAGUDIPADU 129.000 KM. {10/2025} {1,200.42}
+  | TO AUDIREDDIPALLE 160.000 KM.
+  | (NHAI)
+  | (N24001846)
+  | 64 6L ACCESS CONTROLLED 1-2023 11/2025 956.14 176.30 35.54
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | AUDIREDDIPALLE 160.000 KM. {11/2025} {956.14}
+  | TO MALLAPALLE 176.000 KM. PA
+  | (NHAI)
+  | (N24001847)
+  | 65 6L ACCESS CONTROLLED 2-2023 10/2025 909.02 128.01 13.20
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | MALLAPALLE 176.000 KM. TO {10/2025} {909.02}
+  | KAVULAKUNTLA 196.000 KM.
+  | PACK
+  | (NHAI)
+  | (N24001848)
+  | 66 4L PS MYDUKUR BADVEL FROM 5-2022 7/2025 1,063.72 458.56 72.29
+  | KM 585.820 TO KM 630.960 (N.A.) (N.A.)
+  | SECTION OF NH 67 {9/2025} {1,063.72}
+  | (NHAI)
+  | (N24001849)
+  | 47
+
+--- PAGE 101/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th April 2025
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 430 DELHI VADODARA GREENFIELD 9-2020 11/2023 1,198.55 911.04 95.78
+  | ALIGNMENT SECTION OF NH (N.A.) (N.A.)
+  | 148N PACKAGE 28 {4/2025} {1,198.55}
+  | (NHAI)
+  | (N24001519)
+  | 431 DELHI VADODARA GREENFIELD 11-2019 5/2024 1,604.06 1,241.40 95.73
+  | ALIGNMENT SECTION OF NH (N.A.) (N.A.)
+  | 148N PACKAGE 31 {6/2025} {1,604.06}
+  | (NHAI)
+  | (N24001520)
+  | 432 UP-GRADATION TO 4-LANE WITH 3-2022 6/2025 1,373.06 594.59 83.06
+  | PAVED SHOULDER OF (N.A.) (1,085.00)
+  | BHIMASAR JUNCTION OF NH-41 {6/2025} {1,373.06}
+  | TO ANJAR BHUJ UPTO AIRPORT
+  | (NHAI)
+  | (N24001785)
+  | 433 CONSTRUCTION OF EIGHT 3-2021 3/2024 1,259.00 278.29 34.08
+  | LANE ACCESS CONTROLLED (N.A.) (2,652.24)
+  | EXPRESSWAY FROM KM 103.400 {3/2026} {1,910.00}
+  | TO KM 128.000 OF VADODARA
+  | MU
+  | (NHAI)
+  | (N24001786)
+  | 434 CONSTRUCTION OF EIGHT 7-2020 12/2023 2,271.86 1,101.59 98.10
+  | LANE ACCESS CONTROLLED (N.A.) (3,372.97)
+  | EXPRESSWAY FROM KM 217.500 {5/2025} {3,916.00}
+  | TO KM 254.430 OF VADODARA
+  | MU
+  | (NHAI)
+  | (N24001788)
+  | 435 CONSTRUCTION OF EIGHT 7-2020 8/2023 1,710.30 891.83 90.56
+  | LANE EXPRESSWAY FROM KM (N.A.) (2,665.08)
+  | 190.000 TO KM 217.500 {4/2025} {1,927.00}
+  | GANDEVA TO ENA SECTION OF
+  | VADODA
+  | (NHAI)
+  | (N24001789)
+  | 436 SANCHORE - SANTALPUR FROM 2-2020 8/2023 752.30 452.13 98.14
+  | KM 67.000- KM 99.000 OF NH- (12/2024) (N.A.)
+  | 754K (AJ-RGBS-PACKAGE-3) {12/2024} {766.20}
+  | (NHAI)
+  | (N24001790)
+  | 97
+
+--- PAGE 151/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th April 2025
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 801 EXTENSION OF RUNWAY WITH 6-2017 12/2020 255.68 267.86 100.00
+  | BLAST PAD, RESA, TAXIWAY, (N.A.) (N.A.)
+  | APRON, GSE AREA, ISOLATION {4/2024} {270.00}
+  | BAY, NEW DOMESTIC TERM
+  | (AAI)
+  | (N04000096)
+  | COAL 802 AMALGAMATED YEKONA-I 8-2015 3/2025 727.28 530.02 86.00
+  | YEKONA-II (N.A.) (N.A.)
+  | {3/2025}
+  | {727.28}
+  | (WCL)
+  | (N06000132)
+  | 803 UKNI DEEP OC 1-2019 3/2021 237.06 163.86 91.00
+  | (3/2025) (N.A.)
+  | {3/2025} {318.14}
+  | (WCL)
+  | (N06000179)
+  | 804 GHONSA EXPANSION DEEP OC 3-2021 3/2028 184.71 9.25 6.00
+  | (N.A.) (N.A.)
+  | {3/2029}
+  | {241.72}
+  | (WCL)
+  | (N06000205)
+  | 805 SASTI EXPANSION OC 8-2020 3/2026 319.04 68.64 24.00
+  | (N.A.) (N.A.)
+  | {3/2026}
+  | {371.59}
+  | (WCL)
+  | (N06000206)
+  | 806 DHUPTALA OC(SASTI UG TO OC) 10-2021 3/2028 711.00 159.15 33.00
+  | (N.A.) (N.A.)
+  | {3/2028}
+  | {720.87}
+  | (WCL)
+  | (N06000209)
+  | 807 ADASA UG TO OC (1.50 MTY) 11-2018 3/2024 316.00 208.20 78.00
+  | (3/2025) (N.A.)
+  | {3/2025} {333.43}
+  | (WCL)
+  | (N06000219)
+  | 808 DINESH (MAKARDHOKDA-III) OC 2-2020 3/2027 822.88 578.89 48.00
+  | (8.0 MTY) (N.A.) (N.A.)
+  | {3/2027}
+  | {1,184.33}
+  | (WCL)
+  | (N06000222)
+  | 809 AMALGAMATED INDER- 9-2018 3/2024 235.90 116.46 87.00
+  | KAMPTEE DEEP OC (3.20 MTY) (3/2025) (N.A.)
+  | {3/2025} {313.34}
+  | (WCL)
+  | (N06000226)
+  | 147
+
+--- PAGE 201/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th April 2025
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 1188 CONSTRUCTION OF BYPASS 2-2022 10/2025 238.78 39.26 28.00
+  | ROAD TO BALANGIR TOWN (11/2025) (N.A.)
+  | FROM KM 72/400 (DESING KM {11/2025} {238.78}
+  | 0/0) TO KM 79/800 (DESIGN KM
+  | (MoRTH)
+  | (N24001862)
+  | 1189 CONSTRUCTION OF 5 HL 3-2021 6/2024 154.05 47.47 30.00
+  | BRIDGES AT KM 379/000 (10/2025) (N.A.)
+  | (PANGAM), KM 439/400 {8/2025} {154.05}
+  | (POTTERU), KM 444/237
+  | (KONGURUKONDA)
+  | (MoRTH)
+  | (N24001863)
+  | 1190 CONSTRUCTION OF FOUR LANE 11-2021 6/2025 154.49 59.92 32.00
+  | ROB AND ITS APPROACHES IN (N.A.) (N.A.)
+  | LIEU OF EXISTING LEVEL {8/2025} {154.49}
+  | CROSSING NO. RV-71 AT KM
+  | (MoRTH)
+  | (N24001864)
+  | 1191 CONSTRUCTION OF 4 LANE ROB 12-2021 5/2025 324.09 103.11 35.00
+  | WITH APPROACHES IN LIEU OF (8/2025) (N.A.)
+  | LC NO. RV-172 AT KM 176.00 OF {8/2025} {324.09}
+  | NH-201 (PRESENT
+  | (MoRTH)
+  | (N24001865)
+  | 1192 REHABILITATION AND UP 12-2023 12/2025 711.00 111.90 47.80
+  | GRADATION FROM 4 TO 8 (N.A.) (N.A.)
+  | LANING OF CHANDIKHOLE {12/2025} {711.00}
+  | PARADIP SECTION OF NH 53
+  | FROM KM.
+  | (NHAI)
+  | (N24002078)
+  | 1193 REHABILITATION AND UP 12-2023 12/2025 742.25 186.57 51.75
+  | GRADATION FROM 4 TO 8 (N.A.) (N.A.)
+  | LANING OF CHANDIKHOLE {12/2025} {742.25}
+  | PARADIP SECTION OF NH 53
+  | FROM KM
+  | (NHAI)
+  | (N24002079)
+  | 1194 REHABILITATION AND UP 12-2023 12/2025 762.75 152.76 51.50
+  | GRADATION FROM 4 TO 8 (N.A.) (N.A.)
+  | LANING OF CHANDIKHOLE {12/2025} {762.75}
+  | PARADIP SECTION OF NH 53
+  | FROM KM
+  | (NHAI)
+  | (N24002080)
+  | 197
+
+--- PAGE 251/273 ---
+  | MOSPI_ (April 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th April 2025
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 1546 CONSTRUCTION OF 4-LANE 1-2022 1/2026 1,156.72 365.74 55.00
+  | HIGHWAY WITH PAVED (N.A.) (N.A.)
+  | SHOULDERS FROM KM 49.155 {1/2026} {1,156.72}
+  | TO KM 74.700 OF NH-731A ON
+  | HYBRID
+  | (MoRTH)
+  | (N24002032)
+  | 1547 DEVELOPMENT OF SIX-LANE 4-2022 5/2025 1,843.59 843.83 49.00
+  | ACCESS CONTROLLED (N.A.) (N.A.)
+  | HIGHWAY FROM GOGWAN {5/2025} {1,843.59}
+  | JALALPUR (SHAMLI DISTRICT)
+  | TO RANIPUR
+  | (NHAI)
+  | (N24002036)
+  | 1548 GARHMUKTESHWAR (KM. 83.200 10-2019 10/2023 2,068.99 209.60 53.08
+  | OF NH-24) TO MEERUT (KM. (N.A.) (2,171.00)
+  | 9.860 OF NH-235) INCLUDING {6/2025} {2,171.00}
+  | CONNECTOR TO NH-119
+  | (NHAI)
+  | (N24002073)
+  | 1549 WIDENING OF RAEBARELI TO 11-2023 3/2025 1,470.93 69.56 100.00
+  | PRAYAGRAJ SECTION FROM (N.A.) (N.A.)
+  | KM. 82.650 TO KM. 161.450 OF {3/2025} {1,470.93}
+  | NH-30 AND LINK ROAD FRO
+  | (NHAI)
+  | (N24002085)
+  | 1550 CONSTRUCTION OF FOUR LANE 10-2022 7/2025 1,706.47 719.13 71.10
+  | HIGHWAY FORM GHAZIPUR (N.A.) (N.A.)
+  | BALLIA UP BIHAR STATE {7/2025} {1,706.47}
+  | BORDER (GREENFIELD)
+  | SECTION OF
+  | (NHAI)
+  | (N24002086)
+  | 1551 CONSTRUCTION OF FOUR LANE 10-2022 10/2025 1,493.14 93.30 59.87
+  | HIGHWAY FROM GHAZIPUR (N.A.) (N.A.)
+  | BALLIA UP BIHAR STATE {10/2025} {1,493.14}
+  | BORDER (GREENFIELD)
+  | SECTION OF
+  | (NHAI)
+  | (N24002087)
+  | 1552 CONSTRUCTION OF FOUR LANE 10-2022 8/2025 1,493.50 492.86 52.00
+  | HIGHWAY FROM GHAZIPUR (N.A.) (N.A.)
+  | BALLIA UP BIHAR STATE {8/2025} {1,493.50}
+  | BORDER (GREENFIELD)
+  | SECTION OF
+  | (NHAI)
+  | (N24002088)
+  | 247
+
+--- PAGE 271/273 ---
+  | AGENCY_NAME AGENCY_NAME_SHORT
+  | MAHANADI COAL FIELDS LIMITED MCL
+  | MECON LIMITED MECON LIMITED
+  | AHMEDABAD METRO RAIL MEGA
+  | MADRAS FERTILISER LIMITED MFL
+  | Munitions India Limited MIL
+  | MAHARASTRA METRO RAIL CORPORATION LTD. MMRC
+  | MUMBAI METRO RAIL CORPORATION LTD MMRCL
+  | MINISTRY OF WATER RESOURCES MOWR
+  | Madhya Pradesh Metro Rail Co Limited MPMRCL
+  | Maharashtra Rail Infrastructure Development Corporation Limited MRIDC
+  | MANGALORE REFINARY LIMITED MRL
+  | METROPOLITAN RAPID TRANSPORT PROJECTS MRTP
+  | Mumbai Railway Vikas Corporation MRVC
+  | MAHANAGAR TELEPHONE NIGAM LIMITED MTNL
+  | MUMBAI PORT TRUST MUMBAI PORT TRU
+  | Armoured Vehicles Nigam Limited MVNL
+  | MINISTRY OF ROAD TRANSPORT AND HIGHWAYS (STATE PWDs) MoRTH
+  | NATIONAL ALUMINUM COMPANY LIMITED (NALCO) NALCO
+  | NATRIP IMPLEMENTATION SOCITY NATIS
+  | NATIONAL BUILDING CONSTRUCION CORPORATION LTD NBCC
+  | NBCC FOR COMMERCE NBCC FOR COMMER
+  | NBCC FOR HEALTH NBCC FOR HEALTH
+  | NORTHERN COAL FIELDS LIMITED NCL
+  | NORTH CENTRAL RAILWAY NCR
+  | NATIONAL CAPITAL REGION TRANSPORT CORP NCRTC
+  | NATIONAL CENTRE OF EXCELLENCE NCoE
+  | NORTH EAST ELECTRIC POWER CORPORATION NEEPCO
+  | NORTH EAST GAS GRID NEGG
+  | NORTH EASTERN RAILWAY NER
+  | National Film Archive of India NFAI
+  | NUCLEAR FUEL CORPORATION NFC
+  | NATIONAL FERTILISER LIMITED NFL
+  | NORTH EAST FRONTIER RAILWAY NFR
+  | NATIONAL HIGHWAYS AUTHORITY OF INDIA NHAI
+  | NATIONAL HIGHWAYS AND INFRASTRUCTURE DEVELOPMENT CORPORATION Ltd. NHIDCL
+  | NATIONAL HYDRO-ELECTRIC POWER CORPORATION NHPC
+  | National High Speed Rail Corporation Limited NHSRCL
+  | NEW LINE NL
+  | NEYVELI LIGNITE CORPORATION NLC
+  | NATIONAL MISSION FOR CLEAN GANGA NMCG
+  | NATIONAL MINERAL DEVELOPMENT CORPORATION (NMDC) NMDC
+  | NAGPUR METRO RAIL CORPORATION LTD NMRCL
+  | NATIONAL PROJECTS CONSTRUCTION CORPORATION LIMITED NPCC
+  | NUCLEAR POWER CORPORATION OF INDIA LIMITED NPCIL
+  | NORTHERN RAILWAY NR
+  | NUMALIGARH REFINERY LIMITED NRL
+  | SETTING UP OF NEW RAILWAY ZONES NRZ
+  | NATIONAL THERMAL POWER CORPORATION NTPC
+  | NORTH WESTERN RAILWAY NWR
+  | OIL INDIA LIMITED OIL
+  | OIL & NATURAL GAS CORPORATION LIMITED ONGC
+  | PATNA METRO RAIL CORPORATION PATNA M
+  | ... [truncated, full page is 2008 chars]
+
+--- TABLE DETECTION (pdfplumber.find_tables) ---
+  Page 3: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'SYNOPSIS']
+  Page 4: 1 table(s) detected
+    Table 1: 3 rows, 1 cols
+      ['']
+      ['']
+      ['']
+  Page 6: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'LIST OF TABLES']
+  Page 11: 1 table(s) detected
+    Table 1: 12 rows, 6 cols
+      ['Sector', 'Sl. No.', 'Project Name\n(Agency Name)\n(Project Code)\n(State Name)', 'Original\nCost\nin Rs. Crore', 'Date of Commissioning\nOriginal\n(MM/YYYY)', 'Cumulative\nExpenditure\nin Rs. Crore']
+      ['CIVIL AVIATION', '', '', '', '', '']
+      [None, '1', 'UPGRADATION OF PASSENGER TERMINAL BUILDING\nAND AIRSIDE FACILITIES AT TIRUCHIRAPALLI\nINTERNATIONAL AI\n(AAI)\n(N04000075)\n(TAMIL NADU)', '951.28', '10/2021', '1,084.94']
+      [None, '2', 'CO CIVIL AVIATION REASEARCH ORG. (PH-II) AT\nBEGUMPET AIRPORT, HYDRABAD\n(AAI)\n(N04000086)\n(TELANGANA)', '353.61', '05/2022', '303.22']
+      [None, '3', 'EXT AND STR. OF EXISTING RUNWAY 08/26 AT\nTIRUPATI AIRPORT\n(AAI)\n(N04000089)\n(ANDHRA PRADESH)', '177.10', '02/2020', '143.08']
+      ... (7 more rows)
+  Page 51: 1 table(s) detected
+    Table 1: 8 rows, 9 cols
+      ['State', 'Sector', 'Sl No', 'Project Name\n(Agency Name)\n(Project Code)', 'Date\nof\nApproval\n(MM/YYYY)', 'Date of\nCommissioning\nOriginal\n(Revised)\n{Anticipated}\n(MM/YYYY)', 'Cost Original\n(Revised)\n{Anticipated}\nin Rs. Crore', 'Cumulative\nExpenditure\nin Rs. Crore', 'Physical\nProgress\n(%)']
+      [None, None, '60', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nVANKARAKUNTA 45.700 KM. TO\nODULAPALLE 72.000 KM. OF NH\n(NHAI)\n(N24001843)', '12-2022', '11/2025\n(N.A.)\n{11/2025}', '992.89\n(N.A.)\n{992.89}', '163.14', '42.06']
+      [None, None, '61', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nODULAPALLE 72.000 KM. TO\nNALLACHERUVUPALLI 96.300\nKM.\n(NHAI)\n(N24001844)', '12-2022', '10/2025\n(N.A.)\n{10/2025}', '1,058.90\n(N.A.)\n{1,058.90}', '249.94', '42.47']
+      [None, None, '62', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nNALLACHERUVU PALLI 96.300\nKM. TO YERRAGUDIPADU\n129.000\n(NHAI)\n(N24001845)', '2-2023', '10/2025\n(N.A.)\n{10/2025}', '1,253.24\n(N.A.)\n{1,253.24}', '156.15', '16.50']
+      [None, None, '63', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nYERRAGUDIPADU 129.000 KM.\nTO AUDIREDDIPALLE 160.000 KM.\n(NHAI)\n(N24001846)', '2-2023', '10/2025\n(N.A.)\n{10/2025}', '1,200.42\n(N.A.)\n{1,200.42}', '57.99', '5.20']
+      ... (3 more rows)
+
+================================================================================
+FORMAT CLASS: EARLY_FORMAT
+FILE: FR_May2025.pdf
+================================================================================
+Total pages: 212
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'Expenditure' found on 199 pages: [7, 8, 9, 10, 11]...[205, 206, 207]
+  'Ministry of' found on pages: [210]
+  'Ongoing Projects' found on 194 pages: [2, 7, 8, 9, 10]...[205, 206, 207]
+  'Project Code' found on 197 pages: [11, 12, 13, 14, 15]...[205, 206, 207]
+  'Project Name' found on 197 pages: [11, 12, 13, 14, 15]...[205, 206, 207]
+  'Sl. No' found on pages: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  'project' found on 207 pages: [2, 3, 4, 5, 6]...[206, 207, 211]
+
+--- PAGE 1/212 ---
+  | 
+
+--- PAGE 2/212 ---
+  | MOSPI_ May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | CONTENTS
+  | Synopsis ……………………………………………………………………………………………….…… ....1-2
+  | List of Tables ………………………………………………….…………................................................3-203
+  | Table:-1. Overview of Ongoing Projects: Sector-wise Distribution…….……..............................…3-4
+  | Table:-2. Overview of Ongoing Projects: State-wise Distribution………….................................…5-6
+  | Table:-3. Project List: Completed during May 2025…….……......................................................…7-11
+  | Table:-4. Project List: Added during May 2025….……………........................................................12-13
+  | Table:-5. Project List: Frozen/Deleted during May 2025………………………………………….......14-14
+  | Table:-6. Project List: Ongoing Projects of North-East Region…………………………………......15-38
+  | Table:-7. Project List: Ongoing Projects as of 31st May 2025……………..………………….….....39-203
+
+--- PAGE 3/212 ---
+  | MOSPI_ May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | SYNOPSIS
+
+--- PAGE 4/212 ---
+  | Flash Report - Central Sector Infrastructure Projects Costing Rs. 150 crore & above
+  | .
+  | 1
+
+--- PAGE 5/212 ---
+  | Note: This report is as of May 2025, based on the (non-exhaustive) list of projects and information as reported by Line
+  | Ministries/ implementing agencies on the OCMS (www.cspm.gov.in) portal latest by 8th June 2025.
+  | ****
+  | 2
+
+--- PAGE 6/212 ---
+  | MOSPI_ May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | LIST OF TABLES
+
+--- PAGE 11/212 ---
+  | MOSPI_ (May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-3. Project List: Completed during May 2025
+  | Sector Sl. No. Project Name Original Date of Commissioning Cumulative
+  | (Agency Name) Cost Original Expenditure
+  | (Project Code) in Rs. Crore (MM/YYYY) in Rs. Crore
+  | (State Name)
+  | COAL
+  | 1 TALABIRA II AND III OCP 2,401.07 01/2027 1,626.71
+  | (NLC)
+  | (N06000189)
+  | (ODISHA)
+  | HEALTH AND FAMILY
+  | WELFARE
+  | 2 C/O NEW HOSPITAL BLOCK FOR SREE CHITRA TIRUNAL 150.29 03/2020 162.52
+  | INSTITIUTE OF MEDICAL SCIENCE AND TECHNOLOGY
+  | (SCTIMST
+  | (CPWD FOR HEALTH)
+  | (N28000112)
+  | (KERALA)
+  | HOME AFFAIRS
+  | 3 NSG AT KOLKATA 162.88 04/2018 193.91
+  | (CPWD FOR MHA)
+  | (N28000104)
+  | (WEST BENGAL)
+  | 4 CONSTRUCTION OF 683 VARIOUS TYPE FAMILY QUARTERS 199.31 01/2022 86.49
+  | AT GROUP CENTRE CRPF CHANDAULI
+  | (CPWD FOR MHA)
+  | (N45000003)
+  | (UTTAR PRADESH)
+  | PETROLEUM
+  | 5 ADDITIONAL STORAGE TANKS AT PARADIP 462.30 09/2021 493.72
+  | (IOCL)
+  | (N16000361)
+  | (ODISHA)
+  | POWER
+  | 6 PARBATI HEP (4X200 MW) (NHPC) II 3,919.59 09/2009 12,832.59
+  | (NHPC)
+  | (180100210)
+  | (HIMACHAL PRADESH)
+  | RAILWAYS
+  | 7 UDHAMPUR-SRINAGAR-BARAMULLA (NL),NR 37,012.00 08/2024 42,328.83
+  | (NR)
+  | (220100133)
+  | (JAMMU AND KASHMIR)
+  | 8 NEW BONGAIGAON-RANGIA-KAMAKGHYA DOUBLING 2,047.51 08/2024 3,709.47
+  | (NFR)
+  | (N22000183)
+  | (MULTI STATE)
+  | 7
+
+--- PAGE 51/212 ---
+  | MOSPI_ (May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 31st May 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 81 4 LANE FROM KM 56.400 TO KM 120.300 3-2022 9/2025 839.98 146.12 67.00
+  | FROM B.KOTHAPALLI JUNCTION TO (N.A.) (N.A.)
+  | GORANTLA OF NH 716G {9/2025} {839.98}
+  | (MoRTH)
+  | (N24001959)
+  | 82 4L GREENFIELD ROAD CONNECTING 8-2022 9/2025 609.43 25.24 52.45
+  | NORTH AND SOUTH INDUSTRIAL CLUSTER (N.A.) (N.A.)
+  | OF KHANDALERU CREEK NEAR {9/2025} {609.43}
+  | KRISHNAPAT
+  | (NHAI)
+  | (N24001979)
+  | 83 4 LANING OF NH 544D FROM EXISTING KM 10-2022 7/2025 907.76 388.40 81.35
+  | 346.300 OF NH 44 (DESIGN CHAINAGE KM (N.A.) (N.A.)
+  | 0.000) TO KM 39.380 (DESIG {7/2025} {907.76}
+  | (NHAI)
+  | (N24001980)
+  | 84 CONSTRUCTION OF SIX LANING OF 7-2022 10/2025 1,398.84 58.68 16.00
+  | NAIDUPETA JUNCTION - TURPUKANUPUR (N.A.) (N.A.)
+  | SECTION FROM KM.57+046 TO KM.91+927 {10/2025} {1,398.84}
+  | (NHAI)
+  | (N24001981)
+  | 85 4L PS FROM KURNOOL (EXISTING KM. 5.400 3-2023 10/2025 827.39 333.74 99.15
+  | OF NH-40/DESIGN KM.0.000) TO MANDLEM (N.A.) (N.A.)
+  | (EXISTING KM.38.000/DESI {10/2025} {827.39}
+  | (NHAI)
+  | (N24001982)
+  | 86 4 LANING FROM EXISTING KM 39.380 10-2022 8/2025 972.63 309.39 53.38
+  | (DESIGN CH. 37.000) TO KM 74.450 (DESIGN (N.A.) (N.A.)
+  | CH. 69.000) OF MUCHUKOTA ? {8/2025} {1,055.23}
+  | (NHAI)
+  | (N24001983)
+  | 87 4L PS FROM MANDLEM (EXISTING KM. 3-2023 10/2025 887.28 293.88 84.50
+  | 38.000/DESIGN KM.30.600) TO ATMAKUR (N.A.) (N.A.)
+  | (EXISTING KM.73.000/DESIGN KM 6 {10/2025} {887.28}
+  | (NHAI)
+  | (N24001984)
+  | 88 BANGALORE CHENNAI EXPRESSWAY 3-2021 6/2025 1,942.94 1,694.18 61.25
+  | (PHASE-II PKG-II) FROM KM.96.000 TO KM (N.A.) (2,171.00)
+  | 127.000 (BAIREDDYPALLE TO BANGAR {6/2025} {2,171.00}
+  | (NHAI)
+  | (N24001985)
+  | 47
+
+--- PAGE 101/212 ---
+  | MOSPI_ (May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 31st May 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 587 LODHMA TO PISKA LINK LINE BY PASSING 4-2018 6/2026 501.52 275.86 4.00
+  | HATIA/RANCHI WITH Y CONNECTION (17.2 (N.A.) (N.A.)
+  | KM) {6/2026} {472.50}
+  | (SER)
+  | (N22000508)
+  | 588 DOUBLING OF PRADHANKHUNTA JN - 11-2022 11/2027 202.00 64.10 2.00
+  | PATHERDIH BAZAR-BHOJUDIH (N.A.) (349.22)
+  | (ECR) {3/2026} {349.22}
+  | (N22000529)
+  | 589 KHARAGPUR-ADITYAPUR - 3RD LINE (132 12-2015 3/2025 3,249.98 2,899.45 N.A.
+  | KM) (N.A.) (N.A.)
+  | (RVNL) {3/2025} {3,270.07}
+  | (N22000595)
+  | 590 3RD LINE BETWEEN DHANBAD SONNAGAR 11-2016 3/2026 8,975.00 4,705.38 N.A.
+  | (RVNL) (N.A.) (N.A.)
+  | (N22000599) {3/2026} {7,906.38}
+  | 591 GARHWA ROAD - RAIL OVER RAIL 3-2017 6/2024 262.71 226.43 70.00
+  | (ECR) (N.A.) (N.A.)
+  | (N22000610) {2/2026} {262.71}
+  | 592 GOMOH - FLYOVER FOR DOWN TRAINS 1-2018 3/2023 686.03 399.45 45.00
+  | (ECR) (N.A.) (N.A.)
+  | (N22000611) {3/2026} {487.73}
+  | ROAD 593 SIX LANING OF BIHAR - JHARKHAND 1-2018 11/2021 1,155.16 657.82 73.00
+  | TRANSPORT BORDER (CHORDAHA) TO GORHAR (May-2026) (N.A.)
+  | AND SECTION {5/2026} {950.49}
+  | HIGHWAYS (NHAI)
+  | (N24000726)
+  | 594 WIDENING TO 2 LANE WITH PAVED 12-2016 9/2021 196.00 164.21 90.10
+  | SHOULDERS AND GEOMETRIC (N.A.) (N.A.)
+  | IMPROVEMENT OF NH-114A FROM KM 141 {12/2024} {196.00}
+  | TO KM 184 I
+  | (MoRTH)
+  | (N24001216)
+  | 595 HARIHARGANJ TO PARWA MODE SECTION 9-2020 3/2024 755.26 624.66 87.00
+  | FROM KM 23.284 TO KM 57.049 OF NH-98 (Dec-2024) (N.A.)
+  | (NHAI) {4/2025} {1,039.00}
+  | (N24001589)
+  | 596 4L FROM KM 196.87 (SANKHA) TO KM 219.6 9-2020 10/2023 748.99 831.75 100.00
+  | (KHAJURI) ON NH-75 [REHLA / GARHWA (Dec-2024) (N.A.)
+  | BYPASS] {1/2025} {903.00}
+  | (NHAI)
+  | (N24001590)
+  | 597 ELEVATED CORRIDOR IN RANCHI CITY 2-2022 1/2025 534.73 205.31 
+  | ... [truncated, full page is 2131 chars]
+
+--- PAGE 151/212 ---
+  | MOSPI_ (May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 31st May 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 1111 SUBHADRA OCP 5-2021 3/2029 1,693.81 1,181.97 39.30
+  | (MCL) (Mar-2029) (N.A.)
+  | (N06000249) {3/2029} {1,693.81}
+  | 1112 NLC TALABIRA THERMAL POWER PROJECT 1-2024 5/2029 27,213.00 1,883.39 1.55
+  | (PHASE-1: 3 X 800 MW) (Mar-2030) (N.A.)
+  | (NLC) {3/2030} {27,213.00}
+  | (N06000270)
+  | 1113 RPR OF HINGULA EXPANSION OCP 11-2022 3/2029 1,561.85 49.10 3.57
+  | (MCL) (N.A.) (N.A.)
+  | (N06000285) {3/2029} {1,561.85}
+  | 1114 BHUBANESWARI EXPANSION OCP 3-2024 3/2031 5,366.28 3.95 8.33
+  | (MCL) (N.A.) (N.A.)
+  | (N06000286) {3/2031} {5,366.28}
+  | 1115 BALABHADRA OCP 4-2023 3/2030 978.44 209.50 1.86
+  | (MCL) (N.A.) (N.A.)
+  | (N06000288) {3/2030} {978.44}
+  | 1116 INTEGRATED KULDA GARJANBAHAL OCP 4-2023 3/2030 3,563.50 496.87 3.58
+  | (MCL) (N.A.) (N.A.)
+  | (N06000289) {3/2030} {3,563.50}
+  | DEPARTMENT 1117 INDIAN INSTITUTE OF SCIENCE 1-2019 3/2022 790.79 706.39 96.00
+  | OF HIGHER EDUCATION AND RESEARCH BERHAMPUR (N.A.) (N.A.)
+  | EDUCATION (CPWD EDUCATION) {10/2025} {790.79}
+  | (N28000126)
+  | MINES 1118 5TH STREAM ALUMINA REFINERY 12-2014 4/2021 4,103.00 3,799.56 73.74
+  | EXPANSION PROJECT (Sep-2025) (5,677.40)
+  | (NALCO) {9/2025} {5,677.40}
+  | (N10000010)
+  | 1119 UTKAL D AND E COAL BLOCK 5-2016 1/2020 534.00 826.94 87.50
+  | (NALCO) (Nov-2023) (N.A.)
+  | (N10000011) {3/2024} {1,021.97}
+  | 1120 CONVERSION OF FLAT BOTTOM SETTLERS 12-2015 11/2020 355.00 163.55 12.60
+  | AND WASHERS WITH A SINGLE TRAIN OF (Sep-2025) (581.00)
+  | HRDS AND DCWS IN STREAMS 1 AND {8/2027} {581.00}
+  | (NALCO)
+  | (N10000012)
+  | 1121 SOURCING OF BAUXITE ARRANGEMENT 11-2017 4/2021 483.00 385.20 89.30
+  | FOR 5TH STREAM ALUMINA REFINERY (May-2026) (483.00)
+  | FROM SOUTH BLOCK MINING LEASE OF {5/2026} {495.00}
+  | PAN
+  | (NALCO)
+  | (N10000013
+  | ... [truncated, full page is 2278 chars]
+
+--- PAGE 201/212 ---
+  | MOSPI_ (May 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 31st May 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 1572 CONSTRUCTION OF 4.5 KM LONG SILKYARA 3-2018 7/2022 1,383.78 709.72 63.84
+  | TUNNEL BETWEEN KM 25.40 TO 50.25 KM (N.A.) (N.A.)
+  | (TUNNEL WORK) {9/2026} {1,383.78}
+  | (NHIDCL)
+  | (N24000855)
+  | 1573 RECONSTRUCTION WITH GEOMETRIC 8-2016 12/2017 234.88 237.19 100.00
+  | IMPROVMENT OF EXISTING INTERMEDIATE (N.A.) (273.49)
+  | LANE TO 2 LANE WITH PAVED SHOULDER {12/2017} {234.88}
+  | (MoRTH)
+  | (N24001130)
+  | 1574 6L ACCESS-CONTROLLED HIGHWAY OF 3-2021 3/2024 169.08 105.77 99.99
+  | DAAT KALI TUNNEL - DEHRADUN OF (May-2025) (N.A.)
+  | GANESHPUR ? DEHRADUN SECTION FROM {5/2025} {169.08}
+  | KM.
+  | (NHAI)
+  | (N24001525)
+  | 1575 UPGRADATION AND 4L OF HARIDWAR 8-2021 10/2024 1,377.79 678.86 56.11
+  | BYPASS FROM KM 0.000 (KM 188.100 OF NH- (Aug-2025) (1,384.11)
+  | 58) TO KM. 15.100 (KM 5.100 OF {8/2025} {1,377.79}
+  | (NHAI)
+  | (N24001526)
+  | 1576 4L MEDINIPUR TO BALLUPUR FROM KM. 3-2022 2/2025 1,092.90 463.92 81.20
+  | 458.65 TO KM. 487.65 OF NH-07(PKG-2) (Nov-2025) (1,092.90)
+  | (NHAI) {11/2025} {1,092.90}
+  | (N24001553)
+  | 1577 4L POANTA SAHEB?MEDNIPUR FROM KM. 6-2022 5/2025 524.54 91.94 74.78
+  | 435.65 TO KM. 458.65 OF NH-07(PKG-1) (Oct-2025) (683.26)
+  | (NHAI) {10/2025} {683.26}
+  | (N24001990)
+  | 1578 ACCESS ROAD/BRIDGE CONNECTIVITY 5-2022 9/2024 314.31 178.37 68.23
+  | FROM NH-09 AT KM.40 NEAR JAGBUDA (Nov-2026) (N.A.)
+  | BRIDGE (INDIA) TO BOUNDARY PILLAR {11/2026} {314.31}
+  | (NHAI)
+  | (N24001991)
+  | 1579 CONSTRUCTION FOR MITIGATION 12-2023 12/2025 216.88 80.79 75.80
+  | MEASURES KM 368.00-UTTARAKHAND-TO (N.A.) (N.A.)
+  | KM 433.00 ON NH-07-PKG-1 {12/2025} {216.88}
+  | (NHIDCL)
+  | (N24002163)
+  | 1580 CONSTRUCTION FOR MITIGATION 12-2023 12/2025 250.33 57.10 48.50
+  | MEASURES KM 450.00-UTTARAKHAND-TO (N.A.) 
+  | ... [truncated, full page is 2075 chars]
+
+--- TABLE DETECTION (pdfplumber.find_tables) ---
+  Page 3: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'SYNOPSIS']
+  Page 4: 1 table(s) detected
+    Table 1: 2 rows, 1 cols
+      ['']
+      ['']
+  Page 6: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'LIST OF TABLES']
+  Page 11: 1 table(s) detected
+    Table 1: 15 rows, 6 cols
+      ['Sector', 'Sl. No.', 'Project Name\n(Agency Name)\n(Project Code)\n(State Name)', 'Original\nCost\nin Rs. Crore', 'Date of Commissioning\nOriginal\n(MM/YYYY)', 'Cumulative\nExpenditure\nin Rs. Crore']
+      ['COAL', '', '', '', '', '']
+      [None, '1', 'TALABIRA II AND III OCP\n(NLC)\n(N06000189)\n(ODISHA)', '2,401.07', '01/2027', '1,626.71']
+      ['HEALTH AND FAMILY\nWELFARE', '', '', '', '', '']
+      [None, '2', 'C/O NEW HOSPITAL BLOCK FOR SREE CHITRA TIRUNAL\nINSTITIUTE OF MEDICAL SCIENCE AND TECHNOLOGY\n(SCTIMST\n(CPWD FOR HEALTH)\n(N28000112)\n(KERALA)', '150.29', '03/2020', '162.52']
+      ... (10 more rows)
+  Page 51: 1 table(s) detected
+    Table 1: 9 rows, 9 cols
+      ['State', 'Sector', 'Sl No', 'Project Name\n(Agency Name)\n(Project Code)', 'Date\nof\nApproval\n(MM/YYYY)', 'Date of Commissioning\nOriginal\n(Revised)\n{Anticipated}\n(MM/YYYY)', 'Cost Original\n(Revised)\n{Anticipated}\nin Rs. Crore', 'Cumulative\nExpenditure\nin Rs. Crore', 'Physical\nProgress\n(%)']
+      [None, None, '81', '4 LANE FROM KM 56.400 TO KM 120.300\nFROM B.KOTHAPALLI JUNCTION TO\nGORANTLA OF NH 716G\n(MoRTH)\n(N24001959)', '3-2022', '9/2025\n(N.A.)\n{9/2025}', '839.98\n(N.A.)\n{839.98}', '146.12', '67.00']
+      [None, None, '82', '4L GREENFIELD ROAD CONNECTING\nNORTH AND SOUTH INDUSTRIAL CLUSTER\nOF KHANDALERU CREEK NEAR\nKRISHNAPAT\n(NHAI)\n(N24001979)', '8-2022', '9/2025\n(N.A.)\n{9/2025}', '609.43\n(N.A.)\n{609.43}', '25.24', '52.45']
+      [None, None, '83', '4 LANING OF NH 544D FROM EXISTING KM\n346.300 OF NH 44 (DESIGN CHAINAGE KM\n0.000) TO KM 39.380 (DESIG\n(NHAI)\n(N24001980)', '10-2022', '7/2025\n(N.A.)\n{7/2025}', '907.76\n(N.A.)\n{907.76}', '388.40', '81.35']
+      [None, None, '84', 'CONSTRUCTION OF SIX LANING OF\nNAIDUPETA JUNCTION - TURPUKANUPUR\nSECTION FROM KM.57+046 TO KM.91+927\n(NHAI)\n(N24001981)', '7-2022', '10/2025\n(N.A.)\n{10/2025}', '1,398.84\n(N.A.)\n{1,398.84}', '58.68', '16.00']
+      ... (4 more rows)
+
+================================================================================
+FORMAT CLASS: EARLY_FORMAT
+FILE: FR_JUNE_2025.pdf
+================================================================================
+Total pages: 234
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'Expenditure' found on 222 pages: [7, 8, 9, 10, 11]...[227, 228, 229]
+  'Ministry of' found on pages: [4, 5, 232]
+  'Ongoing Projects' found on 217 pages: [2, 7, 8, 9, 10]...[227, 228, 229]
+  'Project Code' found on 219 pages: [11, 12, 13, 14, 15]...[227, 228, 229]
+  'Project Name' found on 219 pages: [11, 12, 13, 14, 15]...[227, 228, 229]
+  'Sl. No' found on pages: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+  'project' found on 229 pages: [2, 3, 4, 5, 6]...[228, 229, 233]
+
+--- PAGE 1/234 ---
+  | 
+
+--- PAGE 2/234 ---
+  | MOSPI_ June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | CONTENTS
+  | Synopsis ……………………………………………………………………………………………….…… ....1-2
+  | List of Tables ………………………………………………….…………................................................3-225
+  | Table:-1. Overview of Ongoing Projects: Sector-wise Distribution…….……..............................…3-4
+  | Table:-2. Overview of Ongoing Projects: State-wise Distribution…………..................................…5-6
+  | Table:-3. Project List: Completed during June 2025…….…….....................................................…7-11
+  | Table:-4. Project List: Added during June 2025….…………….......................................................12-12
+  | Table:-5. Project List: Frozen/Deleted during June 2025…………………………………………......13-13
+  | Table:-6. Project List: Ongoing Projects of North-East Region…………………………………......14-36
+  | Table:-7. Project List: Ongoing Projects as of 30th June 2025……………..………………...….....37-225
+
+--- PAGE 3/234 ---
+  | MOSPI_ June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | SYNOPSIS
+
+--- PAGE 4/234 ---
+  | Ministry of Statistics and Programme Implementation_June,2025
+  | Flash Report - Central Sector Infrastructure Projects Costing Rs. 150 crore & above
+  | .
+  | 1
+
+--- PAGE 5/234 ---
+  | Ministry of Statistics and Programme Implementation_June,2025
+  | Note: This report is as of June 2025, based on the (non-exhaustive) list of projects and information as reported by Line
+  | Ministries/ implementing agencies on the OCMS (www.cspm.gov.in) portal latest by 8th July 2025.
+  | ****
+  | 2
+
+--- PAGE 6/234 ---
+  | MOSPI_ June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | LIST OF TABLES
+
+--- PAGE 11/234 ---
+  | MOSPI_ (June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-3. Project List: Completed during June 2025
+  | Sector Sl. No. Project Name Original Date of Commissioning Cumulative
+  | (Agency Name) Cost Original Expenditure
+  | (Project Code) in Rs. Crore (MM/YYYY) in Rs. Crore
+  | (State Name)
+  | PETROLEUM
+  | 1 CITY GAS DISTRIBUTION IN WEST BENGAL 5,830.20 03/2031 875.27
+  | (HPCL)
+  | (N16000392)
+  | (WEST BENGAL)
+  | 2 CGD PROJECT AT NAWADA AND KODERMA DISTRICTS 169.00 12/2029 71.00
+  | (IOCL)
+  | (N16000426)
+  | (MULTI STATE)
+  | 3 CGD PROJECT IN TONK, SAWAI MADHOPUR, DAUSA, 1,751.00 03/2030 301.39
+  | KARAULI
+  | (HPCL)
+  | (N16000496)
+  | (RAJASTHAN)
+  | POWER
+  | 4 BHENSARA 320 MW 1,221.73 07/2022 1,139.42
+  | (NTPC)
+  | (N18000293)
+  | (RAJASTHAN)
+  | 5 150 MW SOLAR PV PROJECT IN GUJARAT (LIMBDI, 674.92 09/2022 572.53
+  | MESANKA AND RADHANPUR)
+  | (NTPC)
+  | (N18000296)
+  | (GUJARAT)
+  | 6 SAMBHU KI BHURJ-II SOLAR 300MW 1,782.00 09/2021 1,369.88
+  | (NTPC)
+  | (N18000286)
+  | (RAJASTHAN)
+  | RAILWAYS
+  | 7 KARAIKAL PERALAM(23KM)-NEW LINE PROJECT 304.22 03/2026 292.65
+  | (SR)
+  | (N22000625)
+  | (TAMIL NADU)
+  | ROAD TRANSPORT AND
+  | HIGHWAYS
+  | 8 REHABILITATION AND UPGRADATION OF BHOKARDAN 291.37 06/2024 157.59
+  | TO KUMBHARI FATA DESIGN CH. (KM 13+500 TO 17+00)
+  | AND RAJ
+  | (MoRTH)
+  | (N24001887)
+  | (MAHARASHTRA)
+  | 9 UP-GRADATION OF TIRORA-GONDIA, STATE HIGHWAY 288.14 04/2023 72.78
+  | FROM EXISTING KM 163+213 (ON SH-335, TIRORA) TO KM
+  | 191+
+  | (MoRTH)
+  | (N24001888)
+  | (MAHARASHTRA)
+  | 7
+
+--- PAGE 51/234 ---
+  | MOSPI_ (June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th June 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 83 CONSTRUCTION OF 4 LANE ACCESS 7-2022 12/2025 909.47 97.03 32.30
+  | CONTROLLED HIGHWAY FROM (N.A.) (N.A.)
+  | CHILLAKURU CROSS ROAD TO {12/2025} {909.47}
+  | TURPUKANUPUR KM 0+000
+  | (NHAI)
+  | (N24002033)
+  | 84 COMPLETION OF BALANCE WORKS 9-2022 1/2025 166.52 60.34 98.00
+  | PENDING IN BIT AND PIECES (N.A.) (N.A.)
+  | (INCOMPLETE STRETCH AT 7 {6/2025} {166.52}
+  | LOCATIONS) AND LISTED
+  | (NHAI)
+  | (N24002103)
+  | 85 6L ACCESS CONTROLLED 2-2024 2/2026 813.66 91.93 24.20
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | NARAYANMPET (CH. 203+500) TO {2/2026} {813.66}
+  | CHANDRASEKHARPURAM (CH. 22
+  | (NHAI)
+  | (N24002122)
+  | 86 6L ACCESS CONTROLLED 2-2024 2/2026 1,292.65 135.27 18.96
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | CHANDRASEKHARAPURAM (CH. {2/2026} {1,292.65}
+  | 228+000) TO POLAVARAM (CH. 260
+  | (NHAI)
+  | (N24002123)
+  | 87 6L ACCESS CONTROLLED 2-2024 2/2026 747.29 142.65 32.02
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | POLAVARAM (CH. 260+000) TO {2/2026} {747.29}
+  | MARRIPUDI (CH. 285+500) OF [
+  | (NHAI)
+  | (N24002124)
+  | 88 6L ACCESS CONTROLLED 2-2024 2/2026 976.40 229.68 43.60
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | MARRIPUDI (CH. 285+500) TO {2/2026} {976.40}
+  | SOMAVARAPPADU (CH. 314+600)
+  | (NHAI)
+  | (N24002125)
+  | 89 6L ACCESS CONTROLLED 2-2024 2/2026 1,103.89 133.89 15.98
+  | GREENFIELD HIGHWAY FROM (N.A.) (N.A.)
+  | SOMAVARAPPADU (CH.314.600) TO {2/2026} {1,103.89}
+  | MUPPAVARAM (CH.343+240) O
+  | (NHAI)
+  | (N24002126)
+  | 90 4-LANE WITH PAVED SHOULDERS 3-2023 12/2025 1,318.57 424.42 -
+  | FROM KM 32/0 TO KM 79/650 (DESIGN (N.A.) (N.A.)
+  | CHAINAGE KM 32+000 TO KM 78+760) {11/2025} {1,318.57}
+  | PUTTA
+  | (MoRTH)
+  | (N24002139)
+  | 47
+
+--- PAGE 101/234 ---
+  | MOSPI_ (June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th June 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 509 CONSTRUCTION OF FOUR LANE 3-2021 2/2024 2,919.96 2,334.99 70.00
+  | RINGROAD BYPASS SRINAGAR CITY (Oct-2025) (N.A.)
+  | {10/2025} {2,919.96}
+  | (NHAI)
+  | (N24001511)
+  | 510 FOUR LANING OF JAMMU-AKHNOOR 7-2022 1/2025 245.34 57.20 40.95
+  | PKG-1 (N.A.) (N.A.)
+  | {10/2025}
+  | {245.34}
+  | (NHIDCL)
+  | (N24001543)
+  | 511 DELHI-AMRITSAR-KATRA 9-2021 9/2024 1,821.72 1,005.37 83.71
+  | EXPRESSWAY (PHASE-II PKG-XVI) (Dec-2025) (1,917.32)
+  | EXISTING JAKH (VIJAYPUR)-KUNJWANI {12/2025} {1,917.32}
+  | SECTION OF NH-4
+  | (NHAI)
+  | (N24001550)
+  | 512 DELHI-AMRITSAR-KATRA 10-2021 9/2024 3,044.02 1,589.44 70.21
+  | EXPRESSWAY (PHASE-II PKG-XIV) (Dec-2025) (3,044.02)
+  | FROM JUNCTION WITH PATHANKOT- {12/2025} {3,044.02}
+  | GURDASPUR ROAD (NH-5
+  | (NHAI)
+  | (N24001551)
+  | 513 DELHI-AMRITSAR-KATRA 10-2021 9/2024 2,714.95 1,663.19 85.78
+  | EXPRESSWAY (PHASE-II PKG-XV) (Feb-2026) (2,714.95)
+  | [JUNCTION WITH HIRANAGAR ROAD {2/2026} {2,714.95}
+  | NEAR VILLAGE GURHA B
+  | (NHAI)
+  | (N24001552)
+  | 514 CORRIDOR EFFICIENCY 8-2022 6/2024 200.05 153.30 63.20
+  | IMPROVEMENT INCLUDING REMOVAL (Jun-2025) (200.05)
+  | OF BLACK SPOTS IN LAKHANPUR - {6/2025} {208.92}
+  | SAMBA SECTION OF NH-
+  | (NHAI)
+  | (N24001619)
+  | 515 CONSTRUCTION OF 9-2021 10/2023 442.14 352.62 19.88
+  | TUNNELS/VIADUCTS AT IDENTIFIED (Dec-2025) (N.A.)
+  | SLIDING/SLIP ZONES AT KM 130.550 TO {12/2025} {442.14}
+  | KM.130.750; KM.
+  | (NHAI)
+  | (N24001620)
+  | 516 4L OF KM.165.092 TO KM.171.855 7-2021 8/2024 614.48 187.59 7.00
+  | (NORTH BOUND) AND FROM (Jul-2025) (N.A.)
+  | KM.166.895 TO KM.173.638 (SOUTH {7/2025} {614.48}
+  | BOUND), EXCL.
+  | (NHAI)
+  | (N24001621)
+  | 97
+
+--- PAGE 151/234 ---
+  | MOSPI_ (June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th June 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 941 MARAM - PEREN PKG-3 8-2021 5/2023 467.41 264.83 100.00
+  | (Oct-2024) (N.A.)
+  | (NHIDCL) {2/2025} {467.41}
+  | (N24001439)
+  | 942 IMPHAL - KHONGSANG PKG-4 8-2021 12/2023 579.63 180.72 72.50
+  | (Jul-2025) (N.A.)
+  | (NHIDCL) {12/2025} {579.63}
+  | (N24001453)
+  | 943 CONSTRUCTION OF 2-LANING WITH 9-2021 2/2024 310.76 129.15 96.77
+  | HARD SHOULDER ROAD OF UKHRUL - (Mar-2025) (N.A.)
+  | TOLOI - TADUBI SECTION OF NH-102A {7/2025} {310.76}
+  | FROM
+  | (NHIDCL)
+  | (N24001473)
+  | 944 IMPHAL - KHONGSANG PKG-5 12-2021 5/2024 410.68 152.34 70.11
+  | (Jan-2026) (N.A.)
+  | (NHIDCL) {3/2026} {410.68}
+  | (N24001538)
+  | 945 IMPHAL - KHONGSANG PKG-6 12-2021 2/2025 504.76 190.26 78.25
+  | (Sep-2025) (N.A.)
+  | (NHIDCL) {12/2025} {504.76}
+  | (N24001539)
+  | 946 AKASH BRIDGE - JESSAMI SECTION 3-2022 2/2025 152.11 73.48 100.00
+  | PKG-2 (Feb-2025) (N.A.)
+  | {3/2025} {152.11}
+  | (NHIDCL)
+  | (N24001540)
+  | 947 CONSTRUCTION OF 2-LANING WITH 9-2021 1/2025 315.56 137.81 88.74
+  | HARD SHOULDER ROAD OF UKHRUL - (Aug-2025) (N.A.)
+  | TOLOI - TADUBI SECTION OF NH-102A {8/2025} {315.56}
+  | FROM
+  | (NHIDCL)
+  | (N24001974)
+  | 948 LMPHAL TO JIRIBAM PKG-7 1-2023 12/2025 760.16 157.48 62.92
+  | (Dec-2025) (N.A.)
+  | (NHIDCL) {3/2026} {760.16}
+  | (N24002028)
+  | 949 UKHRUL TOLOI TADUBI PKG-2 3-2023 2/2026 578.98 153.92 71.25
+  | (Mar-2026) (N.A.)
+  | (NHIDCL) {3/2026} {578.98}
+  | (N24002131)
+  | 147
+
+--- PAGE 201/234 ---
+  | MOSPI_ (June 2025) _FR_ Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects as of 30th June 2025
+  | State Sector Sl No Project Name Date Date of Commissioning Cost Original Cumulative Physical
+  | (Agency Name) of Original (Revised) Expenditure Progress
+  | (Project Code) Approval (Revised) {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) {Anticipated} in Rs. Crore
+  | (MM/YYYY)
+  | 1358 WIDENING TO TWO LANE WITH PAVED 1-2017 10/2019 196.52 125.53 92.74
+  | SHOULDERS FROM KM 0/970 TO KM (N.A.) (N.A.)
+  | 40/410 OF JANAGAON-THIRUMALAGIRI {10/2019} {196.52}
+  | OF NH
+  | (MoRTH)
+  | (N24000983)
+  | 1359 WIDENING TO TWO LANE WITH PAVED 1-2017 12/2019 283.00 259.15 99.32
+  | SHOULDERS FROM KM 15.525 TO KM (N.A.) (N.A.)
+  | 62.880 OF JADCHERLA-KALWAKURTHY {12/2019} {283.00}
+  | SECTI
+  | (MoRTH)
+  | (N24000984)
+  | 1360 WIDENING TO TWO LANE WITH PAVED 1-2017 5/2019 300.00 239.93 99.09
+  | SHOULDERS FROM KM 67.00 TO (N.A.) (N.A.)
+  | 114.425 OF KALWAKURTHY- {5/2019} {300.00}
+  | MALLEPALLY SECTION
+  | (MoRTH)
+  | (N24000986)
+  | 1361 6 LANING FROM KM 9.90 TO KM 19.948 1-2018 5/2020 283.15 270.01 92.62
+  | (ARAMGARH-SAMSHABAD SECTION) (N.A.) (N.A.)
+  | OF HYDERABAD-SAMSHABAD SECTION {5/2020} {283.15}
+  | OF NH
+  | (MoRTH)
+  | (N24000987)
+  | 1362 WIDENING AND STRENGTHENING OF 1-2018 12/2019 230.03 231.31 100.00
+  | EXISTING 2-LANE TO 2-LANE WITH (N.A.) (N.A.)
+  | PAVED SHOULDERS FROM KM.159/0 {12/2019} {230.03}
+  | TO 165/4
+  | (MoRTH)
+  | (N24000988)
+  | 1363 WIDENING AND STRENGTHENING OF 2-2018 6/2020 206.13 190.94 98.56
+  | EXISTING CARRIAGEWAY IN 2 LANE (N.A.) (N.A.)
+  | WITH PAVED SHOULDERS FROM {6/2020} {206.13}
+  | KM.25/0 TO 59
+  | (MoRTH)
+  | (N24000989)
+  | 1364 REHABILITATION AND UPGRADATION 2-2018 11/2019 294.13 198.75 90.10
+  | OF NH-167 FROM DESIGN KM.113.900 (N.A.) (N.A.)
+  | TO 154.479 (MALLEPALLY - HALIYA {11/2019} {294.13}
+  | SECT
+  | (MoRTH)
+  | (N24000990)
+  | 1365 REHABILITATION AND UPGRADATION 3-2018 9/2020 322.81 315.23 98.14
+  | OF NH-167 FROM DESIGN KM.187.723 (N.A.) (N.A.)
+  | TO 234.434 (MIRYALAGUDA TO KODAD {9/2020} {322.81}
+  | SEC
+  | (MoRTH)
+  | (N24000993)
+  | 197
+
+--- PAGE 231/234 ---
+  | AGENCY_NAME AGENCY_NAME_SHORT
+  | EDCIL(India) Limited EDCIL
+  | ENNORE PORT LTD. ENNORE PORT LTD
+  | ENNORE TANK TERMINAL PVT.LTD. ENNORE TANK
+  | EASTERN RAILWAYS ER
+  | FERTILISER AND CHEMICAL TRIVANCORE FACT
+  | FREIGHT OPERATION INFORMATION SYSTEM FOIS
+  | SETTING UP FILM AND TELEVISION INSTITUTE FTI
+  | GAS AUTHORITY OF INDIA LIMITED GAIL
+  | GOA SHIPYARD LIMITED GSL
+  | HEALTH & FAMILY WELFARE H&FW
+  | HINDUSTAN AERONAUTICS LTD HAL
+  | HINDUSTAN COPPER LIMITED HCL
+  | HALDIA FERTILISER CORPORATION HFC
+  | HLL Infra Tech Services Limited HITES
+  | HYDERABAD METRO RAIL LTD HMRL
+  | HINDUSTAN PETROLEUM CORPORATION LIMITED HPCL
+  | HPCL Rajasthan Refinery Limited(JV) HPCLRRL(JV)
+  | HPOIL Gas Pvt. Ltd HPOIL(JV)
+  | HOSPITAL SERVICES CONSULTANCY CORPORATION LTD HSCC
+  | HINDUSTAN STEELWORK CONSTRUCTION LIMITED HSCL
+  | HINDUSTHAN STEELWORKS CONSTRUCTION LIMITED HSCL
+  | HSCL FOR DONER HSCL FOR DONER
+  | HSCL FOR RURAL HSCL FOR RURAL
+  | HSCL FOR WATER HSCL FOR WATER
+  | INDIAN FARMERS FERTILISER CORPORATION IFFCO
+  | INDIRA GANDHI CENTRE FOR ATOMIC RESEARCH IGCAR
+  | INDRADHANUSH GAS GRID LTD IGGL
+  | India International Convention and Expo Centre IICC
+  | IICC FOR DPIIT IICC FOR DPIIT
+  | INDIAN IRON STEEL COMPANY IISCO
+  | Indian Institute of Technology, Kharagpur IITKGP
+  | INDIAN OIL CORPORATION LIMITED IOCL
+  | INDIAN PETRO-CHEMICAL CORPORATION LIMITED IPCL
+  | Indian Railway Construction Company Limited IRCON
+  | INDIAN STRATEGIC PETROLEUM RESERVES LTD ISPRL
+  | INDIAN TELEPHONE INDUSTRY ITI
+  | Inland Waterways Authority of India IWAI
+  | INLAND WATER TRANSPORT IWT
+  | JAWAHAR LAL NEHRU NATIONAL URBAN RENEWAL MISSION JNNURM
+  | JWAAHARLAL NEHRU PORT TRUST JNPT
+  | Jharkhand Urban Infrastructure Development Company Ltd JUIDCO
+  | Kolkata Metropolitan Development Authority KMDA
+  | KOCHI METRO RAIL CORPORATION LTD KMRCL
+  | KOLKATA METRO RAIL CORPORATION LIMITED KOMRCL
+  | KAMARAJAR PORT LIMITED KPL
+  | KONKAN RAILWAY KR
+  | Rail Infrastructure Development Company KRIDE
+  | KOCHI REFINERIES LIMITED KRL
+  | Kochi Salem Pipeline Private Limited(JV) KSPPL(JV)
+  | LINE DOUBLING LD
+  | LUCKNOW METRO RAIL CORPORATION LIMITED LMRCL
+  | MANGALORE REFINERY AND PETROCHEMIC
+  | ... [truncated, full page is 2027 chars]
+
+--- TABLE DETECTION (pdfplumber.find_tables) ---
+  Page 1: 1 table(s) detected
+    Table 1: 2 rows, 3 cols
+      [None, '', None]
+      ['', '', '']
+  Page 3: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'SYNOPSIS']
+  Page 6: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'LIST OF TABLES']
+  Page 11: 1 table(s) detected
+    Table 1: 14 rows, 6 cols
+      ['Sector', 'Sl. No.', 'Project Name\n(Agency Name)\n(Project Code)\n(State Name)', 'Original\nCost\nin Rs. Crore', 'Date of Commissioning\nOriginal\n(MM/YYYY)', 'Cumulative\nExpenditure\nin Rs. Crore']
+      ['PETROLEUM', '', '', '', '', '']
+      [None, '1', 'CITY GAS DISTRIBUTION IN WEST BENGAL\n(HPCL)\n(N16000392)\n(WEST BENGAL)', '5,830.20', '03/2031', '875.27']
+      [None, '2', 'CGD PROJECT AT NAWADA AND KODERMA DISTRICTS\n(IOCL)\n(N16000426)\n(MULTI STATE)', '169.00', '12/2029', '71.00']
+      [None, '3', 'CGD PROJECT IN TONK, SAWAI MADHOPUR, DAUSA,\nKARAULI\n(HPCL)\n(N16000496)\n(RAJASTHAN)', '1,751.00', '03/2030', '301.39']
+      ... (9 more rows)
+  Page 51: 1 table(s) detected
+    Table 1: 9 rows, 9 cols
+      ['State', 'Sector', 'Sl No', 'Project Name\n(Agency Name)\n(Project Code)', 'Date\nof\nApproval\n(MM/YYYY)', 'Date of Commissioning\nOriginal\n(Revised)\n{Anticipated}\n(MM/YYYY)', 'Cost Original\n(Revised)\n{Anticipated}\nin Rs. Crore', 'Cumulative\nExpenditure\nin Rs. Crore', 'Physical\nProgress\n(%)']
+      [None, None, '83', 'CONSTRUCTION OF 4 LANE ACCESS\nCONTROLLED HIGHWAY FROM\nCHILLAKURU CROSS ROAD TO\nTURPUKANUPUR KM 0+000\n(NHAI)\n(N24002033)', '7-2022', '12/2025\n(N.A.)\n{12/2025}', '909.47\n(N.A.)\n{909.47}', '97.03', '32.30']
+      [None, None, '84', 'COMPLETION OF BALANCE WORKS\nPENDING IN BIT AND PIECES\n(INCOMPLETE STRETCH AT 7\nLOCATIONS) AND LISTED\n(NHAI)\n(N24002103)', '9-2022', '1/2025\n(N.A.)\n{6/2025}', '166.52\n(N.A.)\n{166.52}', '60.34', '98.00']
+      [None, None, '85', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nNARAYANMPET (CH. 203+500) TO\nCHANDRASEKHARPURAM (CH. 22\n(NHAI)\n(N24002122)', '2-2024', '2/2026\n(N.A.)\n{2/2026}', '813.66\n(N.A.)\n{813.66}', '91.93', '24.20']
+      [None, None, '86', '6L ACCESS CONTROLLED\nGREENFIELD HIGHWAY FROM\nCHANDRASEKHARAPURAM (CH.\n228+000) TO POLAVARAM (CH. 260\n(NHAI)\n(N24002123)', '2-2024', '2/2026\n(N.A.)\n{2/2026}', '1,292.65\n(N.A.)\n{1,292.65}', '135.27', '18.96']
+      ... (4 more rows)
+
+================================================================================
+FORMAT CLASS: QUARTERLY
+FILE: QPISR_QR_1st_2025-26.pdf
+================================================================================
+Total pages: 261
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'Expenditure' found on 219 pages: [7, 8, 9, 10, 11]...[254, 255, 256]
+  'Ministry of' found on pages: [4, 5, 259]
+  'Ongoing Projects' found on 228 pages: [7, 8, 9, 10, 11]...[254, 255, 256]
+  'Project Code' found on 22 pages: [12, 13, 14, 15, 16]...[31, 32, 33]
+  'Project Name' found on 245 pages: [12, 13, 14, 15, 16]...[254, 255, 256]
+  'Sl. No' found on 27 pages: [7, 8, 9, 10, 11]...[31, 32, 33]
+  'project' found on 255 pages: [2, 3, 4, 6, 7]...[255, 256, 260]
+
+--- PAGE 1/261 ---
+  | 
+
+--- PAGE 2/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | CONTENTS
+  | Synopsis …………………………………………………………………………………………………………………………….…...1-2
+  | List of Tables ………………………………………………….…………................................................................................…3-252
+  | Table:-1. Overview of Ongoing Projects: Sector-wise Distribution………………………………………….…….….3-4
+  | Table:-2. Overview of Ongoing Projects: State-wise Distribution...…………………………………………………...5-7
+  | Table:-3. Project List: Completed during 1st Quarter (April-June), 2025-26 …………..........................................8-21
+  | Table:-4. Project List: Added during 1st Quarter (April-June), 2025-26……………………………………………..22-27
+  | Table:-5. Project List: Frozen/Deleted during 1st Quarter (April-June), 2025-26…………………………..……...28-29
+  | Table:-6. Project List: Ongoing Projects of North-East Region……………………………………………………..30-54
+  | Table:-7. Project List: Ongoing Projects during 1st Quarter (April-June), 2025-26.…………………………..…55-252
+
+--- PAGE 3/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | SYNOPSIS
+
+--- PAGE 4/261 ---
+  | Ministry of Statistics and Programme Implementation_1st Quarter (April-June_ 2025-26)
+  | Quarterly Report - Central Sector Infrastructure Projects Costing Rs. 150 crore &above
+  | 1
+
+--- PAGE 5/261 ---
+  | Ministry of Statistics and Programme Implementation_1st Quarter (April-June_ 2025-26)
+  | ****
+  | 2
+
+--- PAGE 6/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | LIST OF TABLES
+
+--- PAGE 11/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-2. Overview of Ongoing Projects: State-wise Distributionduring 1st Quarter
+  | (April-June),2025-26
+  | Sl. No. State Projects Cost Original Cumulative
+  | (Revised)* Expenditure
+  | {Anticipated} in Rs. Crore
+  | in Rs. Crore
+  | 33 WEST BENGAL 59 80,015.35 49,435.96
+  | (84,823.81)
+  | {92,455.22}
+  | Total 1734 2842540.23 1774657.72
+  | (2965542.48)
+  | {3158147.58}
+  | *Either Revised or Original Cost
+  | 7
+
+--- PAGE 51/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-6. Project List: Ongoing Projects of North-East Region during 1st Quarter
+  | (April-June),2025-26
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 157 WIDENING AND UP-GRADATION TO 2-LANE 4-2017 9/2023 428.11 613.69 99.82
+  | WITH PAVED SHOULDER CONFIGURATION (N.A.)
+  | (N.A.)
+  | AND GEOMETRIC IMPROVEMENTS FRO {746.39}
+  | {5/2025}
+  | (NHIDCL)
+  | (N24000865)
+  | NAGALAND PETROLEUM 158 AUGMENTATION OF DIMAPUR DEPOT, 8-2023 11/2027 227.62 6.62 19
+  | DIMAPUR (N.A.)
+  | (N.A.)
+  | {227.62}
+  | {11/2027}
+  | (IOCL)
+  | (N16000529)
+  | RAILWAYS 159 NEW LINE FROM DIMAPUR TO 4-2006 3/2026 6,663.20 4,942.71 74
+  | ZUBZA(KOHIMA) NATIONAL PROJECT (N.A.) (6,663.20)
+  | (NEFR) {12/2029} {6,663.20}
+  | (NFR)
+  | (N22000124)
+  | ROAD TRANSPORT 160 FOUR LANING OF DIMAPUR KOHIMA ROAD 3-2016 9/2019 373.07 382.50 99.81
+  | AND HIGHWAYS FROM DESIGN KM 123.840 TO KM 138.775 (01-11-2022) (534.41)
+  | (EXISTING KM 124.100 TO KM 1 {5/2025} {534.41}
+  | (NHIDCL)
+  | (N24000686)
+  | 161 FOUR LANING OF EXISTING DIMAPUR 3-2016 8/2022 429.52 321.40 92.46
+  | KOHIMA ROAD FROM DESIGN KM 152.490 (01-09-2025) (794.74)
+  | TO KM 166.700 (EXISTING KM 156.00 {9/2025} {794.74}
+  | (NHIDCL)
+  | (N24000688)
+  | 162 (I) CONSTRUCTION OF FOUR/SIX LANING 2-2017 9/2020 387.00 392.01 100
+  | FROM KM 132.375 TO KM 158.058 (TOTAL (01-02-2023) (688.12)
+  | NEW ALIGNMENT LENGTH OF 20. {4/2025} {688.12}
+  | (NHIDCL)
+  | (N24000752)
+  | 163 (II) CONSTRUCTION OF DIMAPUR BYPASS 3-2018 11/2022 500.09 393.53 100
+  | (ASSAM PORTION) OF 4/6 LANE PAVEMENT (01-08-2024) (698.81)
+  | ON EPC BASIS FROM EXISTING {4/2025} {698.81}
+  | (NHIDCL)
+  | (N24000753)
+  | 164 CONSTRUCTION OF TWO LANE WITH HARD 3-2018 12/2021 215.79 132.93 80.38
+  | SHOULDERS OF MERANGKONG-TAMLU- (N.A.)
+  | (01-08-2022)
+  | MON ROAD FROM EXISTING KM 20.456 TO {215.79}
+  | {8/2025}
+  | (NHIDCL)
+  | (N24000763)
+  | 47
+
+--- PAGE 101/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects 1st Quarter (April-June),2025-26
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 369 REDEVELOPMENT OF GENERAL POOL 10-2016 7/2021 1,180.00 36.69 2
+  | RESIDENTIAL COLONY AT SRINIWASPURI NEW (N.A.) (N.A.)
+  | DELHI PHASE-I {6/2024} {1,100.80}
+  | (CPWD)
+  | (N28000128)
+  | 370 REDEVELOPMENT OF GPRA AT KASTURBA 10-2016 3/2022 1,128.00 740.35 68
+  | NAGAR PHASE I (N.A.) (N.A.)
+  | {6/2024} {1,128.00}
+  | (CPWD)
+  | (N28000129)
+  | 371 DELHI METRO PHASE IV THREE PRIORITY 7-2019 3/2025 24,948.65 16,369.75 67.19
+  | CORRIDORS (N.A.) (N.A.)
+  | (DMRC) {3/2026} {24,948.65}
+  | (N28000135)
+  | 372 CONSTRUCTION OF 184 MULTI STORIED 1-2022 11/2024 646.52 506.00 94
+  | FLATS FOR HON'BLE MPS AT BKS MARG, NEW (01-08-2025) (N.A.)
+  | DELHI {8/2025} {646.52}
+  | (CPWD)
+  | (N28000153)
+  | 373 REDEVELOPMENT OF GPRA AT NETAJI NAGAR 10-2016 3/2024 1,536.72 507.85 91.5
+  | NEW DELHI PACKAGE 2 (01-08-2025) (N.A.)
+  | {3/2025}
+  | {1,536.72}
+  | (NBCC)
+  | (N28000156)
+  | WATER 374 CONSTRUCTION OF 564 MLD 124 MGD WASTE 3-2017 12/2022 665.78 782.51 100
+  | RESOURCES WATER TREATMENT PLANT WITH EFFLUENT (N.A.) (N.A.)
+  | STANDARDS OF BOD ? 10MG/L {3/2025} {665.78}
+  | (DJB)
+  | (N30000014)
+  | GOA CIVIL AVIATION 375 EXTENSION OF EXISTING INTEGRATED 11-2017 9/2021 255.69 125.92 86.75
+  | TERMINAL BUILDING AND ALLIED WORKS AT (01-08-2025) (255.69)
+  | GOA AIRPORT. {8/2025} {255.69}
+  | (AAI)
+  | (N04000095)
+  | DEPARTMENT 376 CONSTRUCTION OF PERMANENT CAMPUS 5-2019 8/2021 303.90 360.00 99.3
+  | OF HIGHER FOR NATIONAL INSTITUTE OF TECHNOLOGY (N.A.) (N.A.)
+  | EDUCATION GOA AT CUNCOLIM, GOA. {12/2024} {390.40}
+  | (CPWD EDUCATION)
+  | (N42000002)
+  | 97
+
+--- PAGE 151/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects 1st Quarter (April-June),2025-26
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 810 BALANCE WORK OF 4L OF INDORE- 8-2019 4/2023 323.51 246.27 100
+  | GUJARAT/MP BORDER FROM KM 106.210 TO (N.A.) (N.A.)
+  | KM 115.250 (START AND END POINT OF {11/2023} {323.51}
+  | (NHAI)
+  | (N24001768)
+  | 811 4L OF OBEDULLGANJ - BUDNI SECTION FROM 2-2022 3/2024 417.51 312.94 100
+  | KM. 8.400 TO KM. 20.700 IN RATANPANI (01-03-2025) (N.A.)
+  | WILDLIFE AREA OF NH - 69 {7/2025} {417.51}
+  | (NHAI)
+  | (N24001770)
+  | 812 2- LANE WITH PAVED SHOULDERS OF 8-2021 9/2025 581.65 135.75 45.78
+  | HINOTIYA TO MEHULWA FROM DESIGN KM (N.A.) (592.03)
+  | 27+000 9OF EXISTING SH-19 KM 26+5 {9/2025} {581.65}
+  | (NHAI)
+  | (N24001921)
+  | 813 CONSTRUCTION OF MIHONA BYPASS, LAHAR 3-2022 12/2024 179.19 47.91 96
+  | BYPASS, DABOH BYPASS and BHANDER (N.A.) (N.A.)
+  | BYPASS (TOTAL LENGTH 20.60 KM) {3/2025} {179.19}
+  | (MoRTH)
+  | (N24001962)
+  | 814 UPGRADATION OF NASRULLAGANI-REHTI- 12-2021 10/2024 305.12 71.47 34.46
+  | BUDHNI SCCTION TO 2-LANE WITH PAVED (N.A.) (N.A.)
+  | SHOULDER FROM KM 0+150 TO KM {9/2025} {305.12}
+  | (MoRTH)
+  | (N24001963)
+  | 815 UPGRADATION and WIDENING OF JHARKHEDA- 3-2022 5/2025 365.21 112.27 64
+  | BERASIA - DHOLKHEDI FROM DESIGN KM (N.A.) (N.A.)
+  | 0+000 TO KM 87+900 (DESIGN {5/2025} {365.21}
+  | (MoRTH)
+  | (N24001964)
+  | 816 REHABILITATION AND UPGRADATION OF 3-2022 2/2025 386.49 77.42 48.77
+  | KURWAI?MUNGAOLI?CHANDERI ROAD (N.A.) (N.A.)
+  | SECTION OF NH-346, FROM DESIGN CHAIN {12/2025} {386.49}
+  | (MoRTH)
+  | (N24001965)
+  | 817 BALANCE WORK FOR REHABILITATION AND 12-2020 4/2023 529.44 378.40 0
+  | UP-GRADATION OF SIDHI-SINGRAULI FROM (N.A.) (N.A.)
+  | KM 82.400 TO KM 187.993 SEC {6/2025} {529.44}
+  | (MoRTH)
+  | (N24001966)
+  | 147
+
+--- PAGE 201/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects 1st Quarter (April-June),2025-26
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 1268 CONSTRUCTION OF FOUR LANE GREENFIELD 1-2021 5/2024 1,741.86 1,294.40 96.5
+  | PROJECT OF DELHI-AMRITSAR-KATRA (01-06-2025) (2,281.02)
+  | EXPRESSWAY (PHASE-I PKG-V) FROM {8/2025} {2,281.02}
+  | (NHAI)
+  | (N24001632)
+  | 1269 CONSTRUCTION OF FOUR/SIX LANE 5-2021 12/2024 1,368.91 163.58 15.31
+  | GREENFIELD LUDHIANA ? RUPNAGAR (01-10-2026) (1,368.91)
+  | NATIONAL HIGHWAY NO. NH-205K UNDER {10/2026} {1,368.91}
+  | BHAR
+  | (NHAI)
+  | (N24001636)
+  | 1270 DEVELOPMENT OF 6 LANE JALANDHAR 3-2021 1/2025 1,754.84 1,145.02 40.01
+  | BYPASS FROM KAHLWAN NATIONAL HIGHWAY (N.A.) (N.A.)
+  | 03 DESIGN KM 0.00 ENDING AT K {1/2025} {1,754.84}
+  | (NHAI)
+  | (N24001637)
+  | 1271 4L GREENFIELD A. MALOUT BYPASS FROM 11-2021 7/2024 646.42 481.67 96
+  | CH. KM 44.500 TO CH. KM 35.500 ON NH-07 (01-08-2025) (646.42)
+  | AND CH. KM 0.000 TO KM 6 {8/2025} {646.42}
+  | (NHAI)
+  | (N24001638)
+  | 1272 FOUR LANING OF MOGA TO BAJAKHANA 5-2020 12/2024 864.23 434.88 65
+  | LAMBWALI SECTION OF 105B GREENFIELD (01-08-2025) (864.23)
+  | ALIGNMENT FROM DESIGN CHAINAGE {8/2025} {864.23}
+  | (NHAI)
+  | (N24001639)
+  | 1273 6L AMRITSAR BATHINDA GREENFIELD 3-2021 11/2024 1,229.38 762.83 48.58
+  | SECTION FROM VILLAGE TIBA ON NE 5A TO (N.A.) (N.A.)
+  | JN. WITH MOGA JALANDHAR ROAD N {11/2024} {1,229.38}
+  | (NHAI)
+  | (N24001640)
+  | 1274 DELHI AMRITSAR KATRA EXPRESSWAY PHASE 3-2021 10/2024 1,641.75 188.55 26.01
+  | I SPUR III FROM JUNCTION WITH AMRITSAR (01-12-2025) (N.A.)
+  | JALANDHAR ROAD NH3 NEAR {12/2025} {1,641.75}
+  | (NHAI)
+  | (N24001641)
+  | 1275 FOUR LANING OF AMRITSAR BYPASS FROM 2-2021 8/2024 1,474.77 475.88 75.25
+  | NEW TARN TARAN ROAD TO AJNALA ROAD (01-12-2025) (N.A.)
+  | FROM DESIGN KM. 0.750 TO DESI {12/20
+  | ... [truncated, full page is 2037 chars]
+
+--- PAGE 251/261 ---
+  | MOSPI_ (April-June 2025) 1st_QPISR_ (2025_26) Central Sector Projects cost Rs. 150Cr and above
+  | Table:-7. Project List: Ongoing Projects 1st Quarter (April-June),2025-26
+  | State Sector Sl No Project Name Date Date of Cost Original Cumulative Physical
+  | (Agency Name) of Commissioning (Revised) Expenditure Progress
+  | (Project Code) Approval Original {Anticipated} in Rs. Crore (%)
+  | (MM/YYYY) (Revised) in Rs. Crore
+  | {Anticipated}
+  | (MM/YYYY)
+  | 1689 ITAPARA OC 12-2023 3/2030 929.10 65.03 6.8
+  | (N.A.) (N.A.)
+  | (ECL) {3/2030} {929.10}
+  | (N06000272)
+  | 1690 UCE OF TILABONI UG 1-2023 3/2029 749.07 52.09 10.3
+  | (N.A.) (N.A.)
+  | (ECL) {3/2029} {749.07}
+  | (N06000276)
+  | 1691 UCE OF PARASEA BELBAID REORGANISATION 1-2023 3/2029 389.10 131.42 16.41
+  | UG (01-03-2028) (N.A.)
+  | (ECL) {3/2028} {389.10}
+  | (N06000277)
+  | 1692 PARASCOLE JAMBAD OCP 11-2024 3/2037 1,193.55 6.04 0.01
+  | (N.A.) (N.A.)
+  | (ECL) {3/2037} {1,193.55}
+  | (N06000281)
+  | DEPARTMENT 1693 CONSTRUCTION OF TWO NOS GIRLS 3-2020 6/2020 193.83 187.65 99
+  | OF HIGHER HOSTELS AND ONE NO BOYS HOSTEL OF 500 (N.A.) (N.A.)
+  | EDUCATION CAPACITY EACH G PLUS 8 STOREYED {3/2024} {193.83}
+  | (CPWD EDUCATION)
+  | (N28000146)
+  | HOME AFFAIRS 1694 NSG AT KOLKATA 10-2014 4/2018 162.88 193.91 100
+  | (N.A.) (210.83)
+  | (CPWD FOR MHA) {8/2025} {210.83}
+  | (N28000104)
+  | MINES 1695 CONSTRUCTION OF BASEMENTG FLOOR10 4-2019 4/2022 255.37 74.13 40
+  | STORIES BUILDING FOR THE STATE OF THE (N.A.) (N.A.)
+  | ART, DG, GSI AT SECTOR-V, SA {8/2026} {255.37}
+  | (CPWD)
+  | (N10000015)
+  | PETROLEUM 1696 DURGAPUR-HALDIA PIPELINE PROJECT 3-2017 12/2020 1,740.00 2,193.80 90
+  | (01-12-2025) (2,433.15)
+  | (GAIL) {12/2025} {2,433.15}
+  | (N16000275)
+  | 1697 CITY GAS DISTRIBUTION IN WEST BENGAL 3-2019 3/2031 5,830.20 875.27 100
+  | (01-03-2031) (N.A.)
+  | (HPCL) {3/2031} {5,830.20}
+  | (N16000392)
+  | 1698 HALDIA PANAGARH PIPELINE PROJECT 11-2022 11/2025 1,010.00 573.18 80.09
+  | (N.A.) (N.A.)
+  | (HPCL) {11/2025} {1,010.00}
+  | (N16000478)
+  | 247
+
+--- TABLE DETECTION (pdfplumber.find_tables) ---
+  Page 3: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'SYNOPSIS']
+  Page 4: 1 table(s) detected
+    Table 1: 3 rows, 1 cols
+      ['']
+      ['']
+      ['']
+  Page 6: 1 table(s) detected
+    Table 1: 1 rows, 2 cols
+      ['', 'LIST OF TABLES']
+  Page 11: 1 table(s) detected
+    Table 1: 3 rows, 5 cols
+      ['Sl. No.', 'State', 'Projects', 'Cost Original\n(Revised)*\n{Anticipated}\nin Rs. Crore', 'Cumulative\nExpenditure\nin Rs. Crore']
+      ['33', 'WEST BENGAL', '59', '80,015.35\n(84,823.81)\n{92,455.22}', '49,435.96']
+      ['', 'Total', '1734', '2842540.23\n(2965542.48)\n{3158147.58}', '1774657.72']
+  Page 51: 1 table(s) detected
+    Table 1: 9 rows, 9 cols
+      ['State', 'Sector', 'Sl No', 'Project Name\n(Agency Name)\n(Project Code)', 'Date\nof\nApproval\n(MM/YYYY)', 'Date of\nCommissioning\nOriginal\n(Revised)\n{Anticipated}\n(MM/YYYY)', 'Cost Original\n(Revised)\n{Anticipated}\nin Rs. Crore', 'Cumulative\nExpenditure\nin Rs. Crore', 'Physical\nProgress\n(%)']
+      ['', '', '157', 'WIDENING AND UP-GRADATION TO 2-LANE\nWITH PAVED SHOULDER CONFIGURATION\nAND GEOMETRIC IMPROVEMENTS FRO\n(NHIDCL)\n(N24000865)', '4-2017', '9/2023\n(N.A.)\n{5/2025}', '428.11\n(N.A.)\n{746.39}', '613.69', '99.82']
+      [None, 'PETROLEUM', '158', 'AUGMENTATION OF DIMAPUR DEPOT,\nDIMAPUR\n(IOCL)\n(N16000529)', '8-2023', '11/2027\n(N.A.)\n{11/2027}', '227.62\n(N.A.)\n{227.62}', '6.62', '19']
+      [None, 'RAILWAYS', '159', 'NEW LINE FROM DIMAPUR TO\nZUBZA(KOHIMA) NATIONAL PROJECT\n(NEFR)\n(NFR)\n(N22000124)', '4-2006', '3/2026\n(N.A.)\n{12/2029}', '6,663.20\n(6,663.20)\n{6,663.20}', '4,942.71', '74']
+      [None, 'ROAD TRANSPORT', '160', 'FOUR LANING OF DIMAPUR KOHIMA ROAD\nFROM DESIGN KM 123.840 TO KM 138.775\n(EXISTING KM 124.100 TO KM 1\n(NHIDCL)\n(N24000686)', '3-2016', '9/2019\n(01-11-2022)\n{5/2025}', '373.07\n(534.41)\n{534.41}', '382.50', '99.81']
+      ... (4 more rows)
+
+================================================================================
+FORMAT CLASS: OLD_FORMAT_A
+FILE: FlashReport_July_2025.pdf
+================================================================================
+Total pages: 67
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 31 pages: [36, 37, 38, 39, 40]...[64, 65, 66]
+  'Date of Approval' found on pages: [33, 34, 35]
+  'Department of' found on pages: [20, 29, 48]
+  'Expenditure' found on 54 pages: [4, 7, 9, 10, 11]...[64, 65, 66]
+  'Ministry of' found on pages: [16, 17, 18, 19, 25, 26, 27, 28, 29, 30, 31, 33, 34, 37, 39]
+  'Ongoing Projects' found on 59 pages: [2, 4, 7, 9, 10]...[64, 65, 66]
+  'Physical Progress' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Project Code' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Project Name' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Sl.No' found on 41 pages: [23, 25, 26, 27, 28]...[64, 65, 66]
+  'Table 3:' found on pages: [2, 32]
+  'Table 4:' found on pages: [36]
+  'project' found on 67 pages: [1, 2, 3, 4, 5]...[65, 66, 67]
+
+--- PAGE 1/67 ---
+  | 477
+  | Scan the QR code to access JULY 2025
+  | the PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/67 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Ongoing Projects of North Eastern Region
+  | Table 4: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of July 2025, based on the projects worth Rs. 150
+  | crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies (excluding Ministry of Road Transport &
+  | Highways, may reflect from next month onwards) on the IPM portal (indiainvestmentgrid.gov.in) latest by 21st August 2025.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 37/67 ---
+  | All Ongoing Projects
+  | JULY 2025
+  | Orignal/Target DoC
+  | Date of Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State Approval Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport 01/2026 265.91
+  | 1 Andhra Pradesh 01/2024 45.54 31
+  | (Airport Authority of India [AAI]) 03/2026 (265.91)
+  | (612786)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | 09/2022 611.8
+  | 2 Airport. Andhra Pradesh 09/2020 464.55 77
+  | 12/2025 (611.8)
+  | (Airport Authority of India [AAI])
+  | (701107)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | 08/2025 347.15
+  | 3 (Airport Authority of India [AAI]) Andhra Pradesh 08/2023 81.23 49
+  | 12/2025 (347.15)
+  | (701121)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | 03/2025 1712
+  | 4 (Adani Airport Holdings Limited) Assam 03/2018 0 94.1
+  | (-) (1712)
+  | (706724)
+  | Development of New Civil Enclave at Bihta
+  | 09/2027 1413
+  | 5 (Airport Authority of India [AAI]) Bihar 03/2025 0 1
+  | (-) (1413)
+  | (612183)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | 01/2026 911.66
+  | 6 (Airport Authority of India [AAI]) Bihar 07/2024 133.01 23
+  | (-) (911.66)
+  | (612194)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna 07/2023 1216.9
+  | 7 Bihar 10/2018 1046.48 94
+  | (Airport Authority of India [AAI]) 11/2025 (1216.9)
+  | (701101)
+  | Goa Airport Terminal Building Extension Project
+  | 12/2021 255.69
+  | 8 (Airport Authority of India [AAI]) Goa 12/2019 130 88
+  | 09/2025 (255.69)
+  | (701105)
+  | Development of Dholera International Greenfield Airport , Gujarat
+  | 06/2026 1305
+  | 9 (Airport Authority of India [AAI]) Gujarat 07/2022 666.42 63
+  | 06/2026 (1551
+  | ... [truncated, full page is 5354 chars]
+
+--- PAGE 38/67 ---
+  | All Ongoing Projects
+  | JULY 2025
+  | Orignal/Target DoC
+  | Date of Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State Approval Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Development of Lal Bahadur Shastri International airport, Varanasi including C/o New
+  | Terminal Building, Apron Extension, Runway Extension, PTT and allied works. 07/2027 2869.65
+  | 24 Uttar Pradesh 07/2024 302.3 14
+  | (Airport Authority of India [AAI]) 07/2027 (2869.65)
+  | (701113)
+  | Development of New Integrated Civil Enclave at Agra Airport
+  | 07/2026 579
+  | 25 (Airport Authority of India [AAI]) Uttar Pradesh 07/2024 74.3 14
+  | (-) (579)
+  | (701122)
+  | Development of New Civil Enclave at Bagdogra Airport
+  | 01/2027 1549
+  | 26 (Airport Authority of India [AAI]) West Bengal 10/2023 262.41 10
+  | 01/2027 (1549)
+  | (611495)
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata. 02/2025 328.3
+  | 27 West Bengal 12/2023 98.15 44
+  | (Airport Authority of India [AAI]) 08/2026 (328.3)
+  | (612791)
+  | Total (27) 23265.01 5883.97
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | 07/2031 159.77
+  | 28 (MIS MoCoal Integration Logins) Assam 07/2022 80.84 0
+  | (-) (159.77)
+  | (615820)
+  | TIRAP OCP
+  | 11/2030 289.46
+  | 29 (MIS MoCoal Integration Logins) Assam 11/2022 105.47 0
+  | (-) (289.46)
+  | (615821)
+  | PORDA CHIMTAPANI OCP [10 MTY]
+  | 03/2029 2310.12
+  | 30 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 12/2020 83.66 10
+  | (-) (2310.12)
+  | (400144)
+  | CHHAL OC SEAM III [6 MTY]
+  | 03/2022 610.63
+  | 31 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 12/2013 577.46 85
+  | 09/2025 (610.63)
+  | (400145)
+  | KUSMUNDA OC EXPANSION [15 TO 50 MTY]
+  | 03/2023 7612.33
+  | 32 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 08/2013 4697.95 81
+  | 03/2030 (7612.33)
+  | (400147)
+  | BAROUD OC EXPANSION [3.0-10.0MTY]
+  | 03/2029 2309.8
+  | 33 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 08/2020 913.03 47
+  | (-) (2309.8)
+  | (400149)
+  | DIPKA EXPANSION OCP [40 MTY]
+  | 03/2029 5241.4
+  | 34 (South Eastern Coalfields 
+  | ... [truncated, full page is 4366 chars]
+
+--- PAGE 39/67 ---
+  | All Ongoing Projects
+  | JULY 2025
+  | Orignal/Target DoC
+  | Date of Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State Approval Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | RPR MAGADH EXP OCP
+  | 03/2028 7254.37
+  | 53 (Ministry of Coal) Jharkhand 08/2020 1534.64 38
+  | (-) (7254.37)
+  | (400150)
+  | NORTH URIMARI EXPANSION OCP
+  | 03/2029 778.8
+  | 54 (Ministry of Coal) Jharkhand 07/2021 695.11 67
+  | (-) (778.8)
+  | (400151)
+  | EPR ROHINI - KARKETTA OCP
+  | 03/2028 1020.42
+  | 55 (Ministry of Coal) Jharkhand 01/2021 83.95 20
+  | (-) (1020.42)
+  | (400153)
+  | EPR PUNDI OCP
+  | 03/2027 713.35
+  | 56 (Ministry of Coal) Jharkhand 11/2020 236.57 10
+  | (-) (713.35)
+  | (400154)
+  | EPR ASHOK OC
+  | 03/2028 2898.28
+  | 57 (Ministry of Coal) Jharkhand 05/2021 176.6 21
+  | (-) (2898.28)
+  | (400155)
+  | EPR AMRAPALI OCP
+  | 03/2028 5136.15
+  | 58 (Ministry of Coal) Jharkhand 02/2020 1125.18 43
+  | (-) (5136.15)
+  | (400156)
+  | RAJRAPPA RCE OCP
+  | 03/2016 510.85
+  | 59 (Ministry of Coal) Jharkhand 12/2009 488.57 76
+  | 03/2027 (510.85)
+  | (400160)
+  | CHITRA EAST OC
+  | 03/2026 513.99
+  | 60 (Eastern Coal Fields Limited [ECL]) Jharkhand 08/2018 228.71 51
+  | (-) (513.99)
+  | (400172)
+  | JHARKHAND-LAIYO OCP
+  | 03/2031 764.57
+  | 61 (Ministry of Coal) Jharkhand 08/2020 145.81 25
+  | (-) (764.57)
+  | (400352)
+  | MOONIDIH XV SEAM UG
+  | 03/2019 1230.27
+  | 62 (BCCL - CIL) Jharkhand 08/2011 624.17 81
+  | 05/2026 (1230.27)
+  | (400425)
+  | 2.5 MTPA PATHERDIH NLW WASHERY
+  | 04/2018 334.27
+  | 63 (Ministry of Coal) Jharkhand 04/2016 138.69 48
+  | 03/2026 (334.27)
+  | (611017)
+  | AMALAGAMATED NTST KUJAMA OCP 8.5MTY
+  | 03/2030 4011.85
+  | 64 (Ministry of Coal) Jharkhand 01/2023 398.5 28
+  | (-) (4011.85)
+  | (611864)
+  | MURAIDIH UG PROJECT
+  | 04/2014 339.87
+  | 65 (Ministry of Coal) Jharkhand 02/2011 190.65 70
+  | 12/2026 (339.87)
+  | (613808)
+  | TAPIN SOUTH EXPN
+  | 03/2028 230.41
+  | 66 (Ministry of Coal) Jharkhand 11/2020 21 20
+  | (-) (230.41)
+  | (615349)
+  | SIRKA OC
+  | 03/2028 222.82
+  | 67 (Ministry of Coal) Jharkhand 05/2020 139.31 60
+  | (-) (222.82)
+  | (615822)
+  | TETARIAKHAR OC
+  | 03/2025 243.52
+  | 68 (Ministry of Coal) Jharkhand 11/2019 44.64 28
+  | 03/2027 (243.52)
+  | (615843)
+  | CHUPERBHITA S
+  | ... [truncated, full page is 4103 chars]
+
+--- PAGE 51/67 ---
+  | All Ongoing Projects
+  | JULY 2025
+  | Orignal/Target DoC
+  | Date of Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State Approval Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Capacity Expansion of Panipat Refinery from 15 to 25 MMTPA
+  | 09/2024 34627
+  | 372 (Ministry of Petroleum & Natural Gas) Haryana 02/2021 23977.47 88
+  | 12/2025 (36225)
+  | (701289)
+  | Installation of Multiple Effect Evaporator [MEE] for ETP-1, 2 & 4 of Panipat Refinery
+  | and Petrochemical Complex. 06/2023 165.13
+  | 373 Haryana 12/2020 129.27 70
+  | (MinistryofPetroleumNaturalGas) 06/2026 (247.69)
+  | (709783)
+  | City Gas Distribution Project at Jammu, Udhampur, Reasi, Samba and Kathua
+  | Districts Jammu and 03/2032 538
+  | 374 03/2022 4.09 0
+  | (MinistryofPetroleumNaturalGas) Kashmir 03/2032 (538)
+  | (709773)
+  | Development of Jharia CBM Block [Phase-1]
+  | 01/2024 431
+  | 375 (Oil and Natural Gas Corporation Limited [ONGC]) Jharkhand 11/2019 211.34 58
+  | 08/2025 (431)
+  | (610984)
+  | Laying of Natural Gas Pipeline from Hazaribagh to Ranchi [HRPL]
+  | 02/2026 202.07
+  | 376 (MinistryofPetroleumNaturalGas) Jharkhand 02/2023 55.46 45
+  | 02/2026 (202.07)
+  | (709785)
+  | Power System Upgradation Project
+  | 11/2025 385
+  | 377 (Mangalore Refinary and Petrochemicals Limited) Karnataka 10/2023 132.73 63
+  | 11/2025 (385)
+  | (612790)
+  | Demo Bio-ATF Project
+  | 01/2027 364
+  | 378 (Ministry of Petroleum & Natural Gas) Karnataka 03/2024 22.82 10
+  | 01/2027 (364)
+  | (616879)
+  | Revamping/ Augmentation of facilities at existing port terminal at Mangalore
+  | 12/2025 463
+  | 379 (Ministry of Petroleum & Natural Gas) Karnataka 01/2022 264.44 82
+  | 12/2025 (500.62)
+  | (709774)
+  | Replacement and Extension of Jetty Pipelines [REJP] at KR
+  | 03/2026 621.87
+  | 380 (Bharat Petroleum Corporation Limited [BPCL]) Kerala 03/2023 192.66 83
+  | 03/2026 (621.87)
+  | (709790)
+  | Setting up Polypropylene Unit at Kochi Refinery
+  | 10/2027 4460
+  | 381 (MinistryofPetroleumNaturalGas) Kerala 12/2023 255.64 12
+  | 10/2027 (4460)
+  | (709799)
+  | Ethylene Cracker Project at Bina Refinery including downstream Petrochemical Plan
+  | ... [truncated, full page is 5358 chars]
+
+--- PAGE 66/67 ---
+  | All Ongoing Projects
+  | JULY 2025
+  | Orignal/Target DoC
+  | Date of Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State Approval Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Morna [Gureghar] Irrigation Project
+  | 06/2023 219.9
+  | 789 (Department of Water Resources, River Development & GR) Uttar Pradesh 12/2007 0 0
+  | (-) (219.9)
+  | (701395)
+  | Madhya Ganga canal Phase-II
+  | 12/2019 1060.67
+  | 790 (Irrigation & Water Resources-UP) Uttar Pradesh 07/2007 4415.24 82
+  | 12/2024 (4417.21)
+  | (701408)
+  | Jamrani Dam Multipurpose Project
+  | 06/2029 2584.1
+  | 791 (Irrigation-UK) Uttarakhand 04/2023 486.52 16
+  | (-) (2584.1)
+  | (613787)
+  | Total (45) 97037.25 143185.74
+  | ****
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 65
+  | (PAIMANA)
+
+--- PAGE 67/67 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 66
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: OLD_FORMAT_B
+FILE: FlashReport_August_2025.pdf
+================================================================================
+Total pages: 67
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 31 pages: [36, 37, 38, 39, 40]...[64, 65, 66]
+  'Date of Approval' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Department of' found on pages: [23, 29, 30, 31]
+  'Expenditure' found on 54 pages: [4, 7, 9, 10, 11]...[64, 65, 66]
+  'Ministry of' found on pages: [16, 17, 18, 19, 20, 25, 26, 27, 28, 30, 31, 33, 37, 48]
+  'Ongoing Projects' found on 59 pages: [2, 4, 7, 9, 10]...[64, 65, 66]
+  'Physical Progress' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Project Code' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Project Name' found on 33 pages: [33, 34, 35, 37, 38]...[64, 65, 66]
+  'Sl.No' found on 41 pages: [23, 25, 26, 27, 28]...[64, 65, 66]
+  'Table 3:' found on pages: [2, 32]
+  'Table 4:' found on pages: [36]
+  'project' found on 67 pages: [1, 2, 3, 4, 5]...[65, 66, 67]
+
+--- PAGE 1/67 ---
+  | 478
+  | AUGUST 2025
+  | Scan the QR code to access
+  | the PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/67 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Ongoing Projects of North Eastern Region
+  | Table 4: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of August 2025, based on the projects worth Rs. 150
+  | crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies (excluding Ministry of Road Transport &
+  | Highways, may reflect from next month onwards) on the IPM portal (indiainvestmentgrid.gov.in) latest by 12th September 2025.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 37/67 ---
+  | All Ongoing Projects
+  | AUGUST 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport 03/2023 01/2026 265.91
+  | 1 Andhra Pradesh 50.06 34
+  | (Airport Authority of India [AAI]) (01/2024) (03/2026) (265.91)
+  | (612786)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | 06/2020 09/2022 611.8
+  | 2 Airport. Andhra Pradesh 473.27 79
+  | (09/2020) (12/2025) (611.8)
+  | (Airport Authority of India [AAI])
+  | (701107)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | 12/2022 08/2025 347.15
+  | 3 (Airport Authority of India [AAI]) Andhra Pradesh 90.56 51
+  | (08/2023) (12/2025) (347.15)
+  | (701121)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | 12/2016 03/2025 1712
+  | 4 (Adani Airport Holdings Limited) Assam 2335.44 91
+  | (03/2018) (11/2025) (1712)
+  | (706724)
+  | Development of New Civil Enclave at Bihta
+  | 08/2024 09/2027 1413
+  | 5 (Airport Authority of India [AAI]) Bihar 0 1
+  | (03/2025) (-) (1413)
+  | (612183)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | 07/2024 01/2026 911.66
+  | 6 (Airport Authority of India [AAI]) Bihar 160.2 26
+  | (07/2024) (-) (911.66)
+  | (612194)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna 12/2018 07/2023 1216.9
+  | 7 Bihar 1096.51 94
+  | (Airport Authority of India [AAI]) (10/2018) (11/2025) (1216.9)
+  | (701101)
+  | Goa Airport Terminal Building Extension Project
+  | 11/2017 12/2021 255.69
+  | 8 (Airport Authority of India [AAI]) Goa 130 90
+  | (12/2019) (09/2025) (255.69)
+  | (701105)
+  | Development of Dholera International Gree
+  | ... [truncated, full page is 5967 chars]
+
+--- PAGE 38/67 ---
+  | All Ongoing Projects
+  | AUGUST 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata. 04/2023 02/2025 328.3
+  | 26 West Bengal 101.26 45
+  | (Airport Authority of India [AAI]) (12/2023) (08/2026) (328.3)
+  | (612791)
+  | Total (26) 23049.84 24879.77
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | 07/2022 07/2031 159.77
+  | 27 (MIS MoCoal Integration Logins) Assam 80.84 0
+  | (07/2022) (-) (159.77)
+  | (615820)
+  | TIRAP OCP
+  | 11/2022 11/2030 289.46
+  | 28 (MIS MoCoal Integration Logins) Assam 105.47 0
+  | (11/2022) (-) (289.46)
+  | (615821)
+  | PORDA CHIMTAPANI OCP [10 MTY]
+  | 12/2020 03/2029 2310.12
+  | 29 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 83.66 10
+  | (12/2020) (-) (2310.12)
+  | (400144)
+  | CHHAL OC SEAM III [6 MTY]
+  | 12/2013 03/2022 610.63
+  | 30 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 577.46 85
+  | (12/2013) (09/2025) (610.63)
+  | (400145)
+  | KUSMUNDA OC EXPANSION [15 TO 50 MTY]
+  | 08/2013 03/2023 7612.33
+  | 31 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 4697.95 81
+  | (08/2013) (03/2030) (7612.33)
+  | (400147)
+  | BAROUD OC EXPANSION [3.0-10.0M
+  | 08/2020 03/2029 2309.8
+  | 32 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 926.11 48
+  | (08/2020) (-) (2309.8)
+  | (400149)
+  | DIPKA EXPANSION OCP [40 MTY]
+  | 12/2020 03/2029 5241.4
+  | 33 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 2830.01 37
+  | (12/2020) (-) (5241.4)
+  | (400354)
+  | GEVRA OC [70 MTY]
+  | 03/2016 03/2023 11816.4
+  | 34 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 5328.96 77
+  | (03/2016) (03/2026) (11816.4)
+  | (400424)
+  | JAMPALI OC RCE [2.0 MTY]
+  | 05/2020 03/2025 278.64
+  | 35 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 210.07 82
+  | (05/2020) (06/2025) (278.64)
+  | (613795)
+  | AMERA OC RCE [1.0 MTY]
+  | 02/2015 03/2026 335.97
+  | 36 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 88.21 42
+  | (02
+  | ... [truncated, full page is 4459 chars]
+
+--- PAGE 39/67 ---
+  | All Ongoing Projects
+  | AUGUST 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | EPR PUNDI OCP
+  | 11/2020 03/2027 713.35
+  | 55 (Ministry of Coal) Jharkhand 236.58 10
+  | (11/2020) (-) (713.35)
+  | (400154)
+  | EPR ASHOK OC
+  | 05/2021 03/2028 2898.28
+  | 56 (Ministry of Coal) Jharkhand 178.51 22
+  | (05/2021) (-) (2898.28)
+  | (400155)
+  | EPR AMRAPALI OCP
+  | 02/2020 03/2028 5136.15
+  | 57 (Ministry of Coal) Jharkhand 1154.6 43
+  | (02/2020) (-) (5136.15)
+  | (400156)
+  | RAJRAPPA RCE OCP
+  | 12/2009 03/2016 510.85
+  | 58 (Ministry of Coal) Jharkhand 488.67 76
+  | (12/2009) (03/2027) (510.85)
+  | (400160)
+  | CHITRA EAST OC
+  | 08/2018 03/2026 513.99
+  | 59 (Eastern Coal Fields Limited [ECL]) Jharkhand 229.01 51
+  | (08/2018) (-) (513.99)
+  | (400172)
+  | JHARKHAND-LAIYO OCP
+  | 08/2020 03/2031 764.57
+  | 60 (Ministry of Coal) Jharkhand 145.81 29
+  | (08/2020) (-) (764.57)
+  | (400352)
+  | MOONIDIH XV SEAM UG
+  | 08/2011 03/2019 1230.27
+  | 61 (Ministry of Coal) Jharkhand 626.63 81
+  | (08/2011) (05/2026) (1230.27)
+  | (400425)
+  | 2.5 MTPA PATHERDIH NLW WASHERY
+  | 10/2015 04/2018 334.27
+  | 62 (Ministry of Coal) Jharkhand 140.51 48
+  | (04/2016) (03/2026) (334.27)
+  | (611017)
+  | AMALAGAMATED NTST KUJAMA OCP 8.5MTY
+  | 01/2023 03/2030 4011.85
+  | 63 (Ministry of Coal) Jharkhand 398.5 28
+  | (01/2023) (-) (4011.85)
+  | (611864)
+  | MURAIDIH UG PROJECT
+  | 02/2011 04/2014 339.87
+  | 64 (Ministry of Coal) Jharkhand 191 70
+  | (02/2011) (12/2026) (339.87)
+  | (613808)
+  | TAPIN SOUTH EXPN
+  | 11/2020 03/2028 230.41
+  | 65 (Ministry of Coal) Jharkhand 22.02 20
+  | (11/2020) (-) (230.41)
+  | (615349)
+  | SIRKA OC
+  | 05/2020 03/2028 222.82
+  | 66 (Ministry of Coal) Jharkhand 139.31 53
+  | (05/2020) (-) (222.82)
+  | (615822)
+  | TETARIAKHAR OC
+  | 11/2019 03/2025 243.52
+  | 67 (Ministry of Coal) Jharkhand 44.64 30
+  | (11/2019) (03/2027) (243.52)
+  | (615843)
+  | CHUPERBHITA SIMLONG OCP MDO 6 MTY
+  | 12/2023 03/2037 979.08
+  | 68 (Eastern Coal Fields Limited [ECL]) Jharkhand 0 0
+  | (12/2023) (-) (979.08)
+  | (616225)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | 02/2020 03/2029 41
+  | ... [truncated, full page is 4498 chars]
+
+--- PAGE 51/67 ---
+  | All Ongoing Projects
+  | AUGUST 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | City Gas Distribution Projects at Gopalganj, Siwan, West Champaran, East
+  | Champaran and Deoria districts NA 06/2030 3919
+  | 372 Bihar 400.92 18
+  | (Bharat Petroleum Corporation Limited [BPCL]) (12/2022) (06/2030) (3919)
+  | (709793)
+  | Redevelopment of Sobhasan Complex
+  | NA 02/2026 885.63
+  | 373 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 789.49 78
+  | (08/2021) (02/2026) (1286.67)
+  | (400087)
+  | Redevelopment of Santhal Field [Onshore-Mehsana Asset]
+  | NA 03/2026 1162.56
+  | 374 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 1157 94
+  | (02/2017) (03/2026) (1162.56)
+  | (400167)
+  | Redevelopment of Linch Field
+  | NA 03/2025 631.03
+  | 375 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 505.15 79
+  | (04/2021) (10/2025) (860.04)
+  | (400169)
+  | Petrochemical and Lube Integration Project at Gujarat Refinery
+  | NA 08/2024 18936
+  | 376 (Ministry of Petroleum & Natural Gas) Gujarat 12327.91 83
+  | (09/2020) (12/2025) (17825)
+  | (701329)
+  | Installation of new Biturox Unit along with allied facilities at Gujarat Refinery
+  | NA 08/2025 328.29
+  | 377 (MinistryofPetroleumNaturalGas) Gujarat 151.53 58
+  | (01/2022) (09/2026) (287)
+  | (709778)
+  | Commercial Polymer Flooding Project in Bechraji field
+  | NA 11/2024 621.4
+  | 378 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 137.71 21
+  | (01/2022) (11/2025) (621.4)
+  | (709838)
+  | Restoration of Gas Terminal, Phase-I [Part-A], Hazira
+  | NA 02/2025 249.43
+  | 379 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 209.45 94
+  | (05/2022) (12/2025) (249.43)
+  | (709840)
+  | Old Pipe Line Replacement [OPRP] Group-A
+  | NA 07/2025 173.03
+  | 380 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 147.02 87
+  | (07/2021) (03/2026) (169.84)
+  | (709841)
+  | Kalol Redevelopment Project, Ahmedabad Asset
+  | NA 03/2027 1487.41
+  | 381 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat
+  | ... [truncated, full page is 5578 chars]
+
+--- PAGE 66/67 ---
+  | All Ongoing Projects
+  | AUGUST 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Shahpur Kandi Dam Project
+  | 02/2010 06/2022 2285.81
+  | 791 (Department of Water Resources-PB) Punjab 2072.33 80
+  | (04/2018) (10/2025) (2715.7)
+  | (701411)
+  | Sri Ram Sagar Project Stage - II
+  | NA 12/2019 736.13
+  | 792 (Irrigation and CAD-TG) Telangana 940.7 96
+  | (04/2005) (03/2026) (949.87)
+  | (400102)
+  | Indiramma Flood Flow Canal Project
+  | NA 12/2019 1331.3
+  | 793 (Irrigation and CAD-TG) Telangana 4491.08 92
+  | (01/2006) (12/2026) (5940.09)
+  | (400103)
+  | J. Chokka Rao Devadula Lift Irrigation Scheme
+  | NA 12/2019 8200.71
+  | 794 (Irrigation and CAD-TG) Telangana 4558.89 87
+  | (04/2006) (12/2025) (14730)
+  | (701405)
+  | Rajiv Bhima Lift Irrigation Scheme
+  | NA 12/2019 1402
+  | 795 (Irrigation and CAD-TG) Telangana 1839.76 100
+  | (01/2008) (03/2026) (2509.66)
+  | (701406)
+  | Saryu Nahar CADWM Project
+  | NA 12/2019 1672.7
+  | 796 (Irrigation & Water Resources-UP) Uttar Pradesh 0 0
+  | (04/2017) (03/2026) (1672.7)
+  | (400093)
+  | Arjun Sahayak Project
+  | NA 12/2019 741.38
+  | 797 (Irrigation & Water Resources-UP) Uttar Pradesh 3218.3 100
+  | (04/2009) (12/2019) (2465.68)
+  | (400117)
+  | Morna [Gureghar] Irrigation Project
+  | NA 12/2025 219.9
+  | 798 (Department of Water Resources, River Development & GR) Uttar Pradesh 0 0
+  | (12/2007) (-) (219.9)
+  | (701395)
+  | Madhya Ganga canal Phase-II
+  | NA 12/2019 1060.67
+  | 799 (Irrigation & Water Resources-UP) Uttar Pradesh 4415.24 82
+  | (07/2007) (12/2025) (4417.21)
+  | (701408)
+  | Jamrani Dam Multipurpose Project
+  | 10/2023 06/2029 2584.1
+  | 800 (Irrigation-UK) Uttarakhand 968.52 16
+  | (04/2023) (-) (2584.1)
+  | (613787)
+  | Total (40) 93248.95 138396.86
+  | ****
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 65
+  | (PAIMANA)
+
+--- PAGE 67/67 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 66
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: TRANSITIONAL
+FILE: FlashReport_September_2025.pdf
+================================================================================
+Total pages: 72
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 31 pages: [41, 42, 43, 44, 45]...[69, 70, 71]
+  'Date of Approval' found on 36 pages: [33, 35, 36, 38, 39]...[69, 70, 71]
+  'Department of' found on pages: [29, 33, 35]
+  'Expenditure' found on 55 pages: [4, 7, 9, 10, 11]...[69, 70, 71]
+  'Ministry of' found on pages: [16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 31, 36, 38, 39, 42]
+  'Ongoing Projects' found on 59 pages: [2, 4, 7, 9, 10]...[69, 70, 71]
+  'Physical Progress' found on 33 pages: [38, 39, 40, 42, 43]...[69, 70, 71]
+  'Project Code' found on 36 pages: [33, 35, 36, 38, 39]...[69, 70, 71]
+  'Project Name' found on 36 pages: [33, 35, 36, 38, 39]...[69, 70, 71]
+  'Sl.No' found on 44 pages: [23, 25, 26, 27, 28]...[69, 70, 71]
+  'Table 3:' found on pages: [2, 32]
+  'Table 4:' found on pages: [34]
+  'Table 5:' found on pages: [37]
+  'Table 6:' found on pages: [41]
+  'project' found on 72 pages: [1, 2, 3, 4, 5]...[70, 71, 72]
+
+--- PAGE 1/72 ---
+  | 479
+  | SEPTEMBER 2025
+  | Scan the QR code to access the
+  | PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/72 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of September 2025, based on the projects worth Rs.
+  | 150 crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies (excluding Ministry of Road Transport &
+  | Highways, may reflect from next month onwards) on the IPM portal (indiainvestmentgrid.gov.in) latest by 14th October 2025.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/72 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 42/72 ---
+  | All Ongoing Projects
+  | SEPTEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport 03/2023 01/2026 265.91
+  | 1 Andhra Pradesh 59.43 35
+  | (Airport Authority of India [AAI]) (01/2024) (03/2026) (265.91)
+  | (612786)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | 06/2020 09/2022 611.8
+  | 2 Airport. Andhra Pradesh 494.08 81
+  | (09/2020) (12/2025) (611.8)
+  | (Airport Authority of India [AAI])
+  | (701107)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | 12/2022 08/2025 347.15
+  | 3 (Airport Authority of India [AAI]) Andhra Pradesh 95.46 54
+  | (08/2023) (12/2025) (347.15)
+  | (701121)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | 12/2016 03/2025 1712
+  | 4 (Adani Airport Holdings Limited) Assam 2397.37 91
+  | (03/2018) (11/2025) (1712)
+  | (706724)
+  | Development of New Civil Enclave at Bihta
+  | 08/2024 09/2027 1413
+  | 5 (Airport Authority of India [AAI]) Bihar 0 1
+  | (03/2025) (-) (1413)
+  | (612183)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | 07/2024 01/2026 911.66
+  | 6 (Airport Authority of India [AAI]) Bihar 191.27 32
+  | (07/2024) (-) (911.66)
+  | (612194)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna 12/2018 07/2023 1216.9
+  | 7 Bihar 1119.69 94
+  | (Airport Authority of India [AAI]) (10/2018) (11/2025) (1216.9)
+  | (701101)
+  | Goa Airport Terminal Building Extension Project
+  | 11/2017 12/2021 255.69
+  | 8 (Airport Authority of India [AAI]) Goa 154.3 92
+  | (12/2019) (09/2025) (255.69)
+  | (701105)
+  | Development of Dholera Internationa
+  | ... [truncated, full page is 5971 chars]
+
+--- PAGE 43/72 ---
+  | All Ongoing Projects
+  | SEPTEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata. 04/2023 02/2025 328.3
+  | 26 West Bengal 105.41 47
+  | (Airport Authority of India [AAI]) (12/2023) (08/2026) (328.3)
+  | (612791)
+  | Total (26) 23049.84 24583.31
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | 07/2022 07/2031 159.77
+  | 27 (MIS MoCoal Integration Logins) Assam 81.47 0
+  | (07/2022) (-) (159.77)
+  | (615820)
+  | TIRAP OCP
+  | 11/2022 11/2030 289.46
+  | 28 (MIS MoCoal Integration Logins) Assam 105.6 3
+  | (11/2022) (-) (289.46)
+  | (615821)
+  | PORDA CHIMTAPANI OCP [10 MTY]
+  | 12/2020 03/2029 2310.12
+  | 29 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 85.77 10
+  | (12/2020) (-) (2310.12)
+  | (400144)
+  | CHHAL OC SEAM III [6 MTY]
+  | 12/2013 03/2022 610.63
+  | 30 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 579.82 85
+  | (12/2013) (10/2025) (610.63)
+  | (400145)
+  | KUSMUNDA OC EXPANSION [15 TO 50 MTY]
+  | 08/2013 03/2023 7612.33
+  | 31 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 4697.95 81
+  | (08/2013) (03/2030) (7612.33)
+  | (400147)
+  | BAROUD OC EXPANSION [3.0-10.0M
+  | 08/2020 03/2029 2309.8
+  | 32 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 935.64 50
+  | (08/2020) (-) (2309.8)
+  | (400149)
+  | DIPKA EXPANSION OCP [40 MTY]
+  | 12/2020 03/2029 5241.4
+  | 33 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 2830.43 37
+  | (12/2020) (-) (5241.4)
+  | (400354)
+  | GEVRA OC [70 MTY]
+  | 03/2016 03/2023 11816.4
+  | 34 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 6677.26 78
+  | (03/2016) (03/2026) (11816.4)
+  | (400424)
+  | JAMPALI OC RCE [2.0 MTY]
+  | 05/2020 03/2025 278.64
+  | 35 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 210.07 82
+  | (05/2020) (06/2025) (278.64)
+  | (613795)
+  | AMERA OC RCE [1.0 MTY]
+  | 02/2015 03/2026 335.97
+  | 36 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 88.24 42
+  | (
+  | ... [truncated, full page is 4454 chars]
+
+--- PAGE 44/72 ---
+  | All Ongoing Projects
+  | SEPTEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | EPR PUNDI OCP
+  | 11/2020 03/2027 713.35
+  | 55 (Ministry of Coal) Jharkhand 236.58 10
+  | (11/2020) (-) (713.35)
+  | (400154)
+  | EPR ASHOK OC
+  | 05/2021 03/2031 2898.28
+  | 56 (Ministry of Coal) Jharkhand 179.7 24
+  | (05/2021) (-) (2898.28)
+  | (400155)
+  | EPR AMRAPALI OCP
+  | 02/2020 03/2028 5136.15
+  | 57 (Ministry of Coal) Jharkhand 1159.17 42
+  | (02/2020) (-) (5136.15)
+  | (400156)
+  | RAJRAPPA RCE OCP
+  | 12/2009 03/2016 510.85
+  | 58 (Ministry of Coal) Jharkhand 488.67 76
+  | (12/2009) (03/2027) (510.85)
+  | (400160)
+  | CHITRA EAST OC
+  | 08/2018 03/2026 513.99
+  | 59 (Eastern Coal Fields Limited [ECL]) Jharkhand 229.01 51
+  | (08/2018) (-) (513.99)
+  | (400172)
+  | JHARKHAND-LAIYO OCP
+  | 08/2020 03/2031 764.57
+  | 60 (Ministry of Coal) Jharkhand 145.81 29
+  | (08/2020) (-) (764.57)
+  | (400352)
+  | MOONIDIH XV SEAM UG
+  | 08/2011 03/2019 1230.27
+  | 61 (Ministry of Coal) Jharkhand 629.58 81
+  | (08/2011) (05/2026) (1230.27)
+  | (400425)
+  | 2.5 MTPA PATHERDIH NLW WASHERY
+  | 10/2015 04/2018 334.27
+  | 62 (Ministry of Coal) Jharkhand 142.64 48
+  | (04/2016) (03/2026) (334.27)
+  | (611017)
+  | AMALAGAMATED NTST KUJAMA OCP 8.5MTY
+  | 01/2023 03/2030 4011.85
+  | 63 (Ministry of Coal) Jharkhand 404.49 28
+  | (01/2023) (-) (4011.85)
+  | (611864)
+  | MURAIDIH UG PROJECT
+  | 02/2011 04/2014 339.87
+  | 64 (Ministry of Coal) Jharkhand 191 70
+  | (02/2011) (12/2026) (339.87)
+  | (613808)
+  | TAPIN SOUTH EXPN
+  | 11/2020 03/2028 230.41
+  | 65 (Ministry of Coal) Jharkhand 22.02 20
+  | (11/2020) (-) (230.41)
+  | (615349)
+  | SIRKA OC
+  | 05/2020 03/2028 222.82
+  | 66 (Ministry of Coal) Jharkhand 140.58 53
+  | (05/2020) (-) (222.82)
+  | (615822)
+  | TETARIAKHAR OC
+  | 11/2019 03/2025 243.52
+  | 67 (Ministry of Coal) Jharkhand 44.64 29
+  | (11/2019) (03/2027) (243.52)
+  | (615843)
+  | CHUPERBHITA SIMLONG OCP MDO 6 MTY
+  | 12/2023 03/2037 979.08
+  | 68 (Eastern Coal Fields Limited [ECL]) Jharkhand 0 0
+  | (12/2023) (-) (979.08)
+  | (616225)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | 02/2020 03/202
+  | ... [truncated, full page is 4572 chars]
+
+--- PAGE 56/72 ---
+  | All Ongoing Projects
+  | SEPTEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Power Recovery Turbine [PRT] in PFCCU unit as an Energy Conservation Scheme
+  | NA 12/2024 293.5
+  | 371 (NRL) Assam 97.22 95
+  | (04/2023) (10/2025) (293.5)
+  | (709865)
+  | Setting up of LPG Plant with Rail Unloading Facility at Hathua, Dist. Gopalganj, Bihar
+  | NA 03/2027 340.15
+  | 372 (MinistryofPetroleumNaturalGas) Bihar 94.41 28
+  | (10/2023) (03/2027) (340.15)
+  | (617304)
+  | Barauni Refinery Capacity Expansion from 6.0 to 9.0 MMTPA
+  | NA 04/2023 14810
+  | 373 (Ministry of Petroleum & Natural Gas) Bihar 11997.29 88
+  | (01/2020) (08/2026) (16724)
+  | (701324)
+  | Installation of Bitumen Manufacturing Unit along with allied facilities at Barauni
+  | Refinery NA 04/2025 389.35
+  | 374 Bihar 56.85 42
+  | (MinistryofPetroleumNaturalGas) (01/2022) (10/2026) (340)
+  | (709777)
+  | City Gas Distribution Projects at Darbhanga, Madhubani, Supaul, Sitamarhi and
+  | Sheohar districts 12/2022 03/2030 3638
+  | 375 Bihar 414.14 29
+  | (Bharat Petroleum Corporation Limited [BPCL]) (12/2022) (03/2030) (3638)
+  | (709792)
+  | City Gas Distribution Projects at Gopalganj, Siwan, West Champaran, East
+  | Champaran and Deoria districts 12/2022 06/2030 3919
+  | 376 Bihar 412.83 19
+  | (Bharat Petroleum Corporation Limited [BPCL]) (12/2022) (06/2030) (3919)
+  | (709793)
+  | Redevelopment of Sobhasan Complex
+  | 08/2021 02/2026 885.63
+  | 377 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 830.89 79
+  | (08/2021) (02/2026) (1286.67)
+  | (400087)
+  | Redevelopment of Santhal Field [Onshore-Mehsana Asset]
+  | 02/2017 03/2026 1162.56
+  | 378 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 1157 94
+  | (02/2017) (03/2026) (1162.56)
+  | (400167)
+  | Redevelopment of Linch Field
+  | 04/2021 03/2025 631.03
+  | 379 (Oil and Natural Gas Corporation Limited [ONGC]) Gujarat 539.03 83
+  | (04/2021) (10/2025) (860.04)
+  | (400169)
+  | Petrochemical and Lube Integration Project at Gujarat Refiner
+  | ... [truncated, full page is 5704 chars]
+
+--- PAGE 71/72 ---
+  | All Ongoing Projects
+  | SEPTEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Integrated Anandpur Barrage Project
+  | 04/1997 12/2019 567.03
+  | 783 (Water Resources-OR) Odisha 2629.74 62
+  | (01/1998) (06/2026) (2990.05)
+  | (603945)
+  | Kanupur Irrigation Project
+  | 04/2003 12/2019 989.43
+  | 784 (Irrigation and CAD-TG) Odisha 2712.75 79
+  | (01/2004) (06/2026) (2301.28)
+  | (701404)
+  | Relining of Rajasthan feeder and Sirhind Feeder canal
+  | 02/2016 06/2021 1441.26
+  | 785 (Department of Water Resources-PB) Punjab 3000.36 80
+  | (04/2018) (06/2026) (2462.16)
+  | (701410)
+  | Shahpur Kandi Dam Project
+  | 02/2010 06/2022 2285.81
+  | 786 (Department of Water Resources-PB) Punjab 2072.33 80
+  | (04/2018) (10/2025) (2715.7)
+  | (701411)
+  | Sri Ram Sagar Project Stage - II
+  | 04/2005 12/2019 736.13
+  | 787 (Irrigation and CAD-TG) Telangana 940.7 96
+  | (04/2005) (03/2026) (949.87)
+  | (400102)
+  | Indiramma Flood Flow Canal Project
+  | 04/2005 12/2019 1331.3
+  | 788 (Irrigation and CAD-TG) Telangana 4491.08 92
+  | (01/2006) (12/2026) (5940.09)
+  | (400103)
+  | J. Chokka Rao Devadula Lift Irrigation Scheme
+  | 04/2006 12/2019 8200.71
+  | 789 (Irrigation and CAD-TG) Telangana 4558.89 87
+  | (04/2006) (12/2025) (14730)
+  | (701405)
+  | Rajiv Bhima Lift Irrigation Scheme
+  | 04/2007 12/2019 1402
+  | 790 (Irrigation and CAD-TG) Telangana 1839.76 100
+  | (01/2008) (03/2026) (2509.66)
+  | (701406)
+  | Saryu Nahar CADWM Project
+  | 04/2017 12/2019 1672.7
+  | 791 (Irrigation & Water Resources-UP) Uttar Pradesh 22.24 1
+  | (04/2017) (03/2026) (1672.7)
+  | (400093)
+  | Morna [Gureghar] Irrigation Project
+  | 04/2007 12/2025 219.9
+  | 792 (Department of Water Resources, River Development & GR) Uttar Pradesh 0 31
+  | (12/2007) (-) (219.9)
+  | (701395)
+  | Madhya Ganga canal Phase-II
+  | 04/2008 12/2019 1060.67
+  | 793 (Irrigation & Water Resources-UP) Uttar Pradesh 4415.24 82
+  | (04/2008) (12/2025) (4417.21)
+  | (701408)
+  | Jamrani Dam Multipurpose Project
+  | 10/2023 06/2029 2584.1
+  | 794 (Irrigation-UK) Uttarakhand
+  | ... [truncated, full page is 2223 chars]
+
+--- PAGE 72/72 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 71
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: TRANSITIONAL
+FILE: FlashReport_December_2025.pdf
+================================================================================
+Total pages: 108
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 59 pages: [49, 50, 51, 52, 53]...[105, 106, 107]
+  'Date of Approval' found on 70 pages: [35, 36, 38, 40, 41]...[105, 106, 107]
+  'Department of' found on pages: [31, 35]
+  'Expenditure' found on 92 pages: [4, 7, 9, 10, 11]...[105, 106, 107]
+  'Ministry of' found on pages: [16, 18, 19, 20, 21, 26, 27, 28, 29, 30, 32, 33, 38, 40, 42, 50, 51, 61]
+  'Ongoing Projects' found on 94 pages: [2, 4, 7, 9, 10]...[105, 106, 107]
+  'Physical Progress' found on 68 pages: [17, 40, 41, 42, 43]...[105, 106, 107]
+  'Project Code' found on 70 pages: [35, 36, 38, 40, 41]...[105, 106, 107]
+  'Project Name' found on 71 pages: [17, 35, 36, 38, 40]...[105, 106, 107]
+  'Sl.No' found on 79 pages: [24, 26, 27, 28, 29]...[105, 106, 107]
+  'Table 3:' found on pages: [2, 34]
+  'Table 4:' found on pages: [37]
+  'Table 5:' found on pages: [39]
+  'Table 6:' found on pages: [49]
+  'project' found on 108 pages: [1, 2, 3, 4, 5]...[106, 107, 108]
+
+--- PAGE 1/108 ---
+  | 482
+  | DECEMBER 2025
+  | Scan the QR code to access the
+  | PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/108 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of December 2025, based on the projects worth Rs.
+  | 150 crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies on the IPM portal
+  | (indiainvestmentgrid.gov.in) latest by 27th January 2026.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/108 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 50/108 ---
+  | All Ongoing Projects
+  | DECEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport 03/2023 01/2026 265.91
+  | 1 Andhra Pradesh 88.87 46
+  | (Airport Authority of India [AAI]) (01/2024) (03/2026) (265.91)
+  | (612786)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | 06/2020 09/2022 611.8
+  | 2 Airport. Andhra Pradesh 523.14 87
+  | (09/2020) (03/2026) (611.8)
+  | (Airport Authority of India [AAI])
+  | (701107)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | 12/2022 08/2025 347.15
+  | 3 (Airport Authority of India [AAI]) Andhra Pradesh 129.31 68
+  | (08/2023) (03/2026) (347.15)
+  | (701121)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | 12/2016 03/2025 1712
+  | 4 (Adani Airport Holdings Limited) Assam 2514.59 96
+  | (03/2018) (03/2026) (2520)
+  | (706724)
+  | Development of New Civil Enclave at Bihta
+  | 08/2024 03/2027 1413
+  | 5 (Airport Authority of India [AAI]) Bihar 0 1
+  | (03/2025) (-) (1413)
+  | (612183)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | 07/2024 07/2026 911.66
+  | 6 (Airport Authority of India [AAI]) Bihar 258.93 48
+  | (07/2024) (-) (911.66)
+  | (612194)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna 12/2018 07/2023 1216.9
+  | 7 Bihar 1166.71 97
+  | (Airport Authority of India [AAI]) (10/2018) (05/2026) (1216.9)
+  | (701101)
+  | Goa Airport Terminal Building Extension Project
+  | 11/2017 12/2021 255.69
+  | 8 (Airport Authority of India [AAI]) Goa 154.3 98
+  | (12/2019) (01/2026) (255.69)
+  | (701105)
+  | Development of Dholera Internationa
+  | ... [truncated, full page is 5954 chars]
+
+--- PAGE 51/108 ---
+  | All Ongoing Projects
+  | DECEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Total (25) 21237.66 9260.93
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | 07/2022 07/2031 159.77
+  | 26 (MIS MoCoal Integration Logins) Assam 81.47 88
+  | (07/2022) (-) (159.77)
+  | (615820)
+  | TIRAP OCP
+  | 11/2022 11/2030 289.46
+  | 27 (MIS MoCoal Integration Logins) Assam 105.61 3
+  | (11/2022) (-) (289.46)
+  | (615821)
+  | PORDA CHIMTAPANI OCP [10 MTY]
+  | 12/2020 03/2029 2310.12
+  | 28 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 91.43 10
+  | (12/2020) (-) (2310.12)
+  | (400144)
+  | BAROUD OC EXPANSION [3.0-10.0M
+  | 08/2020 03/2029 2309.8
+  | 29 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 956.88 50
+  | (08/2020) (-) (2309.8)
+  | (400149)
+  | DIPKA EXPANSION OCP [40 MTY]
+  | 12/2020 03/2029 5241.4
+  | 30 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 2862.43 37
+  | (12/2020) (-) (5241.4)
+  | (400354)
+  | GEVRA OC [70 MTY]
+  | 03/2016 03/2023 11816.4
+  | 31 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 6813.01 78
+  | (03/2016) (03/2027) (11816.4)
+  | (400424)
+  | AMERA OC RCE [1.0 MTY]
+  | 02/2015 03/2026 335.97
+  | 32 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 88.28 42
+  | (02/2015) (-) (335.97)
+  | (613798)
+  | AMGAON OC RCE [1.0 MTY]
+  | 07/2015 03/2026 316.11
+  | 33 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 188.72 78
+  | (07/2015) (-) (316.11)
+  | (613799)
+  | JAGANNATHPUR OC RCE PROJECT
+  | 07/2016 03/2025 459.49
+  | 34 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 274.35 96
+  | (07/2016) (03/2026) (459.49)
+  | (613800)
+  | MAHAMAYA OCP [1.50 MTY]
+  | 05/2018 03/2026 410.26
+  | 35 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 183.37 54
+  | (05/2018) (03/2028) (410.26)
+  | (613801)
+  | KATKONA RO UG MINE
+  | 01/2023 03/2029 329.21
+  | 36 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 61.34 2
+  | (01/2023) (-) (329.21)
+  | (615191)
+  | PELMA OC MDO
+  | 10/2022 03/2033 1725.04
+  | 37 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 15
+  | ... [truncated, full page is 4229 chars]
+
+--- PAGE 52/108 ---
+  | All Ongoing Projects
+  | DECEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | JHARKHAND-LAIYO OCP
+  | 08/2020 03/2031 764.57
+  | 55 (Ministry of Coal) Jharkhand 145.81 29
+  | (08/2020) (-) (764.57)
+  | (400352)
+  | MOONIDIH XV SEAM UG
+  | 08/2011 03/2019 1230.27
+  | 56 (Ministry of Coal) Jharkhand 635.78 82
+  | (08/2011) (05/2026) (1230.27)
+  | (400425)
+  | 2.5 MTPA PATHERDIH NLW WASHERY
+  | 10/2015 04/2018 334.27
+  | 57 (Ministry of Coal) Jharkhand 151.09 49
+  | (04/2016) (03/2026) (334.27)
+  | (611017)
+  | AMALAGAMATED NTST KUJAMA OCP 8.5MTY
+  | 01/2023 03/2030 4011.85
+  | 58 (Ministry of Coal) Jharkhand 414.41 28
+  | (01/2023) (-) (4011.85)
+  | (611864)
+  | MURAIDIH UG PROJECT
+  | 02/2011 04/2014 339.87
+  | 59 (Ministry of Coal) Jharkhand 191 70
+  | (02/2011) (12/2026) (339.87)
+  | (613808)
+  | TAPIN SOUTH EXPN
+  | 11/2020 03/2028 230.41
+  | 60 (Ministry of Coal) Jharkhand 22.02 21
+  | (11/2020) (-) (230.41)
+  | (615349)
+  | SIRKA OC
+  | 05/2020 03/2028 222.82
+  | 61 (Ministry of Coal) Jharkhand 140.58 53
+  | (05/2020) (-) (222.82)
+  | (615822)
+  | TETARIAKHAR OC
+  | 11/2019 03/2025 243.52
+  | 62 (Ministry of Coal) Jharkhand 49.54 29
+  | (11/2019) (03/2027) (243.52)
+  | (615843)
+  | CHUPERBHITA SIMLONG OCP MDO 6
+  | 12/2023 03/2037 979.08
+  | 63 (Eastern Coal Fields Limited [ECL]) Jharkhand 0 0
+  | (12/2023) (-) (979.08)
+  | (616225)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | 02/2020 03/2029 414.37
+  | 64 (CCL - CIL) Jharkhand 85.6 33
+  | (02/2020) (-) (414.37)
+  | (616236)
+  | BLOCK E OCP
+  | 03/2024 03/2029 5850.83
+  | 65 (Ministry of Coal) Jharkhand 20.32 3
+  | (03/2024) (-) (5850.83)
+  | (616253)
+  | Revised Jharia Master Plan for Dealing with Fire, Subsidence & Rehabilitation of
+  | affected families in Jharia Coalfield- Reg. 06/2025 12/2028 5940.47
+  | 66 Jharkhand 26.31 19
+  | (Bharat Coking Coal Limited (BCCL)) (07/2025) (-) (5940.47)
+  | (617416)
+  | AMADAND OCP[4.0MTY]
+  | 03/2016 03/2021 869.44
+  | 67 (Ministry of Coal) Madhya Pradesh 278.78 75
+  | (03/2016) (03/2027) (869.44)
+  | (400148)
+  | RAMPUR BATURA OCP [4.0MTY]
+  | 07/2019 03/2026
+  | ... [truncated, full page is 4704 chars]
+
+--- PAGE 76/108 ---
+  | All Ongoing Projects
+  | DECEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Dholpur - Sirmuttra Gauge Conversion
+  | 03/2022 02/2019 747
+  | 709 (North Central Railway) Rajasthan 436.56 45
+  | (04/2020) (02/2027) (747)
+  | (705482)
+  | Gudha-Thatha Mithri Construction of Railway Track Project
+  | 04/2019 11/2026 819.48
+  | 710 (North Western Railway [NWR]) Rajasthan 393.8 99
+  | (04/2019) (11/2026) (967.06)
+  | (705752)
+  | Sawai Madhopur-Jaipur Railway Line Project
+  | 02/2024 03/2027 1203.89
+  | 711 (North Western Railway [NWR]) Rajasthan 137.81 13
+  | (04/2023) (-) (1203.89)
+  | (705912)
+  | Agra Fort-Bandikui Doubling Line Project
+  | 06/2022 06/2027 1390
+  | 712 (CAO/C/NCR) Rajasthan 362.92 57
+  | (02/2021) (06/2027) (1390)
+  | (705919)
+  | Sawaimadhopur Bye Pass Line Project
+  | 12/2022 03/2026 304
+  | 713 (North Western Railway [NWR]) Rajasthan 60.48 65
+  | (01/2023) (05/2027) (304)
+  | (706866)
+  | Phase II extension of MRTS from Velachery to St Thomas Mount
+  | 11/2007 07/2025 734
+  | 714 (Ministry of Railways) Tamil Nadu 479.19 99
+  | (11/2008) (09/2025) (734.01)
+  | (400280)
+  | Redevelopment of Chennai Egmore Station
+  | 05/2022 03/2026 842
+  | 715 (Ministry of Railways) Tamil Nadu 340 0
+  | (10/2022) (-) (842)
+  | (613002)
+  | Coach Production Factory Upgradation Project
+  | 12/2017 12/2021 520
+  | 716 (CPM/ICF) Tamil Nadu 192.25 0
+  | (07/2018) (-) (520)
+  | (705244)
+  | Doubling between Bhadrachalam Road and Dornakal
+  | 08/2023 04/2029 770.12
+  | 717 (South Central Railway [SCR] - II) Telangana 48.35 0
+  | (04/2025) (-) (770.12)
+  | (616856)
+  | Railway Manufacturing Unit
+  | 07/2016 12/2026 521.36
+  | 718 (RVNL - II) Telangana 439.95 80
+  | (02/2023) (03/2026) (521.36)
+  | (617409)
+  | Kazipet Wagon Overhauling Project
+  | 09/2017 12/2023 385
+  | 719 (RVNL) Telangana 0 0
+  | (07/2017) (-) (385)
+  | (705252)
+  | Manoharabad-Kothapalli New Rail Line [151 km]
+  | 07/2016 03/2027 1160
+  | 720 (South Central Railway [SCR] - II) Telangana 2332.39 71
+  | (01/2017) (12/2027) (2781)
+  | (705437)
+  | Bahraich-Shra
+  | ... [truncated, full page is 5067 chars]
+
+--- PAGE 107/108 ---
+  | All Ongoing Projects
+  | DECEMBER 2025
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Indiramma Flood Flow Canal Project
+  | 04/2005 12/2019 1331.3
+  | 1386 (Irrigation and CAD-TG) Telangana 4491.08 92
+  | (01/2006) (12/2026) (5940.09)
+  | (400103)
+  | J. Chokka Rao Devadula Lift Irrigation Scheme
+  | 04/2006 12/2019 8200.71
+  | 1387 (Irrigation and CAD-TG) Telangana 4664.8 87
+  | (04/2006) (12/2025) (14730)
+  | (701405)
+  | Rajiv Bhima Lift Irrigation Scheme
+  | 04/2007 12/2019 1402
+  | 1388 (Irrigation and CAD-TG) Telangana 1839.76 100
+  | (01/2008) (03/2026) (2509.66)
+  | (701406)
+  | Saryu Nahar CADWM Project
+  | 04/2017 12/2019 1672.7
+  | 1389 (Irrigation & Water Resources-UP) Uttar Pradesh 22.24 1
+  | (04/2017) (03/2026) (1672.7)
+  | (400093)
+  | Morna [Gureghar] Irrigation Project
+  | 04/2007 12/2025 219.9
+  | 1390 (Department of Water Resources, River Development & GR) Uttar Pradesh 115.2 31
+  | (12/2007) (-) (219.9)
+  | (701395)
+  | Madhya Ganga canal Phase-II
+  | 04/2008 12/2019 1060.67
+  | 1391 (Irrigation & Water Resources-UP) Uttar Pradesh 4552.44 82
+  | (04/2008) (12/2025) (4417.21)
+  | (701408)
+  | Jamrani Dam Multipurpose Project
+  | 10/2023 06/2029 2584.1
+  | 1392 (Irrigation-UK) Uttarakhand 987.61 21
+  | (11/2023) (-) (2584.1)
+  | (613787)
+  | Total (39) 93740.23 140622.27
+  | ****
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 106
+  | (PAIMANA)
+
+--- PAGE 108/108 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 107
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: TRANSITIONAL
+FILE: FlashReport_January_2026.pdf
+================================================================================
+Total pages: 134
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 73 pages: [61, 62, 63, 64, 65]...[131, 132, 133]
+  'Date of Approval' found on 95 pages: [36, 38, 39, 40, 41]...[131, 132, 133]
+  'Department of' found on pages: [27, 28, 29]
+  'Expenditure' found on 108 pages: [4, 7, 9, 10, 11]...[131, 132, 133]
+  'Ministry of' found on pages: [16, 18, 19, 20, 21, 27, 28, 30, 31, 32, 33, 34, 36, 49, 51, 62, 82]
+  'Ongoing Projects' found on 111 pages: [2, 4, 7, 9, 10]...[131, 132, 133]
+  'Physical Progress' found on 85 pages: [17, 49, 50, 51, 52]...[131, 132, 133]
+  'Project Code' found on 95 pages: [36, 38, 39, 40, 41]...[131, 132, 133]
+  'Project Name' found on 96 pages: [17, 36, 38, 39, 40]...[131, 132, 133]
+  'Sl.No' found on 104 pages: [24, 27, 28, 29, 30]...[131, 132, 133]
+  'Table 3:' found on pages: [2, 35]
+  'Table 4:' found on pages: [37]
+  'Table 5:' found on pages: [48]
+  'Table 6:' found on pages: [61]
+  'project' found on 134 pages: [1, 2, 3, 4, 5]...[132, 133, 134]
+
+--- PAGE 1/134 ---
+  | 483
+  | Scan the QR code to access JANUARY 2026
+  | the PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/134 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of January 2026, based on the projects worth Rs. 150
+  | crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies on the IPM portal (indiainvestmentgrid.gov.in)
+  | latest by 24th February 2026.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/134 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 62/134 ---
+  | All Ongoing Projects
+  | JANUARY 2026
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport 03/2023 01/2026 265.91
+  | 1 Andhra Pradesh 97.14 50
+  | (Airport Authority of India [AAI]) (01/2024) (05/2026) (265.91)
+  | (612786)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | 06/2020 09/2022 611.8
+  | 2 Airport. Andhra Pradesh 523.14 87
+  | (09/2020) (07/2026) (611.8)
+  | (Airport Authority of India [AAI])
+  | (701107)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | 12/2022 08/2025 347.15
+  | 3 (Airport Authority of India [AAI]) Andhra Pradesh 135.95 73
+  | (08/2023) (03/2026) (347.15)
+  | (701121)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | 12/2016 03/2025 1712
+  | 4 (Adani Airport Holdings Limited) Assam 2558.19 96
+  | (03/2018) (03/2026) (2520)
+  | (706724)
+  | Development of New Civil Enclave at Bihta
+  | 08/2024 03/2027 1413
+  | 5 (Airport Authority of India [AAI]) Bihar 0 1
+  | (04/2025) (-) (1413)
+  | (612183)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | 07/2024 07/2026 911.66
+  | 6 (Airport Authority of India [AAI]) Bihar 290.1 53
+  | (07/2024) (-) (911.66)
+  | (612194)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna 12/2018 05/2026 1216.9
+  | 7 Bihar 1182.02 97
+  | (Airport Authority of India [AAI]) (10/2018) (05/2026) (1216.9)
+  | (701101)
+  | Goa Airport Terminal Building Extension Project
+  | 11/2017 12/2021 255.69
+  | 8 (Airport Authority of India [AAI]) Goa 154.3 98
+  | (12/2019) (04/2026) (255.69)
+  | (701105)
+  | Development of Keshod Airport.
+  | NA 01/
+  | ... [truncated, full page is 5839 chars]
+
+--- PAGE 63/134 ---
+  | All Ongoing Projects
+  | JANUARY 2026
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata. 03/2023 10/2025 328.3
+  | 26 West Bengal 111.43 53
+  | (Airport Authority of India [AAI]) (12/2023) (08/2026) (328.3)
+  | (612791)
+  | Total (26) 21600.76 9677.27
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | 07/2022 07/2031 159.77
+  | 27 (MIS MoCoal Integration Logins) Assam 81.47 88
+  | (07/2022) (-) (159.77)
+  | (615820)
+  | TIRAP OCP
+  | 11/2022 11/2030 289.46
+  | 28 (MIS MoCoal Integration Logins) Assam 105.61 3
+  | (11/2022) (-) (289.46)
+  | (615821)
+  | PORDA CHIMTAPANI OCP [10 MTY]
+  | 12/2020 03/2029 2310.12
+  | 29 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 92.68 10
+  | (12/2020) (-) (2310.12)
+  | (400144)
+  | BAROUD OC EXPANSION [3.0-10.0M
+  | 08/2020 03/2029 2309.8
+  | 30 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 958.18 55
+  | (08/2020) (-) (2309.8)
+  | (400149)
+  | DIPKA EXPANSION OCP [40 MTY]
+  | 12/2020 03/2029 5241.4
+  | 31 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 2872.57 37
+  | (12/2020) (-) (5241.4)
+  | (400354)
+  | GEVRA OC [70 MTY]
+  | 03/2016 03/2023 11816.4
+  | 32 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 6822.05 78
+  | (03/2016) (03/2027) (11816.4)
+  | (400424)
+  | AMERA OC RCE [1.0 MTY]
+  | 02/2015 03/2026 335.97
+  | 33 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 90.07 42
+  | (02/2015) (-) (335.97)
+  | (613798)
+  | AMGAON OC RCE [1.0 MTY]
+  | 07/2015 03/2026 316.11
+  | 34 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 188.72 78
+  | (07/2015) (-) (316.11)
+  | (613799)
+  | JAGANNATHPUR OC RCE PROJECT
+  | 07/2016 03/2025 459.49
+  | 35 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 274.35 96
+  | (07/2016) (03/2026) (459.49)
+  | (613800)
+  | MAHAMAYA OCP [1.50 MTY]
+  | 05/2018 03/2026 410.26
+  | 36 (South Eastern Coalfields Limited [SECL]) Chhattisgarh 183.99 54
+  | (05/2018) (03/2028) (410.26)
+  | 
+  | ... [truncated, full page is 4343 chars]
+
+--- PAGE 64/134 ---
+  | All Ongoing Projects
+  | JANUARY 2026
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | CHITRA EAST OC
+  | 08/2018 03/2026 513.99
+  | 55 (Eastern Coal Fields Limited [ECL]) Jharkhand 230.98 53
+  | (08/2018) (03/2028) (513.99)
+  | (400172)
+  | JHARKHAND-LAIYO OCP
+  | 08/2020 03/2031 764.57
+  | 56 (Ministry of Coal) Jharkhand 145.81 29
+  | (08/2020) (-) (764.57)
+  | (400352)
+  | MOONIDIH XV SEAM UG
+  | 08/2011 03/2019 1230.27
+  | 57 (Ministry of Coal) Jharkhand 649.78 82
+  | (08/2011) (05/2026) (1230.27)
+  | (400425)
+  | 2.5 MTPA PATHERDIH NLW WASHERY
+  | 10/2015 04/2018 334.27
+  | 58 (Ministry of Coal) Jharkhand 151.13 51
+  | (04/2016) (12/2026) (334.27)
+  | (611017)
+  | AMALAGAMATED NTST KUJAMA OCP 8.5MTY
+  | 01/2023 03/2030 4011.85
+  | 59 (Ministry of Coal) Jharkhand 414.93 28
+  | (01/2023) (-) (4011.85)
+  | (611864)
+  | MURAIDIH UG PROJECT
+  | 02/2011 04/2014 339.87
+  | 60 (Ministry of Coal) Jharkhand 191 70
+  | (02/2011) (12/2026) (339.87)
+  | (613808)
+  | TAPIN SOUTH EXPN
+  | 11/2020 03/2028 230.41
+  | 61 (Ministry of Coal) Jharkhand 22.02 21
+  | (11/2020) (-) (230.41)
+  | (615349)
+  | SIRKA OC
+  | 05/2020 03/2028 222.82
+  | 62 (Ministry of Coal) Jharkhand 140.58 53
+  | (05/2020) (-) (222.82)
+  | (615822)
+  | TETARIAKHAR OC
+  | 11/2019 03/2025 243.52
+  | 63 (Ministry of Coal) Jharkhand 49.54 30
+  | (11/2019) (03/2027) (243.52)
+  | (615843)
+  | CHUPERBHITA SIMLONG OCP MDO 6
+  | 12/2023 03/2037 979.08
+  | 64 (Eastern Coal Fields Limited [ECL]) Jharkhand 0 0
+  | (12/2023) (-) (979.08)
+  | (616225)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | 02/2020 03/2029 414.37
+  | 65 (CCL - CIL) Jharkhand 85.6 33
+  | (02/2020) (-) (414.37)
+  | (616236)
+  | BLOCK E OCP
+  | 03/2024 03/2029 5850.83
+  | 66 (Ministry of Coal) Jharkhand 20.32 4
+  | (03/2024) (-) (5850.83)
+  | (616253)
+  | Revised Jharia Master Plan for Dealing with Fire, Subsidence & Rehabilitation of
+  | affected families in Jharia Coalfield- Reg. 06/2025 12/2028 5940.47
+  | 67 Jharkhand 29.81 21
+  | (Bharat Coking Coal Limited (BCCL)) (07/2025) (-) (5940.47)
+  | (617416)
+  | AMADAND OCP[4.0MTY]
+  | 03/2016 03/2021 
+  | ... [truncated, full page is 4674 chars]
+
+--- PAGE 91/134 ---
+  | All Ongoing Projects
+  | JANUARY 2026
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Muddanur to B. Kothapalli section of NH-716G from Km. 0/000 to Km. 56/500 56.500
+  | Km in the State of Andhra Pradesh on EPC mode Job no. 741 10/2024 08/2027 1019.97
+  | 790 Andhra Pradesh 0 0
+  | (MoRTH) (08/2025) (-) (1019.97)
+  | (618053)
+  | Dornala to Kunta Junction from Design Chainage Km 244000 to 267990 section of
+  | NH-765 Package-2 12/2022 09/2025 244.83
+  | 791 Andhra Pradesh 0 84
+  | (MoRTH) (03/2024) (-) (244.83)
+  | (618062)
+  | Rehabilitation and upgradation of NH 326A from km 0/0 to 41/979 excluding km 2/255
+  | to 3/372 and km 36/820 to 38/275 Odisha border to Narasamapeta to two lane with
+  | 03/2018 03/2020 228.32
+  | 792 paved Shoulders in the State of Andhra Pradesh under NHO on EPC Mode Andhra Pradesh 70.6 100
+  | (09/2018) (03/2021) (228.32)
+  | (MoRTH)
+  | (618125)
+  | Widening to two lane with paved shoulder of Rampachodavaram - Koyyuru section of
+  | NH 516E from Km 43700 to Km 113820 in the State of Andhra Pradesh on EPC
+  | 03/2022 01/2025 568.12
+  | 793 mode Job No. 737 Andhra Pradesh 289.47 92
+  | (01/2023) (-) (568.12)
+  | (MoRTH)
+  | (618145)
+  | Widening and Reconstruction of existing road to four lane from Km.56400 to Km
+  | 120300 i.e. from B.Kothapalli Junction to Gorantla excluding Kadiri Bypass from Km
+  | 70200 to Km 77105 of NH 716G in the State of Andhra Pradesh on EPC mode Job 03/2022 12/2025 839.98
+  | 794 Andhra Pradesh 360.45 99
+  | no. 742 (09/2023) (-) (839.98)
+  | (MoRTH)
+  | (618161)
+  | Rehabilitation and upgradation of NH-167AD from Macherla to Dachepalli via Paluvai
+  | Junction, Rentachinthala, Gurazala from Km.0.000 to 43.659 to two lane with paved
+  | 01/2022 01/2025 403.22
+  | 795 shoulders in the state of Andhra Pradesh job-729 Andhra Pradesh 220.99 97
+  | (01/2023) (-) (403.22)
+  | (MoRTH)
+  | (618191)
+  | Duttalur at NH-565 Junction to Kavali Joining on NH-16 Chainage Km. 36/400 to Km.
+  | 107/224 excludi
+  | ... [truncated, full page is 6047 chars]
+
+--- PAGE 133/134 ---
+  | All Ongoing Projects
+  | JANUARY 2026
+  | Orignal/Target DoC
+  | Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No Project Name (Agency) (Project Code) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | MM/YYYY in Rs. Crore in Rs. Crore
+  | Gosikhurd Project
+  | 04/2008 12/2019 7196.47
+  | 1685 (Department of water resources-MH - II) Maharashtra 13966.19 72
+  | (04/2008) (06/2028) (12770.1)
+  | (701386)
+  | Aruna Medium Irrigation Project
+  | 04/2009 12/2019 210.45
+  | 1686 (Department of water resources-MH - II) Maharashtra 1705.83 97
+  | (01/2010) (12/2025) (1472.14)
+  | (701391)
+  | Lower Pedhi Project
+  | 04/2008 12/2019 255.97
+  | 1687 (Department of water resources-MH - II) Maharashtra 1324.98 65
+  | (04/2008) (06/2026) (1480.7)
+  | (701396)
+  | Nardave Medium Irrigation Project
+  | 04/2009 12/2019 211.46
+  | 1688 (Department of water resources-MH - II) Maharashtra 626.06 72
+  | (04/2009) (06/2026) (781.85)
+  | (701398)
+  | Thoubal Multipurpose Project
+  | 04/1997 12/2019 1449.44
+  | 1689 (Water Resources Department-MN) Manipur 1837.91 98
+  | (04/1997) (03/2026) (1822.24)
+  | (701400)
+  | North Koel Reservoir Project
+  | Multi-States 08/2017 03/2021 1622.27
+  | 1690 (Department of Water Resources, River Development & GR) 172.97 38
+  | (Bihar, Jharkhand) (01/2021) (03/2026) (2430.76)
+  | (701412)
+  | Integrated Anandpur Barrage Project
+  | 04/1997 12/2019 567.03
+  | 1691 (Water Resources-OR) Odisha 2755.98 62
+  | (01/1998) (06/2026) (2990.05)
+  | (603945)
+  | Kanupur Irrigation Project
+  | 04/2003 12/2019 989.43
+  | 1692 (Irrigation and CAD-TG) Odisha 2804.16 79
+  | (01/2004) (06/2026) (2301.28)
+  | (701404)
+  | Relining of Rajasthan feeder and Sirhind Feeder canal
+  | 02/2016 06/2021 1441.26
+  | 1693 (Department of Water Resources-PB) Punjab 2148.33 85
+  | (04/2018) (06/2026) (2462.16)
+  | (701410)
+  | Shahpur Kandi Dam Project
+  | 02/2010 06/2022 2285.81
+  | 1694 (Department of Water Resources-PB) Punjab 2184.72 88
+  | (04/2018) (10/2025) (2715.7)
+  | (701411)
+  | Sri Ram Sagar Project Stage - II
+  | 04/2005 12/2019 736.13
+  | 1695 (Irrigation and CAD-TG) Telangana 940.7 96
+  | (04/2005) (03/2026) (949.87)
+  | (400102)
+  | Indiramma Flood Flow Canal Project
+  | ... [truncated, full page is 3204 chars]
+
+--- PAGE 134/134 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 133
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: NEW_FORMAT_A
+FILE: FlashReport_March_2026.pdf
+================================================================================
+Total pages: 157
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 103 pages: [54, 55, 56, 57, 58]...[154, 155, 156]
+  'Date of Approval' found on 118 pages: [36, 37, 39, 41, 42]...[154, 155, 156]
+  'Department of' found on pages: [28, 29, 36]
+  'Expenditure' found on 140 pages: [4, 7, 9, 10, 11]...[154, 155, 156]
+  'Legacy OCMS' found on 102 pages: [55, 56, 57, 58, 59]...[154, 155, 156]
+  'Ministry of' found on pages: [16, 18, 19, 20, 21, 27, 30, 31, 32, 33, 34, 39, 41, 43, 55]
+  'OCMS Code' found on 102 pages: [55, 56, 57, 58, 59]...[154, 155, 156]
+  'Ongoing Projects' found on 142 pages: [2, 4, 7, 9, 10]...[154, 155, 156]
+  'Physical Progress' found on 116 pages: [17, 41, 42, 43, 44]...[154, 155, 156]
+  'Project Code' found on 118 pages: [36, 37, 39, 41, 42]...[154, 155, 156]
+  'Project Name' found on 119 pages: [17, 36, 37, 39, 41]...[154, 155, 156]
+  'Sl.No' found on 127 pages: [24, 27, 28, 29, 30]...[154, 155, 156]
+  'Table 3:' found on pages: [2, 35]
+  'Table 4:' found on pages: [38]
+  'Table 5:' found on pages: [40]
+  'Table 6:' found on pages: [54]
+  'project' found on 157 pages: [1, 2, 3, 4, 5]...[155, 156, 157]
+
+--- PAGE 1/157 ---
+  | 485
+  | MARCH 2026
+  | Scan the QR code to access the
+  | PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | (PAIMANA)
+
+--- PAGE 2/157 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (ipm.mospi.gov.in) as of March 2026, based on the projects worth Rs. 150
+  | crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies on the IPM portal (indiainvestmentgrid.gov.in)
+  | latest by 21st April 2026.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/157 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 55/157 ---
+  | All Ongoing Projects
+  | MARCH 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport
+  | 03/2023 01/2026 265.91
+  | 1 (Airport Authority of India [AAI]) Andhra Pradesh 120.19 60
+  | (01/2024) (05/2026) (265.91)
+  | (612786)
+  | (N04000106)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | Airport. 06/2020 09/2022 611.8
+  | 2 Andhra Pradesh 523.14 87.2
+  | (Airport Authority of India [AAI]) (09/2020) (07/2026) (611.8)
+  | (701107)
+  | (N04000091)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | (Airport Authority of India [AAI]) 12/2022 08/2025 347.15
+  | 3 Andhra Pradesh 165.11 86
+  | (701121) (08/2023) (04/2026) (347.15)
+  | (N04000103)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | (Adani Airport Holdings Limited) 12/2016 03/2025 1712
+  | 4 Assam 2602.19 97
+  | (706724) (03/2018) (06/2026) (2520)
+  | (N04000083)
+  | Development of New Civil Enclave at Bihta
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1413
+  | 5 Bihar 7.64 1.28
+  | (612183) (04/2025) (-) (1413)
+  | (-)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | (Airport Authority of India [AAI]) 07/2024 07/2026 911.66
+  | 6 Bihar 352.16 61
+  | (612194) (07/2024) (-) (911.66)
+  | (N04000112)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna
+  | 10/2018 05/2026 1216.9
+  | 7 (Airport Authority of India [AAI]) Bihar 1196.4 98.04
+  | (10/2018) (05/2026) (1216.9)
+  | (701101)
+  | (N04000082)
+  | Goa Airport Terminal Building Extension Project
+  | (Airport Authority of India [AAI]) 11/2017 
+  | ... [truncated, full page is 4918 chars]
+
+--- PAGE 56/157 ---
+  | All Ongoing Projects
+  | MARCH 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) MM/YYYY in Rs. Crore in Rs. Crore
+  | Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope
+  | stabilization Measures [Balance work] of uphill and Improvement of Storm Water
+  | Drainage System at Pakyong Airport, Sikkim on design & build basis [EPC] with
+  | 11/2023 06/2026 323.26
+  | 21 integrated 10 years maintenance. Sikkim 80.84 33.6
+  | (12/2023) (-) (323.26)
+  | (Airport Authority of India [AAI])
+  | (612793)
+  | (N04000110)
+  | Modernization of Chennai Airport, Phase II, Part 2
+  | (Airport Authority of India [AAI]) 05/2018 07/2025 1207
+  | 22 Tamil Nadu 268.02 35
+  | (611602) (06/2023) (12/2026) (1207)
+  | (-)
+  | Development of Lal Bahadur Shastri International airport, Varanasi including C/o New
+  | Terminal Building, Apron Extension, Runway Extension, PTT and allied works.
+  | 07/2024 07/2027 2869.65
+  | 23 (Airport Authority of India [AAI]) Uttar Pradesh 544.48 25
+  | (07/2024) (07/2027) (2869.65)
+  | (701113)
+  | (N04000114)
+  | Development of New Integrated Civil Enclave at Agra Airport
+  | (Airport Authority of India [AAI]) 06/2024 07/2026 579
+  | 24 Uttar Pradesh 193.18 38.35
+  | (701122) (07/2024) (11/2026) (579)
+  | (N04000113)
+  | Development of New Civil Enclave at Bagdogra Airport
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1549
+  | 25 West Bengal 437.74 21.58
+  | (611495) (09/2024) (01/2027) (1549)
+  | (N04000115)
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata.
+  | 03/2023 10/2025 328.3
+  | 26 (Airport Authority of India [AAI]) West Bengal 130.5 58
+  | (12/2023) (08/2026) (328.3)
+  | (612791)
+  | (N04000109)
+  | Total (26) 21600.76 10583.3
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | (MIS MoCoal Integration Logins) 07/2022 07/2031 159.77
+  | 27 Assam 92.47 89
+  | (615820) (07/2022) (-) (159.77)
+  | (N06000290)
+  | TIRAP OCP
+  | (MIS MoCoal Integration Login
+  | ... [truncated, full page is 4296 chars]
+
+--- PAGE 57/157 ---
+  | All Ongoing Projects
+  | MARCH 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) MM/YYYY in Rs. Crore in Rs. Crore
+  | MADANNAGAR OCP 12 MTY - MDO
+  | (SECL - CIL) 12/2024 03/2029 1859.19
+  | 42 Chhattisgarh 0.45 0
+  | (619172) (12/2024) (-) (1859.19)
+  | (-)
+  | HURA C OCP
+  | (ECL - CIL) 08/2022 03/2029 859.41
+  | 43 Jharkhand 455.31 63.22
+  | (400018) (08/2022) (-) (859.41)
+  | (N06000275)
+  | KONAR EXPANSION OCP
+  | (Ministry of Coal) 01/2022 03/2032 799.34
+  | 44 Jharkhand 429.61 46.25
+  | (400073) (01/2022) (-) (799.34)
+  | (N06000245)
+  | KARO EXPANSION OCP
+  | (Ministry of Coal) 01/2022 03/2029 908.47
+  | 45 Jharkhand 283.86 22.38
+  | (400074) (01/2022) (-) (908.47)
+  | (N06000246)
+  | SANGHMITRA OC
+  | (Ministry of Coal) 03/2024 03/2032 2660
+  | 46 Jharkhand 9.36 16.72
+  | (400136) (03/2024) (-) (2660)
+  | (-)
+  | CHANDRAGUPT OCP
+  | (Ministry of Coal) 08/2020 03/2032 973.5
+  | 47 Jharkhand 440.75 24.75
+  | (400138) (08/2020) (-) (973.5)
+  | (N06000238)
+  | KOTRE BASANTPUR PACHMO OCP
+  | (Ministry of Coal) 08/2020 03/2032 861.06
+  | 48 Jharkhand 464.57 43.1
+  | (400139) (08/2020) (-) (625.4)
+  | (N06000237)
+  | Pachwara South Coal Block
+  | (NLC India Limited [NLCIL]) 03/2016 09/2028 2242.9
+  | 49 Jharkhand 1326.95 87
+  | (400142) (11/2019) (-) (2242.9)
+  | (N06000193)
+  | RPR MAGADH EXP OCP
+  | (Ministry of Coal) 08/2020 03/2028 7254.37
+  | 50 Jharkhand 1700.48 38.86
+  | (400150) (08/2020) (-) (7254.37)
+  | (N06000216)
+  | NORTH URIMARI EXPANSION OCP
+  | (Ministry of Coal) 07/2021 03/2029 778.8
+  | 51 Jharkhand 605 68.91
+  | (400151) (07/2021) (-) (778.8)
+  | (N06000218)
+  | EPR ROHINI - KARKETTA OCP
+  | (Ministry of Coal) 01/2021 03/2028 1020.42
+  | 52 Jharkhand 85.45 21.74
+  | (400153) (01/2021) (-) (1020.42)
+  | (N06000243)
+  | EPR PUNDI OCP
+  | (Ministry of Coal) 11/2020 03/2027 713.35
+  | 53 Jharkhand 236.58 10.19
+  | (400154) (11/2020) (-) (713.35)
+  | (N06000242)
+  | EPR ASHOK OC
+  | (Ministry of Coal) 05/2021 03/2031 2898.28
+  | 54 Jharkhand 186.16 26.86
+  | (400155) (05/2021) (-) (2898.28)
+  | (N06000247)
+  | EPR AMRAPALI OCP
+  | (Ministry of Coal) 02/
+  | ... [truncated, full page is 3610 chars]
+
+--- PAGE 101/157 ---
+  | All Ongoing Projects
+  | MARCH 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) MM/YYYY in Rs. Crore in Rs. Crore
+  | Aunta - Simaria including Ganga Bridge
+  | (National Highways Authority of India [NHAI]) 01/2017 02/2022 1309.47
+  | 945 Bihar 812.81 100
+  | (618839) (08/2018) (04/2026) (2107.68)
+  | (N24000696)
+  | Simaria Km. 206.050 to Khagaria Km. 266.282
+  | (National Highways Authority of India [NHAI]) 12/2015 04/2019 664.02
+  | 946 Bihar 340.09 97.67
+  | (618840) (10/2016) (07/2026) (891.64)
+  | (N24000480)
+  | 4L Elevated Section and at-grade improvements at Begusarai town Simaria - Khagaria
+  | section from Km. 221.047 to Km. 225.302 of NH-31
+  | 10/2021 12/2024 491.04
+  | 947 (National Highways Authority of India [NHAI]) Bihar 333.67 93.88
+  | (06/2022) (06/2026) (348.38)
+  | (618841)
+  | (N24001699)
+  | Bakhtiyarpur-Rajauli Pkg-II from km. 54.405 to km.101.630
+  | (National Highways Authority of India [NHAI]) 09/2020 07/2023 897.45
+  | 948 Bihar 838.02 97.85
+  | (618861) (04/2021) (04/2026) (1397.47)
+  | (N24001709)
+  | Bakhtiyarpur-Rajauli Pkg-III from km. 101.630 to km.152.520
+  | (National Highways Authority of India [NHAI]) 09/2020 06/2024 2156.22
+  | 949 Bihar 1589.83 99.14
+  | (618862) (12/2021) (04/2026) (3046.61)
+  | (-)
+  | Maheshkunt-Saharsa-Purnea Pkg I km 0.00 to km. 90.00 of NH-107
+  | (National Highways Authority of India [NHAI]) 02/2017 12/2021 662.44
+  | 950 Bihar 917.26 85.25
+  | (618902) (12/2019) (07/2026) (1311.22)
+  | (N24000723)
+  | Maheshkunt -Saharsa-Purnea Pkg II
+  | (National Highways Authority of India [NHAI]) 03/2017 12/2020 1028.28
+  | 951 Bihar 815.63 91.03
+  | (618903) (12/2018) (06/2026) (1244.09)
+  | (N24000665)
+  | Chhapra - Hajipur from km. 143.200 to km. 209.200
+  | (National Highways Authority of India [NHAI]) 07/2010 07/2013 2127.86
+  | 952 Bihar 98.07 89.81
+  | (618904) (01/2011) (04/2026) (2171.6)
+  | (N24000187)
+  | Widening with additional 3L abetting Chhapra Bypass Section of NH-19 from Km.
+  | 143.200 to Km. 159.255 Pkg-1
+  | 02
+  | ... [truncated, full page is 5125 chars]
+
+--- PAGE 156/157 ---
+  | All Ongoing Projects
+  | MARCH 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) MM/YYYY in Rs. Crore in Rs. Crore
+  | Gosikhurd Project
+  | (Department of water resources-MH - II) 04/2008 12/2019 7196.47
+  | 1922 Maharashtra 14302.56 72.65
+  | (701386) (04/2008) (06/2028) (12770.1)
+  | (-)
+  | Aruna Medium Irrigation Project
+  | (Department of water resources-MH - II) 04/2009 12/2019 210.45
+  | 1923 Maharashtra 1734.71 97.96
+  | (701391) (01/2010) (12/2025) (1472.14)
+  | (-)
+  | Lower Pedhi Project
+  | (Department of water resources-MH - II) 04/2008 12/2019 255.97
+  | 1924 Maharashtra 1516.11 65
+  | (701396) (04/2008) (06/2026) (1480.7)
+  | (-)
+  | Nardave Medium Irrigation Project
+  | (Department of water resources-MH - II) 04/2009 12/2019 211.46
+  | 1925 Maharashtra 626.06 72.59
+  | (701398) (04/2009) (06/2026) (781.85)
+  | (-)
+  | Thoubal Multipurpose Project
+  | (Water Resources Department-MN) 04/1997 12/2019 1449.44
+  | 1926 Manipur 1837.91 98.9
+  | (701400) (04/1997) (03/2026) (1822.24)
+  | (-)
+  | North Koel Reservoir Project
+  | (Department of Water Resources, River Development & GR) Multi-States 08/2017 03/2021 1622.27
+  | 1927 172.97 38
+  | (701412) (Bihar, Jharkhand) (01/2021) (03/2026) (2430.76)
+  | (-)
+  | Ken-Betwa Linking Development Project
+  | Multi-States
+  | (Department of Water Resources, River Development, ) NA 03/2029 21030
+  | 1928 (Madhya Pradesh, 8530.86 0
+  | (701530) (03/2022) (-) (21030)
+  | Uttar Pradesh)
+  | (-)
+  | Integrated Anandpur Barrage Project
+  | (Water Resources-OR) 04/1997 12/2019 567.03
+  | 1929 Odisha 2776.23 62.85
+  | (603945) (01/1998) (06/2026) (2990.05)
+  | (-)
+  | Subernarekha Project, Odisha
+  | (Department of Water Resources, River Development & GR) NA 12/2019 3055.88
+  | 1930 Odisha 8060.82 95.5
+  | (701402) (01/1998) (03/2026) (7023.19)
+  | (-)
+  | Kanupur Irrigation Project
+  | (Irrigation and CAD-TG) 04/2003 12/2019 989.43
+  | 1931 Odisha 2804.16 79.5
+  | (701404) (01/2004) (06/2026) (2301.28)
+  | (-)
+  | Relining of Rajasthan feeder and Sirhind Feeder canal
+  | (De
+  | ... [truncated, full page is 3918 chars]
+
+--- PAGE 157/157 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://www.ipm.mospi.gov.in/
+  | Page 156
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: NEW_FORMAT_B
+FILE: FlashReport_April2026.pdf
+================================================================================
+Total pages: 163
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 109 pages: [54, 55, 56, 57, 58]...[160, 161, 162]
+  'Date of Approval' found on 125 pages: [35, 37, 38, 39, 41]...[160, 161, 162]
+  'Department of' found on pages: [31, 53]
+  'Expenditure' found on 145 pages: [4, 7, 9, 10, 11]...[160, 161, 162]
+  'Legacy OCMS' found on 108 pages: [55, 56, 57, 58, 59]...[160, 161, 162]
+  'Ministry of' found on pages: [16, 18, 19, 20, 21, 26, 27, 28, 29, 30, 32, 33, 35, 41, 43, 55, 70, 72, 79]
+  'OCMS Code' found on 108 pages: [55, 56, 57, 58, 59]...[160, 161, 162]
+  'Ongoing Projects' found on 148 pages: [2, 4, 7, 9, 10]...[160, 161, 162]
+  'Physical Progress' found on 122 pages: [17, 41, 42, 43, 44]...[160, 161, 162]
+  'Project Code' found on 125 pages: [35, 37, 38, 39, 41]...[160, 161, 162]
+  'Project Name' found on 126 pages: [17, 35, 37, 38, 39]...[160, 161, 162]
+  'Sl.No' found on 134 pages: [24, 26, 27, 28, 29]...[160, 161, 162]
+  'Table 3:' found on pages: [2, 34]
+  'Table 4:' found on pages: [36]
+  'Table 5:' found on pages: [40]
+  'Table 6:' found on pages: [54]
+  'project' found on 163 pages: [1, 2, 3, 4, 5]...[161, 162, 163]
+
+--- PAGE 1/163 ---
+  | 486
+  | APRIL 2026
+  | Scan the QR code to access
+  | the PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | (PAIMANA)
+
+--- PAGE 2/163 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (https://paimana-proj.mospi.gov.in) as of April 2026, based on the projects worth
+  | Rs. 150 crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies on the IPM portal
+  | (indiainvestmentgrid.gov.in) latest by 19th May 2026.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/163 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 4/163 ---
+  | Flash Report
+  | APRIL 2026
+  | Central Sector Infrastructure Projects Costing Rs. 150 crore & above
+  | 1981 | 17 ₹ 37,12,662 ₹ 42,78,402 ₹ 20,36,107
+  | (47.59% of Revised Cost)
+  | Ongoing Projects | Original Cost Revised Cost
+  | Expenditure
+  | Line Ministries & Departments (crores) (crores)
+  | (crores)
+  | 9 55
+  | Commissioned during month Newly Added during month
+  | Sectoral Comparison : Major Sectors* Ministry Comparison : Major Ministries*
+  | [Outer Ring : Original Cost in ₹ lakh crore] & [Inner Ring : Project Count] [Outer Ring : Original Cost in ₹ lakh crore] & [Inner Ring : Project Count]
+  | Note: * as per Project Count
+  | Note: all indicated legends are in format (Project count, Original Cost in crores)
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 3
+  | (PAIMANA)
+
+--- PAGE 55/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport
+  | 03/2023 01/2026 265.91
+  | 1 (Airport Authority of India [AAI]) Andhra Pradesh 129.07 65
+  | (612786) (01/2024) (07/2026) (265.91)
+  | (N04000106) (-)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | Airport. 06/2020 09/2022 611.8
+  | 2 Andhra Pradesh 523.14 87.2
+  | (Airport Authority of India [AAI]) (09/2020) (10/2026) (611.8)
+  | (701107)
+  | (N04000091) (4353)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | (Airport Authority of India [AAI]) 12/2022 08/2025 347.15
+  | 3 Andhra Pradesh 170.79 90
+  | (701121) (08/2023) (06/2026) (347.15)
+  | (N04000103) (-)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | (Adani Airport Holdings Limited) 12/2016 03/2025 1712
+  | 4 Assam 2627.39 98
+  | (706724) (03/2018) (06/2026) (2520)
+  | (N04000083) (9925)
+  | Development of New Civil Enclave at Bihta
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1413
+  | 5 Bihar 7.64 1.28
+  | (612183) (04/2025) (-) (1413)
+  | (-) (9918)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | (Airport Authority of India [AAI]) 07/2024 07/2026 911.66
+  | 6 Bihar 374.49 65
+  | (612194) (07/2024) (11/2026) (911.66)
+  | (N04000112) (9917)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna
+  | 10/2018 05/2026 1216.9
+  | 7 (Airport Authority of India [AAI]) Bihar 1200.67 98.22
+  | (701101) (10/2018) (05/2026) (1216.9)
+  | (N04000082) (4356)
+  | Goa Airport Terminal Building Ext
+  | ... [truncated, full page is 5065 chars]
+
+--- PAGE 56/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope
+  | stabilization Measures [Balance work] of uphill and Improvement of Storm Water
+  | Drainage System at Pakyong Airport, Sikkim on design & build basis [EPC] with
+  | 11/2023 06/2026 323.26
+  | 21 integrated 10 years maintenance. Sikkim 80.84 34.25
+  | (Airport Authority of India [AAI]) (12/2023) (06/2027) (323.26)
+  | (612793)
+  | (N04000110) (-)
+  | Modernization of Chennai Airport, Phase II, Part 2
+  | (Airport Authority of India [AAI]) 05/2018 07/2025 1207
+  | 22 Tamil Nadu 289.5 38
+  | (611602) (06/2023) (12/2026) (1207)
+  | (-) (5163)
+  | Development of Lal Bahadur Shastri International airport, Varanasi including C/o New
+  | Terminal Building, Apron Extension, Runway Extension, PTT and allied works.
+  | 07/2024 07/2027 2869.65
+  | 23 (Airport Authority of India [AAI]) Uttar Pradesh 572.04 27
+  | (701113) (07/2024) (07/2027) (2869.65)
+  | (N04000114) (9932)
+  | Development of New Integrated Civil Enclave at Agra Airport
+  | (Airport Authority of India [AAI]) 06/2024 07/2026 579
+  | 24 Uttar Pradesh 197.61 40.03
+  | (701122) (07/2024) (11/2026) (579)
+  | (N04000113) (9931)
+  | Development of New Civil Enclave at Bagdogra Airport
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1549
+  | 25 West Bengal 441.41 34.6
+  | (611495) (09/2024) (01/2027) (1549)
+  | (N04000115) (9920)
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata.
+  | 03/2023 10/2025 328.3
+  | 26 (Airport Authority of India [AAI]) West Bengal 139.77 64.5
+  | (612791) (12/2023) (08/2026) (328.3)
+  | (N04000109) (-)
+  | Total (26) 21600.76 10762.01
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | (MIS MoCoal Integration Logins) 07/2022 07/2031 159.77
+  | 27 Assam 111.47 88.18
+  | (615820) (07/2022) (-) (15
+  | ... [truncated, full page is 4431 chars]
+
+--- PAGE 57/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | MADANNAGAR OCP 12 MTY - MDO
+  | (SECL - CIL) 12/2024 03/2029 1859.19
+  | 42 Chhattisgarh 0.45 0
+  | (619172) (12/2024) (-) (1859.19)
+  | (-) (11856)
+  | HURA C OCP
+  | (ECL - CIL) 08/2022 03/2029 859.41
+  | 43 Jharkhand 455.25 63.22
+  | (400018) (08/2022) (-) (859.41)
+  | (N06000275) (4585)
+  | KONAR EXPANSION OCP
+  | (Ministry of Coal) 01/2022 03/2032 799.34
+  | 44 Jharkhand 433.64 53.47
+  | (400073) (01/2022) (-) (799.34)
+  | (N06000245) (4077)
+  | KARO EXPANSION OCP
+  | (Ministry of Coal) 01/2022 03/2029 908.47
+  | 45 Jharkhand 289.45 23.57
+  | (400074) (01/2022) (-) (908.47)
+  | (N06000246) (4074)
+  | SANGHMITRA OC
+  | (Ministry of Coal) 03/2024 03/2032 2660
+  | 46 Jharkhand 16.1 16.77
+  | (400136) (03/2024) (-) (2660)
+  | (-) (3190)
+  | CHANDRAGUPT OCP
+  | (Ministry of Coal) 08/2020 03/2032 973.5
+  | 47 Jharkhand 440.75 24.86
+  | (400138) (08/2020) (-) (973.5)
+  | (N06000238) (3188)
+  | KOTRE BASANTPUR PACHMO OCP
+  | (Ministry of Coal) 08/2020 03/2032 861.06
+  | 48 Jharkhand 455.95 47.95
+  | (400139) (08/2020) (-) (625.4)
+  | (N06000237) (3183)
+  | Pachwara South Coal Block
+  | (NLC India Limited [NLCIL]) 03/2016 09/2028 2242.9
+  | 49 Jharkhand 1365.83 87
+  | (400142) (11/2019) (-) (2242.9)
+  | (N06000193) (3135)
+  | RPR MAGADH EXP OCP
+  | (Ministry of Coal) 08/2020 03/2028 7254.37
+  | 50 Jharkhand 1688.4 40.21
+  | (400150) (08/2020) (-) (7254.37)
+  | (N06000216) (3105)
+  | NORTH URIMARI EXPANSION OCP
+  | (Ministry of Coal) 07/2021 03/2029 778.8
+  | 51 Jharkhand 605.7 71.38
+  | (400151) (07/2021) (-) (778.8)
+  | (N06000218) (3103)
+  | EPR ROHINI - KARKETTA OCP
+  | (Ministry of Coal) 01/2021 03/2028 1020.42
+  | 52 Jharkhand 84.94 22.84
+  | (400153) (01/2021) (-) (1020.42)
+  | (N06000243) (3100)
+  | EPR PUNDI OCP
+  | (Ministry of Coal) 11/2020 03/2027 713.35
+  | 53 Jharkhand 236.58 10.19
+  | (400154) (11/2020) (-) (713.35)
+  | (N06000242) (3099)
+  | EPR ASHOK OC
+  | (Ministry of Coal) 05/2021 03/2031 2898.28
+  | 54 Jharkhand 18
+  | ... [truncated, full page is 3694 chars]
+
+--- PAGE 58/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | TETARIAKHAR OC
+  | (Ministry of Coal) 11/2019 03/2025 243.52
+  | 65 Jharkhand 50.82 31.27
+  | (615843) (11/2019) (03/2027) (243.52)
+  | (N06000186) (-)
+  | CHUPERBHITA SIMLONG OCP MDO 6
+  | (Eastern Coal Fields Limited [ECL]) 12/2023 03/2037 979.08
+  | 66 Jharkhand 0 0.05
+  | (616225) (12/2023) (-) (979.08)
+  | (N06000280) (6880)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | (CCL - CIL) 02/2020 03/2029 414.37
+  | 67 Jharkhand 85.6 34.18
+  | (616236) (02/2020) (-) (414.37)
+  | (N06000295) (-)
+  | BLOCK E OCP
+  | (Ministry of Coal) 03/2024 03/2029 5850.83
+  | 68 Jharkhand 20.32 4.17
+  | (616253) (03/2024) (-) (5850.83)
+  | (N06000287) (7368)
+  | Revised Jharia Master Plan for Dealing with Fire, Subsidence & Rehabilitation of
+  | affected families in Jharia Coalfield- Reg.
+  | 06/2025 12/2028 5940.47
+  | 69 (Bharat Coking Coal Limited [BCCL]) Jharkhand 262.83 26
+  | (617416) (07/2025) (-) (5940.47)
+  | (-) (9943)
+  | North Dhadu Western Part OCP
+  | (NLC India Limited [NLCIL]) 10/2023 03/2029 1354.2
+  | 70 Jharkhand 141.98 40
+  | (617764) (12/2023) (-) (1354.2)
+  | (-) (9968)
+  | AMADAND OCP[4.0MTY]
+  | (Ministry of Coal) 03/2016 03/2021 869.44
+  | 71 Madhya Pradesh 325.4 75.15
+  | (400148) (03/2016) (03/2027) (869.44)
+  | (N06000148) (3111)
+  | BLOCK B EXPANSION [3.5 TO 8.0
+  | (Northern Coalfields Limited [NCL]) 07/2019 03/2023 998.71
+  | 72 Madhya Pradesh 518.17 50
+  | (400162) (07/2019) (03/2027) (998.71)
+  | (N06000184) (3059)
+  | NIGAHI EXPANSION [15 TO 25 MTP
+  | (Northern Coalfields Limited [NCL]) 11/2020 03/2025 1729.68
+  | 73 Madhya Pradesh 929.02 48.76
+  | (400321) (11/2020) (03/2028) (1729.68)
+  | (N06000196) (943)
+  | KANCHAN OC EXP
+  | (South Eastern Coalfields Limited [SECL]) 12/2014 03/2026 371.04
+  | 74 Madhya Pradesh 148.87 58.2
+  | (613802) (12/2014) (03/2028) (371.04)
+  | (N06000125) (-)
+  | JHIRIA WEST OCP [1.5 MTY]
+  | (South Eastern Coalfields Limited [SECL]) 01/2024 03/2029 366.94
+  | ... [truncated, full page is 3979 chars]
+
+--- PAGE 59/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | DHUPTALA OC [SASTI UG TO OC ]
+  | (Western Coalfields Limited [WCL]) 02/2019 03/2028 711.01
+  | 87 Maharashtra 174.62 19.02
+  | (400353) (10/2021) (-) (711.01)
+  | (N06000209) (776)
+  | SAONER UG MINE -1 EXPANSION 1.
+  | (Western Coalfields Limited [WCL]) 01/2022 03/2028 228.64
+  | 88 Maharashtra 150.47 69.33
+  | (615184) (01/2022) (-) (228.64)
+  | (N06000251) (-)
+  | SASTI EXPANSION OPENCAST
+  | (Western Coalfields Limited [WCL]) 08/2020 03/2026 319.04
+  | 89 Maharashtra 111.17 32.21
+  | (615186) (08/2020) (-) (319.04)
+  | (N06000206) (-)
+  | NEW MAJRI UG TO OC 3 MTY COST
+  | (Western Coalfields Limited [WCL]) 05/2019 03/2027 402.27
+  | 90 Maharashtra 67.11 24.17
+  | (615188) (09/2022) (-) (402.27)
+  | (N06000255) (-)
+  | MAKARDHOKRA EXPN OC 4.9 MTY
+  | (Western Coalfields Limited [WCL]) 06/2022 03/2026 361.87
+  | 91 Maharashtra 96.64 12.2
+  | (615189) (06/2022) (-) (361.87)
+  | (N06000253) (-)
+  | SINGHORI DEEP OC MIN 2.0 MTY
+  | (Western Coalfields Limited [WCL]) 05/2022 03/2029 335.75
+  | 92 Maharashtra 49.75 9.57
+  | (615190) (05/2022) (-) (335.75)
+  | (N06000252) (-)
+  | GOKUL EXTENSION OC MINE
+  | (Western Coalfields Limited [WCL]) 04/2021 03/2026 309.58
+  | 93 Maharashtra 57.46 8.44
+  | (615192) (04/2021) (-) (309.58)
+  | (N06000264) (-)
+  | KOLGAON EXPANSION DEEP OC MINE
+  | (Western Coalfields Limited [WCL]) 01/2023 03/2027 198.71
+  | 94 Maharashtra 23.54 2.82
+  | (615199) (09/2023) (-) (198.71)
+  | (N06000267) (-)
+  | BALLARPUR NORTH WEST OC MINE
+  | (Western Coalfields Limited [WCL]) 12/2022 03/2029 360.81
+  | 95 Maharashtra 3.84 5.17
+  | (615330) (12/2022) (-) (360.81)
+  | (N06000282) (-)
+  | GADEGAON OC 3 MTY
+  | (Western Coalfields Limited [WCL]) 10/2023 03/2030 497.41
+  | 96 Maharashtra 27.55 2.19
+  | (615331) (10/2023) (-) (497.41)
+  | (-) (-)
+  | GHONSA EXPANSION DEEP OC MINE
+  | (Western Coalfields Limited [WCL]) 03/2021 03/2029 184.71
+  | 97 Maharashtra 15.72 12.83
+  | (61591
+  | ... [truncated, full page is 4143 chars]
+
+--- PAGE 101/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Construction of Balance Work of 4-Laning of the Section from Jhanji to Demow of NH-
+  | 37 Old from Km 490.800 to Km 501.800 11.000 Km, under SARDP- NE under EPC
+  | Mode in the state of Assam Pkg-I Road Works 01/2016 09/2025 467.79
+  | 921 Assam 72.13 0
+  | (NHIDCL) (10/2024) (-) (476.5)
+  | (618441)
+  | (N24000320) (-)
+  | Construction of Balance Work of the 4-Laning of the Section from Jorhat to Jhanji of
+  | NH-37 Old from Km 477.000 to Km 490800 13.800 Km, under SARDP- NE under
+  | EPC Mode in the state of Assam Pkg-III Road Works 01/2024 08/2024 358.72
+  | 922 Assam 0.07 99.05
+  | (NHIDCL) (02/2024) (-) (358.72)
+  | (618442)
+  | (N24000319) (-)
+  | Construction of Balance Work of the 4-Laning of the Section from Jorhat to Jhanji of
+  | NH-37 Old from Km 463.00 to Km 477.000 14.000 Km, under SARDP- NE under EPC
+  | Mode in the state of Assam Pkg-II Road Works 01/2024 08/2024 438.44
+  | 923 Assam 0 95.86
+  | (NHIDCL) (02/2024) (-) (438.44)
+  | (618443)
+  | (N24000319) (-)
+  | Construction of Balance Work of the 4-Laning of the Section from Jorhat to Jhanji of
+  | NH-37 Old from Km 453.000 to Km 490.800, under SARDP- NE , under EPC Mode in
+  | the state of Assam Pkg-IV Structures & Toll Plaza 01/2024 08/2024 279.01
+  | 924 Assam 0 94.73
+  | (NHIDCL) (02/2024) (-) (279.01)
+  | (618444)
+  | (N24000319) (-)
+  | Earthwork in Formation, Road Work, Construction of Bridges, Blanketing, P. Way
+  | Linking works including Supply of P. Way Fittings and Track Ballast in connection with
+  | Construction of Railway Siding from Jogighopa Railway Station to MMLP at Jogighopa
+  | from Ch. 00 to 3760 on Item Rate basis Package -3, Railway Siding from Jogighopa 02/2020 06/2022 693.97
+  | 925 Assam 37.6 93.23
+  | Railway Station to MMLP (12/2020) (09/2024) (693.97)
+  | (NHIDCL)
+  | (618454)
+  | (N24002030) (10313)
+  | Development of External Trunk 
+  | ... [truncated, full page is 5240 chars]
+
+--- PAGE 131/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Rehabilitation and Up-gradation of Nongstoin Wahkaji section of Project Road Km
+  | 0000 to Km 43060 to Intermediate Lane with earthern shoulder under SARDP-NE
+  | Phase-A in the State of Meghalaya on EPC mode. Job No- SARDP-NE ong-Don-
+  | 08/2020 08/2023 302.88
+  | 1438 Maw/MG/2020-21/294 Meghalaya 182.58 99.1
+  | (MoRTH) (02/2022) (05/2026) (302.88)
+  | (617885)
+  | (N24001441) (-)
+  | Improvement and Widening two lannig with paved Shoulder of NH 127B from km
+  | 31.500 Goeragre to km 63.224 Package-II in state of Meghalaya
+  | 12/2023 05/2027 504
+  | 1439 (MoRTH) Meghalaya 0 2.5
+  | (618076) (05/2025) (-) (350.67)
+  | (N24002239) (-)
+  | Improvement and Widening of National Highway No. 127B Darugiri - Songsak -
+  | Williamnagar Junction Section to two lane with paved shoulder from design Km 0000
+  | to Km 36635 Design length 36.635 Km existing Km 112000 to Km 151060 of NH-1278
+  | 03/2023 09/2027 801.07
+  | 1440 under Bharatmala Pariyojana Lot-1 Pkg-1B Meghalaya portion Meghalaya 64.53 24.13
+  | (NHIDCL) (09/2025) (09/2027) (801.07)
+  | (618294)
+  | (-) (10243)
+  | Improvement/Widening of New NH-217 Dainadubi-Darugiri section to Two lane with
+  | paved shoulder in Meghalaya from design Km 0000 to Km 40840 existing Km 8600 to
+  | Km 53000 of Old NH-62 under BMP Lot-1 Pkg-1B Meghalaya portion 03/2023 03/2027 705.83
+  | 1441 Meghalaya 0 38.75
+  | (NHIDCL) (03/2025) (03/2027) (705.83)
+  | (618295)
+  | (N24002233) (10244)
+  | Improvement/Widening to 2-L with Paved Shoulder/ 4-Laning of NH-40 section from
+  | Km 151330 to Km 163400 design Km 63.530 to Km 71.520 including Dawki Bridge of
+  | length 368 m between Shillong-Dawki under JICA ODA Loan assistance Phase-II Pkg-
+  | 07/2020 11/2026 284.21
+  | 1442 5 -Balance work Meghalaya 0 38.77
+  | (NHIDCL) (05/2024) (11/2026) (284.21)
+  | (618374)
+  | (N24001335) (-)
+  | Improvement/Wideni
+  | ... [truncated, full page is 5304 chars]
+
+--- PAGE 161/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Sardar Sarovar CADWM Project
+  | (Narmada and Water Resources, Water Supply and Kalpsar Department-GJ) 04/2017 12/2019 5021.76
+  | 1948 Gujarat 4956.98 90.3
+  | (400097) (04/2017) (03/2026) (6670.31)
+  | (-) (3365)
+  | Sardar Sarovar Project
+  | (Narmada and Water Resources, Water Supply and Kalpsar Department-GJ) 04/1996 12/2019 20718.17
+  | 1949 Gujarat 31860.86 93.7
+  | (701372) (04/1996) (03/2026) (33412.5)
+  | (-) (3326)
+  | Subernarekha Multipurpose Project, Jharkhand
+  | (Department of Water Resources-JH) 04/2011 12/2019 3807.77
+  | 1950 Jharkhand 5999.8 70
+  | (701376) (01/2012) (03/2026) (9579.58)
+  | (-) (3349)
+  | Upper Tunga Irrigation Project
+  | (Water Resources-KA) 04/2014 12/2019 770.16
+  | 1951 Karnataka 1515.6 99.32
+  | (701377) (04/2014) (03/2026) (1606.07)
+  | (-) (3341)
+  | Omkareshwar CADWM Project
+  | (Water resource-mp) 04/2017 12/2019 648.09
+  | 1952 Madhya Pradesh 208.06 49.78
+  | (400096) (04/2017) (06/2027) (648.09)
+  | (-) (3367)
+  | Bargi Diversion Project Phase - IV [km. 154 to km 197]
+  | (Water Resources-MP) 04/2008 12/2019 751.03
+  | 1953 Madhya Pradesh 814.02 75
+  | (400115) (01/2009) (03/2026) (893.35)
+  | (-) (3308)
+  | Bargi Diversion Project Phase - III [km. 104 to km 154]
+  | (Water Resources-MP) 04/2007 12/2019 1229.15
+  | 1954 Madhya Pradesh 2190.05 81.42
+  | (400116) (04/2007) (12/2026) (1399.7)
+  | (-) (3307)
+  | Gosikhurd CADWM Project
+  | (Department of water resources-MH - II) 04/2017 12/2019 743.73
+  | 1955 Maharashtra 459.06 53.93
+  | (400095) (04/2017) (06/2026) (743.73)
+  | (-) (3368)
+  | Urmodi Irrigation Project
+  | (Department of water resources-MH - II) 04/2017 06/2022 580.79
+  | 1956 Maharashtra 713.46 76.22
+  | (400105) (04/2018) (12/2026) (895.81)
+  | (-) (3335)
+  | Sulwade-Jamphal-Kanoli Lift Irrigation Scheme
+  | (Department of water resources-MH - II) 04/2017 06/2023 2407.67
+  | 1957 Maharashtra 2779.38 80.54
+  | (4
+  | ... [truncated, full page is 4475 chars]
+
+--- PAGE 162/163 ---
+  | All Ongoing Projects
+  | APRIL 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Kanupur Irrigation Project
+  | (Irrigation and CAD-TG) 04/2003 12/2019 989.43
+  | 1971 Odisha 2804.16 79.5
+  | (701404) (01/2004) (06/2026) (2301.28)
+  | (-) (3347)
+  | Relining of Rajasthan feeder and Sirhind Feeder canal
+  | (Department of Water Resources-PB) 02/2016 06/2021 1441.26
+  | 1972 Punjab 2222.34 90
+  | (701410) (04/2018) (06/2026) (2462.16)
+  | (-) (3324)
+  | Shahpur Kandi Dam Project
+  | (Department of Water Resources-PB) 02/2010 06/2022 2285.81
+  | 1973 Punjab 2201.94 88
+  | (701411) (04/2018) (06/2026) (2715.7)
+  | (-) (3328)
+  | Sri Ram Sagar Project Stage - II
+  | (Irrigation and CAD-TG) 04/1996 12/2019 736.13
+  | 1974 Telangana 971.47 97
+  | (400102) (04/2005) (12/2025) (949.87)
+  | (-) (3344)
+  | Indiramma Flood Flow Canal Project
+  | (Irrigation and CAD-TG) 04/1996 12/2019 1331.3
+  | 1975 Telangana 4491.08 92
+  | (400103) (01/2006) (12/2026) (5940.09)
+  | (-) (3339)
+  | J. Chokka Rao Devadula Lift Irrigation Scheme
+  | (Irrigation and CAD-TG) 04/2006 12/2019 8200.71
+  | 1976 Telangana 4784.54 87.7
+  | (701405) (04/2006) (12/2025) (14730)
+  | (-) (3340)
+  | Rajiv Bhima Lift Irrigation Scheme
+  | (Irrigation and CAD-TG) 04/2007 12/2019 1402
+  | 1977 Telangana 1839.76 100
+  | (701406) (01/2008) (03/2026) (2509.66)
+  | (-) (3343)
+  | Saryu Nahar CADWM Project
+  | (Irrigation & Water Resources-UP) 04/2017 12/2019 1672.7
+  | 1978 Uttar Pradesh 22.24 1.76
+  | (400093) (04/2017) (03/2026) (1672.7)
+  | (-) (3370)
+  | Morna [Gureghar] Irrigation Project
+  | (Department of Water Resources, River Development & GR) 04/2007 12/2025 219.9
+  | 1979 Uttar Pradesh 115.2 31.5
+  | (701395) (12/2007) (-) (219.9)
+  | (-) (-)
+  | Madhya Ganga canal Phase-II
+  | (Irrigation & Water Resources-UP) 04/2008 12/2019 1060.67
+  | 1980 Uttar Pradesh 4575.74 82.39
+  | (701408) (04/2008) (12/2025) (4417.21)
+  | (-) (3319)
+  | Jamrani Dam Multipurpose Project
+  | (Irrigation-UK) 10/2023 06/2029 2584.1
+  | ... [truncated, full page is 2594 chars]
+
+--- PAGE 163/163 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 162
+  | (PAIMANA)
+
+================================================================================
+FORMAT CLASS: NEW_FORMAT_B
+FILE: FlashReport_July_2026-1.pdf
+================================================================================
+Total pages: 153
+
+--- KEYWORD SCAN (first 300 chars of each page) ---
+  'All Ongoing' found on 99 pages: [54, 55, 56, 57, 58]...[150, 151, 152]
+  'Date of Approval' found on 114 pages: [36, 37, 39, 40, 42]...[150, 151, 152]
+  'Department of' found on pages: [26, 27, 28, 30, 32, 33, 36]
+  'Expenditure' found on 136 pages: [4, 7, 9, 10, 11]...[150, 151, 152]
+  'Legacy OCMS' found on 98 pages: [55, 56, 57, 58, 59]...[150, 151, 152]
+  'Ministry of' found on pages: [16, 18, 19, 20, 21, 26, 27, 29, 30, 31, 32, 33, 34, 42, 44, 55, 67]
+  'OCMS Code' found on 98 pages: [55, 56, 57, 58, 59]...[150, 151, 152]
+  'Ongoing Projects' found on 138 pages: [2, 4, 7, 9, 10]...[150, 151, 152]
+  'Physical Progress' found on 111 pages: [17, 42, 43, 44, 45]...[150, 151, 152]
+  'Project Code' found on 114 pages: [36, 37, 39, 40, 42]...[150, 151, 152]
+  'Project Name' found on 115 pages: [17, 36, 37, 39, 40]...[150, 151, 152]
+  'Sl.No' found on 124 pages: [24, 26, 27, 28, 29]...[150, 151, 152]
+  'Table 3:' found on pages: [2, 35]
+  'Table 4:' found on pages: [38]
+  'Table 5:' found on pages: [41]
+  'Table 6:' found on pages: [54]
+  'project' found on 153 pages: [1, 2, 3, 4, 5]...[151, 152, 153]
+
+--- PAGE 1/153 ---
+  | 489
+  | JULY 2026
+  | Scan the QR code to access
+  | the PAIMANA Portal.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | (PAIMANA)
+
+--- PAGE 2/153 ---
+  | CONTENTS
+  | I. Overview* 2-4
+  | II. North Eastern Region 5-6
+  | III. As per Harmonized Master List (HML) 2022 7-13
+  | IV. Major Infrastructure Central Ministries & Departments 14-19
+  | V. Appendix : List of Tables 20 onwards
+  | Table 1: Ministry-wise Ongoing Projects
+  | Table 2: State-wise Ongoing Projects
+  | Table 3: Completed Projects
+  | Table 4: Newly Added Projects
+  | Table 5: Ongoing Projects of North Eastern Region
+  | Table 6: All Ongoing Projects
+  | *Note: This report is web-generated from the PAIMANA portal (https://paimana-proj.mospi.gov.in) as of July 2026, based on the projects worth
+  | Rs. 150 crores and above reported by Central Line Ministries/ Departments/ Implementing Agencies on the CRIP portal (https://paimana-
+  | crip.mospi.gov.in) latest by 21st August 2026.
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 1
+  | (PAIMANA)
+
+--- PAGE 3/153 ---
+  | Overview
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 2
+  | (PAIMANA)
+
+--- PAGE 55/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Ministry of Civil Aviation
+  | Aviation & Aviation Infrastructure
+  | Construction of New Domestic Terminal Building Building and miscellaneous works
+  | including maintenance, operations and AICMC at Kadapa Airport
+  | 03/2023 01/2026 265.91
+  | 1 (Airport Authority of India [AAI]) Andhra Pradesh 176.38 80
+  | (612786) (01/2024) (09/2026) (265.91)
+  | (-) (-)
+  | Construction of New Integrated Terminal Building and associated works including
+  | apron to park 3 code E type of aircraft or 6 code C type of aircraft at Vijayawada
+  | Airport. 06/2020 09/2022 611.80
+  | 2 Andhra Pradesh 572.99 89.7
+  | (Airport Authority of India [AAI]) (09/2020) (11/2026) (824.28)
+  | (701107)
+  | (-) (-)
+  | Construction of New Domestic Terminal Building at Rajahmundry Airport.
+  | (Airport Authority of India [AAI]) 12/2022 08/2025 347.15
+  | 3 Andhra Pradesh 189.48 96
+  | (701121) (08/2023) (08/2026) (347.15)
+  | (-) (-)
+  | Guwahati Airport New Integrated Terminal Building Construction Project
+  | (Adani Airport Holdings Limited) 12/2016 03/2025 1712.00
+  | 4 Assam 2670.23 99.5
+  | (706724) (03/2018) (06/2026) (2520.00)
+  | (-) (-)
+  | Development of New Civil Enclave at Bihta
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1413.00
+  | 5 Bihar 15.53 4.15
+  | (612183) (04/2025) (-) (1413.00)
+  | (-) (-)
+  | Development of New Civil Enclave and associated works at Darbhanga Airport
+  | (Airport Authority of India [AAI]) 07/2024 07/2026 911.66
+  | 6 Bihar 426.22 71.1
+  | (612194) (07/2024) (11/2026) (911.66)
+  | (-) (-)
+  | Construction of New Domestic Terminal Building [Phase-I and II] and other allied
+  | structures at JPNI Airport, Patna
+  | 10/2018 05/2026 1216.90
+  | 7 (Airport Authority of India [AAI]) Bihar 1203.48 99.26
+  | (701101) (10/2018) (08/2026) (1216.90)
+  | (-) (-)
+  | Development of Keshod Airport.
+  | (Airport Authority of India [AAI]) 01/2024 01
+  | ... [truncated, full page is 4797 chars]
+
+--- PAGE 56/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Widening of basic strip at Western Side of Runway Chainage 80m to 920m i/c slope
+  | stabilization Measures [Balance work] of uphill and Improvement of Storm Water
+  | Drainage System at Pakyong Airport, Sikkim on design & build basis [EPC] with
+  | 11/2023 06/2026 323.26
+  | 20 integrated 10 years maintenance. Sikkim 87.61 36.14
+  | (Airport Authority of India [AAI]) (12/2023) (06/2027) (323.26)
+  | (612793)
+  | (-) (-)
+  | Modernization of Chennai Airport, Phase II, Part 2
+  | (Airport Authority of India [AAI]) 05/2018 07/2025 1207.00
+  | 21 Tamil Nadu 331.85 46
+  | (611602) (06/2023) (12/2026) (1207.00)
+  | (-) (-)
+  | Development of Lal Bahadur Shastri International airport, Varanasi including C/o New
+  | Terminal Building, Apron Extension, Runway Extension, PTT and allied works.
+  | 07/2024 07/2027 2869.65
+  | 22 (Airport Authority of India [AAI]) Uttar Pradesh 746.93 33
+  | (701113) (07/2024) (07/2027) (2869.65)
+  | (-) (-)
+  | Development of New Integrated Civil Enclave at Agra Airport
+  | (Airport Authority of India [AAI]) 06/2024 07/2026 579.00
+  | 23 Uttar Pradesh 224.58 44.94
+  | (701122) (07/2024) (11/2026) (579.00)
+  | (-) (-)
+  | Development of New Civil Enclave at Bagdogra Airport
+  | (Airport Authority of India [AAI]) 08/2024 03/2027 1549.00
+  | 24 West Bengal 548.3 27.9
+  | (611495) (09/2024) (03/2027) (1549.00)
+  | (-) (-)
+  | Re-Construction of Rigid portions of Secondary Runway, K and A Taxiway and
+  | Strengthening of C Taxiway at NSCBI Airport Kolkata.
+  | 03/2023 10/2025 328.30
+  | 25 (Airport Authority of India [AAI]) West Bengal 153.52 73.5
+  | (612791) (12/2023) (08/2026) (328.30)
+  | (-) (-)
+  | Total (25) 21345.07 11586.47
+  | Ministry of Coal
+  | Coal
+  | TIKAK EXTENSION OCP
+  | (INVALID CO.) 07/2022 07/2031 159.77
+  | 26 Assam 112.69 89.73
+  | (615820) (07/2022) (-) (159.77)
+  | (-) (-)
+  | TIRAP OCP
+  | (INVALID CO.) 11/2022 11/20
+  | ... [truncated, full page is 3935 chars]
+
+--- PAGE 57/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | MADANNAGAR OCP 12 MTY - MDO
+  | (SECL - CIL) 12/2024 03/2033 1859.19
+  | 41 Chhattisgarh 0.45 0
+  | (619172) (12/2024) (-) (1859.19)
+  | (-) (-)
+  | HURA C OCP
+  | (Eastern Coal Fields Limited [ECL]) 08/2022 03/2029 859.41
+  | 42 Jharkhand 455.95 63.3
+  | (400018) (08/2022) (-) (859.41)
+  | (-) (-)
+  | KONAR EXPANSION OCP
+  | (CCL - CIL) 01/2022 03/2032 674.65
+  | 43 Jharkhand 175.59 50.78
+  | (400073) (01/2022) (-) (674.65)
+  | (-) (-)
+  | KARO EXPANSION OCP
+  | (CCL - CIL) 01/2022 03/2029 849.31
+  | 44 Jharkhand 237.61 23.28
+  | (400074) (01/2022) (-) (849.31)
+  | (-) (-)
+  | SANGHMITRA OC
+  | (CCL - CIL) 03/2024 03/2032 2660.00
+  | 45 Jharkhand 17.03 16.77
+  | (400136) (03/2024) (-) (2660.00)
+  | (-) (-)
+  | CHANDRAGUPT OCP
+  | (CCL - CIL) 08/2020 03/2032 973.50
+  | 46 Jharkhand 772.12 25.11
+  | (400138) (08/2020) (-) (973.50)
+  | (-) (-)
+  | KOTRE BASANTPUR PACHMO OCP
+  | (Ministry of Coal) 08/2020 03/2032 625.40
+  | 47 Jharkhand 456.48 45.78
+  | (400139) (08/2020) (-) (625.40)
+  | (-) (-)
+  | Pachwara South Coal Block
+  | (NLC India Limited) 03/2016 09/2028 2242.90
+  | 48 Jharkhand 1432.45 87
+  | (400142) (11/2019) (-) (2242.90)
+  | (-) (-)
+  | RPR MAGADH EXP OCP
+  | (Ministry of Coal) 08/2020 03/2028 6964.33
+  | 49 Jharkhand 2299.77 39.42
+  | (400150) (08/2020) (-) (6964.33)
+  | (-) (-)
+  | NORTH URIMARI EXPANSION OCP
+  | (Ministry of Coal) 07/2021 03/2029 634.30
+  | 50 Jharkhand 598.34 68.9
+  | (400151) (07/2021) (-) (634.30)
+  | (-) (-)
+  | EPR ROHINI - KARKETTA OCP
+  | (Ministry of Coal) 01/2021 03/2028 995.57
+  | 51 Jharkhand 85.34 24.02
+  | (400153) (01/2021) (-) (995.57)
+  | (-) (-)
+  | EPR PUNDI OCP
+  | (Ministry of Coal) 11/2020 03/2027 639.60
+  | 52 Jharkhand 14.78 11.24
+  | (400154) (11/2020) (-) (639.60)
+  | (-) (-)
+  | EPR ASHOK OC
+  | (Ministry of Coal) 05/2021 03/2031 2821.07
+  | 53 Jharkhand 186.02 27.74
+  | (400155) (05/2021) (-) (2821.07)
+  | (-) (-)
+  | EPR AMRAPALI OCP
+  | (CCL - CIL) 02/2020 03/2028 4983.57
+  | 54 Jharkhand 1
+  | ... [truncated, full page is 3341 chars]
+
+--- PAGE 58/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | CHUPERBHITA SIMLONG OCP MDO 6
+  | (ECL - CIL) 12/2023 03/2037 979.08
+  | 64 Jharkhand 0 0.05
+  | (616225) (12/2023) (-) (979.08)
+  | (-) (-)
+  | JARANGDIH EXPN. OCP 1.5 MTY
+  | (CCL - CIL) 02/2020 03/2029 372.06
+  | 65 Jharkhand 85.6 32.99
+  | (616236) (02/2020) (-) (372.06)
+  | (-) (-)
+  | BLOCK E OCP
+  | (BCCL - CIL) 03/2024 03/2029 5850.83
+  | 66 Jharkhand 20.32 4.18
+  | (616253) (03/2024) (-) (5850.83)
+  | (-) (-)
+  | Revised Jharia Master Plan for Dealing with Fire, Subsidence & Rehabilitation of
+  | affected families in Jharia Coalfield- Reg.
+  | 06/2025 12/2028 5940.47
+  | 67 (Bharat Coking Coal Limited [BCCL]) Jharkhand 520.75 34
+  | (617416) (07/2025) (-) (5940.47)
+  | (-) (-)
+  | North Dhadu Western Part OCP
+  | (NLC India Limited [NLCIL]) 10/2023 03/2029 1354.20
+  | 68 Jharkhand 233.77 40
+  | (617764) (12/2023) (-) (1354.20)
+  | (-) (-)
+  | AMADAND OCP[4.0MTY]
+  | (SECL - CIL) 03/2016 03/2021 869.44
+  | 69 Madhya Pradesh 325.09 75.15
+  | (400148) (03/2016) (03/2027) (869.44)
+  | (-) (-)
+  | BLOCK B EXPANSION [3.5 TO 8.0
+  | (NCL - CIL) 07/2019 03/2023 998.71
+  | 70 Madhya Pradesh 545.34 51.31
+  | (400162) (07/2019) (03/2027) (998.71)
+  | (-) (-)
+  | NIGAHI EXPANSION [15 TO 25 MTP
+  | (NCL - CIL) 11/2020 03/2025 1729.68
+  | 71 Madhya Pradesh 985.35 53.73
+  | (400321) (11/2020) (03/2028) (1729.68)
+  | (-) (-)
+  | KANCHAN OC EXP
+  | (SECL - CIL) 12/2014 03/2026 371.04
+  | 72 Madhya Pradesh 157.9 58.2
+  | (613802) (12/2014) (03/2028) (371.04)
+  | (-) (-)
+  | JHIRIA WEST OCP [1.5 MTY]
+  | (SECL - CIL) 01/2024 03/2029 366.94
+  | 73 Madhya Pradesh 37.19 41.29
+  | (613803) (01/2024) (-) (366.94)
+  | (-) (-)
+  | RPR TAWA-III UG 0.84 MTY
+  | (WCL - CIL) 12/2021 03/2027 314.09
+  | 74 Madhya Pradesh 17.9 17.78
+  | (613804) (12/2021) (-) (314.09)
+  | (-) (-)
+  | AMALGAMATED DHANKASA & JAMUNIA
+  | (WCL - CIL) 09/2022 03/2027 399.20
+  | 75 Madhya Pradesh 117.2 67.13
+  | (615185) (09/2022) (-) (399.20)
+  | (-) (-)
+  | RPR OF VISHNUP
+  | ... [truncated, full page is 3436 chars]
+
+--- PAGE 101/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Development of 6L of Jhanki Sargi Section Road from km 0.000 to km 42.800 of NH-
+  | 130CD Pkg-CG-1
+  | 11/2021 09/2024 1368.19
+  | 903 (NHAI) Chhattisgarh 715.32 99.35
+  | (618673) (09/2022) (02/2027) (1129.14)
+  | (-) (-)
+  | Development of 6L Sargi Basanwahi Section from km 42.800 to km 99.500 of NH-
+  | 130CD Pkg-CG-2
+  | 12/2021 01/2025 1470.73
+  | 904 (NHAI) Chhattisgarh 757.62 100
+  | (618674) (01/2023) (08/2026) (1461.81)
+  | (-) (-)
+  | Development of 6L of Basanwahi Marangpuri Section from km 99.500 to km 124.661
+  | of NH-130-CD
+  | 03/2022 10/2025 1307.16
+  | 905 (NHAI) Chhattisgarh 489.55 70.73
+  | (618675) (10/2023) (03/2027) (1303.63)
+  | (-) (-)
+  | 4 laning of Champa - Korba from km 0.00 to km 38.2
+  | (NHAI) 02/2021 01/2024 1002.33
+  | 906 Chhattisgarh 944.68 98.75
+  | (618957) (01/2022) (08/2026) (1304.47)
+  | (-) (-)
+  | Balance Works of Rehabilitation and Up gradation of NH-43 New NH-30 from Krn
+  | 162120 to Krn 173500 Length 11.380 Km. Keshkal Bypass 4-Lane with Paved
+  | shoulder in the State Of Chhattisgarh under NHDP-IV through Engineering,
+  | 06/2025 06/2028 307.96
+  | 907 Procurement & Construction EPC Basis Chhattisgarh 0 0
+  | (MoRTH) (06/2026) (-) (307.96)
+  | (619039)
+  | (-) (-)
+  | 4/6 Laning of Raipur-Simga Pkg-I from km. 0.00 to km. 48.58
+  | (NHAI) 10/2015 04/2018 1096.52
+  | 908 Chhattisgarh 905.32 100
+  | (619103) (04/2016) (08/2026) (1172.36)
+  | (-) (-)
+  | 4 Laning with PS of Pathrapalli-Katghora km 53.3 to km 92.6 Pkg-II of Bilaspur
+  | Kathghora
+  | 12/2019 12/2022 865.10
+  | 909 (NHAI) Chhattisgarh 853.85 93.1
+  | (619167) (12/2020) (11/2026) (1275.26)
+  | (-) (-)
+  | Balance Work Estimate of Rehabilitation and Up-gradation of NH- 43 from Km.
+  | 468.600 to Km. 531.250 Pathalgaon to kunkuri Section to two-lane with paved
+  | shoulder in the State of Chhattisgarh on SBD mode under NHO under Annual plan
+  | 03/2026 06/202
+  | ... [truncated, full page is 4292 chars]
+
+--- PAGE 152/153 ---
+  | All Ongoing Projects
+  | JULY 2026
+  | Orignal/Target DoC
+  | Project Name Date of Approval Orignal Cost Cumulative
+  | (Revised DoC) Physical Progress
+  | Sl.No (Agency) State (Start Date) Revised Cost Expenditure
+  | MM/YYYY (%)
+  | (Project Code) (Legacy OCMS Code) (PMGID) MM/YYYY in Rs. Crore in Rs. Crore
+  | Nardave Medium Irrigation Project
+  | (Department of water resources-MH - II) 04/2009 12/2019 211.46
+  | 1762 Maharashtra 879.8 75
+  | (701398) (04/2009) (06/2026) (781.85)
+  | (-) (-)
+  | Thoubal Multipurpose Project
+  | (Water Resources Department-MN) 04/1997 12/2019 1449.44
+  | 1763 Manipur 1848.17 99
+  | (701400) (04/1997) (12/2026) (1822.24)
+  | (-) (-)
+  | North Koel Reservoir Project
+  | (Department of Water Resources, River Development & GR) Multi-States 08/2017 03/2021 1622.27
+  | 1764 345.94 47
+  | (701412) (Bihar, Jharkhand) (01/2021) (06/2027) (2430.76)
+  | (-) (-)
+  | Ken-Betwa Linking Development Project
+  | Multi-States
+  | (Department of Water Resources, River Development,) NA 03/2029 21030.00
+  | 1765 (Madhya Pradesh, 8530.86 0
+  | (701530) (03/2022) (-) (21030.00)
+  | Uttar Pradesh)
+  | (-) (-)
+  | Integrated Anandpur Barrage Project
+  | (Water Resources-OR) 04/1997 12/2019 567.03
+  | 1766 Odisha 2810.1 62.85
+  | (603945) (01/1998) (06/2026) (2990.05)
+  | (-) (-)
+  | Subernarekha Project, Odisha
+  | (Department of Water Resources, River Development & GR) 12/1995 12/2019 3055.88
+  | 1767 Odisha 8327.62 95.5
+  | (701402) (01/1998) (03/2026) (7023.19)
+  | (-) (-)
+  | Kanupur Irrigation Project
+  | (Irrigation and CAD-TG) 04/2003 12/2019 989.43
+  | 1768 Odisha 2804.16 79.5
+  | (701404) (01/2004) (06/2026) (2301.28)
+  | (-) (-)
+  | Relining of Rajasthan feeder and Sirhind Feeder canal
+  | (Department of Water Resources-PB) 02/2016 06/2021 1441.26
+  | 1769 Punjab 2364.12 95
+  | (701410) (04/2018) (06/2026) (2462.16)
+  | (-) (-)
+  | Shahpur Kandi Dam Project
+  | (Department of Water Resources-PB) 02/2010 06/2022 2285.81
+  | 1770 Punjab 2201.94 88
+  | (701411) (04/2018) (06/2026) (2715.70)
+  | (-) (-)
+  | Sri Ram Sagar Project Stage - II
+  | (Irrigation and CAD-TG) 04/1996 12/2019 736.13
+  | 1771 Telangana 971.47 97
+  | (400102) (04/2005) (12/2025) (949.87)
+  | (-) (-)
+  | Indiramma
+  | ... [truncated, full page is 3692 chars]
+
+--- PAGE 153/153 ---
+  | Project Assessment, Infrastructure Monitoring and Analytics for Nation-building For details visit: https://paimana-proj.mospi.gov.in
+  | Page 152
+  | (PAIMANA)
