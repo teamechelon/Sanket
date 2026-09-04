@@ -1,0 +1,20 @@
+/** Thin re-export — SSOT lives in `@/src/data`. */
+export {
+  projects,
+  ministries,
+  sectors,
+  states,
+  attentionProjects,
+  getProjects,
+  getProjectById,
+  searchProjects,
+  costSignal,
+  scheduleSignal,
+  costSignalLabel,
+  scheduleSignalLabel,
+  attentionPriority,
+  primarySignalKind,
+  getProjectByCode,
+  projectRouteSlug,
+  rankedByAttention,
+} from '@/src/data'
