@@ -1,5 +1,16 @@
-source_file,report_month,format,records_detected,serial_min,serial_max,serial_gaps,project_code_coverage,legacy_code_coverage,agency_coverage,state_coverage,malformed_name_count,golden_records,status
-FlashReport_April2026.pdf,2026-04,NEW_FORMAT_B,1981,1,1981,0,1794,1000,1938,1908,1,10,CONDITIONALLY_PASS
-FlashReport_May2026.pdf,2026-05,NEW_FORMAT_B,1987,1,1987,0,1799,988,1944,1911,1,0,PILOT_ONLY
-FlashReport_June_2026.pdf,2026-06,NEW_FORMAT_B,1847,1,1847,0,1671,0,1805,1775,3,0,PILOT_ONLY
-FlashReport_July_2026-1.pdf,2026-07,NEW_FORMAT_B,1775,1,1775,0,1602,0,1732,1713,2,0,PILOT_ONLY
+source_file,report_month,format,handler,records_detected,source_count,count_difference,project_code_present,project_code_missing,project_code_percent,alternate_id_present,golden_result,page_boundary_result,numeric_result,status,risk,warnings
+FRApril2025.pdf,2025-04,EARLY_FORMAT,extract_early_format,1670,1670,0,0,1670,0.00,1653,SAMPLED_PASS,PASS,SAMPLED_PASS,PASS_WITH_WARNINGS,MEDIUM,"17 source rows have no alternate identifier; full fixture pending"
+FR_May2025.pdf,2025-05,EARLY_FORMAT,extract_early_format,1637,1637,0,0,1637,0.00,1622,SAMPLED_PASS,PASS,SAMPLED_PASS,PASS_WITH_WARNINGS,MEDIUM,"15 source rows have no alternate identifier; full fixture pending"
+FR_JUNE_2025.pdf,2025-06,EARLY_FORMAT,extract_early_format,1595,1595,0,0,1595,0.00,1580,SAMPLED_PASS,PASS,SAMPLED_PASS,PASS_WITH_WARNINGS,MEDIUM,"15 source rows have no alternate identifier; full fixture pending"
+QPISR_QR_1st_2025-26.pdf,2025-Q1,QUARTERLY,extract_quarterly_format,1734,1734,0,0,1734,0.00,1717,SAMPLED_PASS,PASS,SAMPLED_PASS,PASS_WITH_WARNINGS,MEDIUM,"Quarterly snapshot must remain separate; full-date revision semantics need preservation"
+FlashReport_July_2025.pdf,2025-07,OLD_FORMAT_A,extract_table6,791,791,0,632,159,79.90,0,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,HIGH,"No current golden fixture"
+FlashReport_August_2025.pdf,2025-08,OLD_FORMAT_B,extract_table6,800,800,0,0,800,0.00,0,FAIL,FAIL,FAIL,FAIL,HIGH,"Identifier and cost tokens pollute following names"
+FlashReport_September_2025.pdf,2025-09,TRANSITIONAL_FORMAT,extract_table6,794,794,0,649,145,81.74,0,FAIL,FAIL,FAIL,FAIL,HIGH,"Record-boundary leakage"
+FlashReport_December_2025.pdf,2025-12,TRANSITIONAL_FORMAT,extract_table6,1392,1392,0,945,447,67.89,0,FAIL,FAIL,FAIL,FAIL,HIGH,"Record-boundary leakage"
+FlashReport_January_2026.pdf,2026-01,TRANSITIONAL_FORMAT,extract_table6,1702,1702,0,1114,588,65.45,0,FAIL,FAIL,FAIL,FAIL,HIGH,"Record-boundary leakage"
+FlashReport_February_2026.pdf,2026-02,NEW_FORMAT_A,extract_table6,1948,1948,0,1624,324,83.37,922,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,HIGH,"Prior validation claim has no fixture in checkout"
+FlashReport_March_2026.pdf,2026-03,NEW_FORMAT_A,extract_table6,1941,1941,0,1618,323,83.36,922,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,NOT_YET_TESTED,HIGH,"Prior validation claim has no fixture in checkout"
+FlashReport_April2026.pdf,2026-04,NEW_FORMAT_B,extract_new_format_b,1981,1981,0,1794,187,90.56,1000,PASS_10_GOLDEN,PASS,PASS,PASS_WITH_WARNINGS,LOW,"2 duplicate primary-code occurrences; 54 repeated alternate IDs"
+FlashReport_May2026.pdf,2026-05,NEW_FORMAT_B,extract_new_format_b,1987,1987,0,1799,188,90.54,988,FAIL,FAIL,FAIL,FAIL,HIGH,"Sample record 1490 polluted"
+FlashReport_June_2026.pdf,2026-06,NEW_FORMAT_B,extract_new_format_b,1847,1847,0,1671,176,90.47,0,FAIL,FAIL,FAIL,FAIL,HIGH,"Sample record 923 polluted"
+FlashReport_July_2026-1.pdf,2026-07,NEW_FORMAT_B,extract_new_format_b,1775,1775,0,1602,173,90.25,0,SAMPLED_PASS,PASS,SAMPLED_PASS,PASS_WITH_WARNINGS,MEDIUM,"Full fixture pending"

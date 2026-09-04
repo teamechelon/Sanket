@@ -1,35 +1,94 @@
-SANKET — FORMAT PILOT REPORT
-Generated during extraction-layer takeover
+SANKET — SOURCE RECONCILIATION AND FORMAT PILOT REPORT
+=======================================================
+Takeover review: 2026-09-04
 
-Verified source findings
-========================
-- The prior audit's early/quarterly "no project table" result is false. April,
-  May and June 2025 use Table 7, "Project List: Ongoing Projects as of ...".
-  The first quarterly report likewise has a Table 7 project list for the
-  April--June quarter. All are text-based and need dedicated parsing.
-- The prior audit's assertion that April--July 2026 had no legacy codes is
-  false. April pages contain both project codes and legacy OCMS codes; its
-  layout differs because agencies and post-serial identifiers move between
-  lines.
+Safety decision
+---------------
+FULL EXTRACTION: NOT READY. The --all path remains blocked. OLD_FORMAT_A,
+OLD_FORMAT_B, TRANSITIONAL_FORMAT, and NEW_FORMAT_A lack current source-verified
+golden/page-boundary coverage. OLD_FORMAT_B and TRANSITIONAL_FORMAT have
+confirmed record-boundary failures. NEW_FORMAT_B fails difficult samples in May
+and June 2026. No downstream ML work was performed.
 
-Implemented pilot
-=================
-`extract_new_format_b` is now routed for April--July 2026. It consumes both
-project-code/date/cost and legacy-code/PMGID parenthetical lines, preventing
-those lines from becoming part of the next project's name.
+Repository baseline
+-------------------
+The supplied directory has no .git directory and is not a Git worktree, so git
+status, git diff, remotes, and commit history could not be inspected. Existing
+April 2026 golden values were not changed.
 
-April 2026 quality checks
-=========================
-- 1,981 consecutive serial numbers (1 through 1,981); no serial gaps.
-- 1,794 project codes, 1,000 legacy OCMS codes, 1,938 agencies, and 1,908
-  states extracted.
-- Ten records on source page 54 are manually verified in
-  `tests/golden_records/new_format_b_april_2026.json`.
-- `python -m unittest tests/test_new_format_b.py -v` passes.
+April 2026 count reconciliation
+-------------------------------
+Authoritative source: FlashReport_April2026.pdf, Table 6, PDF pages 54-162.
+The table's 31 printed group totals sum to 1,981. The first project serial is 1,
+the last is 1,981, and the parser returns all 1,981 unique serials with zero gaps
+and zero duplicate serials. No second project list or adjacent-table rows are
+included. The former approximately-1,862 result came from the audit's line
+heuristic (1,862 is also a value present in document content) and is an
+undercount, not a source total.
 
-Decision
-========
-April 2026 is conditionally passing at the currently tested scope. May--July
-use the same handler and show complete serial sequences, but are pilot-only
-until their own source-verified golden records are added. Every other format
-is unvalidated. Full extraction is NOT SAFE.
+Parser evidence: 1,981 records; 1,794 primary codes; 1,000 alternate/legacy
+codes; 1,938 agencies; 1,908 states; zero duplicate project names; two duplicate
+primary-code occurrences; 54 repeated alternate-code occurrences. The existing
+10 source-verified golden records pass. Duplicate identifiers are retained and
+reported rather than silently discarded.
+
+Early monthly Table 7
+---------------------
+April, May, and June 2025 genuinely share one nine-column structure: State,
+Sector, Sl No, Project Name/Agency/Project Code, approval month, original/
+revised/anticipated commissioning, original/revised/anticipated cost,
+cumulative expenditure, and physical progress. They use N-prefixed source
+project identifiers, multiline names, separate parenthesised agency/code lines,
+repeated headers, and wrapped state/sector cells.
+
+The shared extract_early_format handler uses detected Table 7 pages and table
+cells, preserves source page/file lineage, and does not turn anticipated values
+into revisions. A defect in wrapped-state continuation rows was fixed. Counts
+reconcile to terminal source serials: April 1,670 (pages 43-268), May 1,637
+(43-207), June 1,595 (41-229), each with zero serial gaps/duplicates. Source
+samples at the beginning and end and across page boundaries passed. Full
+10-record-per-file fixtures are still pending, therefore these are
+PASS_WITH_WARNINGS and remain a release blocker under the requested gate.
+
+Quarterly QPISR
+---------------
+QPISR_QR_1st_2025-26.pdf uses Table 7 on PDF pages 59-256 and totals 1,734
+serials. Its nine-column layout is closely related to early monthly Table 7,
+but the title defines "1st Quarter (April-June), 2025-26" and some revised dates
+are represented as full dates. These rows are a quarter-end/quarter-report
+snapshot and overlap projects in monthly reports. They must be stored as a
+separate quarterly dataset with explicit reporting-period semantics; mapping
+them to project_monthly.csv as June observations is not yet defensible. The
+dedicated extract_quarterly_format route exists. Full-date preservation and the
+full golden fixture remain pending.
+
+Difficult-case findings
+-----------------------
+The generic line state machine is not validated merely by consecutive serials.
+August 2025 record 2 visibly begins with prior-row parenthetical values/code;
+September 2025 record 3 begins with the prior project code; January 2026 sampled
+records 931 and 1276 contain preceding-row text/identifiers; May 2026 record
+1490 and June 2026 record 923 are similarly polluted. These are page/record
+boundary failures and invalidate name, identifier, and sometimes agency fields.
+No incorrect extracted value was promoted to a golden fixture.
+
+Identifier coverage
+-------------------
+Detailed counts and current missing-ID classifications are in
+reports/identifier_coverage.csv. SOURCE_MISSING_ID versus extraction failure is
+not guessed where source sampling is incomplete. Known boundary failures are
+classified LAYOUT_EXTRACTION_FAILURE; unresolved cases remain UNKNOWN.
+
+Status vocabulary
+-----------------
+PASS: all required checks pass.
+PASS_WITH_WARNINGS: sampled/source checks pass but a stated gate remains.
+FAIL: a reproducible extraction defect exists.
+NOT_APPLICABLE: check does not apply.
+NOT_YET_TESTED: evidence is insufficient.
+
+Outputs
+-------
+See reports/parser_handler_matrix.csv for every PDF and
+reports/format_pilot_results.csv for per-file pilot evidence. Both distinguish
+source counts from old approximate audit counts and expose uncertainty.

@@ -729,6 +729,12 @@ def extract_table6(
                     current_record.legacy_ocms_code = ""
             
             # Set extraction status
+            if current_record.project_code:
+                current_record.identifier_status = "PRIMARY_IDENTIFIER"
+            elif current_record.legacy_ocms_code:
+                current_record.identifier_status = "ALTERNATE_IDENTIFIER"
+            else:
+                current_record.identifier_status = "UNKNOWN"
             if not current_record.project_code:
                 current_record.extraction_status = "PARTIAL"
             records.append(current_record)
@@ -904,6 +910,11 @@ def _normalise_flexible_month(value: str) -> str | None:
     return f"{_MONTH_ABBREVIATIONS[match.group(3).lower()[:3]]}/{match.group(4)}"
 
 
+def _normalise_table7_state(value: str) -> str:
+    """Join wrapped Table 7 state cells without guessing missing state data."""
+    return " ".join((value or "").split())
+
+
 def _table7_original_and_revised_dates(value: str) -> tuple[str, str]:
     """Read original and revised dates, deliberately excluding anticipated dates.
 
@@ -999,7 +1010,17 @@ def extract_table7(
                 continue
             state, sector, sl_no, project_cell, approval, commissioning, costs, expenditure, progress = row[:9]
             if state and state.strip():
-                current_state = " ".join(state.split())
+                state_text = _normalise_table7_state(state)
+                # pdfplumber sometimes emits the second half of a wrapped state
+                # (for example "NICOBAR ISLANDS") as a separate row immediately
+                # after the first project row. Preserve it on that record and for
+                # subsequent blank state cells on the same state block.
+                if not sl_no or not str(sl_no).strip():
+                    current_state = " ".join(part for part in (current_state, state_text) if part)
+                    if records:
+                        records[-1].state = current_state
+                    continue
+                current_state = state_text
             if sector and sector.strip():
                 current_sector = " ".join(sector.split())
             if not sl_no or not re.fullmatch(r"\d+", sl_no.strip()):
