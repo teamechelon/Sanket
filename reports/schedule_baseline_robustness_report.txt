@@ -1,0 +1,40 @@
+SANKET - SCHEDULE BASELINE ROBUSTNESS
+======================================================
+Classification: PROMISING_WITH_CAVEATS
+Final status: NEEDS FURTHER VALIDATION
+
+Official baseline reproduced: ROC-AUC=0.855, PR-AUC=0.805, precision=0.704, recall=0.785, F1=0.742, Brier=0.173, threshold=0.35.
+
+MONTH SENSITIVITY
+March 2026: ROC-AUC=0.868, PR-AUC=0.827, precision=0.708, recall=0.826, F1=0.762, Brier=0.170.
+April 2026: ROC-AUC=0.841, PR-AUC=0.778, precision=0.698, recall=0.741, F1=0.719, Brier=0.176.
+March-April: ROC-AUC=0.855, PR-AUC=0.805, precision=0.704, recall=0.785, F1=0.742, Brier=0.173.
+
+Alternative forward split (train Jul-Nov, validation Dec-Jan, test Feb-Mar): test rows=3516, threshold=0.20, ROC-AUC=0.837, PR-AUC=0.794, F1=0.756.
+Final-test label-maturity sensitivity (train Jul-Sep, validation Oct-Nov, test Mar-Apr): test rows=3368, threshold=0.30, ROC-AUC=0.810, PR-AUC=0.732, F1=0.684.
+Official feature cutoffs are forward-only, but their three-month label windows overlap later partitions. This sensitivity ensures validation labels mature before the March test; the short history cannot also purge all train-versus-validation overlap, so it is not a fully prospective simulation.
+Project-disjoint sensitivity (60/20/20 deterministic project buckets plus forward windows): train/validation/test rows=2670/719/659; threshold=0.30, ROC-AUC=0.808, PR-AUC=0.756, F1=0.692.
+This disjoint case measures cold-start transfer, not the primary known-project forecasting scenario; its smaller fitting sample also contributes to any performance difference.
+
+EVENT CONCENTRATION
+Prediction-cutoff positive rates jump from 14.50% in November to 45.45% in December, remain 45.42% in January, and peak at 50.96% in February before declining to 42.15%/39.89% in March/April. December-February are abnormal boundary months.
+Monthly target_event_count means positive label rows, which can attribute one later revision to several cutoff windows. It is not a raw source-event count. March has 717 positive label rows in this table, while Phase 9 validated 447 revised-to-revised transitions and Phase 8 attributed 1,803 positive label windows to March changes.
+The 447 March transitions affect earlier cutoff labels (primarily December-February); March/April evaluation instead tests features observed at that boundary against subsequent outcomes. Its risk is a report-period signature, not direct reuse of those 447 outcomes.
+
+HIGH-PROGRESS REVIEW
+High progress is defined consistently as >75%. Test observations/projects: 1409/744; target positive rate: 61.32%; error rows: 306 (21.72%); projects with any error: 210 (28.23%).
+Roads & Highways account for 64.23% of high-progress observations and 57.84% of high-progress errors. Their within-high-progress error rate is 19.56%, versus 25.60% outside Roads; the absolute concentration is exposure-driven in this subgroup.
+Across all progress levels, Roads & Highways error rate is 26.61%, versus 16.94% elsewhere, so the broader Roads slice remains a real failure concentration.
+High-progress errors combine near-complete projects that still receive published target revisions and projects whose target stays stable; current snapshot features do not distinguish administrative revision causes. This is consistent with a target/reporting effect but does not prove one.
+
+FEATURE DRIFT
+Potentially shifted: sector, months_since_cost_revision, schedule_revision_count_to_date, months_observed, months_since_first_observation, ministry, agency
+Stable core measures include current progress, expenditure, original cost, and expenditure/original-cost ratio. Exact linear trend derivatives are flagged as potentially redundant; they are not deleted during this diagnostic phase. Missingness and revision counts can act as report-period signatures.
+
+DECISION
+The 0.855 combined ROC-AUC is reproducible. March exceeds April by only 0.027 ROC-AUC, 0.049 PR-AUC, and 0.043 F1; April performance remains strong, so the result does not collapse outside March.
+Robustness must still be judged from April-only, alternative-window, final-test-purged, and project-disjoint results rather than the combined score alone.
+Scores are useful for relative ranking, not calibrated event probabilities.
+March-April has now informed diagnostics and feature planning, so it is no longer an untouched final holdout for a later XGBoost comparison.
+Cost remains SECONDARY / NOT RELIABLE: 216 total positives, only 38 validation positives, one test month, and 3.83% overall prevalence. Additional exact-horizon months are required.
+XGBoost is not justified yet. Obtain at least one post-April schedule test window, repeat cold-start evaluation with more projects, and decide whether shifted conditional fields remain in scope.

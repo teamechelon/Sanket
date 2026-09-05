@@ -56,7 +56,7 @@ def make_pipeline(features: list[str], model: str, balanced: bool = False) -> Pi
     categorical=[f for f in features if f in {"sector","state","ministry","agency"}]
     numeric=[f for f in features if f not in categorical]
     pre=ColumnTransformer([
-        ("num", Pipeline([("imputer",SimpleImputer(strategy="median",add_indicator=True)),("scale",StandardScaler())]), numeric),
+        ("num", Pipeline([("imputer",SimpleImputer(strategy="median",add_indicator=True,keep_empty_features=True)),("scale",StandardScaler())]), numeric),
         ("cat", Pipeline([("imputer",SimpleImputer(strategy="most_frequent")),("onehot",OneHotEncoder(handle_unknown="ignore"))]), categorical),
     ])
     weight="balanced" if balanced else None
