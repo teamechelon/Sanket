@@ -1,0 +1,13 @@
+SANKET - SCHEDULE TARGET VALIDATION
+====================================================
+March 2026 later-target transitions: 447
+Distributed source-PDF sample: 30
+Sample with latest prior-report and March code/target co-located in source record blocks: 30/30
+Transitions of at least 3 months in the 3-month label candidate: 3588 positives across 11111 eligible rows.
+
+Finding: the parser follows the documented Table 6 column positions for the sampled records. The March concentration is present in the source PDFs, not created solely by processed-CSV logic.
+The concentration is best described as synchronized reporting/revision activity. It remains possible that some dates are administrative target updates rather than formally approved delay events.
+Negative labels require an exact horizon observation. Disappearance remains unknown.
+
+Decision: CONDITIONALLY APPROVED as a future published schedule-target deterioration proxy only.
+It is NOT approved as an authoritative actual-delay label.

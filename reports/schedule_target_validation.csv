@@ -1,0 +1,5 @@
+target_name,definition,prediction_horizon,eligible_rows,positive_rows,negative_rows,unknown_rows,positive_rate,projects_covered,march_2026_concentration,semantic_confidence,leakage_risk,status
+future_schedule_later_3m,Any effective target at least 1 month later within t+1..t+3; exact t+3 observation required.,3 months,11111,4092,7019,12392,0.368284,2051,1803,MEDIUM,CONDITIONAL,CONDITIONAL
+future_schedule_later_6m,Any effective target at least 1 month later within t+1..t+6; exact t+6 observation required.,6 months,5330,2194,3136,18173,0.411632,1423,1099,MEDIUM,CONDITIONAL,CONDITIONAL
+future_schedule_overdue,Project remains listed at t+3 and cutoff-known target is earlier than t+3 report month.,3 months,11111,3747,7364,12392,0.337233,2051,0,LOW,CONDITIONAL,CONDITIONAL
+future_schedule_shift_ge_3m,Effective target moves at least 3 months later within t+1..t+3; exact t+3 observation required.,3 months,11111,3588,7523,12392,0.322923,2051,1704,MEDIUM,CONDITIONAL,CONDITIONAL

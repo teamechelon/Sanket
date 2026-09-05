@@ -1,0 +1,9 @@
+SANKET - COST TARGET SEMANTIC REVIEW
+====================================================
+Source semantics: original cost is the baseline cost printed in the report; parenthesised revised cost is the revised project cost printed for that snapshot.
+Neither field supplies the approval date of a formal cost revision.
+July 2026 month-to-month increases above 5%: 77
+Distributed source-PDF sample verified: 15/15
+The July concentration is present in source report values for the verified sample, but its synchronization and lack of revision-event dates prevent treating it as a formal cost-overrun event series.
+The 6-month 5% increase label remains a temporally honest published-cost proxy with severe class imbalance.
+Decision: CONDITIONALLY APPROVED as a future published cost-escalation proxy only; NOT approved as authoritative actual cost overrun.

@@ -1,0 +1,19 @@
+SANKET - ML TARGET APPROVAL REPORT
+====================================================
+SCHEDULE TARGET: CONDITIONALLY APPROVED
+COST TARGET: CONDITIONALLY APPROVED
+
+Schedule approval is limited to future_schedule_later_3m as a future published schedule-target deterioration proxy. The source header and sampled record blocks support the field assignment, and exact-horizon negatives are defensible.
+Cost approval is limited to future_cost_increase_5pct_6m as a future published cost-escalation proxy. Its low positive rate requires imbalance handling after target approval, without changing the label threshold for convenience.
+
+Remaining risks:
+- Published revised targets/costs are snapshot values, not formal event approval dates.
+- Synchronized March schedule and July cost changes can dominate temporal evaluation.
+- Identifierless rows cannot be linked longitudinally.
+- Multiple observations from one project require project-grouped, forward temporal evaluation.
+
+Required for true actual delay: authoritative actual commissioning/completion date, dated project-status history, and stable project identity.
+Required for true actual cost overrun: formally approved cost-revision events with effective/approval dates, final actual cost, and stable project identity.
+
+Next engineering step: freeze versioned observation-level label tables for the two proxy definitions, apply source-quality exclusions, and design project-grouped forward temporal splits. Do not train until the proxy wording and exclusions are approved.
+No model was trained and no accuracy metric was produced.
