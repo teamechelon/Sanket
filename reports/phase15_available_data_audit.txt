@@ -1,0 +1,94 @@
+SANKET - PHASE 15 AVAILABLE-DATA ROBUSTNESS AUDIT
+==============================================================
+PHASE 15 STATUS: PROCEED TO XGBOOST
+
+AVAILABLE DATA
+Latest available report: 2026-07.
+Total observations/projects: 23503/3959.
+Valid labeled/UNKNOWN observations: 11111/12392.
+
+LABELED AVAILABILITY BY MONTH
+month | observations | projects | eligible | positives | event rate | UNKNOWN
+2025-04 | 1670 | 1670 | 0 | 0 | N/A | 1670
+2025-05 | 1637 | 1637 | 0 | 0 | N/A | 1637
+2025-06 | 1595 | 1595 | 0 | 0 | N/A | 1595
+2025-07 | 791 | 746 | 439 | 86 | 0.196 | 352
+2025-08 | 800 | 751 | 622 | 110 | 0.177 | 178
+2025-09 | 794 | 782 | 704 | 127 | 0.180 | 90
+2025-10 | 820 | 808 | 736 | 131 | 0.178 | 84
+2025-11 | 823 | 811 | 731 | 106 | 0.145 | 92
+2025-12 | 1392 | 1315 | 1243 | 565 | 0.455 | 149
+2026-01 | 1702 | 1565 | 1453 | 660 | 0.454 | 249
+2026-02 | 1948 | 1922 | 1815 | 925 | 0.510 | 133
+2026-03 | 1941 | 1915 | 1701 | 717 | 0.422 | 240
+2026-04 | 1981 | 1968 | 1667 | 665 | 0.399 | 314
+2026-05 | 1987 | 1976 | 0 | 0 | N/A | 1987
+2026-06 | 1847 | 1836 | 0 | 0 | N/A | 1847
+2026-07 | 1775 | 1764 | 0 | 0 | N/A | 1775
+
+VALID TEMPORAL WINDOWS
+fold | training | training endpoint | evaluation | rows/projects
+1 | 2025-07..2025-07 | 2025-10 (< 2025-11) | 2025-11 | 731/731
+2 | 2025-07..2025-08 | 2025-11 (< 2025-12) | 2025-12 | 1243/1243
+3 | 2025-07..2025-09 | 2025-12 (< 2026-01) | 2026-01 | 1453/1453
+4 | 2025-07..2025-10 | 2026-01 (< 2026-02) | 2026-02 | 1815/1815
+5 | 2025-07..2025-11 | 2026-02 (< 2026-03) | 2026-03 | 1701/1701
+6 | 2025-07..2025-12 | 2026-03 (< 2026-04) | 2026-04 | 1667/1667
+
+WALK-FORWARD VALIDATION
+2025-11 | train 2025-07..2025-07 (439) | eval 731/731 | prevalence=0.145 | ROC=0.778 | PR=0.310 (2.14x prevalence) | P/R/F1@.40=0.210/0.198/0.204 | @.50=0.292/0.066/0.108
+2025-12 | train 2025-07..2025-08 (1061) | eval 1243/1243 | prevalence=0.455 | ROC=0.850 | PR=0.756 (1.66x prevalence) | P/R/F1@.40=0.772/0.568/0.654 | @.50=0.700/0.112/0.192
+2026-01 | train 2025-07..2025-09 (1765) | eval 1453/1453 | prevalence=0.454 | ROC=0.871 | PR=0.811 (1.78x prevalence) | P/R/F1@.40=0.844/0.444/0.582 | @.50=0.862/0.085/0.154
+2026-02 | train 2025-07..2025-10 (2501) | eval 1815/1815 | prevalence=0.510 | ROC=0.850 | PR=0.826 (1.62x prevalence) | P/R/F1@.40=0.858/0.394/0.540 | @.50=0.865/0.097/0.175
+2026-03 | train 2025-07..2025-11 (3232) | eval 1701/1701 | prevalence=0.422 | ROC=0.812 | PR=0.742 (1.76x prevalence) | P/R/F1@.40=0.815/0.386/0.524 | @.50=0.853/0.113/0.200
+2026-04 | train 2025-07..2025-12 (4475) | eval 1667/1667 | prevalence=0.399 | ROC=0.841 | PR=0.778 (1.95x prevalence) | P/R/F1@.40=0.791/0.642/0.709 | @.50=0.837/0.465/0.598
+
+TEMPORAL STABILITY
+ROC mean/SD/min/max=0.834/0.030/0.778/0.871; PR mean/SD/min/max=0.704/0.179/0.310/0.826.
+The November fold is retained rather than hidden; its lower 14.5% prevalence and small training history expose the weakest PR-AUC (0.310).
+
+PROJECT-DISJOINT
+Exact Phase 12 method rerun: ROC-AUC=0.808, PR-AUC=0.756; train/test identity overlap=0.
+Feature construction is cutoff-only and project-local; no test project contributes to a training trajectory. Preprocessing and fitting use training rows only. The 0.047 ROC and 0.049 PR reductions from the official baseline still leave useful cold-start ranking signal.
+
+ERROR ANALYSIS
+At fixed 0.40 across pooled forward folds: 464 false positives and 1935 false negatives.
+There are 48 adequately supported slices and 222 small-sample slices explicitly flagged.
+Supported weak slices include Electricity Generation (ROC 0.489), Ministry of Power (0.654), Education (0.659), and Railways (0.699). Railways recall@.40 is only 0.025; Roads & Highways has 1,432 false negatives and recall 0.488.
+Highest-confidence false positives and false negatives are listed separately; they were not used to alter the model or thresholds.
+
+FEATURE ROBUSTNESS
+Top mean impurity-importance diagnostics: effective_target_months_from_cutoff, sector, agency, ministry, progress_current, expenditure_to_revised_cost, expenditure_to_original_cost, project_age_months.
+The four predefined stable measures contribute 0.164 of mean full-model importance. Importance is descriptive, not causal feature selection.
+May-July unlabeled drift flags: schedule_revision_count_to_date, months_since_material_progress_change, months_observed, months_since_first_observation, agency, project_age_months
+May-July features are used only for distribution accounting, never outcomes or tuning.
+
+ABLATION
+FULL_EXISTING_BASELINE: mean/min ROC=0.834/0.778, mean/min PR=0.704/0.310, mean F1@.40/.50=0.535/0.238.
+STABLE_FOUR_FEATURES: mean/min ROC=0.682/0.626, mean/min PR=0.557/0.209, mean F1@.40/.50=0.373/0.255.
+WITHOUT_PRIOR_DRIFT_FLAGS: mean/min ROC=0.837/0.819, mean/min PR=0.709/0.364, mean F1@.40/.50=0.579/0.253.
+Removing the seven Phase 12 drift flags retains and slightly stabilizes ranking performance. The stable four-feature subset remains predictive but is materially weaker, so signal is not concentrated in those four measures alone.
+
+THRESHOLD ROBUSTNESS
+At 0.40, precision spans 0.210-0.858, recall 0.198-0.642, and F1 0.204-0.709.
+At 0.50, precision spans 0.292-0.865, recall 0.066-0.465, and F1 0.108-0.598.
+Neither fixed threshold is temporally consistent enough for an unqualified operational cutoff; 0.50 is especially recall-poor in five of six folds.
+
+CALIBRATION
+Pooled mean prediction=0.263, observed rate=0.423, ECE=0.160, Brier=0.205 versus prevalence Brier=0.244.
+Outputs remain relative risk rankings, not literal event probabilities.
+
+LEAKAGE SAFEGUARDS
+Each training cutoff's t+3 label endpoint precedes its evaluation month. Preprocessing and Random Forest fitting occur inside each fold on training rows only. Fixed thresholds 0.40/0.50 are never optimized on evaluation labels. Identity is not a feature. May-July labels are absent and unused.
+
+KNOWN
+Six mature walk-forward folds, the project-disjoint rerun, fixed-threshold behavior, calibration diagnostics, error slices, and three predefined ablations were evaluated with valid labels.
+
+UNKNOWN
+True performance after April remains unknown: May requires August, June requires September, and July requires October. No post-July generalization or production readiness is claimed.
+
+INFERENCE
+Ranking signal persists across time and unseen projects and survives removal of prior drift flags. Calibration and fixed-threshold transfer remain limitations, but those limitations do not preclude a controlled model-family comparison.
+
+XGBOOST DECISION
+PROCEED TO XGBOOST. Run exactly one predeclared, untuned XGBoost benchmark under the same six walk-forward folds and project-disjoint protocol. Do not treat this as authorization for threshold tuning, feature selection, calibration, or deployment.

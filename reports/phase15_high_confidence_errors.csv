@@ -1,0 +1,21 @@
+error_type,project_code,identity_key,prediction_month,future_schedule_later_3m,probability,confidence_mistake,sector,ministry,agency,progress_current,project_age_months,expenditure_to_original_cost
+FALSE_NEGATIVE,400023,P:400023,2026-03,1,0.010856,0.989144,Railways,Ministry of Railways,South Western Railway [SWR] - II,0.300000,3.000000,0.001255
+FALSE_NEGATIVE,616841,P:616841,2026-03,1,0.011341,0.988659,Railways,Ministry of Railways,North Western Railway [NWR],7.000000,25.000000,0.095831
+FALSE_NEGATIVE,616843,P:616843,2026-03,1,0.015504,0.984496,Railways,Ministry of Railways,North Western Railway [NWR],12.000000,25.000000,0.176616
+FALSE_NEGATIVE,617210,P:617210,2026-04,1,0.016034,0.983966,Railways,Ministry of Railways,South Central Railway [SCR] - II,0.050000,12.000000,0.000132
+FALSE_NEGATIVE,400023,P:400023,2026-04,1,0.018830,0.981170,Railways,Ministry of Railways,South Western Railway [SWR] - II,0.300000,4.000000,0.001255
+FALSE_NEGATIVE,400023,P:400023,2026-02,1,0.020096,0.979904,Railways,Ministry of Railways,South Western Railway [SWR] - II,0.000000,2.000000,0.001255
+FALSE_NEGATIVE,618246,P:618246,2026-03,1,0.025182,0.974818,Roads & Highways,Ministry of Road Transport & Highways,MoRTH,48.740000,34.000000,0.000000
+FALSE_NEGATIVE,616843,P:616843,2026-04,1,0.026671,0.973329,Railways,Ministry of Railways,North Western Railway [NWR],12.000000,26.000000,0.230837
+FALSE_NEGATIVE,616841,P:616841,2026-02,1,0.028212,0.971788,Railways,Ministry of Railways,North Western Railway [NWR],7.000000,24.000000,0.095681
+FALSE_NEGATIVE,611943,P:611943,2026-02,1,0.030342,0.969658,Railways,Ministry of Railways,Western Railway [WR] - II,5.000000,36.000000,0.024472
+FALSE_POSITIVE,619141,P:619141,2026-04,0,0.685073,0.685073,Roads & Highways,Ministry of Road Transport & Highways,National Highways Authority of India [NHAI],50.170000,28.000000,0.353425
+FALSE_POSITIVE,702793,P:702793,2026-04,0,0.678526,0.678526,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,99.000000,101.000000,0.879270
+FALSE_POSITIVE,702810,P:702810,2026-04,0,0.677211,0.677211,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,90.000000,101.000000,0.889729
+FALSE_POSITIVE,702699,P:702699,2026-04,0,0.670409,0.670409,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,84.000000,86.000000,0.854768
+FALSE_POSITIVE,611967,P:611967,2025-11,0,0.659436,0.659436,Transmission & Distribution,Ministry of Power,Power Grid Corporation of India Limited [POWERGRID],90.000000,26.000000,0.819995
+FALSE_POSITIVE,618914,P:618914,2026-04,0,0.655690,0.655690,Roads & Highways,Ministry of Road Transport & Highways,National Highways Authority of India [NHAI],54.990000,25.000000,0.309321
+FALSE_POSITIVE,611947,P:611947,2025-11,0,0.648010,0.648010,Transmission & Distribution,Ministry of Power,Power Grid Corporation of India Limited [POWERGRID],80.000000,24.000000,0.720009
+FALSE_POSITIVE,702746,P:702746,2026-04,0,0.643774,0.643774,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,81.000000,88.000000,0.670188
+FALSE_POSITIVE,702742,P:702742,2026-04,0,0.637406,0.637406,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,67.000000,88.000000,0.549244
+FALSE_POSITIVE,702760,P:702760,2026-04,0,0.630863,0.630863,Waste & Water,Ministry of Housing & Urban Affairs,Ministry of Housing & Urban Affairs,80.000000,114.000000,0.488539
