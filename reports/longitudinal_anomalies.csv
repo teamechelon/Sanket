@@ -1,0 +1,1077 @@
+report_month,project_id,anomaly_type,value,previous_value,severity,source_file,source_page,notes
+2025-11,10362,DECREASE_PHYSICAL_PROGRESS,51.0,59.0,REVIEW,FlashReport_November_2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-01,11783,DECREASE_EXPENDITURE,8174.39,8613.21,REVIEW,FlashReport_January_2026.pdf,78,Source value retained unchanged; decrease is not treated as an error.
+2026-01,16724,DECREASE_EXPENDITURE,12129.01,12484.41,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-01,17825,DECREASE_EXPENDITURE,13005.66,13229.31,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2025-05,220100232,DECREASE_EXPENDITURE,2500.34,2520.04,REVIEW,FR_May2025.pdf,145,Source value retained unchanged; decrease is not treated as an error.
+2025-10,34012,DECREASE_EXPENDITURE,32184.03,33238.5,REVIEW,FlashReport_October_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2026-01,36225,DECREASE_EXPENDITURE,26027.54,27829.24,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400012,DECREASE_EXPENDITURE,8056.6,8217.69,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400012,DECREASE_EXPENDITURE,8504.21,8672.35,REVIEW,FlashReport_July_2026-1.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400013,DECREASE_EXPENDITURE,8553.1,9791.8,REVIEW,FlashReport_June_2026.pdf,157,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400013,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,150,Missing between observed months; not interpreted as completion.
+2026-04,400018,DECREASE_EXPENDITURE,455.25,455.31,REVIEW,FlashReport_April2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400019,DECREASE_ORIGINAL_COST,492.76,493.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400019,DECREASE_REVISED_COST,1170.83,1171.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400022,DECREASE_EXPENDITURE,1953.58,2616.51,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400023,DECREASE_PHYSICAL_PROGRESS,0.0,0.3,REVIEW,FlashReport_May2026.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400023,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,83,Missing between observed months; not interpreted as completion.
+2026-01,400035,DECREASE_EXPENDITURE,500.52,526.86,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400043,DECREASE_EXPENDITURE,331.77,339.98,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400043,DECREASE_EXPENDITURE,382.47,382.96,REVIEW,FlashReport_July_2026-1.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400062,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,63,Missing between observed months; not interpreted as completion.
+2025-08,400073,DECREASE_EXPENDITURE,424.01,426.16,REVIEW,FlashReport_August_2025.pdf,38,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400073,DECREASE_EXPENDITURE,429.33,429.65,REVIEW,FlashReport_December_2025.pdf,51,Source value retained unchanged; decrease is not treated as an error.
+2026-03,400073,DECREASE_EXPENDITURE,429.61,429.94,REVIEW,FlashReport_March_2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400073,DECREASE_EXPENDITURE,172.3,433.64,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400073,DECREASE_PHYSICAL_PROGRESS,45.0,46.0,REVIEW,FlashReport_August_2025.pdf,38,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400073,DECREASE_PHYSICAL_PROGRESS,46.25,53.47,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400073,DECREASE_ORIGINAL_COST,674.65,799.34,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400073,DECREASE_REVISED_COST,674.65,799.34,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400074,DECREASE_EXPENDITURE,208.28,289.45,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400074,DECREASE_PHYSICAL_PROGRESS,22.38,23.57,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400074,DECREASE_ORIGINAL_COST,849.31,908.47,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400074,DECREASE_REVISED_COST,849.31,908.47,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400077,DECREASE_EXPENDITURE,641.34,649.51,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400078,DECREASE_EXPENDITURE,7290.7,7394.54,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-03,400078,DECREASE_EXPENDITURE,7132.48,7343.81,REVIEW,FlashReport_March_2026.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400097,DECREASE_EXPENDITURE,4956.98,4957.08,REVIEW,FlashReport_December_2025.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400097,DECREASE_PHYSICAL_PROGRESS,90.0,90.3,REVIEW,FlashReport_September_2025.pdf,70,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400104,DECREASE_EXPENDITURE,447.68,469.66,REVIEW,FlashReport_September_2025.pdf,70,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400105,DECREASE_PHYSICAL_PROGRESS,76.0,76.22,REVIEW,FlashReport_August_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400115,DECREASE_EXPENDITURE,746.19,777.99,REVIEW,FlashReport_August_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400120,DECREASE_EXPENDITURE,33238.47,35498.35,REVIEW,FlashReport_August_2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400120,DECREASE_EXPENDITURE,32765.11,33238.47,REVIEW,FlashReport_February_2026.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400120,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,72,Missing between observed months; not interpreted as completion.
+2026-01,400136,DECREASE_EXPENDITURE,6.57,6.61,REVIEW,FlashReport_January_2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400136,DECREASE_EXPENDITURE,17.03,17.4,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400138,DECREASE_PHYSICAL_PROGRESS,24.0,25.0,REVIEW,FlashReport_September_2025.pdf,43,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400139,DECREASE_EXPENDITURE,455.95,464.57,REVIEW,FlashReport_April2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400139,DECREASE_PHYSICAL_PROGRESS,45.52,47.95,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400139,DECREASE_ORIGINAL_COST,625.4,861.06,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400148,DECREASE_EXPENDITURE,273.45,274.45,REVIEW,FlashReport_August_2025.pdf,39,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400148,DECREASE_EXPENDITURE,324.92,325.4,REVIEW,FlashReport_June_2026.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400150,DECREASE_EXPENDITURE,1599.39,1600.77,REVIEW,FlashReport_December_2025.pdf,51,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400150,DECREASE_EXPENDITURE,1688.4,1700.48,REVIEW,FlashReport_April2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400150,DECREASE_PHYSICAL_PROGRESS,39.3,40.21,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400150,DECREASE_ORIGINAL_COST,6964.33,7254.37,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400150,DECREASE_REVISED_COST,6964.33,7254.37,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400151,DECREASE_EXPENDITURE,602.95,696.05,REVIEW,FlashReport_January_2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400151,DECREASE_EXPENDITURE,598.32,606.01,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400151,DECREASE_PHYSICAL_PROGRESS,68.75,71.38,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400151,DECREASE_ORIGINAL_COST,634.3,778.8,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400151,DECREASE_REVISED_COST,634.3,778.8,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400153,DECREASE_EXPENDITURE,84.94,85.45,REVIEW,FlashReport_April2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400153,DECREASE_PHYSICAL_PROGRESS,22.54,22.84,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400153,DECREASE_ORIGINAL_COST,995.57,1020.42,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400153,DECREASE_REVISED_COST,995.57,1020.42,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400154,DECREASE_EXPENDITURE,14.78,236.58,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400154,DECREASE_ORIGINAL_COST,639.6,713.35,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400154,DECREASE_REVISED_COST,639.6,713.35,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400155,DECREASE_EXPENDITURE,185.04,185.06,REVIEW,FlashReport_December_2025.pdf,51,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400155,DECREASE_EXPENDITURE,185.19,186.16,REVIEW,FlashReport_April2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400155,DECREASE_PHYSICAL_PROGRESS,27.51,28.85,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400155,DECREASE_ORIGINAL_COST,2821.07,2898.28,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400155,DECREASE_REVISED_COST,2821.07,2898.28,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400156,DECREASE_PHYSICAL_PROGRESS,42.0,43.0,REVIEW,FlashReport_September_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400156,DECREASE_PHYSICAL_PROGRESS,43.58,44.45,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400156,DECREASE_ORIGINAL_COST,4983.57,5136.15,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400156,DECREASE_REVISED_COST,4983.57,5136.15,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400160,DECREASE_EXPENDITURE,488.71,489.2,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400160,DECREASE_PHYSICAL_PROGRESS,76.99,78.25,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400160,DECREASE_PHYSICAL_PROGRESS,75.61,76.99,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400162,DECREASE_EXPENDITURE,457.2,458.01,REVIEW,FlashReport_August_2025.pdf,39,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400162,DECREASE_EXPENDITURE,545.34,684.46,REVIEW,FlashReport_July_2026-1.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400166,DECREASE_EXPENDITURE,3491.08,3491.21,REVIEW,FlashReport_June_2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2025-10,400167,DECREASE_EXPENDITURE,1139.5,1157.0,REVIEW,FlashReport_October_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400167,DECREASE_EXPENDITURE,1143.03,1145.85,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400167,DECREASE_EXPENDITURE,1113.19,1152.51,REVIEW,FlashReport_May2026.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400168,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,74,Missing between observed months; not interpreted as completion.
+2026-04,400169,DECREASE_REVISED_COST,845.42,860.04,REVIEW,FlashReport_April2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400171,DECREASE_EXPENDITURE,1291.35,1293.34,REVIEW,FlashReport_July_2026-1.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400171,DECREASE_PHYSICAL_PROGRESS,94.0,95.8,REVIEW,FlashReport_June_2026.pdf,79,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400174,DECREASE_PHYSICAL_PROGRESS,63.76,64.0,REVIEW,FlashReport_June_2026.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-11,400177,DECREASE_EXPENDITURE,539.9,539.93,REVIEW,FlashReport_November_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-01,400177,DECREASE_EXPENDITURE,539.0,539.9,REVIEW,FlashReport_January_2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400177,DECREASE_EXPENDITURE,538.98,539.0,REVIEW,FlashReport_February_2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400177,DECREASE_EXPENDITURE,563.23,563.25,REVIEW,FlashReport_May2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400178,DECREASE_EXPENDITURE,649.83,652.67,REVIEW,FlashReport_May2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-10,400178,DECREASE_PHYSICAL_PROGRESS,34.0,35.0,REVIEW,FlashReport_October_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400180,DECREASE_EXPENDITURE,81.9,81.95,REVIEW,FlashReport_September_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400181,DECREASE_EXPENDITURE,67.61,70.97,REVIEW,FlashReport_August_2025.pdf,41,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400181,DECREASE_REVISED_COST,502.67,502.68,REVIEW,FlashReport_August_2025.pdf,41,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400182,DECREASE_REVISED_COST,535.17,535.18,REVIEW,FlashReport_August_2025.pdf,41,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400183,DECREASE_EXPENDITURE,774.52,1028.92,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400183,DECREASE_EXPENDITURE,932.85,976.35,REVIEW,FlashReport_February_2026.pdf,70,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400185,DECREASE_PHYSICAL_PROGRESS,34.54,55.98,REVIEW,FlashReport_April2026.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2025-10,400186,DECREASE_REVISED_COST,749.07,749.08,REVIEW,FlashReport_October_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400188,DECREASE_PHYSICAL_PROGRESS,46.7,46.8,REVIEW,FlashReport_May2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400188,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,67,Missing between observed months; not interpreted as completion.
+2025-08,400192,DECREASE_EXPENDITURE,596.94,599.18,REVIEW,FlashReport_August_2025.pdf,42,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400204,DECREASE_EXPENDITURE,971.42,1283.08,REVIEW,FlashReport_February_2026.pdf,99,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400205,DECREASE_EXPENDITURE,480.79,522.19,REVIEW,FlashReport_February_2026.pdf,99,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400205,DECREASE_PHYSICAL_PROGRESS,1.0,4.2,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400220,DECREASE_EXPENDITURE,2609.75,2624.33,REVIEW,FlashReport_December_2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400220,DECREASE_REVISED_COST,3407.09,3438.0,REVIEW,FlashReport_December_2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400223,DECREASE_PHYSICAL_PROGRESS,80.0,81.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400231,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,61,Missing between observed months; not interpreted as completion.
+2026-07,400232,DECREASE_EXPENDITURE,46.39,237.83,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400232,DECREASE_PHYSICAL_PROGRESS,55.0,56.0,REVIEW,FlashReport_May2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400232,DECREASE_PHYSICAL_PROGRESS,55.0,67.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400232,DECREASE_REVISED_COST,296.51,297.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400234,DECREASE_EXPENDITURE,4798.96,4950.0,REVIEW,FlashReport_December_2025.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2025-12,400235,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_December_2025.pdf,62,Missing between observed months; not interpreted as completion.
+2026-07,400247,DECREASE_EXPENDITURE,925.7,1066.85,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400247,DECREASE_PHYSICAL_PROGRESS,49.0,76.0,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2025-11,400253,DECREASE_REVISED_COST,6669.91,6670.0,REVIEW,FlashReport_November_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400254,DECREASE_PHYSICAL_PROGRESS,80.0,84.2,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400261,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,62,Missing between observed months; not interpreted as completion.
+2026-07,400273,DECREASE_PHYSICAL_PROGRESS,75.0,96.9,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400275,DECREASE_EXPENDITURE,1175.82,1335.29,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-02,400275,DECREASE_PHYSICAL_PROGRESS,16.0,19.0,REVIEW,FlashReport_February_2026.pdf,95,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400275,DECREASE_PHYSICAL_PROGRESS,16.0,16.85,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-11,400280,DECREASE_REVISED_COST,734.01,982.0,REVIEW,FlashReport_November_2025.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400291,DECREASE_EXPENDITURE,1369.01,1691.27,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400291,DECREASE_PHYSICAL_PROGRESS,96.17,97.6,REVIEW,FlashReport_June_2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400291,DECREASE_PHYSICAL_PROGRESS,89.0,96.17,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400298,DECREASE_EXPENDITURE,2535.68,3119.31,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400298,DECREASE_PHYSICAL_PROGRESS,2.0,55.02,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-07,400298,DECREASE_REVISED_COST,5906.03,5932.0,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400315,DECREASE_EXPENDITURE,565.26,571.02,REVIEW,FlashReport_August_2025.pdf,41,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400321,DECREASE_PHYSICAL_PROGRESS,47.0,48.0,REVIEW,FlashReport_September_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400352,DECREASE_EXPENDITURE,0.43,145.81,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400352,DECREASE_PHYSICAL_PROGRESS,29.39,32.23,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400352,DECREASE_ORIGINAL_COST,654.87,764.57,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-06,400352,DECREASE_REVISED_COST,654.87,764.57,REVIEW,FlashReport_June_2026.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400353,DECREASE_EXPENDITURE,174.55,174.62,REVIEW,FlashReport_May2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,400392,DECREASE_EXPENDITURE,1748.41,1748.9,REVIEW,FlashReport_August_2025.pdf,40,Source value retained unchanged; decrease is not treated as an error.
+2025-09,400392,DECREASE_EXPENDITURE,1672.82,1748.41,REVIEW,FlashReport_September_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-04,400392,DECREASE_EXPENDITURE,1711.38,1711.62,REVIEW,FlashReport_April2026.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2026-05,400426,DECREASE_PHYSICAL_PROGRESS,23.5,84.87,REVIEW,FlashReport_May2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602098,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_July_2026-1.pdf,70,Missing between observed months; not interpreted as completion.
+2025-10,602181,DECREASE_EXPENDITURE,3817.49,4656.92,REVIEW,FlashReport_October_2025.pdf,47,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602182,DECREASE_REVISED_COST,31876.39,31876.4,REVIEW,FlashReport_July_2026-1.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-10,602185,DECREASE_EXPENDITURE,6769.58,7260.25,REVIEW,FlashReport_October_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2025-12,602185,DECREASE_EXPENDITURE,6769.58,7291.0,REVIEW,FlashReport_December_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-06,602185,DECREASE_EXPENDITURE,7766.24,7791.33,REVIEW,FlashReport_June_2026.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-06,602185,DECREASE_PHYSICAL_PROGRESS,75.81,77.0,REVIEW,FlashReport_June_2026.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2025-12,602195,DECREASE_EXPENDITURE,5004.46,5328.31,REVIEW,FlashReport_December_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-12,602195,DECREASE_REVISED_COST,6405.08,6823.72,REVIEW,FlashReport_December_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-10,602538,DECREASE_EXPENDITURE,929.99,1098.16,REVIEW,FlashReport_October_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2025-10,602538,DECREASE_PHYSICAL_PROGRESS,67.0,92.0,REVIEW,FlashReport_October_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2025-10,602538,DECREASE_REVISED_COST,1037.0,1106.0,REVIEW,FlashReport_October_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602579,DECREASE_REVISED_COST,13756.56,13756.6,REVIEW,FlashReport_July_2026-1.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602593,DECREASE_REVISED_COST,4345.31,4681.64,REVIEW,FlashReport_July_2026-1.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-10,602792,DECREASE_EXPENDITURE,376.0,848.0,REVIEW,FlashReport_October_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602797,DECREASE_EXPENDITURE,185.23,296.61,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602797,DECREASE_PHYSICAL_PROGRESS,15.0,33.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,602961,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,62,Missing between observed months; not interpreted as completion.
+2026-05,603293,DECREASE_EXPENDITURE,431.81,471.08,REVIEW,FlashReport_May2026.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2026-07,604791,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,72,Missing between observed months; not interpreted as completion.
+2026-07,604795,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,75,Missing between observed months; not interpreted as completion.
+2026-01,604833,DECREASE_EXPENDITURE,247.89,249.5,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2025-08,604852,DECREASE_EXPENDITURE,216.66,236.22,REVIEW,FlashReport_August_2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2026-01,604853,DECREASE_EXPENDITURE,1834.01,1885.39,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-07,604859,DECREASE_EXPENDITURE,8870.29,70820.19,REVIEW,FlashReport_July_2026-1.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-07,604859,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,74,Missing between observed months; not interpreted as completion.
+2025-10,605155,DECREASE_EXPENDITURE,1094.54,1156.37,REVIEW,FlashReport_October_2025.pdf,47,Source value retained unchanged; decrease is not treated as an error.
+2025-09,605156,DECREASE_EXPENDITURE,1445.5,1584.13,REVIEW,FlashReport_September_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2025-11,606013,DECREASE_PHYSICAL_PROGRESS,97.0,99.0,REVIEW,FlashReport_November_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-08,606112,DECREASE_EXPENDITURE,54.05,288.87,REVIEW,FlashReport_August_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2026-03,607701,DECREASE_EXPENDITURE,462.41,474.39,REVIEW,FlashReport_March_2026.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-04,607701,DECREASE_EXPENDITURE,457.64,462.41,REVIEW,FlashReport_April2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-04,607709,DECREASE_PHYSICAL_PROGRESS,98.5,98.87,REVIEW,FlashReport_April2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-10,608302,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_October_2025.pdf,49,Missing between observed months; not interpreted as completion.
+2025-09,609424,DECREASE_EXPENDITURE,70.0,366.2,REVIEW,FlashReport_September_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-07,609736,DECREASE_REVISED_COST,340.55,351.74,REVIEW,FlashReport_July_2026-1.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-11,610315,DECREASE_EXPENDITURE,835.6,838.21,REVIEW,FlashReport_November_2025.pdf,54,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611047,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_July_2026-1.pdf,55,Missing between observed months; not interpreted as completion.
+2026-07,611495,DECREASE_PHYSICAL_PROGRESS,27.9,39.68,REVIEW,FlashReport_July_2026-1.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611509,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,62,Missing between observed months; not interpreted as completion.
+2026-07,611586,DECREASE_REVISED_COST,4555.49,4925.87,REVIEW,FlashReport_July_2026-1.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-08,611602,DECREASE_EXPENDITURE,149.21,376.47,REVIEW,FlashReport_August_2025.pdf,37,Source value retained unchanged; decrease is not treated as an error.
+2025-10,611615,DECREASE_REVISED_COST,342.0,342.14,REVIEW,FlashReport_October_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-11,611615,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_November_2025.pdf,61,Missing between observed months; not interpreted as completion.
+2025-11,611699,DECREASE_EXPENDITURE,63.73,116.08,REVIEW,FlashReport_November_2025.pdf,47,Source value retained unchanged; decrease is not treated as an error.
+2025-12,611699,DECREASE_EXPENDITURE,61.45,63.73,REVIEW,FlashReport_December_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611751,DECREASE_EXPENDITURE,381.13,1375.55,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611751,DECREASE_PHYSICAL_PROGRESS,0.0,2.03,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611752,DECREASE_EXPENDITURE,149.34,347.98,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-01,611752,DECREASE_PHYSICAL_PROGRESS,3.0,25.0,REVIEW,FlashReport_January_2026.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611752,DECREASE_PHYSICAL_PROGRESS,0.0,3.04,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611752,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,80,Missing between observed months; not interpreted as completion.
+2026-07,611754,DECREASE_EXPENDITURE,91.42,272.72,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611754,DECREASE_PHYSICAL_PROGRESS,0.0,0.24,REVIEW,FlashReport_July_2026-1.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2025-08,611849,DECREASE_EXPENDITURE,98.62,411.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-03,611849,DECREASE_PHYSICAL_PROGRESS,56.0,65.0,REVIEW,FlashReport_March_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2025-08,611849,DECREASE_ORIGINAL_COST,968.92,969.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-08,611849,DECREASE_REVISED_COST,968.92,969.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611861,DECREASE_PHYSICAL_PROGRESS,73.0,75.0,REVIEW,FlashReport_April2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611917,DECREASE_EXPENDITURE,1473.41,1517.82,REVIEW,FlashReport_April2026.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611917,DECREASE_EXPENDITURE,1560.24,1643.7,REVIEW,FlashReport_July_2026-1.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,611930,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,62,Missing between observed months; not interpreted as completion.
+2025-10,611945,DECREASE_EXPENDITURE,13.58,82.0,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611948,DECREASE_EXPENDITURE,1851.81,2122.84,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611948,DECREASE_ORIGINAL_COST,1910.0,2211.29,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611948,DECREASE_REVISED_COST,1910.0,2211.29,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611949,DECREASE_EXPENDITURE,1136.8,1724.17,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611949,DECREASE_ORIGINAL_COST,1160.0,1796.02,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611949,DECREASE_REVISED_COST,1160.0,1796.02,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2025-09,611957,DECREASE_EXPENDITURE,38.62,143.95,REVIEW,FlashReport_September_2025.pdf,54,Source value retained unchanged; decrease is not treated as an error.
+2026-05,611957,DECREASE_PHYSICAL_PROGRESS,57.5,58.0,REVIEW,FlashReport_May2026.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611963,DECREASE_EXPENDITURE,345.85,355.83,REVIEW,FlashReport_April2026.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611967,DECREASE_EXPENDITURE,798.31,1198.74,REVIEW,FlashReport_April2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611967,DECREASE_ORIGINAL_COST,823.0,1248.69,REVIEW,FlashReport_April2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-04,611967,DECREASE_REVISED_COST,823.0,1248.69,REVIEW,FlashReport_April2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-10,611970,DECREASE_EXPENDITURE,44.8,102.0,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-10,611971,DECREASE_EXPENDITURE,67.73,87.0,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-08,611971,DECREASE_PHYSICAL_PROGRESS,31.0,32.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-01,612096,DECREASE_EXPENDITURE,418.64,428.37,REVIEW,FlashReport_January_2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2025-11,612096,DECREASE_REVISED_COST,1181.57,1209.0,REVIEW,FlashReport_November_2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-04,612138,DECREASE_EXPENDITURE,1190.16,1825.47,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,612138,DECREASE_ORIGINAL_COST,1368.0,2147.62,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-04,612138,DECREASE_REVISED_COST,1368.0,2147.62,REVIEW,FlashReport_April2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,612142,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,63,Missing between observed months; not interpreted as completion.
+2026-03,612186,DECREASE_EXPENDITURE,55.81,63.62,REVIEW,FlashReport_March_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2026-01,612186,DECREASE_PHYSICAL_PROGRESS,10.0,15.0,REVIEW,FlashReport_January_2026.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2025-12,612211,DECREASE_EXPENDITURE,24.06,31.49,REVIEW,FlashReport_December_2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2025-11,612239,DECREASE_EXPENDITURE,162.05,1747.76,REVIEW,FlashReport_November_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-02,612745,DECREASE_EXPENDITURE,68.23,228.61,REVIEW,FlashReport_February_2026.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-03,612781,DECREASE_PHYSICAL_PROGRESS,32.82,36.0,REVIEW,FlashReport_March_2026.pdf,79,Source value retained unchanged; decrease is not treated as an error.
+2026-02,612791,DECREASE_PHYSICAL_PROGRESS,49.0,53.0,REVIEW,FlashReport_February_2026.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,612815,DECREASE_PHYSICAL_PROGRESS,3.0,15.0,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2026-02,612827,DECREASE_EXPENDITURE,12.87,12.94,REVIEW,FlashReport_February_2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-03,612827,DECREASE_EXPENDITURE,11.87,12.87,REVIEW,FlashReport_March_2026.pdf,79,Source value retained unchanged; decrease is not treated as an error.
+2026-07,612834,DECREASE_PHYSICAL_PROGRESS,88.0,92.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-01,612885,DECREASE_EXPENDITURE,362.48,426.07,REVIEW,FlashReport_January_2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-06,612885,DECREASE_EXPENDITURE,368.98,370.98,REVIEW,FlashReport_June_2026.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2025-12,612885,DECREASE_REVISED_COST,429.7,494.52,REVIEW,FlashReport_December_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-02,612894,DECREASE_EXPENDITURE,223.21,223.36,REVIEW,FlashReport_February_2026.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2025-10,613008,DECREASE_EXPENDITURE,19.96,84.96,REVIEW,FlashReport_October_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2026-02,613787,DECREASE_EXPENDITURE,990.18,991.09,REVIEW,FlashReport_February_2026.pdf,167,Source value retained unchanged; decrease is not treated as an error.
+2025-09,613793,DECREASE_EXPENDITURE,59.03,59.04,REVIEW,FlashReport_September_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2025-12,613804,DECREASE_EXPENDITURE,6.08,6.84,REVIEW,FlashReport_December_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-02,613804,DECREASE_EXPENDITURE,5.21,6.09,REVIEW,FlashReport_February_2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615183,DECREASE_EXPENDITURE,276.37,276.75,REVIEW,FlashReport_May2026.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615184,DECREASE_EXPENDITURE,157.01,157.02,REVIEW,FlashReport_July_2026-1.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-03,615185,DECREASE_EXPENDITURE,99.3,99.89,REVIEW,FlashReport_March_2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,615185,DECREASE_PHYSICAL_PROGRESS,66.0,67.0,REVIEW,FlashReport_August_2025.pdf,39,Source value retained unchanged; decrease is not treated as an error.
+2025-08,615186,DECREASE_EXPENDITURE,90.31,90.96,REVIEW,FlashReport_August_2025.pdf,40,Source value retained unchanged; decrease is not treated as an error.
+2026-04,615188,DECREASE_EXPENDITURE,67.11,67.74,REVIEW,FlashReport_April2026.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615189,DECREASE_PHYSICAL_PROGRESS,11.0,12.0,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-06,615191,DECREASE_EXPENDITURE,62.01,62.03,REVIEW,FlashReport_June_2026.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2026-03,615192,DECREASE_EXPENDITURE,51.32,51.33,REVIEW,FlashReport_March_2026.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615193,DECREASE_EXPENDITURE,273.75,281.01,REVIEW,FlashReport_September_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-04,615193,DECREASE_EXPENDITURE,281.57,281.62,REVIEW,FlashReport_April2026.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615194,DECREASE_PHYSICAL_PROGRESS,0.0,1.0,REVIEW,FlashReport_September_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2025-12,615195,DECREASE_EXPENDITURE,4.41,5.12,REVIEW,FlashReport_December_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-03,615195,DECREASE_EXPENDITURE,5.4,5.43,REVIEW,FlashReport_March_2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-04,615195,DECREASE_EXPENDITURE,5.19,5.4,REVIEW,FlashReport_April2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615199,DECREASE_EXPENDITURE,23.25,23.54,REVIEW,FlashReport_May2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615199,DECREASE_PHYSICAL_PROGRESS,2.0,3.0,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615202,DECREASE_PHYSICAL_PROGRESS,18.3,20.3,REVIEW,FlashReport_May2026.pdf,79,Source value retained unchanged; decrease is not treated as an error.
+2025-11,615206,DECREASE_EXPENDITURE,14.41,15.52,REVIEW,FlashReport_November_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-02,615206,DECREASE_EXPENDITURE,17.25,18.05,REVIEW,FlashReport_February_2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-10,615206,DECREASE_PHYSICAL_PROGRESS,56.0,57.0,REVIEW,FlashReport_October_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615349,DECREASE_EXPENDITURE,22.02,40.02,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615820,DECREASE_EXPENDITURE,112.69,112.8,REVIEW,FlashReport_July_2026-1.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-04,615820,DECREASE_PHYSICAL_PROGRESS,88.18,89.0,REVIEW,FlashReport_April2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-04,615821,DECREASE_PHYSICAL_PROGRESS,3.26,3.4,REVIEW,FlashReport_April2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615821,DECREASE_PHYSICAL_PROGRESS,5.0,5.26,REVIEW,FlashReport_July_2026-1.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615822,DECREASE_EXPENDITURE,89.92,280.03,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,615822,DECREASE_PHYSICAL_PROGRESS,53.0,60.0,REVIEW,FlashReport_August_2025.pdf,39,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615822,DECREASE_PHYSICAL_PROGRESS,56.02,63.52,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615822,DECREASE_ORIGINAL_COST,183.18,222.82,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615822,DECREASE_REVISED_COST,183.18,222.82,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615843,DECREASE_PHYSICAL_PROGRESS,29.0,30.0,REVIEW,FlashReport_September_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615843,DECREASE_PHYSICAL_PROGRESS,29.9,31.27,REVIEW,FlashReport_May2026.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615843,DECREASE_ORIGINAL_COST,232.64,243.52,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615843,DECREASE_REVISED_COST,232.64,243.52,REVIEW,FlashReport_July_2026-1.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-02,615914,DECREASE_EXPENDITURE,14.77,14.88,REVIEW,FlashReport_February_2026.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615914,DECREASE_PHYSICAL_PROGRESS,5.0,6.0,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615916,DECREASE_EXPENDITURE,78.68,78.87,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-05,615916,DECREASE_EXPENDITURE,88.81,88.88,REVIEW,FlashReport_May2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-09,615918,DECREASE_PHYSICAL_PROGRESS,7.0,8.0,REVIEW,FlashReport_September_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2025-12,615919,DECREASE_EXPENDITURE,175.86,175.93,REVIEW,FlashReport_December_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2026-01,615919,DECREASE_EXPENDITURE,175.75,175.86,REVIEW,FlashReport_January_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-07,615919,DECREASE_EXPENDITURE,218.26,218.36,REVIEW,FlashReport_July_2026-1.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-11,615982,DECREASE_EXPENDITURE,185.91,367.6,REVIEW,FlashReport_November_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-06,615982,DECREASE_EXPENDITURE,196.82,196.86,REVIEW,FlashReport_June_2026.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-11,616050,DECREASE_EXPENDITURE,131.81,237.12,REVIEW,FlashReport_November_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-01,616050,DECREASE_EXPENDITURE,132.1,132.25,REVIEW,FlashReport_January_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-03,616050,DECREASE_EXPENDITURE,127.21,132.21,REVIEW,FlashReport_March_2026.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-11,616223,DECREASE_EXPENDITURE,208.63,308.84,REVIEW,FlashReport_November_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-01,616223,DECREASE_EXPENDITURE,208.69,208.73,REVIEW,FlashReport_January_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-02,616223,DECREASE_EXPENDITURE,208.68,208.69,REVIEW,FlashReport_February_2026.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-05,616223,DECREASE_EXPENDITURE,209.28,209.35,REVIEW,FlashReport_May2026.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-06,616226,DECREASE_EXPENDITURE,652.7,681.21,REVIEW,FlashReport_June_2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2025-09,616226,DECREASE_PHYSICAL_PROGRESS,3.0,4.0,REVIEW,FlashReport_September_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-05,616227,DECREASE_EXPENDITURE,3.97,4.51,REVIEW,FlashReport_May2026.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616227,DISAPPEAR_REAPPEAR,2025-09;2025-10,,REVIEW,FlashReport_July_2026-1.pdf,86,Missing between observed months; not interpreted as completion.
+2025-10,616229,DECREASE_EXPENDITURE,1.18,1.21,REVIEW,FlashReport_October_2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2026-01,616229,DECREASE_EXPENDITURE,1.17,1.19,REVIEW,FlashReport_January_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-02,616231,DECREASE_EXPENDITURE,472.92,472.93,REVIEW,FlashReport_February_2026.pdf,70,Source value retained unchanged; decrease is not treated as an error.
+2026-06,616231,DECREASE_EXPENDITURE,477.43,477.84,REVIEW,FlashReport_June_2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2025-11,616232,DECREASE_EXPENDITURE,272.99,273.03,REVIEW,FlashReport_November_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616234,DECREASE_PHYSICAL_PROGRESS,23.75,40.34,REVIEW,FlashReport_July_2026-1.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-09,616236,DECREASE_PHYSICAL_PROGRESS,32.0,33.0,REVIEW,FlashReport_September_2025.pdf,44,Source value retained unchanged; decrease is not treated as an error.
+2026-05,616236,DECREASE_PHYSICAL_PROGRESS,32.62,34.18,REVIEW,FlashReport_May2026.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616236,DECREASE_ORIGINAL_COST,372.06,414.37,REVIEW,FlashReport_July_2026-1.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616236,DECREASE_REVISED_COST,372.06,414.37,REVIEW,FlashReport_July_2026-1.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616586,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,86,Missing between observed months; not interpreted as completion.
+2026-06,616587,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_June_2026.pdf,93,Missing between observed months; not interpreted as completion.
+2026-03,616588,DECREASE_EXPENDITURE,6.97,7.02,REVIEW,FlashReport_March_2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616588,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,86,Missing between observed months; not interpreted as completion.
+2026-07,616694,DECREASE_PHYSICAL_PROGRESS,0.0,5.5,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616694,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11,,REVIEW,FlashReport_July_2026-1.pdf,87,Missing between observed months; not interpreted as completion.
+2025-10,616695,DECREASE_EXPENDITURE,0.0,0.01,REVIEW,FlashReport_October_2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616695,DECREASE_PHYSICAL_PROGRESS,7.0,10.5,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2025-11,616699,DECREASE_EXPENDITURE,420.86,520.39,REVIEW,FlashReport_November_2025.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616699,DECREASE_PHYSICAL_PROGRESS,3.0,18.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616699,DECREASE_REVISED_COST,12333.57,12333.6,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616701,DECREASE_PHYSICAL_PROGRESS,1.0,12.5,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616839,DECREASE_REVISED_COST,1165.73,1165.89,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,616841,DECREASE_PHYSICAL_PROGRESS,7.0,8.0,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-03,616842,DECREASE_PHYSICAL_PROGRESS,18.0,20.0,REVIEW,FlashReport_March_2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-06,616856,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_June_2026.pdf,94,Missing between observed months; not interpreted as completion.
+2025-09,616886,DECREASE_EXPENDITURE,21.13,23.23,REVIEW,FlashReport_September_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-12,616886,DECREASE_EXPENDITURE,27.63,28.63,REVIEW,FlashReport_December_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-12,616886,DECREASE_PHYSICAL_PROGRESS,10.0,20.0,REVIEW,FlashReport_December_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-11,617069,DECREASE_EXPENDITURE,23.99,24.3,REVIEW,FlashReport_November_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2025-11,617069,DECREASE_PHYSICAL_PROGRESS,1.0,2.0,REVIEW,FlashReport_November_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617179,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_July_2026-1.pdf,64,Missing between observed months; not interpreted as completion.
+2025-12,617183,DECREASE_PHYSICAL_PROGRESS,4.0,7.0,REVIEW,FlashReport_December_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-10,617188,DECREASE_EXPENDITURE,856.56,865.06,REVIEW,FlashReport_October_2025.pdf,47,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617200,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_June_2026.pdf,86,Missing between observed months; not interpreted as completion.
+2026-06,617201,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_June_2026.pdf,89,Missing between observed months; not interpreted as completion.
+2026-07,617210,DECREASE_EXPENDITURE,0.0,62.2,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617210,DECREASE_PHYSICAL_PROGRESS,0.0,0.06,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617210,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,84,Missing between observed months; not interpreted as completion.
+2026-05,617212,DECREASE_EXPENDITURE,640.06,1938.02,REVIEW,FlashReport_May2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-05,617214,DECREASE_EXPENDITURE,208.57,208.59,REVIEW,FlashReport_May2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617214,DECREASE_EXPENDITURE,155.0,208.57,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617214,DECREASE_PHYSICAL_PROGRESS,0.0,0.17,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617214,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,84,Missing between observed months; not interpreted as completion.
+2026-07,617215,DECREASE_EXPENDITURE,174.3,197.62,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617216,DECREASE_EXPENDITURE,53.46,206.02,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617216,DECREASE_PHYSICAL_PROGRESS,0.0,0.17,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617216,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_July_2026-1.pdf,81,Missing between observed months; not interpreted as completion.
+2025-10,617221,DECREASE_EXPENDITURE,0.0,10.0,REVIEW,FlashReport_October_2025.pdf,54,Source value retained unchanged; decrease is not treated as an error.
+2026-04,617221,DECREASE_EXPENDITURE,74.96,91.95,REVIEW,FlashReport_April2026.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617221,DECREASE_EXPENDITURE,81.06,87.16,REVIEW,FlashReport_June_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2025-10,617221,DECREASE_PHYSICAL_PROGRESS,0.0,6.0,REVIEW,FlashReport_October_2025.pdf,54,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617231,DISAPPEAR_REAPPEAR,2025-08;2025-09,,REVIEW,FlashReport_July_2026-1.pdf,81,Missing between observed months; not interpreted as completion.
+2026-07,617245,DECREASE_PHYSICAL_PROGRESS,65.0,66.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617246,DECREASE_PHYSICAL_PROGRESS,41.68,43.36,REVIEW,FlashReport_June_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-04,617251,DECREASE_EXPENDITURE,35.36,37.82,REVIEW,FlashReport_April2026.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617251,DECREASE_PHYSICAL_PROGRESS,32.21,32.48,REVIEW,FlashReport_June_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617252,DECREASE_PHYSICAL_PROGRESS,12.0,24.0,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-02,617253,DECREASE_EXPENDITURE,364.76,381.45,REVIEW,FlashReport_February_2026.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617299,DECREASE_EXPENDITURE,328.54,329.59,REVIEW,FlashReport_June_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617333,DECREASE_PHYSICAL_PROGRESS,0.0,0.6,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-04,617338,DECREASE_PHYSICAL_PROGRESS,22.5,22.79,REVIEW,FlashReport_April2026.pdf,80,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617364,DECREASE_PHYSICAL_PROGRESS,15.0,60.0,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617370,DECREASE_PHYSICAL_PROGRESS,10.5,15.0,REVIEW,FlashReport_March_2026.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617370,DECREASE_PHYSICAL_PROGRESS,22.0,27.55,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617372,DECREASE_PHYSICAL_PROGRESS,60.0,72.0,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617372,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,82,Missing between observed months; not interpreted as completion.
+2026-03,617379,DECREASE_PHYSICAL_PROGRESS,80.0,82.0,REVIEW,FlashReport_March_2026.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-04,617405,DECREASE_EXPENDITURE,537.0,540.0,REVIEW,FlashReport_April2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-02,617406,DECREASE_EXPENDITURE,6.79,7.03,REVIEW,FlashReport_February_2026.pdf,97,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617422,DECREASE_EXPENDITURE,338.91,1949.56,REVIEW,FlashReport_July_2026-1.pdf,151,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617730,DECREASE_EXPENDITURE,2000.62,2254.57,REVIEW,FlashReport_June_2026.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-11,617804,DECREASE_EXPENDITURE,24.0,50.1,REVIEW,FlashReport_November_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-12,617818,DECREASE_EXPENDITURE,19.92,22.2,REVIEW,FlashReport_December_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-02,617818,DECREASE_EXPENDITURE,20.62,20.65,REVIEW,FlashReport_February_2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-05,617818,DECREASE_EXPENDITURE,21.98,22.08,REVIEW,FlashReport_May2026.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617818,DECREASE_PHYSICAL_PROGRESS,5.8,5.9,REVIEW,FlashReport_July_2026-1.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617819,DECREASE_EXPENDITURE,7.8,9.11,REVIEW,FlashReport_March_2026.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617836,DECREASE_EXPENDITURE,464.46,543.0,REVIEW,FlashReport_July_2026-1.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617839,DECREASE_EXPENDITURE,63.42,112.61,REVIEW,FlashReport_March_2026.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-12,617839,DECREASE_REVISED_COST,304.4,356.86,REVIEW,FlashReport_December_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-05,617883,DECREASE_PHYSICAL_PROGRESS,57.0,61.0,REVIEW,FlashReport_May2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-01,617887,DECREASE_EXPENDITURE,179.08,201.18,REVIEW,FlashReport_January_2026.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2026-04,617895,DECREASE_PHYSICAL_PROGRESS,70.71,94.92,REVIEW,FlashReport_April2026.pdf,98,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617904,DECREASE_EXPENDITURE,6.09,36.44,REVIEW,FlashReport_March_2026.pdf,133,Source value retained unchanged; decrease is not treated as an error.
+2026-02,617907,DECREASE_EXPENDITURE,54.38,207.05,REVIEW,FlashReport_February_2026.pdf,101,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617915,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_June_2026.pdf,121,Missing between observed months; not interpreted as completion.
+2026-05,617917,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_May2026.pdf,123,Missing between observed months; not interpreted as completion.
+2026-05,617924,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_May2026.pdf,139,Missing between observed months; not interpreted as completion.
+2026-06,617930,DECREASE_PHYSICAL_PROGRESS,70.0,75.0,REVIEW,FlashReport_June_2026.pdf,138,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617932,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,116,Missing between observed months; not interpreted as completion.
+2026-05,617933,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_May2026.pdf,123,Missing between observed months; not interpreted as completion.
+2026-07,617940,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,137,Missing between observed months; not interpreted as completion.
+2026-07,617958,DECREASE_PHYSICAL_PROGRESS,73.21,95.1,REVIEW,FlashReport_July_2026-1.pdf,97,Source value retained unchanged; decrease is not treated as an error.
+2026-02,617960,DECREASE_EXPENDITURE,0.0,7.4,REVIEW,FlashReport_February_2026.pdf,163,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617960,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,148,Missing between observed months; not interpreted as completion.
+2026-05,617963,DECREASE_PHYSICAL_PROGRESS,33.0,35.0,REVIEW,FlashReport_May2026.pdf,150,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617967,DECREASE_EXPENDITURE,0.0,43.83,REVIEW,FlashReport_March_2026.pdf,150,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617968,DECREASE_EXPENDITURE,0.0,422.72,REVIEW,FlashReport_June_2026.pdf,154,Source value retained unchanged; decrease is not treated as an error.
+2026-06,617972,DECREASE_EXPENDITURE,0.0,14.99,REVIEW,FlashReport_June_2026.pdf,107,Source value retained unchanged; decrease is not treated as an error.
+2026-03,617991,DECREASE_PHYSICAL_PROGRESS,91.9,92.0,REVIEW,FlashReport_March_2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-07,617994,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,137,Missing between observed months; not interpreted as completion.
+2026-02,617995,DECREASE_EXPENDITURE,0.0,2.08,REVIEW,FlashReport_February_2026.pdf,152,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618001,DECREASE_EXPENDITURE,152.77,154.05,REVIEW,FlashReport_February_2026.pdf,152,Source value retained unchanged; decrease is not treated as an error.
+2026-03,618013,DECREASE_EXPENDITURE,341.52,347.55,REVIEW,FlashReport_March_2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618019,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,114,Missing between observed months; not interpreted as completion.
+2026-06,618020,DECREASE_EXPENDITURE,164.41,164.43,REVIEW,FlashReport_June_2026.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618020,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,114,Missing between observed months; not interpreted as completion.
+2026-03,618029,DECREASE_EXPENDITURE,191.38,195.07,REVIEW,FlashReport_March_2026.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618031,DECREASE_EXPENDITURE,105.04,333.48,REVIEW,FlashReport_February_2026.pdf,123,Source value retained unchanged; decrease is not treated as an error.
+2026-03,618043,DECREASE_PHYSICAL_PROGRESS,87.5,97.0,REVIEW,FlashReport_March_2026.pdf,116,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618051,DISAPPEAR_REAPPEAR,2026-02;2026-03;2026-04;2026-05,,REVIEW,FlashReport_June_2026.pdf,111,Missing between observed months; not interpreted as completion.
+2026-06,618063,DECREASE_EXPENDITURE,115.38,115.39,REVIEW,FlashReport_June_2026.pdf,148,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618083,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,107,Missing between observed months; not interpreted as completion.
+2026-07,618087,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,110,Missing between observed months; not interpreted as completion.
+2026-07,618109,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,110,Missing between observed months; not interpreted as completion.
+2026-03,618125,DECREASE_EXPENDITURE,44.45,70.6,REVIEW,FlashReport_March_2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618125,DECREASE_EXPENDITURE,0.0,44.45,REVIEW,FlashReport_June_2026.pdf,97,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618137,DECREASE_EXPENDITURE,139.11,139.12,REVIEW,FlashReport_June_2026.pdf,126,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618140,DECREASE_PHYSICAL_PROGRESS,9.22,10.8,REVIEW,FlashReport_May2026.pdf,148,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618144,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_May2026.pdf,116,Missing between observed months; not interpreted as completion.
+2026-03,618149,DECREASE_PHYSICAL_PROGRESS,0.0,16.0,REVIEW,FlashReport_March_2026.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618161,DECREASE_EXPENDITURE,353.87,360.45,REVIEW,FlashReport_February_2026.pdf,102,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618177,DECREASE_PHYSICAL_PROGRESS,95.29,99.15,REVIEW,FlashReport_May2026.pdf,126,Source value retained unchanged; decrease is not treated as an error.
+2026-03,618187,DECREASE_PHYSICAL_PROGRESS,4.0,9.0,REVIEW,FlashReport_March_2026.pdf,146,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618216,DECREASE_EXPENDITURE,15.16,42.4,REVIEW,FlashReport_January_2026.pdf,101,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618227,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,148,Missing between observed months; not interpreted as completion.
+2026-05,618229,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_May2026.pdf,152,Missing between observed months; not interpreted as completion.
+2026-02,618254,DECREASE_EXPENDITURE,1.66,2.14,REVIEW,FlashReport_February_2026.pdf,102,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618257,DECREASE_PHYSICAL_PROGRESS,98.09,100.0,REVIEW,FlashReport_July_2026-1.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618292,DECREASE_PHYSICAL_PROGRESS,69.76,69.82,REVIEW,FlashReport_June_2026.pdf,137,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618307,DISAPPEAR_REAPPEAR,2026-02;2026-03;2026-04;2026-05,,REVIEW,FlashReport_July_2026-1.pdf,140,Missing between observed months; not interpreted as completion.
+2026-07,618309,DECREASE_PHYSICAL_PROGRESS,23.07,25.16,REVIEW,FlashReport_July_2026-1.pdf,95,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618344,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,122,Missing between observed months; not interpreted as completion.
+2026-07,618345,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,122,Missing between observed months; not interpreted as completion.
+2026-07,618352,DECREASE_EXPENDITURE,559.51,559.69,REVIEW,FlashReport_July_2026-1.pdf,95,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618356,DECREASE_PHYSICAL_PROGRESS,98.5,100.0,REVIEW,FlashReport_June_2026.pdf,131,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618357,DECREASE_PHYSICAL_PROGRESS,84.87,85.36,REVIEW,FlashReport_April2026.pdf,130,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618358,DECREASE_PHYSICAL_PROGRESS,83.0,84.0,REVIEW,FlashReport_January_2026.pdf,113,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618358,DECREASE_PHYSICAL_PROGRESS,86.87,87.3,REVIEW,FlashReport_July_2026-1.pdf,123,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618362,DECREASE_EXPENDITURE,552.89,557.98,REVIEW,FlashReport_June_2026.pdf,133,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618367,DECREASE_EXPENDITURE,100.25,259.36,REVIEW,FlashReport_July_2026-1.pdf,140,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618375,DECREASE_EXPENDITURE,18.92,34.61,REVIEW,FlashReport_February_2026.pdf,137,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618390,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,147,Missing between observed months; not interpreted as completion.
+2026-04,618394,DECREASE_PHYSICAL_PROGRESS,94.26,96.95,REVIEW,FlashReport_April2026.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618394,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,106,Missing between observed months; not interpreted as completion.
+2026-07,618397,DECREASE_EXPENDITURE,239.96,242.42,REVIEW,FlashReport_July_2026-1.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618407,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,106,Missing between observed months; not interpreted as completion.
+2026-07,618408,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,113,Missing between observed months; not interpreted as completion.
+2026-07,618412,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,91,Missing between observed months; not interpreted as completion.
+2026-02,618416,DECREASE_EXPENDITURE,177.28,177.31,REVIEW,FlashReport_February_2026.pdf,137,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618417,DECREASE_EXPENDITURE,462.34,487.38,REVIEW,FlashReport_July_2026-1.pdf,140,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618418,DECREASE_EXPENDITURE,151.89,171.55,REVIEW,FlashReport_February_2026.pdf,138,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618420,DECREASE_EXPENDITURE,357.32,435.15,REVIEW,FlashReport_July_2026-1.pdf,124,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618427,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,148,Missing between observed months; not interpreted as completion.
+2026-07,618429,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,148,Missing between observed months; not interpreted as completion.
+2026-06,618431,DECREASE_EXPENDITURE,0.0,0.39,REVIEW,FlashReport_June_2026.pdf,156,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618436,DECREASE_EXPENDITURE,432.62,434.89,REVIEW,FlashReport_July_2026-1.pdf,96,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618438,DECREASE_EXPENDITURE,680.44,685.73,REVIEW,FlashReport_July_2026-1.pdf,96,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618441,DECREASE_EXPENDITURE,0.0,72.13,REVIEW,FlashReport_June_2026.pdf,103,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618442,DECREASE_EXPENDITURE,100.4,398.28,REVIEW,FlashReport_July_2026-1.pdf,96,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618454,DECREASE_EXPENDITURE,40.17,41.78,REVIEW,FlashReport_July_2026-1.pdf,96,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618455,DECREASE_EXPENDITURE,308.85,310.1,REVIEW,FlashReport_July_2026-1.pdf,96,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618455,DISAPPEAR_REAPPEAR,2026-01,,REVIEW,FlashReport_July_2026-1.pdf,96,Missing between observed months; not interpreted as completion.
+2026-04,618469,DECREASE_EXPENDITURE,1792.74,1792.81,REVIEW,FlashReport_April2026.pdf,127,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618472,DECREASE_EXPENDITURE,952.69,982.89,REVIEW,FlashReport_July_2026-1.pdf,119,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618477,DECREASE_EXPENDITURE,678.68,711.04,REVIEW,FlashReport_February_2026.pdf,139,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618496,DECREASE_EXPENDITURE,1171.13,1174.58,REVIEW,FlashReport_May2026.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618513,DECREASE_PHYSICAL_PROGRESS,45.0,49.0,REVIEW,FlashReport_February_2026.pdf,134,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618513,DECREASE_PHYSICAL_PROGRESS,45.47,49.88,REVIEW,FlashReport_May2026.pdf,127,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618534,DECREASE_EXPENDITURE,0.04,0.89,REVIEW,FlashReport_June_2026.pdf,115,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618570,DECREASE_EXPENDITURE,223.75,227.89,REVIEW,FlashReport_January_2026.pdf,97,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618574,DECREASE_EXPENDITURE,426.06,443.7,REVIEW,FlashReport_April2026.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618590,DECREASE_EXPENDITURE,568.17,583.62,REVIEW,FlashReport_May2026.pdf,105,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618594,DECREASE_EXPENDITURE,184.17,185.79,REVIEW,FlashReport_July_2026-1.pdf,120,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618599,DECREASE_ORIGINAL_COST,4919.46,4924.11,REVIEW,FlashReport_July_2026-1.pdf,113,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618607,DECREASE_EXPENDITURE,2373.2,2373.25,REVIEW,FlashReport_July_2026-1.pdf,113,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618610,DECREASE_EXPENDITURE,501.33,507.11,REVIEW,FlashReport_February_2026.pdf,147,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618613,DECREASE_PHYSICAL_PROGRESS,98.0,100.0,REVIEW,FlashReport_January_2026.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618644,DECREASE_PHYSICAL_PROGRESS,86.0,87.0,REVIEW,FlashReport_January_2026.pdf,104,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618661,DECREASE_PHYSICAL_PROGRESS,8.96,10.16,REVIEW,FlashReport_April2026.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618665,DECREASE_EXPENDITURE,454.54,454.77,REVIEW,FlashReport_May2026.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618668,DECREASE_EXPENDITURE,137.19,162.84,REVIEW,FlashReport_May2026.pdf,136,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618677,DECREASE_EXPENDITURE,978.89,981.3,REVIEW,FlashReport_May2026.pdf,139,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618678,DECREASE_EXPENDITURE,869.4,874.99,REVIEW,FlashReport_May2026.pdf,139,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618693,DECREASE_EXPENDITURE,785.78,791.69,REVIEW,FlashReport_May2026.pdf,127,Source value retained unchanged; decrease is not treated as an error.
+2026-06,618704,DECREASE_EXPENDITURE,106.14,106.16,REVIEW,FlashReport_June_2026.pdf,139,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618706,DECREASE_EXPENDITURE,604.66,1375.0,REVIEW,FlashReport_April2026.pdf,117,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618706,DECREASE_EXPENDITURE,604.63,604.66,REVIEW,FlashReport_May2026.pdf,117,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618706,DECREASE_EXPENDITURE,4315.21,4315.22,REVIEW,FlashReport_July_2026-1.pdf,111,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618728,DECREASE_EXPENDITURE,559.01,561.54,REVIEW,FlashReport_July_2026-1.pdf,126,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618739,DECREASE_EXPENDITURE,341.86,342.13,REVIEW,FlashReport_April2026.pdf,103,Source value retained unchanged; decrease is not treated as an error.
+2026-01,618740,DECREASE_EXPENDITURE,193.54,243.51,REVIEW,FlashReport_January_2026.pdf,98,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618747,DECREASE_EXPENDITURE,441.32,459.37,REVIEW,FlashReport_February_2026.pdf,140,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618758,DECREASE_EXPENDITURE,310.1,310.12,REVIEW,FlashReport_May2026.pdf,143,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618769,DECREASE_PHYSICAL_PROGRESS,5.0,8.0,REVIEW,FlashReport_February_2026.pdf,139,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618795,DECREASE_EXPENDITURE,864.5,865.4,REVIEW,FlashReport_February_2026.pdf,148,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618795,DECREASE_EXPENDITURE,864.82,866.12,REVIEW,FlashReport_May2026.pdf,142,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618795,DECREASE_EXPENDITURE,1222.67,1222.73,REVIEW,FlashReport_July_2026-1.pdf,133,Source value retained unchanged; decrease is not treated as an error.
+2026-04,618795,DECREASE_PHYSICAL_PROGRESS,81.05,85.0,REVIEW,FlashReport_April2026.pdf,142,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618799,DECREASE_EXPENDITURE,471.12,471.29,REVIEW,FlashReport_July_2026-1.pdf,111,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618799,DECREASE_ORIGINAL_COST,440.16,456.79,REVIEW,FlashReport_July_2026-1.pdf,111,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618814,DISAPPEAR_REAPPEAR,2026-05,,REVIEW,FlashReport_July_2026-1.pdf,139,Missing between observed months; not interpreted as completion.
+2026-07,618816,DISAPPEAR_REAPPEAR,2026-04,,REVIEW,FlashReport_July_2026-1.pdf,139,Missing between observed months; not interpreted as completion.
+2026-06,618824,DECREASE_EXPENDITURE,56.97,56.99,REVIEW,FlashReport_June_2026.pdf,156,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618830,DECREASE_EXPENDITURE,949.61,962.19,REVIEW,FlashReport_February_2026.pdf,122,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618838,DECREASE_EXPENDITURE,463.98,470.4,REVIEW,FlashReport_July_2026-1.pdf,135,Source value retained unchanged; decrease is not treated as an error.
+2026-03,618851,DECREASE_EXPENDITURE,1848.29,1850.81,REVIEW,FlashReport_March_2026.pdf,107,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618885,DECREASE_PHYSICAL_PROGRESS,90.57,91.1,REVIEW,FlashReport_July_2026-1.pdf,144,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618903,DECREASE_EXPENDITURE,665.99,814.45,REVIEW,FlashReport_February_2026.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618905,DECREASE_PHYSICAL_PROGRESS,68.43,68.87,REVIEW,FlashReport_May2026.pdf,103,Source value retained unchanged; decrease is not treated as an error.
+2026-03,618921,DECREASE_PHYSICAL_PROGRESS,52.57,53.0,REVIEW,FlashReport_March_2026.pdf,107,Source value retained unchanged; decrease is not treated as an error.
+2026-05,618921,DECREASE_PHYSICAL_PROGRESS,53.81,54.0,REVIEW,FlashReport_May2026.pdf,110,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618922,DECREASE_PHYSICAL_PROGRESS,59.88,63.17,REVIEW,FlashReport_July_2026-1.pdf,105,Source value retained unchanged; decrease is not treated as an error.
+2026-07,618930,DISAPPEAR_REAPPEAR,2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,103,Missing between observed months; not interpreted as completion.
+2026-07,618937,DECREASE_EXPENDITURE,1181.42,1182.28,REVIEW,FlashReport_July_2026-1.pdf,120,Source value retained unchanged; decrease is not treated as an error.
+2026-02,618986,DECREASE_EXPENDITURE,0.0,0.24,REVIEW,FlashReport_February_2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619027,DECREASE_EXPENDITURE,18.0,36.0,REVIEW,FlashReport_June_2026.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619031,DECREASE_EXPENDITURE,253.96,256.11,REVIEW,FlashReport_June_2026.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-07,619032,DECREASE_REVISED_COST,25560.48,25560.5,REVIEW,FlashReport_July_2026-1.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-04,619049,DECREASE_EXPENDITURE,2263.7,2352.01,REVIEW,FlashReport_April2026.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-07,619065,DISAPPEAR_REAPPEAR,2026-02;2026-03;2026-04;2026-05,,REVIEW,FlashReport_July_2026-1.pdf,111,Missing between observed months; not interpreted as completion.
+2026-02,619075,DECREASE_EXPENDITURE,0.22,0.26,REVIEW,FlashReport_February_2026.pdf,146,Source value retained unchanged; decrease is not treated as an error.
+2026-07,619076,DECREASE_EXPENDITURE,1024.51,1024.75,REVIEW,FlashReport_July_2026-1.pdf,92,Source value retained unchanged; decrease is not treated as an error.
+2026-05,619094,DECREASE_PHYSICAL_PROGRESS,77.57,82.56,REVIEW,FlashReport_May2026.pdf,146,Source value retained unchanged; decrease is not treated as an error.
+2026-05,619103,DECREASE_EXPENDITURE,105.97,107.31,REVIEW,FlashReport_May2026.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2026-05,619109,DECREASE_EXPENDITURE,641.61,645.61,REVIEW,FlashReport_May2026.pdf,140,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619113,DISAPPEAR_REAPPEAR,2026-02;2026-03;2026-04;2026-05,,REVIEW,FlashReport_June_2026.pdf,144,Missing between observed months; not interpreted as completion.
+2026-05,619129,DECREASE_EXPENDITURE,560.86,575.41,REVIEW,FlashReport_May2026.pdf,146,Source value retained unchanged; decrease is not treated as an error.
+2026-07,619138,DECREASE_ORIGINAL_COST,294.62,309.9,REVIEW,FlashReport_July_2026-1.pdf,112,Source value retained unchanged; decrease is not treated as an error.
+2026-04,619152,DECREASE_EXPENDITURE,843.24,867.69,REVIEW,FlashReport_April2026.pdf,105,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619154,DECREASE_PHYSICAL_PROGRESS,83.0,84.5,REVIEW,FlashReport_June_2026.pdf,134,Source value retained unchanged; decrease is not treated as an error.
+2026-04,619161,DECREASE_EXPENDITURE,133.77,133.95,REVIEW,FlashReport_April2026.pdf,146,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619165,DECREASE_EXPENDITURE,8.3,8.31,REVIEW,FlashReport_June_2026.pdf,147,Source value retained unchanged; decrease is not treated as an error.
+2026-04,619167,DECREASE_EXPENDITURE,587.68,592.3,REVIEW,FlashReport_April2026.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619197,DECREASE_PHYSICAL_PROGRESS,97.21,97.6,REVIEW,FlashReport_June_2026.pdf,110,Source value retained unchanged; decrease is not treated as an error.
+2026-03,619199,DECREASE_EXPENDITURE,240.02,608.68,REVIEW,FlashReport_March_2026.pdf,128,Source value retained unchanged; decrease is not treated as an error.
+2026-05,619220,DECREASE_EXPENDITURE,872.45,890.55,REVIEW,FlashReport_May2026.pdf,118,Source value retained unchanged; decrease is not treated as an error.
+2026-06,619326,DECREASE_EXPENDITURE,0.0,0.01,REVIEW,FlashReport_June_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-09,701126,DECREASE_EXPENDITURE,696.39,1348.78,REVIEW,FlashReport_September_2025.pdf,42,Source value retained unchanged; decrease is not treated as an error.
+2025-12,701127,DECREASE_PHYSICAL_PROGRESS,93.0,98.0,REVIEW,FlashReport_December_2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2025-10,701167,DECREASE_EXPENDITURE,1321.7,1565.25,REVIEW,FlashReport_October_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-11,701167,DECREASE_PHYSICAL_PROGRESS,2.0,68.0,REVIEW,FlashReport_November_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-10,701171,DECREASE_EXPENDITURE,806.8,821.99,REVIEW,FlashReport_October_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701263,DISAPPEAR_REAPPEAR,2025-12;2026-01,,REVIEW,FlashReport_May2026.pdf,71,Missing between observed months; not interpreted as completion.
+2026-05,701289,DECREASE_EXPENDITURE,27014.44,27035.45,REVIEW,FlashReport_May2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701289,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,73,Missing between observed months; not interpreted as completion.
+2026-07,701324,DECREASE_EXPENDITURE,13089.84,74990.3,REVIEW,FlashReport_July_2026-1.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701324,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,72,Missing between observed months; not interpreted as completion.
+2026-07,701329,DECREASE_EXPENDITURE,13901.13,75182.67,REVIEW,FlashReport_July_2026-1.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701329,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,73,Missing between observed months; not interpreted as completion.
+2026-07,701330,DECREASE_EXPENDITURE,6360.86,6362.31,REVIEW,FlashReport_July_2026-1.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-04,701383,DECREASE_EXPENDITURE,1557.82,1634.21,REVIEW,FlashReport_April2026.pdf,161,Source value retained unchanged; decrease is not treated as an error.
+2025-08,701398,DECREASE_PHYSICAL_PROGRESS,72.0,72.59,REVIEW,FlashReport_August_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701405,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,152,Missing between observed months; not interpreted as completion.
+2026-01,701410,DECREASE_EXPENDITURE,2148.33,3012.69,REVIEW,FlashReport_January_2026.pdf,133,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701415,DECREASE_REVISED_COST,55548.87,55548.9,REVIEW,FlashReport_July_2026-1.pdf,151,Source value retained unchanged; decrease is not treated as an error.
+2025-09,701565,DECREASE_EXPENDITURE,3488.6,3510.72,REVIEW,FlashReport_September_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,701593,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,150,Missing between observed months; not interpreted as completion.
+2026-05,701597,DECREASE_EXPENDITURE,237.98,332.43,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701597,DECREASE_REVISED_COST,276.62,1255.49,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701598,DECREASE_EXPENDITURE,167.23,232.79,REVIEW,FlashReport_May2026.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701598,DECREASE_REVISED_COST,180.46,971.96,REVIEW,FlashReport_May2026.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701599,DECREASE_EXPENDITURE,480.91,701.66,REVIEW,FlashReport_May2026.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701599,DECREASE_REVISED_COST,604.6,1577.57,REVIEW,FlashReport_May2026.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2025-08,701602,DECREASE_EXPENDITURE,284.04,1101.39,REVIEW,FlashReport_August_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701602,DECREASE_EXPENDITURE,1100.41,1457.51,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2025-09,701602,DECREASE_PHYSICAL_PROGRESS,80.0,89.0,REVIEW,FlashReport_September_2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701602,DECREASE_PHYSICAL_PROGRESS,81.2,83.0,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2025-08,701602,DECREASE_ORIGINAL_COST,1255.49,3685.0,REVIEW,FlashReport_August_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2025-08,701602,DECREASE_REVISED_COST,1255.49,3685.0,REVIEW,FlashReport_August_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-05,701602,DECREASE_REVISED_COST,1448.61,3685.0,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2025-08,701657,DECREASE_EXPENDITURE,88.25,95.0,REVIEW,FlashReport_August_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,702627,DECREASE_REVISED_COST,13365.77,13365.8,REVIEW,FlashReport_July_2026-1.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702628,DECREASE_EXPENDITURE,9084.56,9093.83,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-07,702628,DECREASE_REVISED_COST,11076.48,11076.5,REVIEW,FlashReport_July_2026-1.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702629,DECREASE_EXPENDITURE,6059.58,6067.88,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-06,702629,DECREASE_EXPENDITURE,6081.28,6102.28,REVIEW,FlashReport_June_2026.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,702632,DECREASE_REVISED_COST,24948.65,24948.7,REVIEW,FlashReport_July_2026-1.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-07,702637,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,68,Missing between observed months; not interpreted as completion.
+2025-08,702639,DECREASE_PHYSICAL_PROGRESS,99.0,99.34,REVIEW,FlashReport_August_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-04,702665,DECREASE_EXPENDITURE,10276.44,10341.33,REVIEW,FlashReport_April2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-08,702668,DECREASE_EXPENDITURE,26410.15,47162.73,REVIEW,FlashReport_August_2025.pdf,46,Source value retained unchanged; decrease is not treated as an error.
+2026-07,702668,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,68,Missing between observed months; not interpreted as completion.
+2025-11,702674,DECREASE_EXPENDITURE,88.86,799.74,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702699,DECREASE_EXPENDITURE,60.5,602.5,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702734,DECREASE_EXPENDITURE,218.89,2005.13,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702735,DECREASE_EXPENDITURE,168.14,1430.38,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702741,DECREASE_EXPENDITURE,129.16,1057.8,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702742,DECREASE_EXPENDITURE,87.5,787.5,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702746,DECREASE_EXPENDITURE,186.5,1410.0,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702760,DECREASE_EXPENDITURE,85.71,721.71,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-03,702760,DECREASE_EXPENDITURE,79.5,85.71,REVIEW,FlashReport_March_2026.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702764,DECREASE_EXPENDITURE,93.18,923.02,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702793,DECREASE_EXPENDITURE,252.5,2271.0,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702798,DECREASE_EXPENDITURE,322.31,2930.96,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702808,DECREASE_EXPENDITURE,191.79,1469.73,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702810,DECREASE_EXPENDITURE,357.68,3175.93,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702833,DECREASE_EXPENDITURE,130.6,1055.02,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702840,DECREASE_EXPENDITURE,186.13,1765.97,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702842,DECREASE_EXPENDITURE,266.11,2409.09,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702851,DECREASE_EXPENDITURE,184.98,1901.3,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702854,DECREASE_EXPENDITURE,155.01,1442.29,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702948,DECREASE_EXPENDITURE,205.84,1911.66,REVIEW,FlashReport_November_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-11,702949,DECREASE_EXPENDITURE,485.91,4045.35,REVIEW,FlashReport_November_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-09,702949,DECREASE_PHYSICAL_PROGRESS,91.0,100.0,REVIEW,FlashReport_September_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-11,703021,DECREASE_EXPENDITURE,161.02,1390.73,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-11,703057,DECREASE_EXPENDITURE,213.64,1416.38,REVIEW,FlashReport_November_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2026-06,703057,DECREASE_EXPENDITURE,213.64,218.85,REVIEW,FlashReport_June_2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2025-08,703585,DECREASE_PHYSICAL_PROGRESS,52.0,59.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,703586,DECREASE_EXPENDITURE,700.64,713.85,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-09,703586,DECREASE_PHYSICAL_PROGRESS,86.0,97.0,REVIEW,FlashReport_September_2025.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,703586,DECREASE_PHYSICAL_PROGRESS,85.0,88.3,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-09,703586,DECREASE_ORIGINAL_COST,498.7,499.0,REVIEW,FlashReport_September_2025.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-05,704495,DECREASE_EXPENDITURE,92.37,152.96,REVIEW,FlashReport_May2026.pdf,160,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705253,DECREASE_REVISED_COST,560.72,563.0,REVIEW,FlashReport_April2026.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705356,DECREASE_EXPENDITURE,5107.68,5211.1,REVIEW,FlashReport_February_2026.pdf,94,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705356,DECREASE_EXPENDITURE,5054.69,5233.2,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705356,DECREASE_PHYSICAL_PROGRESS,93.0,98.0,REVIEW,FlashReport_May2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705356,DECREASE_ORIGINAL_COST,2538.67,2539.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705357,DECREASE_ORIGINAL_COST,138.48,736.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705357,DECREASE_REVISED_COST,1843.9,1844.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705357,DECREASE_REVISED_COST,1790.5,1843.9,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705358,DECREASE_EXPENDITURE,4825.28,5789.53,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705359,DECREASE_PHYSICAL_PROGRESS,56.0,57.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705362,DECREASE_EXPENDITURE,580.6,588.32,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705362,DECREASE_EXPENDITURE,580.51,580.6,REVIEW,FlashReport_September_2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705366,DECREASE_PHYSICAL_PROGRESS,74.0,75.6,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705368,DECREASE_PHYSICAL_PROGRESS,40.0,46.9,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705373,DECREASE_EXPENDITURE,2522.41,2824.8,REVIEW,FlashReport_August_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705373,DECREASE_PHYSICAL_PROGRESS,95.0,98.2,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705375,DECREASE_EXPENDITURE,2000.4,2060.97,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-10,705375,DECREASE_PHYSICAL_PROGRESS,93.0,95.0,REVIEW,FlashReport_October_2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705375,DECREASE_PHYSICAL_PROGRESS,90.0,95.6,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705375,DECREASE_REVISED_COST,2433.13,2486.62,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705385,DECREASE_PHYSICAL_PROGRESS,40.0,61.9,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705391,DECREASE_PHYSICAL_PROGRESS,71.0,72.0,REVIEW,FlashReport_February_2026.pdf,95,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705392,DECREASE_EXPENDITURE,6719.53,6748.9,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-01,705392,DECREASE_PHYSICAL_PROGRESS,40.0,81.0,REVIEW,FlashReport_January_2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705392,DECREASE_PHYSICAL_PROGRESS,45.0,46.5,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705401,DECREASE_EXPENDITURE,540.27,901.0,REVIEW,FlashReport_September_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705401,DECREASE_PHYSICAL_PROGRESS,67.0,72.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705410,DECREASE_PHYSICAL_PROGRESS,84.0,85.5,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705419,DECREASE_EXPENDITURE,2097.51,2751.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705419,DECREASE_PHYSICAL_PROGRESS,78.0,83.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705419,DECREASE_PHYSICAL_PROGRESS,91.0,95.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705429,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_June_2026.pdf,95,Missing between observed months; not interpreted as completion.
+2026-06,705432,DECREASE_PHYSICAL_PROGRESS,80.0,93.1,REVIEW,FlashReport_June_2026.pdf,92,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705453,DECREASE_EXPENDITURE,3412.33,3412.98,REVIEW,FlashReport_August_2025.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705453,DECREASE_PHYSICAL_PROGRESS,46.0,67.0,REVIEW,FlashReport_August_2025.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705453,DECREASE_ORIGINAL_COST,456.07,1942.0,REVIEW,FlashReport_August_2025.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705453,DECREASE_REVISED_COST,1873.1,2691.0,REVIEW,FlashReport_August_2025.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705454,DECREASE_PHYSICAL_PROGRESS,58.0,80.5,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705457,DECREASE_PHYSICAL_PROGRESS,80.0,87.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705457,DECREASE_PHYSICAL_PROGRESS,75.0,83.0,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705457,DECREASE_ORIGINAL_COST,1656.25,5678.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705457,DECREASE_REVISED_COST,5735.88,6531.9,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705458,DECREASE_EXPENDITURE,620.98,693.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705458,DECREASE_PHYSICAL_PROGRESS,41.0,68.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705458,DECREASE_PHYSICAL_PROGRESS,34.0,45.0,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705458,DECREASE_ORIGINAL_COST,483.88,844.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705458,DECREASE_REVISED_COST,844.1,1600.0,REVIEW,FlashReport_August_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705458,DECREASE_REVISED_COST,1015.07,1039.13,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705479,DECREASE_EXPENDITURE,727.28,925.28,REVIEW,FlashReport_September_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705479,DECREASE_REVISED_COST,1880.61,1886.0,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705480,DECREASE_EXPENDITURE,6622.82,6889.55,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705480,DECREASE_PHYSICAL_PROGRESS,73.0,74.0,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705480,DECREASE_REVISED_COST,8913.94,8914.0,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705481,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,86,Missing between observed months; not interpreted as completion.
+2025-08,705482,DECREASE_EXPENDITURE,355.13,392.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705489,DECREASE_EXPENDITURE,351.21,641.26,REVIEW,FlashReport_May2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705489,DECREASE_REVISED_COST,2053.39,2084.48,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705489,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,88,Missing between observed months; not interpreted as completion.
+2025-09,705490,DECREASE_EXPENDITURE,1383.77,1735.22,REVIEW,FlashReport_September_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-01,705490,DECREASE_EXPENDITURE,1436.64,1439.46,REVIEW,FlashReport_January_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705490,DECREASE_EXPENDITURE,1604.89,1613.49,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705490,DECREASE_PHYSICAL_PROGRESS,36.5,40.0,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705490,DECREASE_PHYSICAL_PROGRESS,35.0,36.5,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705490,DECREASE_REVISED_COST,3668.17,6700.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705491,DECREASE_EXPENDITURE,145.72,147.99,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705491,DECREASE_PHYSICAL_PROGRESS,20.0,21.5,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-10,705492,DECREASE_EXPENDITURE,699.12,799.76,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705492,DECREASE_PHYSICAL_PROGRESS,83.0,84.8,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705493,DECREASE_REVISED_COST,533.32,5174.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705494,DECREASE_EXPENDITURE,1906.63,1943.23,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705494,DECREASE_PHYSICAL_PROGRESS,65.0,73.0,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705495,DECREASE_EXPENDITURE,797.37,809.24,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705495,DECREASE_PHYSICAL_PROGRESS,35.0,36.5,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-10,705496,DECREASE_EXPENDITURE,436.37,530.62,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705496,DECREASE_EXPENDITURE,518.36,523.94,REVIEW,FlashReport_February_2026.pdf,93,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705496,DECREASE_EXPENDITURE,602.36,613.6,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705496,DECREASE_REVISED_COST,1801.01,1876.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-03,705498,DECREASE_EXPENDITURE,1033.38,1035.45,REVIEW,FlashReport_March_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705498,DECREASE_ORIGINAL_COST,792.89,793.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705498,DECREASE_REVISED_COST,1395.79,1432.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705498,DECREASE_REVISED_COST,1395.5,1395.79,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705500,DECREASE_EXPENDITURE,836.27,842.78,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-12,705500,DECREASE_REVISED_COST,916.53,944.24,REVIEW,FlashReport_December_2025.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705500,DECREASE_REVISED_COST,899.52,916.53,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705502,DECREASE_PHYSICAL_PROGRESS,68.0,77.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705502,DECREASE_PHYSICAL_PROGRESS,86.0,98.0,REVIEW,FlashReport_May2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705502,DECREASE_ORIGINAL_COST,1384.72,1385.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705503,DECREASE_EXPENDITURE,4833.04,6548.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705503,DECREASE_REVISED_COST,4872.52,6689.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2026-03,705505,DECREASE_EXPENDITURE,1031.75,1048.45,REVIEW,FlashReport_March_2026.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705505,DECREASE_ORIGINAL_COST,637.95,638.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-12,705505,DECREASE_REVISED_COST,1214.69,1341.28,REVIEW,FlashReport_December_2025.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705505,DECREASE_REVISED_COST,1194.59,1214.69,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705506,DECREASE_EXPENDITURE,1842.26,1865.44,REVIEW,FlashReport_May2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705506,DECREASE_PHYSICAL_PROGRESS,95.0,97.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705506,DECREASE_REVISED_COST,1558.75,1559.0,REVIEW,FlashReport_August_2025.pdf,58,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705507,DECREASE_PHYSICAL_PROGRESS,51.0,52.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705507,DECREASE_PHYSICAL_PROGRESS,50.0,55.0,REVIEW,FlashReport_May2026.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705507,DECREASE_ORIGINAL_COST,2449.91,2450.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705510,DECREASE_PHYSICAL_PROGRESS,87.0,95.8,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705511,DECREASE_EXPENDITURE,1382.17,1403.9,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705511,DECREASE_PHYSICAL_PROGRESS,92.55,94.94,REVIEW,FlashReport_June_2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705511,DECREASE_PHYSICAL_PROGRESS,90.0,92.55,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705512,DECREASE_EXPENDITURE,1987.17,2033.31,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-01,705512,DECREASE_EXPENDITURE,2087.36,2091.69,REVIEW,FlashReport_January_2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705513,DECREASE_PHYSICAL_PROGRESS,67.67,75.19,REVIEW,FlashReport_June_2026.pdf,93,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705513,DECREASE_PHYSICAL_PROGRESS,56.0,67.67,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705514,DECREASE_PHYSICAL_PROGRESS,25.0,59.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705515,DECREASE_PHYSICAL_PROGRESS,86.0,90.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705526,DECREASE_EXPENDITURE,396.78,53632.27,REVIEW,FlashReport_February_2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705526,DECREASE_PHYSICAL_PROGRESS,92.0,100.0,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705527,DECREASE_EXPENDITURE,1460.42,2102.51,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705527,DECREASE_PHYSICAL_PROGRESS,91.0,93.0,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705527,DECREASE_REVISED_COST,1558.77,2222.0,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705528,DECREASE_EXPENDITURE,1463.45,1586.82,REVIEW,FlashReport_August_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705562,DECREASE_PHYSICAL_PROGRESS,95.0,95.4,REVIEW,FlashReport_August_2025.pdf,60,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705562,DECREASE_PHYSICAL_PROGRESS,95.0,96.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705562,DECREASE_REVISED_COST,1010.84,1046.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705567,DECREASE_EXPENDITURE,1039.67,1489.37,REVIEW,FlashReport_February_2026.pdf,100,Source value retained unchanged; decrease is not treated as an error.
+2026-03,705567,DECREASE_EXPENDITURE,1014.1,1039.67,REVIEW,FlashReport_March_2026.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705567,DECREASE_EXPENDITURE,777.21,1058.77,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705572,DECREASE_EXPENDITURE,3797.35,3803.16,REVIEW,FlashReport_April2026.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705572,DECREASE_EXPENDITURE,3821.96,3831.06,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705572,DECREASE_PHYSICAL_PROGRESS,91.0,95.16,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-03,705583,DECREASE_PHYSICAL_PROGRESS,23.0,64.0,REVIEW,FlashReport_March_2026.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705588,DECREASE_EXPENDITURE,1216.52,1729.27,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705588,DECREASE_PHYSICAL_PROGRESS,70.0,80.0,REVIEW,FlashReport_April2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705598,DECREASE_EXPENDITURE,1795.86,1884.84,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705598,DECREASE_EXPENDITURE,1943.61,1960.31,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705598,DECREASE_REVISED_COST,2001.63,2002.0,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-12,705608,DECREASE_EXPENDITURE,2388.71,2456.1,REVIEW,FlashReport_December_2025.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705610,DECREASE_EXPENDITURE,421.36,636.74,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705610,DECREASE_PHYSICAL_PROGRESS,50.0,89.04,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2025-11,705616,DECREASE_EXPENDITURE,2189.75,2196.74,REVIEW,FlashReport_November_2025.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705616,DECREASE_PHYSICAL_PROGRESS,88.0,97.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705616,DECREASE_REVISED_COST,2978.55,2979.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705617,DECREASE_EXPENDITURE,3143.54,3678.97,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705617,DECREASE_PHYSICAL_PROGRESS,95.0,96.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705617,DECREASE_REVISED_COST,3544.92,3545.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705632,DECREASE_EXPENDITURE,705.66,1249.39,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705632,DECREASE_PHYSICAL_PROGRESS,93.6,95.01,REVIEW,FlashReport_May2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705632,DECREASE_PHYSICAL_PROGRESS,90.0,93.6,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705632,DECREASE_REVISED_COST,827.46,904.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705635,DISAPPEAR_REAPPEAR,2026-02,,REVIEW,FlashReport_July_2026-1.pdf,86,Missing between observed months; not interpreted as completion.
+2025-09,705638,DECREASE_EXPENDITURE,66.69,292.15,REVIEW,FlashReport_September_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705638,DECREASE_PHYSICAL_PROGRESS,30.0,35.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705638,DECREASE_REVISED_COST,802.8,813.0,REVIEW,FlashReport_September_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705639,DECREASE_EXPENDITURE,312.63,313.97,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705639,DECREASE_PHYSICAL_PROGRESS,25.0,28.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705639,DECREASE_REVISED_COST,595.39,601.0,REVIEW,FlashReport_September_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705650,DECREASE_PHYSICAL_PROGRESS,86.14,86.2,REVIEW,FlashReport_June_2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2025-12,705659,DECREASE_EXPENDITURE,545.71,565.66,REVIEW,FlashReport_December_2025.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-03,705660,DECREASE_PHYSICAL_PROGRESS,81.0,100.0,REVIEW,FlashReport_March_2026.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705661,DECREASE_EXPENDITURE,1839.46,1850.38,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705661,DECREASE_PHYSICAL_PROGRESS,84.0,95.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705663,DECREASE_EXPENDITURE,281.96,282.53,REVIEW,FlashReport_February_2026.pdf,93,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705663,DECREASE_EXPENDITURE,337.37,345.82,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705663,DECREASE_PHYSICAL_PROGRESS,70.0,85.9,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705667,DECREASE_PHYSICAL_PROGRESS,94.0,96.71,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705667,DECREASE_REVISED_COST,5960.76,5961.0,REVIEW,FlashReport_July_2026-1.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705730,DECREASE_PHYSICAL_PROGRESS,51.0,60.0,REVIEW,FlashReport_February_2026.pdf,100,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705730,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_June_2026.pdf,95,Missing between observed months; not interpreted as completion.
+2025-08,705735,DECREASE_EXPENDITURE,1127.14,1150.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705735,DECREASE_EXPENDITURE,1202.73,1277.63,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705735,DECREASE_PHYSICAL_PROGRESS,11.0,12.0,REVIEW,FlashReport_May2026.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705735,DECREASE_ORIGINAL_COST,904.92,905.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705735,DECREASE_REVISED_COST,3295.74,3296.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705735,DECREASE_REVISED_COST,1647.87,3295.74,REVIEW,FlashReport_July_2026-1.pdf,84,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705741,DECREASE_PHYSICAL_PROGRESS,1.0,2.13,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705741,DECREASE_REVISED_COST,747.91,748.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-05,705742,DECREASE_PHYSICAL_PROGRESS,7.5,23.1,REVIEW,FlashReport_May2026.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705742,DECREASE_PHYSICAL_PROGRESS,6.0,7.5,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705742,DECREASE_REVISED_COST,2343.64,2344.0,REVIEW,FlashReport_July_2026-1.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705742,DISAPPEAR_REAPPEAR,2025-09;2026-06,,REVIEW,FlashReport_July_2026-1.pdf,87,Missing between observed months; not interpreted as completion.
+2025-09,705752,DECREASE_EXPENDITURE,377.59,471.0,REVIEW,FlashReport_September_2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-01,705752,DECREASE_EXPENDITURE,387.46,393.8,REVIEW,FlashReport_January_2026.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705752,DECREASE_EXPENDITURE,326.2,405.39,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705752,DECREASE_PHYSICAL_PROGRESS,94.0,99.5,REVIEW,FlashReport_April2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705752,DECREASE_REVISED_COST,540.0,967.06,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705761,DECREASE_EXPENDITURE,102.64,111.67,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705761,DECREASE_REVISED_COST,455.86,1454.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705762,DECREASE_PHYSICAL_PROGRESS,0.0,0.3,REVIEW,FlashReport_June_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705764,DECREASE_EXPENDITURE,79.55,306.0,REVIEW,FlashReport_August_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705764,DECREASE_PHYSICAL_PROGRESS,60.0,61.0,REVIEW,FlashReport_April2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705765,DECREASE_EXPENDITURE,531.63,634.71,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705765,DECREASE_PHYSICAL_PROGRESS,65.0,66.7,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705766,DECREASE_PHYSICAL_PROGRESS,85.0,86.0,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705771,DECREASE_EXPENDITURE,376.99,384.81,REVIEW,FlashReport_February_2026.pdf,100,Source value retained unchanged; decrease is not treated as an error.
+2025-12,705771,DECREASE_PHYSICAL_PROGRESS,67.0,70.0,REVIEW,FlashReport_December_2025.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705774,DECREASE_EXPENDITURE,395.24,511.12,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705777,DECREASE_EXPENDITURE,113.94,118.0,REVIEW,FlashReport_August_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705777,DECREASE_EXPENDITURE,146.85,163.27,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705777,DECREASE_PHYSICAL_PROGRESS,3.0,15.0,REVIEW,FlashReport_August_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705780,DECREASE_PHYSICAL_PROGRESS,94.0,96.7,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705782,DECREASE_PHYSICAL_PROGRESS,77.0,78.0,REVIEW,FlashReport_July_2026-1.pdf,89,Source value retained unchanged; decrease is not treated as an error.
+2026-04,705783,DECREASE_EXPENDITURE,137.05,137.07,REVIEW,FlashReport_April2026.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705783,DECREASE_EXPENDITURE,108.49,137.05,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705783,DECREASE_PHYSICAL_PROGRESS,50.0,55.0,REVIEW,FlashReport_September_2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705785,DECREASE_EXPENDITURE,344.5,349.31,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2026-07,705785,DECREASE_REVISED_COST,472.5,473.0,REVIEW,FlashReport_July_2026-1.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-10,705789,DECREASE_EXPENDITURE,259.52,292.98,REVIEW,FlashReport_October_2025.pdf,61,Source value retained unchanged; decrease is not treated as an error.
+2025-09,705863,DECREASE_EXPENDITURE,507.02,511.18,REVIEW,FlashReport_September_2025.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705863,DECREASE_REVISED_COST,550.0,950.0,REVIEW,FlashReport_August_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-08,705912,DECREASE_PHYSICAL_PROGRESS,7.0,9.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-02,705918,DECREASE_PHYSICAL_PROGRESS,14.0,34.0,REVIEW,FlashReport_February_2026.pdf,100,Source value retained unchanged; decrease is not treated as an error.
+2026-06,705918,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12,,REVIEW,FlashReport_June_2026.pdf,95,Missing between observed months; not interpreted as completion.
+2026-04,705919,DECREASE_PHYSICAL_PROGRESS,54.0,65.0,REVIEW,FlashReport_April2026.pdf,91,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706718,DECREASE_EXPENDITURE,154.43,160.48,REVIEW,FlashReport_August_2025.pdf,37,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706724,DECREASE_PHYSICAL_PROGRESS,91.0,94.1,REVIEW,FlashReport_August_2025.pdf,37,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706759,DECREASE_EXPENDITURE,1402.95,1777.0,REVIEW,FlashReport_August_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2026-05,706759,DECREASE_EXPENDITURE,1581.96,1610.45,REVIEW,FlashReport_May2026.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706759,DECREASE_PHYSICAL_PROGRESS,95.0,98.5,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706759,DECREASE_ORIGINAL_COST,2373.64,2374.0,REVIEW,FlashReport_August_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706759,DECREASE_REVISED_COST,1700.24,2374.0,REVIEW,FlashReport_August_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2025-12,706763,DECREASE_PHYSICAL_PROGRESS,78.0,80.0,REVIEW,FlashReport_December_2025.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706775,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_July_2026-1.pdf,150,Missing between observed months; not interpreted as completion.
+2026-04,706779,DECREASE_EXPENDITURE,7504.75,7505.83,REVIEW,FlashReport_April2026.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2026-06,706780,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_June_2026.pdf,89,Missing between observed months; not interpreted as completion.
+2026-06,706781,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01,,REVIEW,FlashReport_June_2026.pdf,89,Missing between observed months; not interpreted as completion.
+2025-10,706835,DECREASE_EXPENDITURE,0.38,0.75,REVIEW,FlashReport_October_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-06,706835,DISAPPEAR_REAPPEAR,2025-09,,REVIEW,FlashReport_June_2026.pdf,88,Missing between observed months; not interpreted as completion.
+2025-10,706854,DECREASE_EXPENDITURE,139.49,218.0,REVIEW,FlashReport_October_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706860,DECREASE_PHYSICAL_PROGRESS,38.0,56.9,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706860,DECREASE_REVISED_COST,485.58,645.0,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-08,706866,DECREASE_EXPENDITURE,43.07,134.0,REVIEW,FlashReport_August_2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2026-03,706866,DECREASE_PHYSICAL_PROGRESS,72.0,75.0,REVIEW,FlashReport_March_2026.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706866,DECREASE_PHYSICAL_PROGRESS,72.0,77.0,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-07,706866,DECREASE_REVISED_COST,239.0,304.0,REVIEW,FlashReport_July_2026-1.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2026-05,706950,DECREASE_EXPENDITURE,1161.44,1163.14,REVIEW,FlashReport_May2026.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2026-07,707045,DECREASE_EXPENDITURE,321.7,322.5,REVIEW,FlashReport_July_2026-1.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-07,707046,DECREASE_PHYSICAL_PROGRESS,45.0,59.0,REVIEW,FlashReport_July_2026-1.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-07,707087,DECREASE_PHYSICAL_PROGRESS,78.0,84.0,REVIEW,FlashReport_July_2026-1.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2026-07,708687,DECREASE_EXPENDITURE,0.0,183.16,REVIEW,FlashReport_July_2026-1.pdf,150,Source value retained unchanged; decrease is not treated as an error.
+2026-04,709758,DECREASE_EXPENDITURE,388.06,567.65,REVIEW,FlashReport_April2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2025-09,709766,DECREASE_EXPENDITURE,163.46,165.65,REVIEW,FlashReport_September_2025.pdf,55,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709766,DECREASE_EXPENDITURE,169.14,170.7,REVIEW,FlashReport_January_2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709770,DECREASE_EXPENDITURE,8.73,8.77,REVIEW,FlashReport_August_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2026-05,709770,DECREASE_EXPENDITURE,8.87,8.89,REVIEW,FlashReport_May2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709772,DECREASE_EXPENDITURE,56.35,58.15,REVIEW,FlashReport_August_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-09,709773,DECREASE_EXPENDITURE,3.72,4.09,REVIEW,FlashReport_September_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-05,709773,DECREASE_EXPENDITURE,4.3,4.32,REVIEW,FlashReport_May2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709773,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_July_2026-1.pdf,73,Missing between observed months; not interpreted as completion.
+2026-01,709774,DECREASE_EXPENDITURE,293.54,301.09,REVIEW,FlashReport_January_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2025-10,709774,DECREASE_PHYSICAL_PROGRESS,74.0,82.0,REVIEW,FlashReport_October_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709777,DECREASE_EXPENDITURE,124.57,130.89,REVIEW,FlashReport_July_2026-1.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709778,DECREASE_EXPENDITURE,163.55,183.45,REVIEW,FlashReport_January_2026.pdf,76,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709778,DECREASE_EXPENDITURE,218.17,227.48,REVIEW,FlashReport_July_2026-1.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-04,709779,DECREASE_EXPENDITURE,174.5,180.91,REVIEW,FlashReport_April2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709780,DECREASE_EXPENDITURE,284.84,293.12,REVIEW,FlashReport_January_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2026-04,709780,DECREASE_EXPENDITURE,300.5,301.94,REVIEW,FlashReport_April2026.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709781,DECREASE_EXPENDITURE,23.58,24.1,REVIEW,FlashReport_July_2026-1.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709782,DECREASE_EXPENDITURE,94.37,96.61,REVIEW,FlashReport_January_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709785,DECREASE_EXPENDITURE,52.42,55.46,REVIEW,FlashReport_August_2025.pdf,51,Source value retained unchanged; decrease is not treated as an error.
+2026-04,709785,DECREASE_EXPENDITURE,63.8,64.35,REVIEW,FlashReport_April2026.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709790,DECREASE_EXPENDITURE,220.0,459.74,REVIEW,FlashReport_January_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2025-12,709790,DECREASE_REVISED_COST,372.0,621.87,REVIEW,FlashReport_December_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709795,DECREASE_EXPENDITURE,558.33,603.21,REVIEW,FlashReport_August_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709795,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,75,Missing between observed months; not interpreted as completion.
+2025-08,709796,DECREASE_EXPENDITURE,226.87,234.12,REVIEW,FlashReport_August_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2026-01,709797,DECREASE_PHYSICAL_PROGRESS,74.0,80.0,REVIEW,FlashReport_January_2026.pdf,77,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709798,DISAPPEAR_REAPPEAR,2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03,,REVIEW,FlashReport_July_2026-1.pdf,74,Missing between observed months; not interpreted as completion.
+2025-08,709808,DECREASE_REVISED_COST,2093.82,2094.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709809,DECREASE_PHYSICAL_PROGRESS,0.0,1.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709809,DECREASE_ORIGINAL_COST,726.46,836.0,REVIEW,FlashReport_August_2025.pdf,59,Source value retained unchanged; decrease is not treated as an error.
+2025-11,709811,DECREASE_REVISED_COST,189.93,190.0,REVIEW,FlashReport_November_2025.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2026-06,709811,DISAPPEAR_REAPPEAR,2025-09;2025-10,,REVIEW,FlashReport_June_2026.pdf,93,Missing between observed months; not interpreted as completion.
+2026-07,709812,DECREASE_EXPENDITURE,142.21,186.9,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-10,709813,DECREASE_EXPENDITURE,19.06,43.0,REVIEW,FlashReport_October_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709813,DISAPPEAR_REAPPEAR,2025-08,,REVIEW,FlashReport_July_2026-1.pdf,82,Missing between observed months; not interpreted as completion.
+2026-07,709815,DECREASE_PHYSICAL_PROGRESS,3.0,18.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709816,DECREASE_PHYSICAL_PROGRESS,3.0,11.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709817,DECREASE_PHYSICAL_PROGRESS,10.0,66.0,REVIEW,FlashReport_July_2026-1.pdf,85,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709817,DISAPPEAR_REAPPEAR,2026-06,,REVIEW,FlashReport_July_2026-1.pdf,85,Missing between observed months; not interpreted as completion.
+2026-07,709818,DECREASE_PHYSICAL_PROGRESS,5.0,36.0,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709819,DECREASE_PHYSICAL_PROGRESS,10.0,11.0,REVIEW,FlashReport_July_2026-1.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709819,DECREASE_ORIGINAL_COST,167.64,177.0,REVIEW,FlashReport_August_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709819,DECREASE_REVISED_COST,167.64,177.0,REVIEW,FlashReport_August_2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709831,DECREASE_EXPENDITURE,402.67,403.44,REVIEW,FlashReport_August_2025.pdf,48,Source value retained unchanged; decrease is not treated as an error.
+2026-07,709839,DECREASE_PHYSICAL_PROGRESS,92.9,99.9,REVIEW,FlashReport_July_2026-1.pdf,75,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709841,DECREASE_EXPENDITURE,147.02,148.0,REVIEW,FlashReport_August_2025.pdf,51,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709846,DECREASE_EXPENDITURE,744.81,745.24,REVIEW,FlashReport_August_2025.pdf,52,Source value retained unchanged; decrease is not treated as an error.
+2025-08,709856,DECREASE_EXPENDITURE,364.34,522.88,REVIEW,FlashReport_August_2025.pdf,64,Source value retained unchanged; decrease is not treated as an error.
+2026-03,709864,DECREASE_EXPENDITURE,280.44,286.89,REVIEW,FlashReport_March_2026.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2026-04,709865,DECREASE_EXPENDITURE,81.84,97.24,REVIEW,FlashReport_April2026.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2026-07,900874,DECREASE_PHYSICAL_PROGRESS,0.0,0.1,REVIEW,FlashReport_July_2026-1.pdf,81,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N04000104,DECREASE_PHYSICAL_PROGRESS,44.61,62.0,REVIEW,FR_JUNE_2025.pdf,179,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N04000112,DECREASE_EXPENDITURE,113.58,122.51,REVIEW,FR_JUNE_2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N06000104,DECREASE_EXPENDITURE,576.24,576.41,REVIEW,FR_May2025.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N06000232,DECREASE_EXPENDITURE,263.51,263.63,REVIEW,FR_May2025.pdf,72,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N06000239,DECREASE_PHYSICAL_PROGRESS,51.0,60.0,REVIEW,FR_JUNE_2025.pdf,107,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N06000272,DECREASE_PHYSICAL_PROGRESS,6.8,7.0,REVIEW,FR_May2025.pdf,203,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N12000139,DECREASE_PHYSICAL_PROGRESS,2.5,202.0,REVIEW,FR_JUNE_2025.pdf,229,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N16000414,DECREASE_EXPENDITURE,396.08,399.81,REVIEW,FR_May2025.pdf,56,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N16000423,DECREASE_EXPENDITURE,95.19,96.78,REVIEW,FR_May2025.pdf,62,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N16000426,DECREASE_EXPENDITURE,71.0,74.64,REVIEW,FR_May2025.pdf,144,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N16000453,DECREASE_EXPENDITURE,36.61,37.55,REVIEW,FR_May2025.pdf,63,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N16000491,DECREASE_EXPENDITURE,55.29,60.43,REVIEW,FR_May2025.pdf,203,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N16000511,DECREASE_PHYSICAL_PROGRESS,55.0,56.1,REVIEW,FR_JUNE_2025.pdf,57,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N18000250,DECREASE_EXPENDITURE,5230.02,5276.39,REVIEW,FR_JUNE_2025.pdf,158,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N18000352,DECREASE_PHYSICAL_PROGRESS,94.0,97.0,REVIEW,FR_JUNE_2025.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N18000382,DECREASE_PHYSICAL_PROGRESS,0.5,1.0,REVIEW,FR_JUNE_2025.pdf,205,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N18000395,DECREASE_EXPENDITURE,60.0,66.0,REVIEW,FR_May2025.pdf,45,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N18000405,DECREASE_EXPENDITURE,1240.3,1454.4,REVIEW,FR_JUNE_2025.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N18000406,DECREASE_PHYSICAL_PROGRESS,5.0,9.0,REVIEW,FR_JUNE_2025.pdf,87,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N22000102,DECREASE_PHYSICAL_PROGRESS,79.5,80.0,REVIEW,FR_JUNE_2025.pdf,187,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000521,DECREASE_EXPENDITURE,171.98,302.5,REVIEW,FR_May2025.pdf,153,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N22000521,DECREASE_EXPENDITURE,162.44,171.98,REVIEW,FR_JUNE_2025.pdf,169,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000532,DECREASE_EXPENDITURE,103.14,108.78,REVIEW,FR_May2025.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000533,DECREASE_EXPENDITURE,19.5,62.26,REVIEW,FR_May2025.pdf,82,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000535,DECREASE_EXPENDITURE,304.58,1337.86,REVIEW,FR_May2025.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000537,DECREASE_EXPENDITURE,309.75,834.53,REVIEW,FR_May2025.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000547,DECREASE_EXPENDITURE,240.08,565.62,REVIEW,FR_May2025.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000550,DECREASE_EXPENDITURE,5.89,33.63,REVIEW,FR_May2025.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000622,DECREASE_EXPENDITURE,191.87,649.6,REVIEW,FR_May2025.pdf,83,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N22000625,DECREASE_EXPENDITURE,282.58,298.21,REVIEW,FR_May2025.pdf,172,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000247,DECREASE_PHYSICAL_PROGRESS,98.15,99.0,REVIEW,FR_May2025.pdf,178,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000247,DECREASE_PHYSICAL_PROGRESS,82.76,98.15,REVIEW,FR_JUNE_2025.pdf,200,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000248,DECREASE_PHYSICAL_PROGRESS,93.81,94.0,REVIEW,FR_May2025.pdf,178,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000248,DECREASE_PHYSICAL_PROGRESS,93.2,93.81,REVIEW,FR_JUNE_2025.pdf,200,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000334,DECREASE_PHYSICAL_PROGRESS,98.99,99.0,REVIEW,FR_May2025.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000382,DECREASE_PHYSICAL_PROGRESS,96.0,96.13,REVIEW,FR_May2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000531,DECREASE_PHYSICAL_PROGRESS,98.8,99.0,REVIEW,FR_JUNE_2025.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000576,DECREASE_PHYSICAL_PROGRESS,98.0,98.35,REVIEW,FR_May2025.pdf,65,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000734,DECREASE_PHYSICAL_PROGRESS,99.0,100.0,REVIEW,FR_JUNE_2025.pdf,173,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000739,DECREASE_PHYSICAL_PROGRESS,98.5,99.5,REVIEW,FR_May2025.pdf,154,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000741,DECREASE_EXPENDITURE,253.61,505.22,REVIEW,FR_May2025.pdf,199,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000742,DECREASE_EXPENDITURE,340.32,678.04,REVIEW,FR_May2025.pdf,199,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000743,DECREASE_EXPENDITURE,344.2,688.4,REVIEW,FR_May2025.pdf,199,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000771,DECREASE_PHYSICAL_PROGRESS,88.07,92.01,REVIEW,FR_JUNE_2025.pdf,155,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000795,DECREASE_EXPENDITURE,663.37,672.53,REVIEW,FR_May2025.pdf,166,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000820,DECREASE_PHYSICAL_PROGRESS,98.0,98.23,REVIEW,FR_May2025.pdf,43,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000855,DECREASE_EXPENDITURE,709.72,1391.0,REVIEW,FR_May2025.pdf,201,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000907,DECREASE_PHYSICAL_PROGRESS,99.75,100.0,REVIEW,FR_May2025.pdf,158,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000964,DECREASE_EXPENDITURE,390.28,407.92,REVIEW,FR_JUNE_2025.pdf,53,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000982,DECREASE_PHYSICAL_PROGRESS,99.96,100.0,REVIEW,FR_JUNE_2025.pdf,200,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000983,DECREASE_PHYSICAL_PROGRESS,92.74,100.0,REVIEW,FR_JUNE_2025.pdf,201,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24000984,DECREASE_PHYSICAL_PROGRESS,99.32,100.0,REVIEW,FR_JUNE_2025.pdf,201,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000987,DECREASE_PHYSICAL_PROGRESS,92.59,93.0,REVIEW,FR_May2025.pdf,179,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000988,DECREASE_PHYSICAL_PROGRESS,99.9,100.0,REVIEW,FR_May2025.pdf,179,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24000996,DECREASE_PHYSICAL_PROGRESS,99.84,100.0,REVIEW,FR_May2025.pdf,180,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001125,DECREASE_PHYSICAL_PROGRESS,91.56,92.0,REVIEW,FR_May2025.pdf,129,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001157,DECREASE_PHYSICAL_PROGRESS,90.01,90.1,REVIEW,FR_May2025.pdf,106,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001166,DECREASE_PHYSICAL_PROGRESS,98.0,98.06,REVIEW,FR_May2025.pdf,107,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001201,DECREASE_PHYSICAL_PROGRESS,56.0,56.27,REVIEW,FR_May2025.pdf,66,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001217,DECREASE_PHYSICAL_PROGRESS,60.0,60.41,REVIEW,FR_May2025.pdf,73,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001262,DECREASE_PHYSICAL_PROGRESS,89.81,91.24,REVIEW,FR_JUNE_2025.pdf,187,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001322,DECREASE_PHYSICAL_PROGRESS,51.19,51.85,REVIEW,FR_May2025.pdf,170,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001338,DECREASE_PHYSICAL_PROGRESS,45.9,51.45,REVIEW,FR_JUNE_2025.pdf,188,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001350,DECREASE_PHYSICAL_PROGRESS,99.02,100.0,REVIEW,FR_JUNE_2025.pdf,153,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001358,DECREASE_EXPENDITURE,496.84,499.26,REVIEW,FR_May2025.pdf,143,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001417,DECREASE_PHYSICAL_PROGRESS,61.88,63.09,REVIEW,FR_JUNE_2025.pdf,175,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001474,DECREASE_PHYSICAL_PROGRESS,87.0,89.0,REVIEW,FR_May2025.pdf,141,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001474,DECREASE_PHYSICAL_PROGRESS,60.81,87.0,REVIEW,FR_JUNE_2025.pdf,154,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001502,DECREASE_PHYSICAL_PROGRESS,0.5,2.0,REVIEW,FR_May2025.pdf,130,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001526,DECREASE_EXPENDITURE,678.86,679.1,REVIEW,FR_May2025.pdf,201,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001551,DECREASE_PHYSICAL_PROGRESS,70.21,70.95,REVIEW,FR_JUNE_2025.pdf,101,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001557,DECREASE_EXPENDITURE,553.96,791.63,REVIEW,FR_May2025.pdf,166,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001559,DECREASE_EXPENDITURE,328.24,392.56,REVIEW,FR_May2025.pdf,167,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001567,DECREASE_EXPENDITURE,512.05,628.93,REVIEW,FR_May2025.pdf,167,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001573,DECREASE_EXPENDITURE,157.39,180.53,REVIEW,FR_May2025.pdf,167,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001596,DECREASE_PHYSICAL_PROGRESS,71.4,74.51,REVIEW,FR_May2025.pdf,102,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001611,DECREASE_EXPENDITURE,594.46,683.34,REVIEW,FR_May2025.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001625,DECREASE_PHYSICAL_PROGRESS,44.49,46.5,REVIEW,FR_May2025.pdf,181,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001630,DECREASE_EXPENDITURE,237.0,372.0,REVIEW,FR_May2025.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001631,DECREASE_EXPENDITURE,245.0,368.0,REVIEW,FR_May2025.pdf,159,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001635,DECREASE_EXPENDITURE,151.0,233.0,REVIEW,FR_May2025.pdf,88,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001641,DECREASE_PHYSICAL_PROGRESS,26.01,29.45,REVIEW,FR_JUNE_2025.pdf,177,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001660,DECREASE_PHYSICAL_PROGRESS,72.77,73.0,REVIEW,FR_JUNE_2025.pdf,125,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001664,DECREASE_PHYSICAL_PROGRESS,79.25,82.0,REVIEW,FR_JUNE_2025.pdf,125,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001674,DECREASE_REVISED_COST,1181.68,1240.6,REVIEW,FR_May2025.pdf,108,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001679,DECREASE_PHYSICAL_PROGRESS,83.98,93.1,REVIEW,FR_JUNE_2025.pdf,116,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001700,DECREASE_EXPENDITURE,378.25,414.79,REVIEW,FR_May2025.pdf,67,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001704,DECREASE_EXPENDITURE,118.96,120.84,REVIEW,FR_May2025.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001747,DECREASE_PHYSICAL_PROGRESS,96.4,97.5,REVIEW,FR_May2025.pdf,205,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24001753,DECREASE_REVISED_COST,570.98,578.02,REVIEW,FR_JUNE_2025.pdf,212,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001854,DECREASE_EXPENDITURE,808.69,998.69,REVIEW,FR_May2025.pdf,102,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001876,DECREASE_PHYSICAL_PROGRESS,56.0,56.12,REVIEW,FR_May2025.pdf,68,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001877,DECREASE_PHYSICAL_PROGRESS,40.0,40.12,REVIEW,FR_May2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001879,DECREASE_PHYSICAL_PROGRESS,53.0,53.46,REVIEW,FR_May2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001898,DECREASE_PHYSICAL_PROGRESS,87.24,88.0,REVIEW,FR_May2025.pdf,97,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001917,DECREASE_PHYSICAL_PROGRESS,87.0,87.05,REVIEW,FR_May2025.pdf,74,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001921,DECREASE_EXPENDITURE,125.56,186.33,REVIEW,FR_May2025.pdf,119,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001934,DECREASE_PHYSICAL_PROGRESS,26.73,27.0,REVIEW,FR_May2025.pdf,49,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001939,DECREASE_PHYSICAL_PROGRESS,51.78,52.0,REVIEW,FR_May2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001942,DECREASE_PHYSICAL_PROGRESS,60.53,61.0,REVIEW,FR_May2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001954,DECREASE_PHYSICAL_PROGRESS,91.05,91.5,REVIEW,FR_May2025.pdf,50,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001975,DECREASE_EXPENDITURE,366.81,643.63,REVIEW,FR_May2025.pdf,143,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001991,DECREASE_EXPENDITURE,178.37,229.7,REVIEW,FR_May2025.pdf,201,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24001992,DECREASE_EXPENDITURE,190.1,204.84,REVIEW,FR_May2025.pdf,193,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002004,DECREASE_PHYSICAL_PROGRESS,75.92,76.0,REVIEW,FR_May2025.pdf,182,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002005,DECREASE_PHYSICAL_PROGRESS,92.5,93.0,REVIEW,FR_May2025.pdf,182,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002006,DECREASE_PHYSICAL_PROGRESS,91.5,92.0,REVIEW,FR_May2025.pdf,182,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002035,DECREASE_EXPENDITURE,485.44,740.96,REVIEW,FR_May2025.pdf,86,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002044,DECREASE_EXPENDITURE,94.0,216.0,REVIEW,FR_May2025.pdf,90,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002065,DECREASE_EXPENDITURE,17.54,150.71,REVIEW,FR_May2025.pdf,69,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002077,DECREASE_EXPENDITURE,210.15,289.65,REVIEW,FR_May2025.pdf,121,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002091,DECREASE_EXPENDITURE,134.05,221.31,REVIEW,FR_May2025.pdf,161,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002098,DECREASE_EXPENDITURE,60.0,154.0,REVIEW,FR_May2025.pdf,161,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N24002164,DECREASE_EXPENDITURE,46.63,57.1,REVIEW,FR_JUNE_2025.pdf,220,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002194,DECREASE_PHYSICAL_PROGRESS,2.0,2.4,REVIEW,FR_May2025.pdf,70,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N24002204,DECREASE_EXPENDITURE,33.56,67.12,REVIEW,FR_May2025.pdf,143,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N28000086,DECREASE_PHYSICAL_PROGRESS,94.77,95.0,REVIEW,FR_May2025.pdf,137,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N28000146,DECREASE_EXPENDITURE,187.65,207.35,REVIEW,FR_May2025.pdf,203,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N28000148,DECREASE_PHYSICAL_PROGRESS,44.0,44.03,REVIEW,FR_May2025.pdf,71,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N42000001,DECREASE_EXPENDITURE,270.55,295.55,REVIEW,FR_May2025.pdf,140,Source value retained unchanged; decrease is not treated as an error.
+2025-06,N42000006,DECREASE_REVISED_COST,851.0,930.36,REVIEW,FR_JUNE_2025.pdf,113,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N42000010,DECREASE_PHYSICAL_PROGRESS,91.0,94.0,REVIEW,FR_May2025.pdf,104,Source value retained unchanged; decrease is not treated as an error.
+2025-05,N12000139,PROGRESS_OUT_OF_RANGE,202.0,,HIGH,FR_May2025.pdf,206,Raw source value retained unchanged.
+2025-07,400416,MALFORMED_DATE_START_DATE,Ministry of Coal,,REVIEW,FlashReport_July_2025.pdf,42,Raw source value retained unchanged.
+2025-07,400062,MALFORMED_DATE_START_DATE,Damodar Valley Corporation,,REVIEW,FlashReport_July_2025.pdf,43,Raw source value retained unchanged.
+2025-07,617183,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,43,Raw source value retained unchanged.
+2025-07,615342,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,43,Raw source value retained unchanged.
+2025-07,615343,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,43,Raw source value retained unchanged.
+2025-07,617182,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,44,Raw source value retained unchanged.
+2025-07,617272,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,44,Raw source value retained unchanged.
+2025-07,617184,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,44,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,44,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,45,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,45,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,45,Raw source value retained unchanged.
+2025-07,615335,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,45,Raw source value retained unchanged.
+2025-07,617181,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,46,Raw source value retained unchanged.
+2025-07,617269,MALFORMED_DATE_START_DATE,Power Grid Corporation of India Limited [POWERGRID],,REVIEW,FlashReport_July_2025.pdf,46,Raw source value retained unchanged.
+2025-07,709830,MALFORMED_DATE_START_DATE,Ministry of Mines,,REVIEW,FlashReport_July_2025.pdf,47,Raw source value retained unchanged.
+2025-07,613008,MALFORMED_DATE_START_DATE,Central Tribal University of Andhra Pradesh,,REVIEW,FlashReport_July_2025.pdf,48,Raw source value retained unchanged.
+2025-07,612898,MALFORMED_DATE_START_DATE,"National Institute of Technology, Arunachal Pradesh",,REVIEW,FlashReport_July_2025.pdf,48,Raw source value retained unchanged.
+2025-07,617221,MALFORMED_DATE_START_DATE,Central University of Punjab,,REVIEW,FlashReport_July_2025.pdf,48,Raw source value retained unchanged.
+2025-07,611963,MALFORMED_DATE_START_DATE,National Institute of Technology Uttarakhand,,REVIEW,FlashReport_July_2025.pdf,49,Raw source value retained unchanged.
+2025-07,609424,MALFORMED_DATE_START_DATE,Deendayal Port Trust [DPT],,REVIEW,FlashReport_July_2025.pdf,53,Raw source value retained unchanged.
+2025-07,612827,MALFORMED_DATE_START_DATE,East Coast Railway [ECoR] - II,,REVIEW,FlashReport_July_2025.pdf,54,Raw source value retained unchanged.
+2025-07,616697,MALFORMED_DATE_START_DATE,East Coast Railway [ECoR] - II,,REVIEW,FlashReport_July_2025.pdf,54,Raw source value retained unchanged.
+2025-07,613788,MALFORMED_DATE_START_DATE,Northeast Frontier Railway [NFR],,REVIEW,FlashReport_July_2025.pdf,54,Raw source value retained unchanged.
+2025-07,613785,MALFORMED_DATE_START_DATE,Ministry of Railways,,REVIEW,FlashReport_July_2025.pdf,55,Raw source value retained unchanged.
+2025-07,611977,MALFORMED_DATE_START_DATE,PCE/WR,,REVIEW,FlashReport_July_2025.pdf,56,Raw source value retained unchanged.
+2025-07,613786,MALFORMED_DATE_START_DATE,Ministry of Railways,,REVIEW,FlashReport_July_2025.pdf,56,Raw source value retained unchanged.
+2025-07,611976,MALFORMED_DATE_START_DATE,PCE/WR,,REVIEW,FlashReport_July_2025.pdf,57,Raw source value retained unchanged.
+2025-07,613015,MALFORMED_DATE_START_DATE,Ministry of Railways,,REVIEW,FlashReport_July_2025.pdf,57,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,South Central Railway [SCR] - II,,REVIEW,FlashReport_July_2025.pdf,58,Raw source value retained unchanged.
+2025-07,616699,MALFORMED_DATE_START_DATE,"Bihar, Jharkhand",,REVIEW,FlashReport_July_2025.pdf,58,Raw source value retained unchanged.
+2025-07,,MALFORMED_DATE_START_DATE,North Eastern Railway [NER],,REVIEW,FlashReport_July_2025.pdf,58,Raw source value retained unchanged.
+2025-07,612834,MALFORMED_DATE_DATE_OF_APPROVAL,73/2023,,REVIEW,FlashReport_July_2025.pdf,60,Raw source value retained unchanged.
+2025-07,611929,MALFORMED_DATE_START_DATE,WPO/Patna,,REVIEW,FlashReport_July_2025.pdf,61,Raw source value retained unchanged.
+2025-07,617255,MALFORMED_DATE_START_DATE,Steel Authority of India Limited [SAIL],,REVIEW,FlashReport_July_2025.pdf,62,Raw source value retained unchanged.
+2025-07,617254,MALFORMED_DATE_START_DATE,Steel Authority of India Limited [SAIL],,REVIEW,FlashReport_July_2025.pdf,63,Raw source value retained unchanged.
+2025-07,400121,MALFORMED_DATE_START_DATE,National Mineral Development Corporation Limited [NMDC],,REVIEW,FlashReport_July_2025.pdf,63,Raw source value retained unchanged.
+2025-07,616611,MALFORMED_DATE_START_DATE,National Mission for Clean Ganga,,REVIEW,FlashReport_July_2025.pdf,64,Raw source value retained unchanged.
+2025-07,616612,MALFORMED_DATE_START_DATE,National Mission for Clean Ganga,,REVIEW,FlashReport_July_2025.pdf,64,Raw source value retained unchanged.
+2026-01,618930,NEGATIVE_EXPENDITURE,-4.88,,HIGH,FlashReport_January_2026.pdf,100,Raw source value retained unchanged.
+2026-01,619065,NEGATIVE_EXPENDITURE,-54.57,,HIGH,FlashReport_January_2026.pdf,106,Raw source value retained unchanged.
+2026-01,619121,NEGATIVE_EXPENDITURE,-5.15,,HIGH,FlashReport_January_2026.pdf,106,Raw source value retained unchanged.
+2026-01,619113,NEGATIVE_EXPENDITURE,-0.08,,HIGH,FlashReport_January_2026.pdf,123,Raw source value retained unchanged.
+2026-07,706865,MALFORMED_DATE_DATE_OF_APPROVAL,57/2019,,REVIEW,FlashReport_July_2026-1.pdf,82,Raw source value retained unchanged.

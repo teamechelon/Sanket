@@ -1,0 +1,56 @@
+SANKET — IDENTIFIER QUALITY REPORT
+=======================================================
+Total rows: 23503
+Primary ID: 18206 (77.46%) [before 18009 / 76.62%]
+Alternate ID: 9448 (40.20%) [before 9448 / 40.20%]
+Unresolved without any source identifier: 442 (1.88%) [before 639]
+Parser-failure candidates: 222 [before 402]
+Source-missing IDs: 0 [before 0]
+Duplicate primary code + month: 0
+Duplicate source tracking key + month: 0
+
+Coverage by month:
+  2025-04: rows=1670, primary=17 (1.02%), alternate=1653 (98.98%)
+  2025-05: rows=1637, primary=15 (0.92%), alternate=1622 (99.08%)
+  2025-06: rows=1595, primary=15 (0.94%), alternate=1580 (99.06%)
+  2025-07: rows=791, primary=746 (94.31%), alternate=0 (0.00%)
+  2025-08: rows=800, primary=751 (93.88%), alternate=0 (0.00%)
+  2025-09: rows=794, primary=782 (98.49%), alternate=0 (0.00%)
+  2025-10: rows=820, primary=808 (98.54%), alternate=0 (0.00%)
+  2025-11: rows=823, primary=811 (98.54%), alternate=0 (0.00%)
+  2025-12: rows=1392, primary=1315 (94.47%), alternate=0 (0.00%)
+  2026-01: rows=1702, primary=1565 (91.95%), alternate=0 (0.00%)
+  2026-02: rows=1948, primary=1922 (98.67%), alternate=1152 (59.14%)
+  2026-03: rows=1941, primary=1915 (98.66%), alternate=1151 (59.30%)
+  2026-04: rows=1981, primary=1968 (99.34%), alternate=1151 (58.10%)
+  2026-05: rows=1987, primary=1976 (99.45%), alternate=1139 (57.32%)
+  2026-06: rows=1847, primary=1836 (99.40%), alternate=0 (0.00%)
+  2026-07: rows=1775, primary=1764 (99.38%), alternate=0 (0.00%)
+
+Coverage by format:
+  format=NEW_FORMAT_B | identifier_type=PRIMARY | rows=7544
+  format=TRANSITIONAL_FORMAT | identifier_type=PRIMARY | rows=5281
+  format=EARLY_FORMAT | identifier_type=ALTERNATE | rows=4855
+  format=NEW_FORMAT_A | identifier_type=PRIMARY | rows=3837
+  format=OLD_FORMAT_B | identifier_type=PRIMARY | rows=751
+  format=OLD_FORMAT_A | identifier_type=PRIMARY | rows=746
+  format=TRANSITIONAL_FORMAT | identifier_type=NONE | rows=250
+  format=NEW_FORMAT_A | identifier_type=NONE | rows=52
+  format=OLD_FORMAT_B | identifier_type=NONE | rows=49
+  format=EARLY_FORMAT | identifier_type=PRIMARY | rows=47
+  format=NEW_FORMAT_B | identifier_type=NONE | rows=46
+  format=OLD_FORMAT_A | identifier_type=NONE | rows=45
+
+Coverage by handler:
+  handler=extract_table6 | identifier_type=PRIMARY | rows=10615
+  handler=extract_new_format_b/extract_table6 | identifier_type=PRIMARY | rows=7544
+  handler=extract_early_format/extract_table7 | identifier_type=ALTERNATE | rows=4855
+  handler=extract_table6 | identifier_type=NONE | rows=396
+  handler=extract_early_format/extract_table7 | identifier_type=PRIMARY | rows=47
+  handler=extract_new_format_b/extract_table6 | identifier_type=NONE | rows=46
+
+Readiness assessment:
+  Identifier quality is acceptable for source-keyed longitudinal tracking only where a primary or alternate source identifier is present; unresolved records remain excluded from identity-dependent analysis.
+  ML label-definition work remains BLOCKED. Defensible labels need independently timestamped actual completion and cost-outcome events, plus a target policy fixed before model cutoffs.
+  Potential leakage fields: revised_cost, revised_doc, future expenditure, future physical progress, and future status information.
+  Future modelling must use temporal/project-aware evaluation, never random row splits.

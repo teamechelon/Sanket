@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": null,
+    "legacy_ocms_code": "N04000073",
+    "project_name_contains": "CONSTRUCTION OF NEW INTEGRATED TERMINAL ",
+    "agency": "AAI",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 417.23,
+    "revised_cost": 707.73,
+    "expenditure": 698.8,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": null,
+    "legacy_ocms_code": "N22000584",
+    "project_name_contains": "LUDHIANA KILA RAIPUR (19 KMS) WITH FREIG",
+    "agency": "NR",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 235.72,
+    "revised_cost": null,
+    "expenditure": 54.28,
+    "physical_progress": 55.0
+  },
+  {
+    "sl_no": 11,
+    "project_code": null,
+    "legacy_ocms_code": "N04000091",
+    "project_name_contains": "C/O OF NITB AND ASSOCIATED WORK AT VIJAY",
+    "agency": "AAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 611.8,
+    "revised_cost": null,
+    "expenditure": 433.85,
+    "physical_progress": 73.0
+  },
+  {
+    "sl_no": 12,
+    "project_code": null,
+    "legacy_ocms_code": "N04000103",
+    "project_name_contains": "RAJAHMUNDRY AIRPORT: CONSTRUCTION OF NEW",
+    "agency": "AAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 347.15,
+    "revised_cost": 347.15,
+    "expenditure": 72.12,
+    "physical_progress": 43.0
+  },
+  {
+    "sl_no": 284,
+    "project_code": "060100093",
+    "legacy_ocms_code": null,
+    "project_name_contains": "GEVRA EXPANSION OCP (SECL) (35-70) MTY",
+    "agency": "SECL",
+    "state": "Chhattisgarh",
+    "original_cost": 11816.4,
+    "revised_cost": null,
+    "expenditure": 6584.29,
+    "physical_progress": 77.2
+  },
+  {
+    "sl_no": 355,
+    "project_code": null,
+    "legacy_ocms_code": "N04000095",
+    "project_name_contains": "EXTENSION OF EXISTING INTEGRATED TERMINA",
+    "agency": "AAI",
+    "state": "Goa",
+    "original_cost": 255.69,
+    "revised_cost": null,
+    "expenditure": 119.89,
+    "physical_progress": 84.0
+  },
+  {
+    "sl_no": 500,
+    "project_code": null,
+    "legacy_ocms_code": "N24001916",
+    "project_name_contains": "IMPROVEMENT/CONSTRUCTION OF EXISTING CLA",
+    "agency": "BRO",
+    "state": "Himachal Pradesh",
+    "original_cost": 314.67,
+    "revised_cost": null,
+    "expenditure": 76.05,
+    "physical_progress": 44.0
+  },
+  {
+    "sl_no": 1000,
+    "project_code": null,
+    "legacy_ocms_code": "N24001539",
+    "project_name_contains": "IMPHAL - KHONGSANG PKG-6",
+    "agency": "NHIDCL",
+    "state": "Manipur",
+    "original_cost": 504.76,
+    "revised_cost": null,
+    "expenditure": 183.15,
+    "physical_progress": 74.23
+  },
+  {
+    "sl_no": 1660,
+    "project_code": null,
+    "legacy_ocms_code": "N24001850",
+    "project_name_contains": "DEVELOPMENT TO 4/6-LANNING OF NH-31 (NEW",
+    "agency": "MoRTH",
+    "state": "West Bengal",
+    "original_cost": 995.04,
+    "revised_cost": 995.04,
+    "expenditure": 383.34,
+    "physical_progress": 47.9
+  },
+  {
+    "sl_no": 1670,
+    "project_code": null,
+    "legacy_ocms_code": "N30000042",
+    "project_name_contains": "INTERCEPTION AND DIVERSION WITH STP AT H",
+    "agency": "KMDA",
+    "state": "West Bengal",
+    "original_cost": 160.0,
+    "revised_cost": 154.73,
+    "expenditure": 87.35,
+    "physical_progress": 90.0
+  }
+]

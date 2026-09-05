@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": null,
+    "legacy_ocms_code": "N04000073",
+    "project_name_contains": "CONSTRUCTION OF NEW INTEGRATED TERMINAL ",
+    "agency": "AAI",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 417.23,
+    "revised_cost": 707.73,
+    "expenditure": 698.8,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": null,
+    "legacy_ocms_code": "N22000584",
+    "project_name_contains": "LUDHIANA KILA RAIPUR (19 KMS) WITH FREIG",
+    "agency": "NR",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 235.72,
+    "revised_cost": null,
+    "expenditure": 59.78,
+    "physical_progress": 55.0
+  },
+  {
+    "sl_no": 11,
+    "project_code": null,
+    "legacy_ocms_code": "N04000089",
+    "project_name_contains": "EXT AND STR. OF EXISTING RUNWAY 08/26 AT",
+    "agency": "AAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 177.1,
+    "revised_cost": null,
+    "expenditure": 143.08,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 50,
+    "project_code": null,
+    "legacy_ocms_code": "N24001824",
+    "project_name_contains": "RENIGUNTA - POYYA - NAIDUPETA KM 124.60 ",
+    "agency": "NHAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 1863.09,
+    "revised_cost": null,
+    "expenditure": 1227.61,
+    "physical_progress": 98.76
+  },
+  {
+    "sl_no": 200,
+    "project_code": null,
+    "legacy_ocms_code": "N24000438",
+    "project_name_contains": "4 LANING FROM RANGAGARA TO KALIABHOR TIN",
+    "agency": "NHIDCL",
+    "state": "Assam",
+    "original_cost": 289.99,
+    "revised_cost": null,
+    "expenditure": 233.23,
+    "physical_progress": 88.03
+  },
+  {
+    "sl_no": 500,
+    "project_code": null,
+    "legacy_ocms_code": "N24002044",
+    "project_name_contains": "4L AMBALA - KALAAMB FROM KM. -0.800 TO K",
+    "agency": "NHAI",
+    "state": "Haryana",
+    "original_cost": 629.16,
+    "revised_cost": null,
+    "expenditure": 154.0,
+    "physical_progress": 98.9
+  },
+  {
+    "sl_no": 800,
+    "project_code": null,
+    "legacy_ocms_code": "N22000601",
+    "project_name_contains": "INDORE BUDNI (INDORE JABALPUR)",
+    "agency": "RVNL",
+    "state": "Madhya Pradesh",
+    "original_cost": 7474.01,
+    "revised_cost": null,
+    "expenditure": 1004.86,
+    "physical_progress": 0.0
+  },
+  {
+    "sl_no": 1200,
+    "project_code": "220100328",
+    "legacy_ocms_code": null,
+    "project_name_contains": "TALCHER-BIMALAGARH(NL)(ECOR)",
+    "agency": "ECOR",
+    "state": "Odisha",
+    "original_cost": 1928.1,
+    "revised_cost": null,
+    "expenditure": 1757.75,
+    "physical_progress": 40.0
+  },
+  {
+    "sl_no": 1700,
+    "project_code": null,
+    "legacy_ocms_code": "N16000498",
+    "project_name_contains": "CGD PROJECT IN WEST BENGAL 11TH ROUND",
+    "agency": "HPCL",
+    "state": "West Bengal",
+    "original_cost": 2628.0,
+    "revised_cost": null,
+    "expenditure": 320.83,
+    "physical_progress": 24.1
+  },
+  {
+    "sl_no": 1734,
+    "project_code": null,
+    "legacy_ocms_code": "N30000042",
+    "project_name_contains": "INTERCEPTION AND DIVERSION WITH STP AT H",
+    "agency": "KMDA",
+    "state": "West Bengal",
+    "original_cost": 160.0,
+    "revised_cost": 154.73,
+    "expenditure": 93.32,
+    "physical_progress": 92.0
+  }
+]

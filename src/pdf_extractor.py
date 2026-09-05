@@ -353,7 +353,13 @@ def _parse_sl_no_line_new_format(line: str, record: ProjectRecord) -> None:
     # Remaining text should contain state
     state = _find_state_in_line(text_part)
     if state:
-        record.state = state
+        cleaned = text_part.strip().strip("()")
+        # Preserve an incomplete multi-state list so later continuation
+        # fragments such as "Tamil Nadu)" can be joined.
+        if "," in cleaned and not cleaned.rstrip().endswith(")"):
+            record.state = cleaned if cleaned.endswith(",") else f"{cleaned},"
+        else:
+            record.state = state
     elif text_part.strip():
         # Might be a state we don't recognize, or project name overflow
         record.state = text_part.strip()
@@ -423,7 +429,8 @@ def _parse_parenthetical_line_new(line: str, record: ProjectRecord) -> bool:
     # Check for project code: "(612786)"
     m = _PROJECT_CODE_RE.match(stripped)
     if m:
-        record.project_code = m.group(1)
+        if not record.project_code:
+            record.project_code = m.group(1)
         return True
     
     # Check for legacy code: "(N04000106)"
@@ -448,82 +455,42 @@ def _parse_parenthetical_line_new(line: str, record: ProjectRecord) -> bool:
             record.revised_cost = val
         return True
     
-    # Check for quadruple: "(project_code) (start_date) (revised_doc) (revised_cost)"
-    quad = re.match(r"^\(([^)]+)\)\s+\(([^)]*)\)\s+\(([^)]*)\)\s+\(([^)]*)\)$", stripped)
-    if quad:
-        record.project_code = quad.group(1)
-        record.start_date = quad.group(2) if quad.group(2) != "-" else ""
-        record.revised_doc = quad.group(3) if quad.group(3) != "-" else ""
-        val = parse_numeric(quad.group(4))
-        if val is not None:
-            record.revised_cost = val
-        return True
+    # Agency + dates + cost: "(Airport Authority of India [AAI]) (01/2024) (03/2026) (265.91)"
+    agency_quad = re.match(
+        r"^\(([^)]+)\)\s+\(([^)]*)\)\s+\(([^)]*)\)\s+\(([^)]*)\)$",
+        stripped,
+    )
+    if agency_quad:
+        first = agency_quad.group(1).strip()
+        second = agency_quad.group(2).strip()
+        third = agency_quad.group(3).strip()
+        fourth = agency_quad.group(4).strip()
+        if re.fullmatch(r"\d{5,7}", first):
+            record.project_code = first
+        elif first not in {"-", ""}:
+            if not record.agency:
+                record.agency = first
+        if _DATE_RE.fullmatch(second) or second == "-":
+            record.start_date = second if second != "-" else ""
+            record.revised_doc = third if third != "-" else ""
+            val = parse_numeric(fourth)
+            if val is not None:
+                record.revised_cost = val
+            return True
+        if re.fullmatch(r"\d{5,7}", second):
+            # Rare: (agency) (code) (date) (cost) -- keep best-effort.
+            record.project_code = second
+            return True
     
     return False
 
 
-def _parse_parenthetical_line_new_format_b(line: str, record: ProjectRecord) -> bool:
-    """Consume the flexible post-serial lines used from April 2026 onward.
-
-    A representative record can place its fields on either of these lines::
-
-        (612786) (01/2024) (07/2026) (265.91)
-        (N04000106) (-)
-
-    or put the agency in the first line and the project code in the second.
-    Treating only four-parenthesis lines as valid caused legacy/PMGID lines to
-    leak into the following project's name.
-    """
-    groups = [value.strip() for value in _PAREN_GROUP_RE.findall(line.strip())]
-    if not groups or not re.fullmatch(r"\s*(?:\([^)]*\)\s*)+", line):
-        return False
-
-    dates: list[str] = []
-    numeric_values: list[float] = []
-    has_text_agency = False
-    recognised = False
-
-    for value in groups:
-        if _PROJECT_CODE_RE.match(f"({value})"):
-            record.project_code = value
-            recognised = True
-        elif _LEGACY_CODE_RE.match(f"({value})"):
-            record.legacy_ocms_code = value
-            recognised = True
-        elif _DATE_RE.fullmatch(value):
-            dates.append(value)
-            recognised = True
-        elif value in {"-", "", "NA", "N/A"}:
-            recognised = True
-        else:
-            number = parse_numeric(value)
-            if number is not None:
-                numeric_values.append(number)
-                recognised = True
-            elif any(char.isalpha() for char in value):
-                if not record.agency:
-                    record.agency = value
-                has_text_agency = True
-                recognised = True
-
-    if dates:
-        record.start_date = dates[0]
-        if len(dates) > 1:
-            record.revised_doc = dates[1]
-
-    # A two-group legacy/PMGID or placeholder/PMGID line must never be read as
-    # a revised cost.  Cost appears only with dates or an agency in this layout.
-    if numeric_values and (dates or has_text_agency) and len(groups) >= 3:
-        record.revised_cost = numeric_values[-1]
-
-    return recognised
-
-
 def _parse_parenthetical_line_old(line: str, record: ProjectRecord) -> bool:
     """
-    Parse OLD format parenthetical/agency lines.
-    Old format has:
-    '(Agency) Revised_DoC (Revised_Cost)'  or  '(-) (Revised_Cost)'
+    Parse OLD_FORMAT_A parenthetical/agency lines.
+    Typical patterns:
+    '(Agency) Revised_DoC (Revised_Cost)'  or  '(Agency) (-) (Revised_Cost)'
+    '(-) (Revised_Cost)' or 'MM/YYYY (Revised_Cost)'
     '(Project_Code)'
     """
     stripped = line.strip()
@@ -531,15 +498,18 @@ def _parse_parenthetical_line_old(line: str, record: ProjectRecord) -> bool:
     # Project code
     m = _PROJECT_CODE_RE.match(stripped)
     if m:
-        record.project_code = m.group(1)
+        if not record.project_code:
+            record.project_code = m.group(1)
         return True
     
     # Single paren like "(-)"
     if stripped == "(-)":
         return True
-    
+
     # Agency + revised values: "(Airport Authority of India [AAI]) 03/2026 (265.91)"
-    # or "(-) (1712)"
+    # or "(Ministry of Coal) (-) (1799.64)"
+    # Must be checked BEFORE _parse_parenthetical_line_new to avoid
+    # misinterpreting agency text as a date value.
     agency_revised = re.match(r"^\(([^)]+)\)\s+(\d{2}/\d{4})?\s*\(([^)]+)\)$", stripped)
     if agency_revised:
         agency_text = agency_revised.group(1)
@@ -563,12 +533,16 @@ def _parse_parenthetical_line_old(line: str, record: ProjectRecord) -> bool:
             record.revised_cost = val
         return True
     
+    # Generic new-format paren parser as fallback (handles quad-group etc.)
+    if _parse_parenthetical_line_new(stripped, record):
+        return True
+    
     # Standalone agency line: "(Airport Authority of India [AAI])"
     m = _SINGLE_PAREN_RE.match(stripped)
     if m:
         content = m.group(1)
         if not content.replace("-", "").strip():
-            return True  # just "(-)"-like
+            return True  # just "(-)-like"
         if not content[0].isdigit():
             # Looks like agency name
             if not record.agency:
@@ -576,6 +550,236 @@ def _parse_parenthetical_line_old(line: str, record: ProjectRecord) -> bool:
             return True
     
     return False
+
+
+def _parse_parenthetical_line_new_format_b(line: str, record: ProjectRecord) -> bool:
+    """Consume the flexible post-serial lines used from April 2026 onward.
+
+    A representative record can place its fields on either of these lines::
+
+        (612786) (01/2024) (07/2026) (265.91)
+        (N04000106) (-)
+
+    or put the agency in the first line and the project code in the second.
+    Treating only four-parenthesis lines as valid caused legacy/PMGID lines to
+    leak into the following project's name.
+    """
+    groups = [value.strip() for value in _PAREN_GROUP_RE.findall(line.strip())]
+    if not groups or not re.fullmatch(r"\s*(?:\([^)]*\)\s*)+", line):
+        return False
+
+    # Trailer lines such as "(N24001988) (10550)" or "(-) (10550)" carry a
+    # legacy/PMGID pair. The second number is never the primary project code.
+    if len(groups) == 2:
+        first, second = groups
+        if first in {"-", "", "NA", "N/A"} or re.fullmatch(r"[NO]\d{7,9}", first):
+            if re.fullmatch(r"[NO]\d{7,9}", first):
+                record.legacy_ocms_code = first
+            # PMGID retained only as provenance in raw_lines; do not overwrite
+            # project_code with it.
+            return True
+
+    dates: list[str] = []
+    numeric_values: list[float] = []
+    has_text_agency = False
+    recognised = False
+
+    for value in groups:
+        if _PROJECT_CODE_RE.match(f"({value})"):
+            if not record.project_code:
+                record.project_code = value
+            recognised = True
+        elif _LEGACY_CODE_RE.match(f"({value})"):
+            record.legacy_ocms_code = value
+            recognised = True
+        elif _DATE_RE.fullmatch(value):
+            dates.append(value)
+            recognised = True
+        elif value in {"-", "", "NA", "N/A"}:
+            recognised = True
+        else:
+            number = parse_numeric(value)
+            if number is not None:
+                numeric_values.append(number)
+                recognised = True
+            elif any(char.isalpha() for char in value):
+                # Multi-state rows place "(Andhra Pradesh, Tamil Nadu)" here.
+                if "," in value or value.endswith(","):
+                    record.state = value.rstrip(",").strip()
+                    recognised = True
+                elif not record.agency:
+                    record.agency = value
+                    has_text_agency = True
+                    recognised = True
+
+    if dates:
+        record.start_date = dates[0]
+        if len(dates) > 1:
+            record.revised_doc = dates[1]
+
+    # A two-group legacy/PMGID or placeholder/PMGID line must never be read as
+    # a revised cost.  Cost appears only with dates or an agency in this layout.
+    if numeric_values and (dates or has_text_agency) and len(groups) >= 3:
+        record.revised_cost = numeric_values[-1]
+
+    return recognised
+
+
+_STATE_CONTINUATION_RE = re.compile(
+    r"^[A-Za-z][A-Za-z .&/-]*\)\s*$"
+)
+_HYBRID_MULTISTATE_RE = re.compile(
+    r"^\((\d{5,7})\)\s+([A-Za-z][A-Za-z .&/-]*\))\s*((?:\([^)]*\)\s*)*)$"
+)
+_CODE_WITH_CONTINUATION_RE = re.compile(r"^\((\d{5,7})\)\s+(.+)$")
+_PMGID_PAIR_RE = re.compile(
+    r"^\(([NO]\d{7,9}|-)?\)\s+\((\d{4,6}|-)\)$"
+)
+_OLD_AGENCY_STATE_TRAILER_RE = re.compile(
+    r"^\((?P<agency>[^)]+)\)\s+(?P<state>[A-Za-z][A-Za-z .,&/-]*?)\s+"
+    r"(?:(?P<revised_doc>\d{2}/\d{4})|\(-\))\s+\((?P<revised_cost>[^)]+)\)$"
+)
+
+
+def _state_looks_incomplete(state: str) -> bool:
+    """True when a multi-state value was split across lines by pdfplumber."""
+    stripped = (state or "").strip()
+    if not stripped:
+        return False
+    if stripped.endswith(","):
+        return True
+    # Truncated wrappers such as "(Andhra Pradesh," or "Andhra Pradesh,".
+    if stripped.startswith("(") and "," in stripped and ")" not in stripped:
+        return True
+    return False
+
+
+def _append_state_continuation(record: ProjectRecord, fragment: str) -> None:
+    """Join a wrapped multi-state fragment onto the current state value."""
+    piece = fragment.strip().rstrip(")").strip().lstrip("(").strip()
+    if not piece:
+        return
+    existing = (record.state or "").strip().rstrip(",").strip()
+    if existing.endswith("("):
+        existing = existing[:-1].strip()
+    if existing.startswith("("):
+        existing = existing[1:].strip()
+    if existing:
+        record.state = f"{existing}, {piece}"
+    else:
+        record.state = piece
+
+
+def _parse_post_sl_line_new_format_b(line: str, record: ProjectRecord) -> bool:
+    """Consume NEW_FORMAT_B post-serial lines, including multi-state wraps.
+
+    Multi-state rows frequently split as::
+
+        1487 (NHAI) (Andhra Pradesh, 370.76 98.42
+        (618772) Tamil Nadu) (10/2023) (09/2026) (799.36)
+        (N24001988) (10550)
+
+    The middle line is not a pure parenthetical group, so the strict parser
+    must not reject it or the tokens leak into the next project name.
+    """
+    stripped = line.strip()
+    if not stripped:
+        return False
+
+    if _parse_parenthetical_line_new_format_b(stripped, record):
+        return True
+
+    hybrid = _HYBRID_MULTISTATE_RE.match(stripped)
+    if hybrid:
+        record.project_code = hybrid.group(1)
+        _append_state_continuation(record, hybrid.group(2))
+        trailing = hybrid.group(3).strip()
+        if trailing:
+            _parse_parenthetical_line_new_format_b(trailing, record)
+        return True
+
+    # In the 2025--early-2026 text layer, a primary code can share a line
+    # with the final fragment of a wrapped state and the remaining date/cost
+    # fields.  For example: ``(602532) Kashmir (02/2020) (12/2026) (5409)``.
+    # The code belongs to the current serial row; treating that line as the
+    # next name loses a source-present identifier and shifts fields forward.
+    code_with_continuation = _CODE_WITH_CONTINUATION_RE.match(stripped)
+    if code_with_continuation:
+        record.project_code = code_with_continuation.group(1)
+        remainder = code_with_continuation.group(2).strip()
+        trailing = re.search(r"((?:\([^)]*\)\s*)+)$", remainder)
+        prefix = remainder
+        if trailing:
+            prefix = remainder[: trailing.start()].strip()
+            _parse_parenthetical_line_new_format_b(trailing.group(1).strip(), record)
+        if prefix:
+            # This branch is only reached after a source primary-code token,
+            # so a text prefix is a continuation of the current row's state,
+            # not a project-name-derived identity.
+            _append_state_continuation(record, prefix)
+        return True
+
+    if _STATE_CONTINUATION_RE.match(stripped) and (
+        _state_looks_incomplete(record.state) or "," in (record.state or "")
+    ):
+        _append_state_continuation(record, stripped)
+        return True
+
+    # Bare legacy/PMGID pair already handled by the strict parser; keep an
+    # explicit path for slightly noisy variants.
+    if _PMGID_PAIR_RE.match(stripped):
+        return _parse_parenthetical_line_new_format_b(stripped, record)
+
+    # Name continuation after the serial line that still carries revised
+    # date/cost parentheses, e.g.
+    # "km.520.000 Total length 80.00Km (12/2023) (10/2026) (321.23)"
+    trailing = re.search(r"((?:\([^)]*\)\s*)+)$", stripped)
+    if trailing:
+        prefix = stripped[: trailing.start()].strip()
+        paren_part = trailing.group(1).strip()
+        if prefix and _parse_parenthetical_line_new_format_b(paren_part, record):
+            record.project_name = f"{record.project_name} {prefix}".strip()
+            return True
+
+    return False
+
+
+def _parse_post_sl_line_old_format(line: str, record: ProjectRecord) -> bool:
+    """Consume verified OLD-format state/code boundary variants.
+
+    July--August 2025 pages can print an agency, the final piece of a wrapped
+    state, and a revised value on one line, followed by the primary code.  The
+    old handler previously stopped at that mixed line, so the source code
+    became part of the following record's name.  Only the documented source
+    shapes below take this route; ordinary old-format lines retain their
+    existing parser.
+    """
+    stripped = line.strip()
+    if _CODE_WITH_CONTINUATION_RE.match(stripped) or _HYBRID_MULTISTATE_RE.match(stripped):
+        return _parse_post_sl_line_new_format_b(stripped, record)
+    # OLD-format serial rows retain only the first recognised state name, so
+    # the parser cannot always tell from ``record.state`` that a second state
+    # fragment is coming.  At this post-serial position a bare word ending in
+    # ')' is a verified wrapped-state fragment, not a project-name line.
+    if _STATE_CONTINUATION_RE.match(stripped):
+        return _parse_post_sl_line_new_format_b(stripped, record)
+
+    mixed = _OLD_AGENCY_STATE_TRAILER_RE.match(stripped)
+    if mixed:
+        if not record.agency:
+            record.agency = mixed.group("agency").strip()
+        _append_state_continuation(record, mixed.group("state"))
+        revised_doc = mixed.group("revised_doc")
+        if revised_doc:
+            record.revised_doc = revised_doc
+        revised_cost = parse_numeric(mixed.group("revised_cost"))
+        if revised_cost is not None:
+            record.revised_cost = revised_cost
+        return True
+
+    return _parse_parenthetical_line_old(stripped, record)
+
+
 
 
 def _parse_name_date_cost_line(line: str, record: ProjectRecord) -> None:
@@ -801,15 +1005,23 @@ def extract_table6(
                 current_record = ProjectRecord(source_page=page)
                 current_record.raw_lines = [l for l, _ in pre_record_lines] + [line]
                 
-                # Parse the pre-record lines as project name / date / cost
+                # Parse the pre-record lines as project name / date / cost.
+                # A source primary token can precede a serial when the PDF
+                # wraps a multi-state value across the page's reading order.
+                # It is still a direct source token, so bind it to this row
+                # rather than preserving it as project-name text.
                 for pre_line, _ in pre_record_lines:
-                    _parse_name_date_cost_line(pre_line, current_record)
+                    if _CODE_WITH_CONTINUATION_RE.match(pre_line.strip()):
+                        _parse_post_sl_line_new_format_b(pre_line, current_record)
+                    else:
+                        _parse_name_date_cost_line(pre_line, current_record)
                 
                 # Parse the sl_no line
-                if format_gen in {"NEW", "NEW_FORMAT_A", "NEW_FORMAT_B"}:
-                    _parse_sl_no_line_new_format(line, current_record)
-                else:
+                # OLD_FORMAT_A has dates on SL line; all others do not.
+                if format_gen == "OLD":
                     _parse_sl_no_line_old_format(line, current_record)
+                else:
+                    _parse_sl_no_line_new_format(line, current_record)
                 
                 # Update continuity tracker
                 last_sl_no = sl_no_candidate
@@ -839,13 +1051,15 @@ def extract_table6(
                         if next_in_seq and ((next_state and len(next_trailing) >= 1) or (next_sl_no <= 3000 and len(next_trailing) >= 2)):
                             break
                     
-                    # Try to parse as parenthetical
-                    if format_gen == "NEW_FORMAT_B":
-                        parsed = _parse_parenthetical_line_new_format_b(next_line, current_record)
-                    elif format_gen in {"NEW", "NEW_FORMAT_A"}:
-                        parsed = _parse_parenthetical_line_new(next_line, current_record)
+                    # Try to parse as parenthetical / multi-state continuation.
+                    # _parse_post_sl_line_new_format_b is the most robust parser;
+                    # it handles triple-parens, multi-state wraps, legacy/PMGID
+                    # pairs, and hybrid lines.  OLD_FORMAT_A is the only layout
+                    # that genuinely needs the legacy agency+revised handler.
+                    if format_gen == "OLD":
+                        parsed = _parse_post_sl_line_old_format(next_line, current_record)
                     else:
-                        parsed = _parse_parenthetical_line_old(next_line, current_record)
+                        parsed = _parse_post_sl_line_new_format_b(next_line, current_record)
                     
                     if parsed:
                         current_record.raw_lines.append(next_line)
@@ -898,6 +1112,119 @@ _MONTH_ABBREVIATIONS = {
     "jan": "01", "feb": "02", "mar": "03", "apr": "04", "may": "05", "jun": "06",
     "jul": "07", "aug": "08", "sep": "09", "oct": "10", "nov": "11", "dec": "12",
 }
+
+
+_TABLE7_STATE_NAMES = {
+    "ANDAMAN AND NICOBAR ISLANDS": "Andaman and Nicobar Islands",
+    "ANDHRA PRADESH": "Andhra Pradesh",
+    "ARUNACHAL PRADESH": "Arunachal Pradesh",
+    "ASSAM": "Assam",
+    "BIHAR": "Bihar",
+    "CHHATTISGARH": "Chhattisgarh",
+    "GOA": "Goa",
+    "GUJARAT": "Gujarat",
+    "HARYANA": "Haryana",
+    "HIMACHAL PRADESH": "Himachal Pradesh",
+    "JAMMU AND KASHMIR": "Jammu and Kashmir",
+    "JHARKHAND": "Jharkhand",
+    "KARNATAKA": "Karnataka",
+    "KERALA": "Kerala",
+    "LADAKH": "Ladakh",
+    "MADHYA PRADESH": "Madhya Pradesh",
+    "MAHARASHTRA": "Maharashtra",
+    "MANIPUR": "Manipur",
+    "MEGHALAYA": "Meghalaya",
+    "MIZORAM": "Mizoram",
+    "MULTI STATE": "Multi-States",
+    "MULTI STATES": "Multi-States",
+    "NAGALAND": "Nagaland",
+    "ODISHA": "Odisha",
+    "PUNJAB": "Punjab",
+    "RAJASTHAN": "Rajasthan",
+    "SIKKIM": "Sikkim",
+    "TAMIL NADU": "Tamil Nadu",
+    "TELANGANA": "Telangana",
+    "TRIPURA": "Tripura",
+    "UTTAR PRADESH": "Uttar Pradesh",
+    "UTTARAKHAND": "Uttarakhand",
+    "WEST BENGAL": "West Bengal",
+    "DELHI": "Delhi",
+    "PUDUCHERRY": "Puducherry",
+    "CHANDIGARH": "Chandigarh",
+    "LAKSHADWEEP": "Lakshadweep",
+    "DADRA AND NAGAR HAVELI AND DAMAN AND DIU": "Dadra & Nagar Haveli and Daman & Diu",
+}
+
+_TABLE7_STATE_SKIP = {
+    "STATE", "SECTOR", "SL", "NO", "PROJECT", "NAME", "DATE", "COST",
+    "ORIGINAL", "CUMULATIVE", "PHYSICAL", "PROGRESS", "AGENCY", "CODE",
+    "APPROVAL", "COMMISSIONING", "REVISED", "ANTICIPATED", "EXPENDITURE",
+    "TABLE", "LIST", "ONGOING", "PROJECTS", "MM", "YYYY", "RS", "CRORE",
+}
+
+
+def _table7_state_markers(page: pdfplumber.page.Page) -> list[tuple[float, str]]:
+    """Recover state labels from the left column when extract_table drops them."""
+    words = [
+        w for w in (page.extract_words() or [])
+        if float(w["x0"]) < 70 and w["text"].strip()
+        and w["text"].strip().upper() not in _TABLE7_STATE_SKIP
+    ]
+    if not words:
+        return []
+
+    words.sort(key=lambda w: (float(w["top"]), float(w["x0"])))
+    markers: list[tuple[float, str]] = []
+    index = 0
+    while index < len(words):
+        matched = None
+        match_len = 0
+        upper_tokens = [w["text"].upper() for w in words[index:]]
+        for length in range(min(8, len(upper_tokens)), 0, -1):
+            candidate = " ".join(upper_tokens[:length])
+            if candidate in _TABLE7_STATE_NAMES:
+                matched = _TABLE7_STATE_NAMES[candidate]
+                match_len = length
+                break
+        if matched:
+            markers.append((float(words[index]["top"]), matched))
+            index += match_len
+        else:
+            index += 1
+    return markers
+
+
+def _table7_serial_positions(page: pdfplumber.page.Page) -> list[tuple[float, int]]:
+    """Locate Sl No values in the Table 7 serial column."""
+    positions: list[tuple[float, int]] = []
+    for word in page.extract_words() or []:
+        text = word["text"].strip()
+        if not text.isdigit():
+            continue
+        x0 = float(word["x0"])
+        if 120.0 <= x0 <= 165.0:
+            value = int(text)
+            if 1 <= value <= 5000:
+                positions.append((float(word["top"]), value))
+    positions.sort(key=lambda item: item[0])
+    return positions
+
+
+def _table7_states_by_serial(page: pdfplumber.page.Page) -> dict[int, str]:
+    """Map each serial on a page to the nearest preceding left-column state."""
+    markers = _table7_state_markers(page)
+    serials = _table7_serial_positions(page)
+    if not markers or not serials:
+        return {}
+
+    mapping: dict[int, str] = {}
+    marker_index = -1
+    for top, sl_no in serials:
+        while marker_index + 1 < len(markers) and markers[marker_index + 1][0] <= top + 8:
+            marker_index += 1
+        if marker_index >= 0:
+            mapping[sl_no] = markers[marker_index][1]
+    return mapping
 
 
 def _normalise_flexible_month(value: str) -> str | None:
@@ -956,8 +1283,12 @@ def _table7_original_and_revised_costs(value: str) -> tuple[float | None, float 
 def _parse_table7_project_cell(value: str) -> tuple[str, str, str]:
     """Return project name, agency, and source-supported alternate identifier."""
     lines = [line.strip() for line in (value or "").splitlines() if line.strip()]
+
+    def _identifier_match(line: str) -> re.Match[str] | None:
+        return _LEGACY_CODE_RE.match(line) or re.match(r"^\((\d{6,9})\)$", line)
+
     code_index = next(
-        (index for index in range(len(lines) - 1, -1, -1) if _LEGACY_CODE_RE.match(lines[index])),
+        (index for index in range(len(lines) - 1, -1, -1) if _identifier_match(lines[index])),
         None,
     )
     alternate_id = ""
@@ -1001,7 +1332,9 @@ def extract_table7(
     current_sector = ""
 
     for page_index in table7_pages:
-        table = pdf.pages[page_index].extract_table()
+        page = pdf.pages[page_index]
+        state_by_serial = _table7_states_by_serial(page)
+        table = page.extract_table()
         if not table:
             log.warning("  Table 7 grid not detected on page %s", page_index + 1)
             continue
@@ -1013,26 +1346,55 @@ def extract_table7(
                 state_text = _normalise_table7_state(state)
                 # pdfplumber sometimes emits the second half of a wrapped state
                 # (for example "NICOBAR ISLANDS") as a separate row immediately
-                # after the first project row. Preserve it on that record and for
-                # subsequent blank state cells on the same state block.
+                # after the first project row. Prefer word-based markers when
+                # available; otherwise preserve the wrap on the prior record.
                 if not sl_no or not str(sl_no).strip():
-                    current_state = " ".join(part for part in (current_state, state_text) if part)
-                    if records:
-                        records[-1].state = current_state
+                    if not state_by_serial:
+                        current_state = " ".join(part for part in (current_state, state_text) if part)
+                        if records:
+                            records[-1].state = current_state
                     continue
-                current_state = state_text
+                if not state_by_serial:
+                    current_state = state_text
             if sector and sector.strip():
                 current_sector = " ".join(sector.split())
             if not sl_no or not re.fullmatch(r"\d+", sl_no.strip()):
                 continue
+
+            sl_value = int(sl_no)
+            if sl_value in state_by_serial:
+                current_state = state_by_serial[sl_value]
+            elif state and state.strip() and not state_by_serial:
+                current_state = _normalise_table7_state(state)
 
             project_name, agency, alternate_id = _parse_table7_project_cell(project_cell or "")
             original_doc, revised_doc = _table7_original_and_revised_dates(commissioning or "")
             original_cost, revised_cost = _table7_original_and_revised_costs(costs or "")
             expenditure_values = [parse_numeric((expenditure or "").strip())]
             progress_values = [parse_numeric((progress or "").strip())]
+
+            # Numeric OCMS-style codes without an N/O prefix still count as
+            # source identifiers for early Table 7 rows.
+            project_code = ""
+            legacy_code = ""
+            if alternate_id:
+                if re.fullmatch(r"[NO]\d{7,9}", alternate_id):
+                    legacy_code = alternate_id
+                elif re.fullmatch(r"\d{5,9}", alternate_id):
+                    project_code = alternate_id
+                else:
+                    legacy_code = alternate_id
+
+            identifier_status = "UNKNOWN"
+            if project_code:
+                identifier_status = "PRIMARY_IDENTIFIER"
+            elif legacy_code:
+                identifier_status = "ALTERNATE_IDENTIFIER"
+            else:
+                identifier_status = "SOURCE_MISSING_ID"
+
             record = ProjectRecord(
-                sl_no=int(sl_no),
+                sl_no=sl_value,
                 project_name=project_name,
                 agency=agency,
                 state=current_state,
@@ -1044,11 +1406,12 @@ def extract_table7(
                 revised_cost=revised_cost,
                 expenditure=expenditure_values[0] if expenditure_values else None,
                 physical_progress=progress_values[0] if progress_values else None,
-                legacy_ocms_code=alternate_id,
-                identifier_status="ALTERNATE_IDENTIFIER" if alternate_id else "SOURCE_MISSING_ID",
+                project_code=project_code,
+                legacy_ocms_code=legacy_code,
+                identifier_status=identifier_status,
                 source_page=page_index + 1,
                 raw_lines=[cell or "" for cell in row[:9]],
-                extraction_status="SUCCESS" if alternate_id else "PARTIAL",
+                extraction_status="SUCCESS" if (project_code or legacy_code) else "PARTIAL",
             )
             records.append(record)
 
@@ -1267,11 +1630,38 @@ def main():
             _print_extraction_summary(combined)
     
     elif args.all:
-        log.error(
-            "Full extraction is blocked: not every report format has a "
-            "validated handler and golden-record coverage. Run a per-PDF "
-            "pilot instead. See reports/format_pilot_report.txt."
-        )
+        # Keep monthly Flash Reports and the differently-scoped quarterly
+        # snapshot separate.  Extraction quality is carried forward in each
+        # row; this command intentionally does not claim every field is
+        # validated merely because a row was produced.
+        monthly_dfs: list[pd.DataFrame] = []
+        quarterly_dfs: list[pd.DataFrame] = []
+        failures: list[str] = []
+        for pdf_path in discover_pdfs():
+            df = extract_table6_from_pdf(pdf_path)
+            if df is None:
+                failures.append(pdf_path.name)
+                continue
+            if detect_report_format(pdf_path, df["report_month"].iloc[0]) == "QUARTERLY":
+                quarterly_dfs.append(df)
+            else:
+                monthly_dfs.append(df)
+
+        if monthly_dfs:
+            combined = pd.concat(monthly_dfs, ignore_index=True)
+            combined = combined.sort_values(["report_month", "sl_no"], kind="stable")
+            out = output_dir / "project_monthly.csv"
+            combined.to_csv(out, index=False, encoding="utf-8")
+            safe_print(f"Saved {len(combined)} monthly records to {out}")
+            _print_extraction_summary(combined)
+        if quarterly_dfs:
+            quarterly = pd.concat(quarterly_dfs, ignore_index=True)
+            quarterly = quarterly.sort_values(["report_month", "sl_no"], kind="stable")
+            out = output_dir / "project_quarterly.csv"
+            quarterly.to_csv(out, index=False, encoding="utf-8")
+            safe_print(f"Saved {len(quarterly)} quarterly records to {out}")
+        if failures:
+            log.error("Extraction failed for: %s", ", ".join(failures))
 
 
 def _print_extraction_summary(df: pd.DataFrame) -> None:

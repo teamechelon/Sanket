@@ -1,0 +1,212 @@
+SANKET — LONGITUDINAL INTEGRITY REPORT
+=======================================================
+Total project-month rows: 23503
+Unique primary project codes: 2286
+Safe source tracking keys (primary or legacy): 3959
+Rows without a primary project code: 5297
+Projects appearing in 1 month: 124
+Projects appearing in 2+ months: 3835
+Projects appearing in 6+ months: 1871
+Projects appearing in 12+ months: 567
+Duplicate primary-code + month rows: 0
+Progress values outside 0–100: 1
+Negative expenditures: 4; negative costs: 0
+Decreases in expenditure/progress/cost requiring review (not automatically errors): 938
+Projects that disappear and later reappear: 93 (flagged; not interpreted as completion)
+Malformed dates: 40
+
+Per-month coverage:
+  2025-04: rows=1670, unique primary IDs=17, coverage=1.02%
+  2025-05: rows=1637, unique primary IDs=15, coverage=0.92%
+  2025-06: rows=1595, unique primary IDs=15, coverage=0.94%
+  2025-07: rows=791, unique primary IDs=746, coverage=94.31%
+  2025-08: rows=800, unique primary IDs=751, coverage=93.88%
+  2025-09: rows=794, unique primary IDs=782, coverage=98.49%
+  2025-10: rows=820, unique primary IDs=808, coverage=98.54%
+  2025-11: rows=823, unique primary IDs=811, coverage=98.54%
+  2025-12: rows=1392, unique primary IDs=1315, coverage=94.47%
+  2026-01: rows=1702, unique primary IDs=1565, coverage=91.95%
+  2026-02: rows=1948, unique primary IDs=1922, coverage=98.67%
+  2026-03: rows=1941, unique primary IDs=1915, coverage=98.66%
+  2026-04: rows=1981, unique primary IDs=1968, coverage=99.34%
+  2026-05: rows=1987, unique primary IDs=1976, coverage=99.45%
+  2026-06: rows=1847, unique primary IDs=1836, coverage=99.40%
+  2026-07: rows=1775, unique primary IDs=1764, coverage=99.38%
+
+Longitudinal verification sample (source identifiers only):
+  P:400010 | Construction of Terminal Building & Associated works at Leh Airport, Ladakh | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=427.04, progress=67.0, original_cost=480.0, revised_cost=640.0
+    2025-08: expenditure=434.79, progress=71.0, original_cost=480.0, revised_cost=640.0
+    2025-09: expenditure=456.22, progress=71.0, original_cost=480.0, revised_cost=640.0
+    2025-10: expenditure=471.59, progress=77.0, original_cost=480.0, revised_cost=640.0
+    2025-11: expenditure=483.12, progress=78.0, original_cost=480.0, revised_cost=640.0
+    2025-12: expenditure=484.6, progress=78.0, original_cost=480.0, revised_cost=640.0
+    2026-01: expenditure=492.21, progress=78.0, original_cost=480.0, revised_cost=640.0
+    2026-02: expenditure=492.25, progress=78.0, original_cost=480.0, revised_cost=640.0
+    2026-03: expenditure=501.81, progress=78.7, original_cost=480.0, revised_cost=640.0
+    2026-04: expenditure=501.81, progress=78.9, original_cost=480.0, revised_cost=640.0
+    2026-05: expenditure=506.13, progress=79.2, original_cost=480.0, revised_cost=640.0
+    2026-06: expenditure=509.41, progress=83.4, original_cost=480.0, revised_cost=640.0
+    2026-07: expenditure=512.55, progress=88.0, original_cost=480.0, revised_cost=640.0
+  P:400012 | Kandla Gorakhpur LPG Pipeline Multi-States (Gujarat, Madhya | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=7598.13, progress=92.0, original_cost=10088.0, revised_cost=nan
+    2025-08: expenditure=7672.23, progress=92.0, original_cost=10088.0, revised_cost=nan
+    2025-09: expenditure=7979.86, progress=93.0, original_cost=10088.0, revised_cost=nan
+    2025-10: expenditure=8059.53, progress=93.0, original_cost=10088.0, revised_cost=nan
+    2025-11: expenditure=8135.69, progress=93.0, original_cost=10088.0, revised_cost=nan
+    2025-12: expenditure=8217.69, progress=94.0, original_cost=10088.0, revised_cost=nan
+    2026-01: expenditure=8056.6, progress=94.0, original_cost=10088.0, revised_cost=nan
+    2026-02: expenditure=8130.19, progress=94.0, original_cost=10088.0, revised_cost=nan
+    2026-03: expenditure=8213.84, progress=94.9, original_cost=10088.0, revised_cost=nan
+    2026-04: expenditure=8529.58, progress=95.2, original_cost=10088.0, revised_cost=nan
+    2026-05: expenditure=8585.71, progress=95.4, original_cost=10088.0, revised_cost=nan
+    2026-06: expenditure=8672.35, progress=95.7, original_cost=10088.0, revised_cost=nan
+    2026-07: expenditure=8504.21, progress=96.0, original_cost=10088.0, revised_cost=10088.0
+  P:400018 | HURA C OCP | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=450.47, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2025-08: expenditure=450.76, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2025-09: expenditure=451.61, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2025-10: expenditure=451.62, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2025-11: expenditure=451.93, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2025-12: expenditure=453.0, progress=62.0, original_cost=859.41, revised_cost=859.41
+    2026-01: expenditure=454.68, progress=63.0, original_cost=859.41, revised_cost=859.41
+    2026-02: expenditure=455.31, progress=63.0, original_cost=859.41, revised_cost=859.41
+    2026-03: expenditure=455.31, progress=63.22, original_cost=859.41, revised_cost=859.41
+    2026-04: expenditure=455.25, progress=63.22, original_cost=859.41, revised_cost=859.41
+    2026-05: expenditure=455.25, progress=63.22, original_cost=859.41, revised_cost=859.41
+    2026-06: expenditure=455.95, progress=63.3, original_cost=859.41, revised_cost=859.41
+    2026-07: expenditure=455.95, progress=63.3, original_cost=859.41, revised_cost=859.41
+  P:400022 | Taranga Hill-Abu Road via Ambaji Multi-States | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=1891.9, progress=14.0, original_cost=2798.0, revised_cost=2798.0
+    2025-08: expenditure=1915.38, progress=15.0, original_cost=2798.0, revised_cost=2798.0
+    2025-09: expenditure=1931.66, progress=16.0, original_cost=2798.0, revised_cost=2798.0
+    2025-10: expenditure=2014.6, progress=17.0, original_cost=2798.0, revised_cost=2798.0
+    2025-11: expenditure=2037.04, progress=17.0, original_cost=2798.0, revised_cost=2798.0
+    2025-12: expenditure=2098.09, progress=17.0, original_cost=2798.0, revised_cost=2798.0
+    2026-01: expenditure=2181.96, progress=20.0, original_cost=2798.0, revised_cost=2798.0
+    2026-02: expenditure=2311.66, progress=30.0, original_cost=2798.0, revised_cost=2798.0
+    2026-03: expenditure=2321.81, progress=30.0, original_cost=2798.0, revised_cost=2798.0
+    2026-04: expenditure=2439.32, progress=37.0, original_cost=2798.0, revised_cost=2798.0
+    2026-05: expenditure=2569.32, progress=37.0, original_cost=2798.0, revised_cost=2798.0
+    2026-06: expenditure=2616.51, progress=45.0, original_cost=2798.0, revised_cost=2798.0
+    2026-07: expenditure=1953.58, progress=48.0, original_cost=2798.0, revised_cost=3198.16
+  P:400033 | BHATADI EXPANSION OC | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=20.52, progress=26.0, original_cost=580.61, revised_cost=580.61
+    2025-08: expenditure=69.73, progress=26.0, original_cost=580.61, revised_cost=580.61
+    2025-09: expenditure=69.77, progress=28.0, original_cost=580.61, revised_cost=580.61
+    2025-10: expenditure=73.77, progress=28.0, original_cost=580.61, revised_cost=580.61
+    2025-11: expenditure=80.95, progress=31.0, original_cost=580.61, revised_cost=580.61
+    2025-12: expenditure=84.73, progress=31.0, original_cost=580.61, revised_cost=580.61
+    2026-01: expenditure=86.77, progress=33.0, original_cost=580.61, revised_cost=580.61
+    2026-02: expenditure=105.46, progress=33.0, original_cost=580.61, revised_cost=580.61
+    2026-03: expenditure=111.65, progress=33.15, original_cost=580.61, revised_cost=580.61
+    2026-04: expenditure=112.17, progress=33.91, original_cost=580.61, revised_cost=580.61
+    2026-05: expenditure=112.17, progress=33.91, original_cost=580.61, revised_cost=580.61
+    2026-06: expenditure=112.17, progress=33.91, original_cost=580.61, revised_cost=580.61
+    2026-07: expenditure=112.17, progress=34.25, original_cost=580.61, revised_cost=580.61
+  P:400043 | Laying of POL Pipelines in Common Corridor for proposed grass root terminal at Vallur [Chennai] | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=297.77, progress=62.0, original_cost=829.0, revised_cost=829.0
+    2025-08: expenditure=301.71, progress=63.0, original_cost=829.0, revised_cost=829.0
+    2025-09: expenditure=320.63, progress=66.0, original_cost=829.0, revised_cost=829.0
+    2025-10: expenditure=327.86, progress=67.0, original_cost=829.0, revised_cost=829.0
+    2025-11: expenditure=338.15, progress=67.0, original_cost=829.0, revised_cost=829.0
+    2025-12: expenditure=339.98, progress=69.0, original_cost=829.0, revised_cost=829.0
+    2026-01: expenditure=331.77, progress=71.0, original_cost=829.0, revised_cost=829.0
+    2026-02: expenditure=335.37, progress=74.0, original_cost=829.0, revised_cost=829.0
+    2026-03: expenditure=350.21, progress=75.3, original_cost=829.0, revised_cost=829.0
+    2026-04: expenditure=350.21, progress=76.2, original_cost=829.0, revised_cost=829.0
+    2026-05: expenditure=378.18, progress=78.0, original_cost=829.0, revised_cost=829.0
+    2026-06: expenditure=382.96, progress=79.6, original_cost=829.0, revised_cost=829.0
+    2026-07: expenditure=382.47, progress=81.0, original_cost=829.0, revised_cost=829.0
+  P:400045 | Proposed 6 nos Road Over Bridge [ROB] at different locations under MCL Talcher Under Deposit Scheme. | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2025-08: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2025-09: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2025-10: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2025-11: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2025-12: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-01: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-02: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-03: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-04: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-05: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-06: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+    2026-07: expenditure=69.85, progress=82.0, original_cost=168.32, revised_cost=168.32
+  P:400073 | KONAR EXPANSION OCP | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=426.16, progress=46.0, original_cost=799.34, revised_cost=799.34
+    2025-08: expenditure=424.01, progress=45.0, original_cost=799.34, revised_cost=799.34
+    2025-09: expenditure=429.42, progress=45.0, original_cost=799.34, revised_cost=799.34
+    2025-10: expenditure=429.65, progress=45.0, original_cost=799.34, revised_cost=799.34
+    2025-11: expenditure=429.65, progress=45.0, original_cost=799.34, revised_cost=799.34
+    2025-12: expenditure=429.33, progress=45.0, original_cost=799.34, revised_cost=799.34
+    2026-01: expenditure=429.61, progress=46.0, original_cost=799.34, revised_cost=799.34
+    2026-02: expenditure=429.94, progress=46.0, original_cost=799.34, revised_cost=799.34
+    2026-03: expenditure=429.61, progress=46.25, original_cost=799.34, revised_cost=799.34
+    2026-04: expenditure=433.64, progress=53.47, original_cost=799.34, revised_cost=799.34
+    2026-05: expenditure=433.64, progress=46.25, original_cost=674.65, revised_cost=674.65
+    2026-06: expenditure=172.3, progress=50.78, original_cost=674.65, revised_cost=674.65
+    2026-07: expenditure=175.59, progress=50.78, original_cost=674.65, revised_cost=674.65
+  P:400074 | KARO EXPANSION OCP | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=251.79, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2025-08: expenditure=269.18, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2025-09: expenditure=269.18, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2025-10: expenditure=269.26, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2025-11: expenditure=269.26, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2025-12: expenditure=269.26, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2026-01: expenditure=278.34, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2026-02: expenditure=278.34, progress=22.0, original_cost=908.47, revised_cost=908.47
+    2026-03: expenditure=283.86, progress=22.38, original_cost=908.47, revised_cost=908.47
+    2026-04: expenditure=289.45, progress=23.57, original_cost=908.47, revised_cost=908.47
+    2026-05: expenditure=289.45, progress=22.38, original_cost=849.31, revised_cost=849.31
+    2026-06: expenditure=208.28, progress=23.28, original_cost=849.31, revised_cost=849.31
+    2026-07: expenditure=237.61, progress=23.28, original_cost=849.31, revised_cost=849.31
+  P:400087 | Redevelopment of Sobhasan Complex | months=13 | 2025-07 to 2026-07
+    2025-07: expenditure=765.43, progress=73.0, original_cost=885.63, revised_cost=1286.67
+    2025-08: expenditure=789.49, progress=78.0, original_cost=885.63, revised_cost=1286.67
+    2025-09: expenditure=830.89, progress=79.0, original_cost=885.63, revised_cost=1286.67
+    2025-10: expenditure=876.53, progress=79.0, original_cost=885.63, revised_cost=1286.67
+    2025-11: expenditure=876.84, progress=80.0, original_cost=885.63, revised_cost=1286.67
+    2025-12: expenditure=911.57, progress=85.0, original_cost=885.63, revised_cost=1286.67
+    2026-01: expenditure=934.83, progress=85.0, original_cost=885.63, revised_cost=1347.61
+    2026-02: expenditure=944.04, progress=85.0, original_cost=885.63, revised_cost=1347.61
+    2026-03: expenditure=944.4, progress=86.7, original_cost=885.63, revised_cost=1347.61
+    2026-04: expenditure=990.06, progress=87.5, original_cost=885.63, revised_cost=1347.61
+    2026-05: expenditure=1022.45, progress=89.2, original_cost=885.63, revised_cost=1347.61
+    2026-06: expenditure=1037.37, progress=94.3, original_cost=885.63, revised_cost=1347.61
+    2026-07: expenditure=1062.32, progress=95.6, original_cost=885.63, revised_cost=1347.61
+
+Disappearance/reappearance flags (sample; not completion determinations):
+  P:400013: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:400023: 2025-07–2026-07; missing 2025-09
+  P:400062: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03
+  P:400120: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:400168: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:400188: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03
+  P:400231: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:400235: 2025-07–2025-12; missing 2025-08
+  P:400261: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:602098: 2025-07–2026-07; missing 2025-08
+  P:602961: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:604791: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:604795: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:604859: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01;2026-02;2026-03
+  P:608302: 2025-07–2025-10; missing 2025-08
+  P:611047: 2025-07–2026-07; missing 2025-08
+  P:611509: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:611615: 2025-07–2025-11; missing 2025-09
+  P:611752: 2025-07–2026-07; missing 2026-06
+  P:611930: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:612142: 2025-07–2026-07; missing 2025-09;2025-10;2025-11;2025-12;2026-01
+  P:616227: 2025-07–2026-07; missing 2025-09;2025-10
+  P:616586: 2025-07–2026-07; missing 2025-09
+  P:616587: 2025-07–2026-06; missing 2025-09
+  P:616588: 2025-07–2026-07; missing 2025-09
+
+Negative-expenditure records (retained for source review):
+  2026-01 sl_no=1001 id=P:618930 expenditure=-4.88 source=FlashReport_January_2026.pdf:p100
+  2026-01 sl_no=1113 id=P:619065 expenditure=-54.57 source=FlashReport_January_2026.pdf:p106
+  2026-01 sl_no=1125 id=P:619121 expenditure=-5.15 source=FlashReport_January_2026.pdf:p106
+  2026-01 sl_no=1478 id=P:619113 expenditure=-0.08 source=FlashReport_January_2026.pdf:p123
+
+Out-of-range progress records (retained for source review):
+  2025-05 sl_no=1632 id=L:N12000139 progress=202.0 source=FR_May2025.pdf:p206

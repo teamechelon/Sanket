@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": null,
+    "legacy_ocms_code": "N04000073",
+    "project_name_contains": "CONSTRUCTION OF NEW INTEGRATED TERMINAL ",
+    "agency": "AAI",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 417.23,
+    "revised_cost": 707.73,
+    "expenditure": 698.8,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": null,
+    "legacy_ocms_code": "N22000584",
+    "project_name_contains": "LUDHIANA KILA RAIPUR (19 KMS) WITH FREIG",
+    "agency": "NR",
+    "state": "Andaman and Nicobar Islands",
+    "original_cost": 235.72,
+    "revised_cost": null,
+    "expenditure": 59.78,
+    "physical_progress": 55.0
+  },
+  {
+    "sl_no": 11,
+    "project_code": null,
+    "legacy_ocms_code": "N04000103",
+    "project_name_contains": "RAJAHMUNDRY AIRPORT: CONSTRUCTION OF NEW",
+    "agency": "AAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 347.15,
+    "revised_cost": 347.15,
+    "expenditure": 76.86,
+    "physical_progress": 46.0
+  },
+  {
+    "sl_no": 50,
+    "project_code": null,
+    "legacy_ocms_code": "N24001842",
+    "project_name_contains": "6L ACCESS CONTROLLED GREENFIELD HIGHWAY ",
+    "agency": "NHAI",
+    "state": "Andhra Pradesh",
+    "original_cost": 750.81,
+    "revised_cost": null,
+    "expenditure": 145.15,
+    "physical_progress": 50.78
+  },
+  {
+    "sl_no": 200,
+    "project_code": null,
+    "legacy_ocms_code": "N16000524",
+    "project_name_contains": "CITY GAS DISTRIBUTION PROJECTS AT DARBHA",
+    "agency": "BPCL",
+    "state": "Bihar",
+    "original_cost": 3638.0,
+    "revised_cost": null,
+    "expenditure": 390.34,
+    "physical_progress": 20.8
+  },
+  {
+    "sl_no": 500,
+    "project_code": null,
+    "legacy_ocms_code": "N21000029",
+    "project_name_contains": "CONSTRUCTION OF AIIMS AT JAMMU VIJAYPUR,",
+    "agency": "CPWD FOR HEALTH",
+    "state": "Jammu and Kashmir",
+    "original_cost": 1404.0,
+    "revised_cost": 1642.0,
+    "expenditure": 1461.68,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 800,
+    "project_code": null,
+    "legacy_ocms_code": "N06000282",
+    "project_name_contains": "BALLARPUR NORTHWEST OC MINE",
+    "agency": "WCL",
+    "state": "Maharashtra",
+    "original_cost": 360.18,
+    "revised_cost": null,
+    "expenditure": 0.0,
+    "physical_progress": null
+  },
+  {
+    "sl_no": 1200,
+    "project_code": null,
+    "legacy_ocms_code": "N18000387",
+    "project_name_contains": "TS FOR EVACUATION OF POWER FROM RAJASTHA",
+    "agency": "PGCIL",
+    "state": "Rajasthan",
+    "original_cost": 2056.0,
+    "revised_cost": null,
+    "expenditure": 1318.23,
+    "physical_progress": 53.3
+  },
+  {
+    "sl_no": 1500,
+    "project_code": null,
+    "legacy_ocms_code": "N24002241",
+    "project_name_contains": "IMPROVEMENT AND UP-GRADATION OF NH-227B ",
+    "agency": "MoRTH",
+    "state": "Uttar Pradesh",
+    "original_cost": 587.97,
+    "revised_cost": null,
+    "expenditure": 107.68,
+    "physical_progress": 3.0
+  },
+  {
+    "sl_no": 1595,
+    "project_code": null,
+    "legacy_ocms_code": "N30000042",
+    "project_name_contains": "INTERCEPTION AND DIVERSION WITH STP AT H",
+    "agency": "KMDA",
+    "state": "West Bengal",
+    "original_cost": 160.0,
+    "revised_cost": 154.73,
+    "expenditure": 93.32,
+    "physical_progress": 92.0
+  }
+]

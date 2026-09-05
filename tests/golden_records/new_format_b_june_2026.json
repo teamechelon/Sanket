@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": "612786",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Domestic Terminal Bu",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 265.91,
+    "revised_cost": 265.91,
+    "expenditure": 153.62,
+    "physical_progress": 75.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": "701107",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Integrated Terminal ",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 611.8,
+    "revised_cost": 611.8,
+    "expenditure": 527.74,
+    "physical_progress": 88.25
+  },
+  {
+    "sl_no": 3,
+    "project_code": "701121",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Domestic Terminal Bu",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 347.15,
+    "revised_cost": 347.15,
+    "expenditure": 189.48,
+    "physical_progress": 94.5
+  },
+  {
+    "sl_no": 4,
+    "project_code": "706724",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Guwahati Airport New Integrated Terminal",
+    "agency": "Adani Airport Holdings Limited",
+    "state": "Assam",
+    "original_cost": 1712.0,
+    "revised_cost": 2520.0,
+    "expenditure": 2660.15,
+    "physical_progress": 99.3
+  },
+  {
+    "sl_no": 5,
+    "project_code": "612183",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Development of New Civil Enclave at Biht",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Bihar",
+    "original_cost": 1413.0,
+    "revised_cost": 1413.0,
+    "expenditure": 9.56,
+    "physical_progress": 2.86
+  },
+  {
+    "sl_no": 920,
+    "project_code": "618251",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Improvement and Up gradation to four lan",
+    "agency": "MoRTH",
+    "state": "Bihar",
+    "original_cost": 1661.25,
+    "revised_cost": 1661.25,
+    "expenditure": 0.83,
+    "physical_progress": 7.89
+  },
+  {
+    "sl_no": 921,
+    "project_code": "618569",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Balance work - WB-10 Gandak Bridge Km 40",
+    "agency": "NHAI",
+    "state": "Bihar",
+    "original_cost": 210.05,
+    "revised_cost": 358.3,
+    "expenditure": 181.96,
+    "physical_progress": 64.05
+  },
+  {
+    "sl_no": 922,
+    "project_code": "618571",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Permanent rectification of 3 nos. of bla",
+    "agency": "NHAI",
+    "state": "Bihar",
+    "original_cost": 227.25,
+    "revised_cost": 321.23,
+    "expenditure": 233.7,
+    "physical_progress": 83.0
+  },
+  {
+    "sl_no": 923,
+    "project_code": "618725",
+    "legacy_ocms_code": null,
+    "project_name_contains": "6L Greenfield Varanasi-Ranchi-Kolkata Hi",
+    "agency": "NHAI",
+    "state": "Bihar",
+    "original_cost": 1915.99,
+    "revised_cost": 1920.21,
+    "expenditure": 405.1,
+    "physical_progress": 23.77
+  },
+  {
+    "sl_no": 924,
+    "project_code": "618726",
+    "legacy_ocms_code": null,
+    "project_name_contains": "6L Greenfield Varanasi-Ranchi-Kolkata Hi",
+    "agency": "NHAI",
+    "state": "Bihar",
+    "original_cost": 1240.93,
+    "revised_cost": 1341.52,
+    "expenditure": 244.38,
+    "physical_progress": 25.37
+  }
+]

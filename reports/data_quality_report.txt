@@ -1,0 +1,69 @@
+SANKET — DATA QUALITY REPORT
+=======================================================
+A. Coverage
+  23503 project-month rows across 16 monthly reports.
+B. Missingness
+  Identifier classification: {'PRIMARY_ID_PRESENT': 18206, 'ALTERNATE_ID_AVAILABLE': 4855, 'EXTRACTION_FAILURE': 222, 'UNRESOLVED': 220}
+  Rows without primary code: 5297
+
+Pilot project-code investigation
+  The reported 82.9% pilot coverage is not reproduced after source-aware wrapped-code handling: the July 2025 + March 2026 rerun has 2661/2732 (97.40%) primary IDs.
+  Source inspection of March rows 17 and 168–170 confirmed that primary codes were present in the PDF but shared wrapped state/date lines; those were extraction failures, not source-missing IDs. The parser now consumes those lines with the current serial row.
+  No project_name-derived identifiers were created. A legacy OCMS code is used only as an explicitly labelled alternate source identifier.
+  The previously reported two March duplicate codes are not reproduced in the current source-token parse (0 duplicate primary-code + month rows); they are treated as a prior parser artifact, not evidence of legitimate duplicate projects.
+  Remaining missing-primary records are classified per row as ALTERNATE_ID_AVAILABLE, EXTRACTION_FAILURE, SOURCE_MISSING_ID, or UNRESOLVED in project_monthly.csv.
+C. Duplicate analysis
+  Duplicate primary-code + report-month rows: 0. These are retained and flagged; not deduplicated.
+D. Longitudinal coverage
+  2+ months: 3835; 6+ months: 1871; 12+ months: 567; disappearance/reappearance flags: 93.
+E. Identifier quality
+  No project name was used as a unique key. identity_key uses a primary code when present, otherwise a source-provided legacy OCMS code.
+F. Numerical validity
+  Out-of-range progress: 1; negative expenditures: 4; negative costs: 0; decreases requiring review: 938; malformed dates: 40.
+G. Cross-source validation
+  Status counts: {'UNAVAILABLE_TO_VALIDATE': 30, 'PASS': 27, 'WARNING': 18, 'EXPECTED_DIFFERENCE': 5}
+H. Known extraction failures
+  Missing-primary classes include 222 extraction failures and 220 unresolved rows. Monthly values are preserved rather than repaired.
+I. ML readiness
+  NOT READY. Repeated observations exist, but defensible forward labels for schedule delay and cost overrun are not established from these snapshots.
+
+ML readiness gate
+1. Repeated observations: yes (3835 source-keyed projects have 2+ months).
+2. Trajectories: partially, only for source-keyed records; corrections/decreases require review.
+3. Historical prediction cutoff: technically possible by report_month, once labels are defined.
+4. Future schedule-delay label: not defensible yet; no validated actual-completion/outcome field.
+5. Future cost-overrun label: not defensible yet; a target policy and event timing are missing.
+6. Required targets: unavailable/undefined.
+7. Positive cases: unavailable until target definitions are established.
+8. Projects with 2+ months: 96.87% of safe source tracking keys.
+9. Leakage exclusions: revised_cost when forecasting later escalation; revised_doc when forecasting delay before revision; all future expenditure; all future physical_progress; fields from after the cutoff.
+10. Minimum viable modelling dataset: source-keyed project histories with >=3 observations before a fixed cutoff plus outcome dates/cost events recorded after that cutoff, verified target timing, and enough positive outcomes.
+
+Master resolution rule
+  Stable master values are the most frequent nonblank source values; ties select the latest observation. Conflicting monthly values remain untouched in project_monthly.csv.
+  Conflicting master fields (sample):
+    L:N04000073: state:2
+    L:N04000077: sector:2
+    L:N04000079: state:2, sector:2
+    L:N04000085: state:2
+    L:N04000087: state:2
+    L:N04000088: sector:2
+    L:N04000091: state:2, sector:2
+    L:N04000092: state:2
+    L:N04000093: sector:2
+    L:N04000094: sector:2
+    L:N04000096: state:2, sector:2
+    L:N04000098: state:2
+    L:N04000099: sector:2
+    L:N04000102: sector:2
+    L:N04000103: state:2, sector:2
+    L:N04000106: state:2, sector:2
+    L:N04000107: state:2
+    L:N04000113: sector:2
+    L:N04000114: sector:2
+    L:N06000045: state:2, sector:2
+    L:N06000087: sector:2
+    L:N06000096: sector:2
+    L:N06000098: sector:2
+    L:N06000104: state:2, sector:2
+    L:N06000123: state:2, sector:2

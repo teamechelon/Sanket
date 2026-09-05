@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": null,
+    "legacy_ocms_code": "N04000073",
+    "project_name_contains": "CONSTRUCTION OF NEW INTEGRATED TERMINAL ",
+    "agency": "AAI",
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "original_cost": 417.23,
+    "revised_cost": 707.73,
+    "expenditure": 698.8,
+    "physical_progress": 100.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": null,
+    "legacy_ocms_code": "N22000584",
+    "project_name_contains": "LUDHIANA KILA RAIPUR (19 KMS) WITH FREIG",
+    "agency": "NR",
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "original_cost": 235.72,
+    "revised_cost": null,
+    "expenditure": 55.79,
+    "physical_progress": 55.0
+  },
+  {
+    "sl_no": 11,
+    "project_code": null,
+    "legacy_ocms_code": "N04000091",
+    "project_name_contains": "C/O OF NITB AND ASSOCIATED WORK AT VIJAY",
+    "agency": "AAI",
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "original_cost": 611.8,
+    "revised_cost": null,
+    "expenditure": 444.75,
+    "physical_progress": 74.0
+  },
+  {
+    "sl_no": 50,
+    "project_code": null,
+    "legacy_ocms_code": "N24001820",
+    "project_name_contains": "6L OF VARADHARAJULA TO KUMARAJAPET FROM ",
+    "agency": "NHAI",
+    "state": "ANDAMAN AND NICOBAR ISLANDS",
+    "original_cost": 1484.83,
+    "revised_cost": null,
+    "expenditure": 1523.09,
+    "physical_progress": 91.85
+  },
+  {
+    "sl_no": 200,
+    "project_code": null,
+    "legacy_ocms_code": "N16000453",
+    "project_name_contains": "INSTALLATION OF BITUMEN MANUFACTURING UN",
+    "agency": "IOCL",
+    "state": "Bihar",
+    "original_cost": 389.0,
+    "revised_cost": null,
+    "expenditure": 36.61,
+    "physical_progress": 33.7
+  },
+  {
+    "sl_no": 500,
+    "project_code": null,
+    "legacy_ocms_code": "N04000107",
+    "project_name_contains": "JAMMU - CONSTRUCTION OF NEW CIVIL ENCLAV",
+    "agency": "AAI",
+    "state": "Himachal Pradesh",
+    "original_cost": 861.37,
+    "revised_cost": null,
+    "expenditure": 144.65,
+    "physical_progress": 30.0
+  },
+  {
+    "sl_no": 800,
+    "project_code": null,
+    "legacy_ocms_code": "N06000254",
+    "project_name_contains": "BHATADI EXPANSION OC",
+    "agency": "WCL",
+    "state": "Ladakh",
+    "original_cost": 580.6,
+    "revised_cost": null,
+    "expenditure": 61.33,
+    "physical_progress": 17.0
+  },
+  {
+    "sl_no": 1200,
+    "project_code": null,
+    "legacy_ocms_code": "N24001638",
+    "project_name_contains": "4L GREENFIELD A. MALOUT BYPASS FROM CH. ",
+    "agency": "NHAI",
+    "state": "Punjab",
+    "original_cost": 646.42,
+    "revised_cost": 646.42,
+    "expenditure": 481.67,
+    "physical_progress": 96.0
+  },
+  {
+    "sl_no": 1600,
+    "project_code": null,
+    "legacy_ocms_code": "N10000015",
+    "project_name_contains": "CONSTRUCTION OF BASEMENTG FLOOR10 STORIE",
+    "agency": "CPWD",
+    "state": "West Bengal",
+    "original_cost": 255.37,
+    "revised_cost": null,
+    "expenditure": 68.66,
+    "physical_progress": 38.0
+  },
+  {
+    "sl_no": 1637,
+    "project_code": null,
+    "legacy_ocms_code": "N30000042",
+    "project_name_contains": "INTERCEPTION AND DIVERSION WITH STP AT H",
+    "agency": "KMDA",
+    "state": "West Bengal",
+    "original_cost": 160.0,
+    "revised_cost": 154.73,
+    "expenditure": 91.87,
+    "physical_progress": 92.0
+  }
+]

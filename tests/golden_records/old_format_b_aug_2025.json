@@ -1,0 +1,122 @@
+[
+  {
+    "sl_no": 1,
+    "project_code": "612786",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Domestic Terminal Bu",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 265.91,
+    "revised_cost": 265.91,
+    "expenditure": 50.06,
+    "physical_progress": 34.0
+  },
+  {
+    "sl_no": 2,
+    "project_code": "701107",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Integrated Terminal ",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 611.8,
+    "revised_cost": 611.8,
+    "expenditure": 473.27,
+    "physical_progress": 79.0
+  },
+  {
+    "sl_no": 3,
+    "project_code": "701121",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Domestic Terminal Bu",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Andhra Pradesh",
+    "original_cost": 347.15,
+    "revised_cost": 347.15,
+    "expenditure": 90.56,
+    "physical_progress": 51.0
+  },
+  {
+    "sl_no": 4,
+    "project_code": "706724",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Guwahati Airport New Integrated Terminal",
+    "agency": "Adani Airport Holdings Limited",
+    "state": "Assam",
+    "original_cost": 1712.0,
+    "revised_cost": 1712.0,
+    "expenditure": 2335.44,
+    "physical_progress": 91.0
+  },
+  {
+    "sl_no": 5,
+    "project_code": "612183",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Development of New Civil Enclave at Biht",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Bihar",
+    "original_cost": 1413.0,
+    "revised_cost": 1413.0,
+    "expenditure": 0.0,
+    "physical_progress": 1.0
+  },
+  {
+    "sl_no": 6,
+    "project_code": "612194",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Development of New Civil Enclave and ass",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Bihar",
+    "original_cost": 911.66,
+    "revised_cost": 911.66,
+    "expenditure": 160.2,
+    "physical_progress": 26.0
+  },
+  {
+    "sl_no": 7,
+    "project_code": "701101",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of New Domestic Terminal Bu",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Bihar",
+    "original_cost": 1216.9,
+    "revised_cost": 1216.9,
+    "expenditure": 1096.51,
+    "physical_progress": 94.0
+  },
+  {
+    "sl_no": 8,
+    "project_code": "701105",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Goa Airport Terminal Building Extension ",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Goa",
+    "original_cost": 255.69,
+    "revised_cost": 255.69,
+    "expenditure": 130.0,
+    "physical_progress": 90.0
+  },
+  {
+    "sl_no": 9,
+    "project_code": "701126",
+    "legacy_ocms_code": null,
+    "project_name_contains": "Development of Dholera International Gre",
+    "agency": "Airport Authority of India [AAI]",
+    "state": "Gujarat",
+    "original_cost": 1305.0,
+    "revised_cost": 1551.0,
+    "expenditure": 1348.78,
+    "physical_progress": 64.0
+  },
+  {
+    "sl_no": 10,
+    "project_code": null,
+    "legacy_ocms_code": null,
+    "project_name_contains": "Construction of NTB complex including ap",
+    "agency": null,
+    "state": null,
+    "original_cost": 861.37,
+    "revised_cost": null,
+    "expenditure": 177.69,
+    "physical_progress": 35.0
+  }
+]

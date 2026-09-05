@@ -1,0 +1,81 @@
+report_month,metric,pdf_value,aggregate_value,pct_difference,status,note
+2025-04,original_cost,2793673.76,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-04,revised_cost,894145.9099999999,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-04,expenditure,1681479.9500000002,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-04,state_project_count,1670.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2025-04,sector_project_count,1670.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate
+2025-05,original_cost,2719583.76,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-05,revised_cost,863813.71,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-05,expenditure,1623159.4300000002,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-05,state_project_count,1637.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2025-05,sector_project_count,1637.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate
+2025-06,original_cost,2685568.0700000003,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-06,revised_cost,797659.49,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-06,expenditure,1630750.12,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2025-06,state_project_count,1595.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2025-06,sector_project_count,1595.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate
+2025-07,original_cost,2386335.2800000003,2375332.0,0.46323124514805764,PASS,national cost overview
+2025-07,expenditure,1510700.4,1537609.0,1.7500287784475828,EXPECTED_DIFFERENCE,national cost overview
+2025-07,revised_cost,2866636.7299999995,2907548.0,1.4070711816279726,EXPECTED_DIFFERENCE,national cost overview; blank row revisions treated as original cost for comparison only
+2025-07,state_project_count,791.0,964.0,17.946058091286307,WARNING,sum of state aggregate counts; may be non-additive
+2025-07,sector_project_count,791.0,800.0,1.125,EXPECTED_DIFFERENCE,sum of sector aggregate counts; may be non-additive
+2025-08,original_cost,2375332.37,2375332.0,1.557676990466001e-05,PASS,national cost overview
+2025-08,expenditure,1537609.41,1537609.0,2.6664776280327506e-05,PASS,national cost overview
+2025-08,revised_cost,2865026.38,2907548.0,1.462456337780154,EXPECTED_DIFFERENCE,national cost overview; blank row revisions treated as original cost for comparison only
+2025-08,state_project_count,800.0,964.0,17.012448132780083,WARNING,sum of state aggregate counts; may be non-additive
+2025-08,sector_project_count,800.0,800.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2025-09,original_cost,2533121.98,2533122.0,7.895395491660668e-07,PASS,national cost overview
+2025-09,expenditure,1585711.8400000003,1585712.0,1.009010461441613e-05,PASS,national cost overview
+2025-09,revised_cost,2773892.46,3063324.0,9.44828362915578,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2025-09,state_project_count,794.0,961.0,17.377731529656607,WARNING,sum of state aggregate counts; may be non-additive
+2025-09,sector_project_count,794.0,794.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2025-10,original_cost,2552631.73,2552632.0,1.057731784364634e-05,PASS,national cost overview
+2025-10,expenditure,1611187.8,1611188.0,1.2413200691256009e-05,PASS,national cost overview
+2025-10,revised_cost,2794100.47,3083532.0,9.38636375429215,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2025-10,state_project_count,820.0,990.0,17.17171717171717,WARNING,sum of state aggregate counts; may be non-additive
+2025-10,sector_project_count,820.0,820.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2025-11,original_cost,2418198.3,2418198.0,1.2405932012752283e-05,PASS,national cost overview
+2025-11,expenditure,1574941.92,1574942.0,5.0795521406188805e-06,PASS,national cost overview
+2025-11,revised_cost,2666693.21,2954787.0,9.750069632768794,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2025-11,state_project_count,823.0,996.0,17.369477911646587,WARNING,sum of state aggregate counts; may be non-additive
+2025-11,sector_project_count,823.0,823.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2025-12,original_cost,2968247.55,2968248.0,1.5160458296822386e-05,PASS,national cost overview
+2025-12,expenditure,1901162.6,1901163.0,2.1039753030480172e-05,PASS,national cost overview
+2025-12,revised_cost,3222826.2399999998,3510920.0,8.205648661889198,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2025-12,state_project_count,1392.0,1597.0,12.836568566061365,WARNING,sum of state aggregate counts; may be non-additive
+2025-12,sector_project_count,1392.0,1392.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2026-01,original_cost,3371816.32,3371816.0,9.490434823025988e-06,PASS,national cost overview
+2026-01,expenditure,2001892.9100000001,2001893.0,4.4957447701244965e-06,PASS,national cost overview
+2026-01,revised_cost,3636449.9,3924534.0,7.340593813176293,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2026-01,state_project_count,1702.0,1932.0,11.904761904761903,WARNING,sum of state aggregate counts; may be non-additive
+2026-01,sector_project_count,1702.0,1702.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2026-02,original_cost,3632088.3200000003,3632088.0,8.810359228576598e-06,PASS,national cost overview
+2026-02,expenditure,1971455.8200000003,1971456.0,9.130307737123059e-06,PASS,national cost overview
+2026-02,revised_cost,3910599.83,4198684.0,6.8612967777522655,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2026-02,state_project_count,1948.0,2198.0,11.373976342129207,WARNING,sum of state aggregate counts; may be non-additive
+2026-02,sector_project_count,1948.0,1948.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2026-03,original_cost,3588861.1700000004,3588861.0,4.736878925964407e-06,PASS,national cost overview
+2026-03,expenditure,1992963.63,1992964.0,1.856531277593367e-05,PASS,national cost overview
+2026-03,revised_cost,3862074.59,4150159.0,6.941527059565673,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2026-03,state_project_count,1941.0,2182.0,11.044912923923006,WARNING,sum of state aggregate counts; may be non-additive
+2026-03,sector_project_count,1941.0,1941.0,0.0,PASS,sum of sector aggregate counts; may be non-additive
+2026-04,original_cost,3712662.01,3712662.0,2.693485099500731e-07,PASS,national cost overview
+2026-04,expenditure,2036107.4899999998,2036107.0,2.406553288986562e-05,PASS,national cost overview
+2026-04,revised_cost,3990317.9100000006,4278402.0,6.733450713607543,WARNING,national cost overview; blank row revisions treated as original cost for comparison only
+2026-04,state_project_count,1981.0,2224.0,10.926258992805755,WARNING,sum of state aggregate counts; may be non-additive
+2026-04,sector_project_count,1981.0,1948.0,1.6940451745379879,EXPECTED_DIFFERENCE,sum of sector aggregate counts; may be non-additive
+2026-05,original_cost,3709724.65,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-05,revised_cost,2853996.14,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-05,expenditure,2181683.19,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-05,state_project_count,1987.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2026-05,sector_project_count,1987.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate
+2026-06,original_cost,3561721.0700000003,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-06,revised_cost,2741105.3,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-06,expenditure,2196663.55,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-06,state_project_count,1847.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2026-06,sector_project_count,1847.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate
+2026-07,original_cost,3370138.22,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-07,revised_cost,3710641.55,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-07,expenditure,1926099.5699999998,,,UNAVAILABLE_TO_VALIDATE,no same-month cost aggregate
+2026-07,state_project_count,1775.0,,,UNAVAILABLE_TO_VALIDATE,no same-month state aggregate
+2026-07,sector_project_count,1775.0,,,UNAVAILABLE_TO_VALIDATE,no same-month sector aggregate

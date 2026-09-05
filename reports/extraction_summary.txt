@@ -1,0 +1,23 @@
+SANKET — FULL MONTHLY EXTRACTION SUMMARY
+=======================================================
+Monthly rows: 23503
+Monthly source files: 16
+Quarterly QPISR is intentionally stored separately in project_quarterly.csv.
+
+Records per month:
+  2025-04: 1670 rows; 17 primary IDs; 1.02% primary-ID coverage
+  2025-05: 1637 rows; 15 primary IDs; 0.92% primary-ID coverage
+  2025-06: 1595 rows; 15 primary IDs; 0.94% primary-ID coverage
+  2025-07: 791 rows; 746 primary IDs; 94.31% primary-ID coverage
+  2025-08: 800 rows; 751 primary IDs; 93.88% primary-ID coverage
+  2025-09: 794 rows; 782 primary IDs; 98.49% primary-ID coverage
+  2025-10: 820 rows; 808 primary IDs; 98.54% primary-ID coverage
+  2025-11: 823 rows; 811 primary IDs; 98.54% primary-ID coverage
+  2025-12: 1392 rows; 1315 primary IDs; 94.47% primary-ID coverage
+  2026-01: 1702 rows; 1565 primary IDs; 91.95% primary-ID coverage
+  2026-02: 1948 rows; 1922 primary IDs; 98.67% primary-ID coverage
+  2026-03: 1941 rows; 1915 primary IDs; 98.66% primary-ID coverage
+  2026-04: 1981 rows; 1968 primary IDs; 99.34% primary-ID coverage
+  2026-05: 1987 rows; 1976 primary IDs; 99.45% primary-ID coverage
+  2026-06: 1847 rows; 1836 primary IDs; 99.40% primary-ID coverage
+  2026-07: 1775 rows; 1764 primary IDs; 99.38% primary-ID coverage

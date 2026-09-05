@@ -15,6 +15,7 @@ from src.pdf_extractor import (
     _table7_original_and_revised_dates,
     detect_report_format,
     extract_table7,
+    extract_table6_from_pdf,
 )
 
 
@@ -73,6 +74,9 @@ class Table7ParsingRegressionTest(unittest.TestCase):
             def extract_table(self):
                 return [header, project, continuation]
 
+            def extract_words(self):
+                return []
+
         class PDF:
             pages = [Page()]
 
@@ -102,6 +106,16 @@ class April2026SourceCountTest(unittest.TestCase):
         self.assertEqual(sum(totals), 1981)
         self.assertEqual(first_serial, 1)
         self.assertEqual(last_serial, 1981)
+
+
+class OldFormatWrappedIdentifierRegressionTest(unittest.TestCase):
+    def test_july_wrapped_state_keeps_the_printed_primary_code(self) -> None:
+        """A source code between wrapped state fragments belongs to its serial row."""
+        path = PDF_DIR / "FlashReport_July_2025.pdf"
+        records = extract_table6_from_pdf(path).set_index("sl_no")
+        self.assertEqual(records.loc[10, "project_code"], "611047")
+        self.assertEqual(records.loc[16, "project_code"], "611440")
+        self.assertEqual(records.loc[17, "project_code"], "611570")
 
 
 if __name__ == "__main__":

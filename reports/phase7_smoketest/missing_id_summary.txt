@@ -1,0 +1,127 @@
+SANKET — MISSING PRIMARY IDENTIFIER REVIEW SUMMARY
+==============================================================
+Review population: 639 rows lacking both a primary code and a source alternate identifier in the baseline.
+Baseline primary-ID coverage: 18009/23503 (76.62%).
+Validation primary-ID coverage: 18009/23503 (76.62%).
+Baseline unresolved-without-any-source-ID: 639; validation: 639.
+Baseline duplicate primary code + month: 0; validation: 0.
+Baseline duplicate source tracking key + month: 0; validation: 0.
+
+Review classification:
+  PARSER_FAILURE: 402
+  UNRESOLVED: 237
+
+By report month:
+  report_month=2026-01 | rows=141
+  report_month=2025-07 | rows=127
+  report_month=2025-08 | rows=126
+  report_month=2025-12 | rows=81
+  report_month=2026-02 | rows=30
+  report_month=2026-03 | rows=29
+  report_month=2025-11 | rows=16
+  report_month=2025-09 | rows=16
+  report_month=2025-10 | rows=16
+  report_month=2026-04 | rows=16
+  report_month=2026-05 | rows=14
+  report_month=2026-06 | rows=14
+  report_month=2026-07 | rows=13
+
+By source file / page:
+  source_file=FlashReport_July_2025.pdf | source_page=59 | rows=28
+  source_file=FlashReport_August_2025.pdf | source_page=60 | rows=27
+  source_file=FlashReport_July_2025.pdf | source_page=58 | rows=20
+  source_file=FlashReport_August_2025.pdf | source_page=59 | rows=18
+  source_file=FlashReport_August_2025.pdf | source_page=61 | rows=14
+  source_file=FlashReport_July_2025.pdf | source_page=45 | rows=13
+  source_file=FlashReport_January_2026.pdf | source_page=95 | rows=13
+  source_file=FlashReport_December_2025.pdf | source_page=80 | rows=13
+  source_file=FlashReport_August_2025.pdf | source_page=44 | rows=12
+  source_file=FlashReport_January_2026.pdf | source_page=118 | rows=12
+  source_file=FlashReport_December_2025.pdf | source_page=95 | rows=11
+  source_file=FlashReport_January_2026.pdf | source_page=94 | rows=11
+  source_file=FlashReport_July_2025.pdf | source_page=60 | rows=10
+  source_file=FlashReport_July_2025.pdf | source_page=44 | rows=10
+  source_file=FlashReport_August_2025.pdf | source_page=52 | rows=10
+  source_file=FlashReport_August_2025.pdf | source_page=45 | rows=10
+  source_file=FlashReport_January_2026.pdf | source_page=103 | rows=9
+  source_file=FlashReport_January_2026.pdf | source_page=130 | rows=9
+  source_file=FlashReport_January_2026.pdf | source_page=120 | rows=8
+  source_file=FlashReport_February_2026.pdf | source_page=131 | rows=8
+  source_file=FlashReport_January_2026.pdf | source_page=102 | rows=8
+  source_file=FlashReport_March_2026.pdf | source_page=120 | rows=8
+  source_file=FlashReport_January_2026.pdf | source_page=110 | rows=7
+  source_file=FlashReport_January_2026.pdf | source_page=109 | rows=7
+  source_file=FlashReport_July_2025.pdf | source_page=52 | rows=7
+  source_file=FlashReport_July_2025.pdf | source_page=63 | rows=7
+  source_file=FlashReport_July_2025.pdf | source_page=49 | rows=7
+  source_file=FlashReport_August_2025.pdf | source_page=64 | rows=6
+  source_file=FlashReport_January_2026.pdf | source_page=70 | rows=6
+  source_file=FlashReport_January_2026.pdf | source_page=105 | rows=6
+  source_file=FlashReport_December_2025.pdf | source_page=85 | rows=6
+  source_file=FlashReport_December_2025.pdf | source_page=90 | rows=5
+  source_file=FlashReport_December_2025.pdf | source_page=89 | rows=5
+  source_file=FlashReport_January_2026.pdf | source_page=121 | rows=5
+  source_file=FlashReport_September_2025.pdf | source_page=50 | rows=5
+  source_file=FlashReport_July_2025.pdf | source_page=51 | rows=5
+  source_file=FlashReport_August_2025.pdf | source_page=42 | rows=5
+  source_file=FlashReport_August_2025.pdf | source_page=49 | rows=5
+  source_file=FlashReport_December_2025.pdf | source_page=96 | rows=5
+  source_file=FlashReport_October_2025.pdf | source_page=50 | rows=5
+  source_file=FlashReport_January_2026.pdf | source_page=116 | rows=4
+  source_file=FlashReport_January_2026.pdf | source_page=125 | rows=4
+  source_file=FlashReport_July_2025.pdf | source_page=42 | rows=4
+  source_file=FlashReport_January_2026.pdf | source_page=96 | rows=4
+  source_file=FlashReport_July_2025.pdf | source_page=47 | rows=4
+  source_file=FlashReport_July_2025.pdf | source_page=37 | rows=4
+  source_file=FlashReport_January_2026.pdf | source_page=131 | rows=4
+  source_file=FlashReport_December_2025.pdf | source_page=58 | rows=4
+  source_file=FlashReport_December_2025.pdf | source_page=97 | rows=4
+  source_file=FlashReport_December_2025.pdf | source_page=101 | rows=4
+  source_file=FlashReport_November_2025.pdf | source_page=70 | rows=4
+  source_file=FlashReport_September_2025.pdf | source_page=69 | rows=4
+  source_file=FlashReport_November_2025.pdf | source_page=50 | rows=4
+  source_file=FlashReport_August_2025.pdf | source_page=40 | rows=3
+  source_file=FlashReport_August_2025.pdf | source_page=47 | rows=3
+  source_file=FlashReport_December_2025.pdf | source_page=105 | rows=3
+  source_file=FlashReport_December_2025.pdf | source_page=104 | rows=3
+  source_file=FlashReport_June_2026.pdf | source_page=125 | rows=3
+  source_file=FlashReport_August_2025.pdf | source_page=37 | rows=3
+  source_file=FlashReport_April2026.pdf | source_page=124 | rows=3
+  source_file=FlashReport_January_2026.pdf | source_page=117 | rows=3
+  source_file=FlashReport_July_2025.pdf | source_page=40 | rows=3
+  source_file=FlashReport_January_2026.pdf | source_page=107 | rows=3
+  source_file=FlashReport_October_2025.pdf | source_page=70 | rows=3
+  source_file=FlashReport_May2026.pdf | source_page=124 | rows=3
+  source_file=FlashReport_February_2026.pdf | source_page=162 | rows=3
+  source_file=FlashReport_March_2026.pdf | source_page=151 | rows=3
+  source_file=FlashReport_January_2026.pdf | source_page=99 | rows=3
+  source_file=FlashReport_February_2026.pdf | source_page=164 | rows=3
+  source_file=FlashReport_November_2025.pdf | source_page=66 | rows=2
+  source_file=FlashReport_July_2026-1.pdf | source_page=117 | rows=2
+  source_file=FlashReport_January_2026.pdf | source_page=111 | rows=2
+  source_file=FlashReport_January_2026.pdf | source_page=77 | rows=2
+  source_file=FlashReport_June_2026.pdf | source_page=157 | rows=2
+  source_file=FlashReport_June_2026.pdf | source_page=108 | rows=2
+  source_file=FlashReport_March_2026.pdf | source_page=154 | rows=2
+  source_file=FlashReport_August_2025.pdf | source_page=48 | rows=2
+  source_file=FlashReport_August_2025.pdf | source_page=50 | rows=2
+  source_file=FlashReport_April2026.pdf | source_page=106 | rows=2
+  source_file=FlashReport_April2026.pdf | source_page=75 | rows=2
+
+By PDF format / handler:
+  format=TRANSITIONAL_FORMAT | handler=extract_table6 | rows=270
+  format=OLD_FORMAT_A | handler=extract_table6 | rows=127
+  format=OLD_FORMAT_B | handler=extract_table6 | rows=126
+  format=NEW_FORMAT_A | handler=extract_table6 | rows=59
+  format=NEW_FORMAT_B | handler=extract_new_format_b/extract_table6 | rows=57
+
+By source section:
+  source_section=Table 6: All Ongoing Projects | rows=639
+
+By identifier/failure type:
+  failure_type=SOURCE_PRIMARY_TOKEN_NOT_RECOVERED | rows=402
+  failure_type=AMBIGUOUS_OR_MALFORMED_SOURCE_LAYOUT | rows=237
+
+Concentration finding:
+  2026-01: 141; 2025-07: 127; 2025-08: 126
+  April–June 2025 N-prefixed values are not part of this queue: they are preserved as source alternate identifiers, never renamed as primary codes.
