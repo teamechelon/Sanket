@@ -1,0 +1,30 @@
+SANKET - BASELINE MODEL REPORT
+====================================================
+Forward-only splits; validation-selected thresholds; test data never tunes preprocessing or thresholds.
+
+future_cost_increase_5pct_6m
+----------------------------
+CORE_PLUS_CONDITIONAL | Logistic Regression: ROC-AUC=0.486, PR-AUC=0.075, precision=0.111, recall=0.026, F1=0.042, Brier=0.065, threshold=0.35, confusion TN/FP/FN/TP=1149/16/76/2
+CORE_PLUS_CONDITIONAL | Logistic Regression balanced: ROC-AUC=0.485, PR-AUC=0.074, precision=0.050, recall=0.077, F1=0.061, Brier=0.098, threshold=0.35, confusion TN/FP/FN/TP=1051/114/72/6
+CORE_PLUS_CONDITIONAL | Random Forest: ROC-AUC=0.707, PR-AUC=0.172, precision=0.223, recall=0.295, F1=0.254, Brier=0.057, threshold=0.10, confusion TN/FP/FN/TP=1085/80/55/23
+CORE_PLUS_CONDITIONAL | Random Forest balanced: ROC-AUC=0.730, PR-AUC=0.165, precision=0.196, recall=0.115, F1=0.145, Brier=0.077, threshold=0.45, confusion TN/FP/FN/TP=1128/37/69/9
+CORE_SAFE | Logistic Regression: ROC-AUC=0.497, PR-AUC=0.090, precision=0.116, recall=0.103, F1=0.109, Brier=0.062, threshold=0.10, confusion TN/FP/FN/TP=1104/61/70/8
+CORE_SAFE | Logistic Regression balanced: ROC-AUC=0.472, PR-AUC=0.071, precision=0.054, recall=0.359, F1=0.095, Brier=0.128, threshold=0.15, confusion TN/FP/FN/TP=679/486/50/28
+CORE_SAFE | Random Forest: ROC-AUC=0.692, PR-AUC=0.130, precision=0.105, recall=0.551, F1=0.176, Brier=0.058, threshold=0.05, confusion TN/FP/FN/TP=797/368/35/43
+CORE_SAFE | Random Forest balanced: ROC-AUC=0.697, PR-AUC=0.104, precision=0.089, recall=0.154, F1=0.113, Brier=0.077, threshold=0.35, confusion TN/FP/FN/TP=1042/123/66/12
+
+future_schedule_later_3m
+------------------------
+CORE_PLUS_CONDITIONAL | Logistic Regression: ROC-AUC=0.825, PR-AUC=0.712, precision=0.640, recall=0.852, F1=0.731, Brier=0.169, threshold=0.40, confusion TN/FP/FN/TP=1323/663/204/1178
+CORE_PLUS_CONDITIONAL | Random Forest: ROC-AUC=0.855, PR-AUC=0.805, precision=0.704, recall=0.785, F1=0.742, Brier=0.173, threshold=0.35, confusion TN/FP/FN/TP=1529/457/297/1085
+CORE_SAFE | Logistic Regression: ROC-AUC=0.822, PR-AUC=0.730, precision=0.653, recall=0.818, F1=0.726, Brier=0.197, threshold=0.60, confusion TN/FP/FN/TP=1384/602/251/1131
+CORE_SAFE | Random Forest: ROC-AUC=0.782, PR-AUC=0.653, precision=0.603, recall=0.819, F1=0.695, Brier=0.210, threshold=0.25, confusion TN/FP/FN/TP=1242/744/250/1132
+
+Decision:
+SCHEDULE MODEL: BASELINE ESTABLISHED. Strongest benchmark: CORE_PLUS_CONDITIONAL Random Forest; PR-AUC is the most useful ranking metric. False negatives remain material and the March publication-boundary shift limits generalization claims.
+COST MODEL: BASELINE NOT RELIABLE. Strongest preliminary benchmark: CORE_PLUS_CONDITIONAL Random Forest; PR-AUC is emphasized over accuracy.
+INSUFFICIENT_EVALUATION_SAMPLE: cost validation contains only 38 positives and the test is a single month with 78 positives. Class weighting did not consistently improve PR-AUC or recall/precision trade-offs.
+Probability scores are not interpreted as literal event chances because Brier scores and reliability bins show only preliminary calibration.
+Target semantics remain acceptable as published-revision proxies, not actual delay or actual overrun.
+More cost months and a schedule test beyond the March revision boundary are required before adding model complexity.
+No XGBoost, SHAP, synthetic oversampling, dashboard, or production API was used.

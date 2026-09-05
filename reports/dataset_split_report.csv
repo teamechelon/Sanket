@@ -1,0 +1,7 @@
+target,partition,period_start,period_end,rows,projects,positive_rows,positive_rate,projects_overlapping_train,temporal_leakage
+future_schedule_later_3m,TRAIN,2025-07,2025-12,4475,1333,1125,0.251397,1333,NONE
+future_schedule_later_3m,VALIDATION,2026-01,2026-02,3268,1852,1585,0.485006,1224,NONE
+future_schedule_later_3m,TEST,2026-03,2026-04,3368,1776,1382,0.410333,1092,NONE
+future_cost_increase_5pct_6m,TRAIN,2025-07,2025-10,2621,745,100,0.038153,745,NONE
+future_cost_increase_5pct_6m,VALIDATION,2025-11,2025-12,1769,1107,38,0.021481,657,NONE
+future_cost_increase_5pct_6m,TEST,2026-01,2026-01,1243,1243,78,0.062751,583,NONE

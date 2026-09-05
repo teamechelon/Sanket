@@ -1,0 +1,22 @@
+SANKET - BASELINE ERROR ANALYSIS
+====================================================
+
+SCHEDULE: CORE_PLUS_CONDITIONAL / Random Forest (highest test PR-AUC)
+False positives: 457; false negatives: 297
+Largest sector error groups: Roads & Highways/false_positive=351, Roads & Highways/false_negative=154, Electricity Generation/false_negative=30, Coal/false_negative=25, Railways/false_negative=24
+Largest state error groups: Maharashtra/false_positive=43, Assam/false_positive=35, Bihar/false_negative=32, Karnataka/false_positive=27, Karnataka/false_negative=25
+Largest age_band error groups: <=3y/false_positive=242, <=3y/false_negative=173, 3-7y/false_positive=132, 7-12y/false_positive=79, 3-7y/false_negative=78
+Largest progress_band error groups: >75/false_positive=243, <=25/false_negative=94, 50-75/false_positive=79, 50-75/false_negative=74, 25-50/false_positive=72
+Largest expenditure_band error groups: <=100/false_positive=176, 100-500/false_positive=176, <=100/false_negative=108, 100-500/false_negative=104, 500-1000/false_positive=59
+Reliability bins (n/mean probability/observed rate): (-0.001, 0.2]: 912.0/0.088/0.084; (0.2, 0.4]: 1269.0/0.312/0.293; (0.4, 0.6]: 914.0/0.504/0.752; (0.6, 0.8]: 266.0/0.649/0.898; (0.8, 1.0]: 7.0/0.823/1.000
+
+COST: CORE_PLUS_CONDITIONAL / Random Forest (highest test PR-AUC)
+False positives: 80; false negatives: 55
+Largest sector error groups: Railways/false_negative=44, Roads & Highways/false_positive=28, Healthcare/false_positive=20, Electricity Generation/false_positive=8, Railways/false_positive=8
+Largest state error groups: Chhattisgarh/false_positive=10, Maharashtra/false_positive=6, Gujarat/false_positive=6, Bihar/false_negative=5, Odisha/false_negative=5
+Largest age_band error groups: <=3y/false_positive=33, 3-7y/false_positive=31, 3-7y/false_negative=19, 7-12y/false_negative=16, 7-12y/false_positive=12
+Largest progress_band error groups: >75/false_positive=35, >75/false_negative=26, 50-75/false_positive=22, 25-50/false_positive=19, 50-75/false_negative=18
+Largest expenditure_band error groups: >1000/false_positive=31, 500-1000/false_positive=27, >1000/false_negative=22, 100-500/false_negative=17, 100-500/false_positive=15
+Reliability bins (n/mean probability/observed rate): (-0.001, 0.2]: 1232.0/0.041/0.060; (0.2, 0.4]: 11.0/0.248/0.364
+
+These are descriptive counts, not causal explanations. Small groups are not interpreted.

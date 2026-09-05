@@ -1,0 +1,13 @@
+target,feature_set,model,train_rows,validation_rows,test_rows,positive_rate,roc_auc,pr_auc,precision,recall,f1,calibration_metric,threshold,tn,fp,fn,tp,notes
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Logistic Regression,2621,1769,1243,0.062751,0.486178,0.074938,0.111111,0.025641,0.041667,0.064880,0.350000,1149,16,76,2,Natural classes
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Logistic Regression balanced,2621,1769,1243,0.062751,0.484681,0.073575,0.050000,0.076923,0.060606,0.097658,0.350000,1051,114,72,6,Train-only class_weight=balanced
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,2621,1769,1243,0.062751,0.707252,0.171820,0.223301,0.294872,0.254144,0.056742,0.100000,1085,80,55,23,Natural classes
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,2621,1769,1243,0.062751,0.729889,0.165384,0.195652,0.115385,0.145161,0.077140,0.450000,1128,37,69,9,Train-only class_weight=balanced
+future_cost_increase_5pct_6m,CORE_SAFE,Logistic Regression,2621,1769,1243,0.062751,0.497381,0.089574,0.115942,0.102564,0.108844,0.062151,0.100000,1104,61,70,8,Natural classes
+future_cost_increase_5pct_6m,CORE_SAFE,Logistic Regression balanced,2621,1769,1243,0.062751,0.471718,0.071049,0.054475,0.358974,0.094595,0.127604,0.150000,679,486,50,28,Train-only class_weight=balanced
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,2621,1769,1243,0.062751,0.691890,0.129697,0.104623,0.551282,0.175869,0.057784,0.050000,797,368,35,43,Natural classes
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,2621,1769,1243,0.062751,0.697337,0.103525,0.088889,0.153846,0.112676,0.076508,0.350000,1042,123,66,12,Train-only class_weight=balanced
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Logistic Regression,4475,3268,3368,0.410333,0.825120,0.712046,0.639870,0.852388,0.730996,0.168682,0.400000,1323,663,204,1178,Natural classes
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,4475,3268,3368,0.410333,0.855136,0.804918,0.703632,0.785094,0.742134,0.172599,0.350000,1529,457,297,1085,Natural classes
+future_schedule_later_3m,CORE_SAFE,Logistic Regression,4475,3268,3368,0.410333,0.821675,0.730415,0.652626,0.818379,0.726164,0.197065,0.600000,1384,602,251,1131,Natural classes
+future_schedule_later_3m,CORE_SAFE,Random Forest,4475,3268,3368,0.410333,0.782264,0.652703,0.603412,0.819103,0.694905,0.209701,0.250000,1242,744,250,1132,Natural classes

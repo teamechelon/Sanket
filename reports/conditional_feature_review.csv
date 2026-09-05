@@ -1,0 +1,10 @@
+feature_name,why_conditional,safe_for_baseline,missing_rate,coverage_impact,leakage_risk,decision,notes
+state,May be absent or corrected in later snapshots.,True,0.017910,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+ministry,Missing in some report generations.,True,0.000000,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+agency,Missing in some source rows.,True,0.015210,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+project_age_months,Depends on cutoff-published start/approval date.,True,0.000000,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+revised_cost_current,Safe only when already printed at cutoff.,True,0.018810,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+effective_target_months_from_cutoff,Uses revised DoC only when already printed.,True,0.000000,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+last_cost_revision_pct,Unavailable until a prior cost revision is observed.,False,0.952840,No baseline coverage loss,LOW_IF_CUTOFF_VALUE_ONLY,DEFER,95%+ missingness makes first-pass estimate unstable.
+expenditure_to_revised_cost,Requires revised cost already printed at cutoff.,True,0.018810,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.
+cost_revision_pct_current,"Snapshot ratio, not a formal approval event.",True,0.000000,Rows retained; train-fitted imputation,LOW_IF_CUTOFF_VALUE_ONLY,INCLUDE,Missingness preserved into train-only preprocessing.

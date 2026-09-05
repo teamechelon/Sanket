@@ -1,0 +1,1328 @@
+target,feature_set,model,transformed_feature,importance
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_to_revised_cost,0.08101564
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_to_original_cost,0.06670319
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__original_cost_current,0.06483741
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_current,0.06409348
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__revised_cost_current,0.05290908
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__project_age_months,0.05011952
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_current,0.04888541
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__cost_revision_pct_current,0.04720839
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__effective_target_months_from_cutoff,0.03822038
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_change_1m,0.02950208
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Himachal Pradesh,0.02399270
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Satluj Jal Vidyut Nigam [SJVN] Thermal Limited,0.02332445
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Health & Family Welfare,0.02321242
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_change_1m,0.02175287
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway [CR] - II,0.02096409
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Chhattisgarh,0.01425179
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Healthcare,0.01329383
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Railway Construction International Limited [IRCON],0.01289568
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_change_3m,0.01095875
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_velocity_3m,0.01073288
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Electricity Generation,0.01042047
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_change_3m,0.00925439
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_velocity_3m,0.00915314
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Petroleum Corporation Limited,0.00865288
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Oil & Gas,0.00836988
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_observed,0.00833765
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Power,0.00831290
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Railway [SER] - I,0.00830476
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Karnataka Rail Infrastructure Development Company Limited [K-RIDE],0.00774131
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Thermal Power Corporation [NTPC],0.00728920
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Railway,0.00703481
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_material_progress_change,0.00698715
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_schedule_revision,0.00681583
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Railways,0.00656162
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_first_observation,0.00654946
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Assam,0.00654775
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Maharashtra,0.00648542
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_material_progress_change,0.00612004
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_West Bengal,0.00611696
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Haryana,0.00610075
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Railways,0.00577833
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Petroleum & Natural Gas,0.00528897
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_acceleration_3m,0.00494622
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Coal,0.00462125
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Coal,0.00450369
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Petroleum & Natural Gas,0.00415240
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Housing & Urban Affairs,0.00406873
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__schedule_revision_count_to_date,0.00395687
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__ministry_Department of Water Resources, River Development & GR",0.00377956
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_acceleration_3m,0.00371190
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_effective_target_months_from_cutoff,0.00370488
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_cost_revision,0.00329830
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_change_1m,0.00328414
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Andhra Pradesh,0.00320528
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Oil and Natural Gas Corporation Limited [ONGC],0.00316506
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Maharashtra Metro Rail Corporation Limited [MMRCL],0.00303101
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Gujarat,0.00294100
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Water Resources,0.00286735
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Housing & Urban Affairs,0.00284840
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_change_1m,0.00283638
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Madhya Pradesh,0.00273794
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway [WR] - II,0.00268488
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__cost_revision_count_to_date,0.00256982
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_schedule_revision,0.00243515
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Central Railway [SCR] - II,0.00236748
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Waste & Water,0.00213945
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_cost_revision,0.00203316
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_change_3m,0.00200159
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Urban Public Transport,0.00194448
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_velocity_3m,0.00180866
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Education,0.00162879
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MinistryofPetroleumNaturalGas,0.00155472
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Power Grid Corporation of India Limited [POWERGRID],0.00154160
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_ministry of housing and urban affairs,0.00147265
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Higher Education,0.00145026
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Odisha,0.00141075
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Civil Aviation,0.00125494
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_velocity_3m,0.00122739
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Aviation & Aviation Infrastructure,0.00121416
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Central Railway [ECR] - I,0.00120097
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_change_3m,0.00118839
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, West, Bengal",0.00111340
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Coalfields Limited [SECL],0.00101779
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Bihar,0.00090755
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Transmission & Distribution,0.00090028
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Telecommunications [DoT],0.00085344
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Uttarakhand,0.00077884
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Uttar Pradesh,0.00068880
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Telecommunication,0.00067446
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Karnataka,0.00066608
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Jharkhand,0.00058760
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Coast Railway [ECoR] - II,0.00057011
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Telecommunications,0.00044613
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Central Railway [ECR] - II,0.00043716
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Kerala,0.00042426
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_to_revised_cost,0.00039103
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_revised_cost_current,0.00038266
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Steel,0.00036417
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Rajasthan, Uttar, Pradesh",0.00032671
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Steel,0.00032372
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Mines,0.00030273
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Rajasthan,0.00027348
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Metals & Mining,0.00024516
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Airport Authority of India [AAI],0.00023951
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__revised_cost_missing,0.00020705
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NLC India Limited [NLCIL],0.00020456
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL - II,0.00019819
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Coal,0.00018267
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Energy Storage,0.00015680
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of water resources-MH - II,0.00015572
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Hydroelectric Power Corporation Limited [NHPC],0.00013770
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Coalfields Limited [WCL],0.00013565
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PCE/WR,0.00013105
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SECR,0.00013072
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Jharkhand",0.00012997
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Eastern Electric Power Corporation Limited,0.00012681
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Western Railway [SWR] - II,0.00012102
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Mineral Development Corporation Limited [NMDC],0.00011360
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Real Estate,0.00011303
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Telangana,0.00009531
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Punjab,0.00009457
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Central Railway,0.00008114
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Damodar Valley Corporation,0.00008093
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Eastern Coal Fields Limited [ECL],0.00005430
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Uttar Pradesh",0.00004225
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Eastern Railway [NER],0.00004065
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mahanadi Coalfields Limited [MCL],0.00003421
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South East Central Railway [SECR] - II,0.00003281
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Western Railway [NWR],0.00003034
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mahanadi Coalfields Limited (MCL,0.00002892
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Sikkim,0.00002512
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway (CR,0.00002493
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Steel Authority of India Limited [SAIL],0.00002368
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Telangana",0.00002208
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__ministry_Ministry of Ports, Shipping and Waterways",0.00002027
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Tamil Nadu,0.00001978
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MIS MoCoal Integration Logins,0.00001945
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Singareni Collieries Company Limited [SCCL],0.00001744
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Highways & Infrastructure Development Corporation Ltd. [NHIDCL],0.00001443
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Rajasthan",0.00001429
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Manipur,0.00001356
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_THDC India Limited,0.00001262
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Uttar Pradesh metro rail corporation [UPMRC],0.00001240
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Mission for Clean Ganga,0.00001204
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Odisha",0.00001070
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation and CAD-TG,0.00000965
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Oil Corporation Limited [IOCL],0.00000852
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Delhi,0.00000808
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-AP,0.00000730
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-PB,0.00000639
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Chhattisgarh, Odisha",0.00000616
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Aluminium Company Limited [NALCO],0.00000495
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NRL,0.00000488
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Madhya Pradesh Metro Rail Co Limited [MPMRCL],0.00000478
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bharat Petroleum Corporation Limited [BPCL],0.00000460
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northeast Frontier Railway [NFR],0.00000444
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Eastern Railway [ER] - I,0.00000311
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Labour and Employment,0.00000145
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Petroleum Corporation Limited [HPCL],0.00000020
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MCL - CIL,0.00000017
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northern Coalfields Limited [NCL],0.00000015
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Shipping,0.00000002
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railway [SR] - II,0.00000001
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_missing,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Construction,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Inland Waterways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Logistics Infrastructure,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__sector_Tourism, Hospitality & Wellness",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_& Diu,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_),0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- I) (Kerala, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- II) (Arunachal, Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- II) (Madhya Pradesh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Karnataka",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Tamil Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Arunachal Pradesh,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Arunachal, Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Assam, Nagaland",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Bengal,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Odisha, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Campus on Engineering, Procurement and Construction basis Delhi,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Central University, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Chhattisgarh, 09/2027, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Chhattisgarh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Goa,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Haryana, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Madhya, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Haveli and Daman,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haveli and Daman, & Diu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Himachal Pradesh,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Himachal, Pradesh, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian Institute of Technology, Indore",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian Institute of Technology, Kharagpur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian intitue of Management, Amritsar",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jammu and, Kashmir, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Maharashtra, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Odisha, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Telangana",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Kashmir,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kashmir, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kerala, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kerala, Tamil 12/2025, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kerala, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Ladakh,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Telangana",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Telangana, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Meghalaya,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Meghalaya,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Meghalaya, Mizoram,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Mizoram,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Nagaland,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_National Institute of Technology, Arunachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_National Institute of Technology, Meghalaya",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Offshore,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_PAN India,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Port, Ship Service, Smart Solid Waste Management, Smart Public Transport System",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Gujarat, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Rajasthan, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Uttar 12/2025, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Puducherry,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Puducherry, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Puducherry, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Punjab, 12/2025, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Punjab, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Rajasthan, Uttar 12/2026, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Sikkim, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Sikkim, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Tripura,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Uttar Pradesh, 12/2025, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Uttar Pradesh, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_[8 GW] PART A [SPV Name POWERGRID West Central Transmission Limited] (Gujarat,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Sports,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_705237,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_705728,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Adani Airport Holdings Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Adani Transmission Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_BCCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_BSNL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Banaras Hindu University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bengaluru Metro Rail,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bharat Coking Coal Limited [BCCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/II/NR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/NCR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/NR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/SECR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/SER,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CORE,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CPM/ICF,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CSPCC Projects,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Coalfields Limited [CCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Organisation for Railway Electrification [CORE],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Tribal University of Andhra Pradesh,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central University of Gujarat,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central University of Punjab,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Central University, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Chennai Metro Rail Limited [CMRL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Chennai Petroleum Corporation Limited [CPCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Construction NER,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Deendayal Port Trust [DPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Delhi Metro Rail Corporation Limited [DMRC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Delhi University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Sports & Youth Affairs,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Telecommunications,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Department of Water Resources, River Development & GR",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-JH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-MH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_ECL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Employee's State Insurance Company [ESIC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_GM/C/ NFR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gas Authority of India Limited [GAIL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gujarat,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gujarat Metro Rail Corporation Limited [GMRCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Haldia Dock Complex, Syama Prasad Mookerjee Port Authority",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Copper Limited [HCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_INDIAN INSTITUTE OF TECHNOLOGY PALAKKAD,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Management, Jammu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Management, Sirmaur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Hyderabad",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Indore",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Kharagpur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Mandi",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institutes of Science Education and Research, Behrampur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Port Rail & Ropeway Corporation Ltd. [IPRCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian intitue of Management, Amritsar",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Inland Waterways Authority of India [IWAI],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation & Water Resources-UP,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation-UK,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_M/S SRC company Infra Private Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MRIDC,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mangalore Refinary and Petrochemicals Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Metro Railway, Kolkata",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Education,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Health & Family Welfare,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Mines,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Petroleum and Natural Gas,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Metro Rail Corporation Limited [MMRC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Port Trust [MPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Rail Vikas Corporation Ltd.[MRVC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NER,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Mizoram,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Nagaland,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Patna,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Sikkim,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Narmada and Water Resources, Water Supply and Kalpsar Department-GJ",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Communication Academy - Finance (Erstwhile NICF,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Industrial Corridor Development Corporation,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Institute of Technology Delhi,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Institute of Technology Uttarakhand,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_National Institute of Technology, Arunachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_National Institute of Technology, Meghalaya",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_National Institute of Technology, Puducherry",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_New Mangalore Port Authority,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Central Railway (NCR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northeast Frontier Railway (NFR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northen Railway [NR],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northern Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PMSSY AND Institute of NATIONAL Importance,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PMSSY/Institute of National Importance (INI,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Paradip Port Trust [PPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Patna Metro Rail Corporation Ltd. [PMRCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RCIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL - I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Rail Land Development Authority,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Rail Vikas Nigam Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Reliance Industries Ltd,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SECL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SR-ERS,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Sikkim University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Smart City Mission,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Central Railway [SCR] - I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South East Central Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Railway - JH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railway (SR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railways [SR] - construction,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Tezpur University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_WCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_WPO/Patna,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_WR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources Department-MN,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-BR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-CT,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-KA,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-MP,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-OR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water resource-mp,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_West Central Railway WCR I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_West Central Railway [WCR] - II,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway (WR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_current,0.09201523
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_current,0.08797653
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__original_cost_current,0.08015837
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_to_original_cost,0.07496055
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_to_revised_cost,0.07073514
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__revised_cost_current,0.05913192
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__project_age_months,0.05676549
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__effective_target_months_from_cutoff,0.04324904
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Coal,0.02709831
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__cost_revision_pct_current,0.02603806
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_change_1m,0.02263669
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__ministry_Department of Water Resources, River Development & GR",0.01504621
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_change_1m,0.01334887
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Water Resources,0.01292919
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Coal,0.01123651
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Oil & Gas,0.00906934
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_change_3m,0.00830516
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_change_3m,0.00828073
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_velocity_3m,0.00788498
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Bihar,0.00767252
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Electricity Generation,0.00749119
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Railways,0.00744580
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_acceleration_3m,0.00723336
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__expenditure_velocity_3m,0.00689442
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Chhattisgarh,0.00684811
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Railway [CR] - II,0.00656061
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Petroleum & Natural Gas,0.00647726
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Satluj Jal Vidyut Nigam [SJVN] Thermal Limited,0.00642871
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Uttar Pradesh,0.00638957
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__months_observed,0.00638000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Petroleum & Natural Gas,0.00616044
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__months_since_first_observation,0.00590403
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Health & Family Welfare,0.00587721
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Railways,0.00552518
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Power,0.00517213
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Maharashtra,0.00501268
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Madhya Pradesh,0.00497036
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Himachal Pradesh,0.00473724
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Housing & Urban Affairs,0.00470323
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__schedule_revision_count_to_date,0.00467681
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__months_since_material_progress_change,0.00459842
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_East Coast Railway [ECoR] - II,0.00448984
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Assam,0.00448250
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_months_since_material_progress_change,0.00441623
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Healthcare,0.00426600
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Gujarat,0.00414842
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_West Bengal,0.00358656
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_progress_acceleration_3m,0.00340253
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_months_since_schedule_revision,0.00326778
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Airport Authority of India [AAI],0.00325588
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Housing & Urban Affairs,0.00306288
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Oil and Natural Gas Corporation Limited [ONGC],0.00300425
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Waste & Water,0.00279435
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Indian Railway Construction International Limited [IRCON],0.00278790
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_expenditure_change_1m,0.00275069
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_RVNL - II,0.00265789
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Odisha,0.00260495
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Jharkhand,0.00248082
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Western Coalfields Limited [WCL],0.00243396
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Urban Public Transport,0.00242923
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_expenditure_velocity_3m,0.00242610
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__cost_revision_count_to_date,0.00240272
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Hindustan Petroleum Corporation Limited,0.00235698
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Karnataka,0.00234815
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_effective_target_months_from_cutoff,0.00226157
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_expenditure_change_3m,0.00217947
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_months_since_cost_revision,0.00215550
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Energy Storage,0.00210253
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_progress_change_1m,0.00208580
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Civil Aviation,0.00206077
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__months_since_schedule_revision,0.00203149
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_MinistryofPetroleumNaturalGas,0.00198014
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Coal,0.00196023
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Power Grid Corporation of India Limited [POWERGRID],0.00189954
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Haryana,0.00184360
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Steel,0.00183507
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Eastern Railway [SER] - I,0.00182607
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__months_since_cost_revision,0.00179804
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Department of Higher Education,0.00177087
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Andhra Pradesh,0.00173648
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Rajasthan,0.00172797
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Thermal Power Corporation [NTPC],0.00171549
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Central Railway [SCR] - II,0.00163952
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Education,0.00161365
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_progress_velocity_3m,0.00157055
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Karnataka Rail Infrastructure Development Company Limited [K-RIDE],0.00150935
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Western Railway [SWR] - II,0.00140314
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Steel,0.00137326
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Telangana,0.00132902
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_progress_change_3m,0.00127893
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Aviation & Aviation Infrastructure,0.00127760
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_ministry of housing and urban affairs,0.00119279
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Transmission & Distribution,0.00118797
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Telecommunication,0.00112351
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Maharashtra Metro Rail Corporation Limited [MMRCL],0.00095571
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Railway,0.00093186
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of water resources-MH - II,0.00085946
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Western Railway [WR] - II,0.00082267
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_East Central Railway [ECR] - I,0.00079814
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_North Central Railway,0.00073652
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Eastern Coalfields Limited [SECL],0.00072353
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Steel Authority of India Limited [SAIL],0.00057300
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Tamil Nadu,0.00053184
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Kerala,0.00052698
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_expenditure_to_revised_cost,0.00052321
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Department of Telecommunications,0.00049026
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__missingindicator_revised_cost_current,0.00048431
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Metals & Mining,0.00041577
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Punjab,0.00041448
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__ministry_Ministry of Ports, Shipping and Waterways",0.00036690
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Singareni Collieries Company Limited [SCCL],0.00034529
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Mission for Clean Ganga,0.00031541
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Telecommunications [DoT],0.00031188
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__revised_cost_missing,0.00030931
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NLC India Limited [NLCIL],0.00026530
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Northeast Frontier Railway [NFR],0.00025698
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Aluminium Company Limited [NALCO],0.00023489
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Bharat Petroleum Corporation Limited [BPCL],0.00020652
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Eastern Railway [ER] - I,0.00020482
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Hydroelectric Power Corporation Limited [NHPC],0.00020349
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_North Western Railway [NWR],0.00020318
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Delhi,0.00020253
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Real Estate,0.00018143
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Andhra Pradesh, Telangana",0.00017795
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_SECR,0.00017713
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_North Eastern Railway [NER],0.00017112
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Chhattisgarh, Odisha",0.00015750
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Mines,0.00015244
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Mineral Development Corporation Limited [NMDC],0.00014663
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_PCE/WR,0.00013491
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mahanadi Coalfields Limited (MCL,0.00012862
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Madhya Pradesh, Uttar Pradesh",0.00012766
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Madhya Pradesh, Rajasthan",0.00012589
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Uttarakhand,0.00011788
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Damodar Valley Corporation,0.00011164
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Irrigation and CAD-TG,0.00010918
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Railway (CR,0.00009543
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Sikkim,0.00009079
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Eastern Coal Fields Limited [ECL],0.00008959
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Hindustan Petroleum Corporation Limited [HPCL],0.00008101
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Shipping,0.00007003
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Indian Oil Corporation Limited [IOCL],0.00006942
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Andhra Pradesh, Odisha",0.00006379
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Offshore,0.00005697
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mahanadi Coalfields Limited [MCL],0.00005490
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Gujarat Metro Rail Corporation Limited [GMRCL],0.00005261
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Northern Coalfields Limited [NCL],0.00004841
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Water Resources-PB,0.00004789
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_MCL - CIL,0.00004686
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-AP,0.00003961
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South East Central Railway [SECR] - II,0.00003953
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Meghalaya,0.00003819
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Employee's State Insurance Company [ESIC],0.00003577
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Petroleum and Natural Gas,0.00003551
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_North Eastern Electric Power Corporation Limited,0.00003525
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_West Central Railway [WCR] - II,0.00003301
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_GM/C/ NFR,0.00003290
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CAO/C/SER,0.00002748
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Arunachal Pradesh,0.00002301
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Tripura,0.00002241
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CAO/C/NCR,0.00002177
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_WPO/Patna,0.00002109
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Gujarat, Rajasthan",0.00002097
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Maharashtra, Telangana",0.00001964
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Andhra Pradesh, Karnataka",0.00001734
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Bengaluru Metro Rail,0.00001725
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Madhya Pradesh Metro Rail Co Limited [MPMRCL],0.00001678
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Karnataka, Maharashtra",0.00001497
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Delhi Metro Rail Corporation Limited [DMRC],0.00000973
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_East Central Railway [ECR] - II,0.00000784
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Inland Waterways,0.00000735
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_MIS MoCoal Integration Logins,0.00000473
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_ECL - CIL,0.00000382
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Narmada and Water Resources, Water Supply and Kalpsar Department-GJ",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Southern Railway [SR] - II,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Uttar Pradesh metro rail corporation [UPMRC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Ministry of Labour and Employment,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Department of Water Resources, River Development & GR",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,num__progress_missing,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Construction,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__sector_Logistics Infrastructure,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__sector_Tourism, Hospitality & Wellness",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_& Diu,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_),0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_- I) (Kerala, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_- II) (Arunachal, Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_- II) (Madhya Pradesh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Andhra Pradesh, Tamil Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Arunachal, Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Assam, Nagaland",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Bengal,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, Jharkhand",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, Odisha, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Bihar, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Campus on Engineering, Procurement and Construction basis Delhi,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Central University, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Chhattisgarh, 09/2027, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Chhattisgarh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Goa,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Gujarat, Haryana, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Gujarat, Madhya, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Gujarat, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Gujarat, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Haryana, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Haryana, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Haveli and Daman,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Haveli and Daman, & Diu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Himachal Pradesh,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Himachal, Pradesh, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Indian Institute of Technology, Indore",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Indian Institute of Technology, Kharagpur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Indian intitue of Management, Amritsar",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jammu and, Kashmir, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jharkhand, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jharkhand, Maharashtra, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jharkhand, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jharkhand, Odisha, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Jharkhand, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Karnataka, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Karnataka, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Karnataka, Telangana",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Kashmir,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Kashmir, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Kerala, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Kerala, Tamil 12/2025, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Kerala, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Ladakh,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Madhya Pradesh,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Madhya Pradesh, Maharashtra",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Maharashtra,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Maharashtra, Odisha",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Maharashtra, Telangana, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Manipur,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Meghalaya,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Meghalaya, Mizoram,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Mizoram,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Nagaland,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_National Institute of Technology, Arunachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_National Institute of Technology, Meghalaya",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Odisha, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Odisha, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Odisha, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_PAN India,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Port, Ship Service, Smart Solid Waste Management, Smart Public Transport System",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Assam",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Gujarat, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Punjab",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Rajasthan, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Uttar 12/2025, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Pradesh, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__state_Puducherry,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Puducherry, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Puducherry, Tamil, Nadu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Punjab, 12/2025, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Punjab, Rajasthan",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Rajasthan, Uttar 12/2026, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Rajasthan, Uttar, Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Sikkim, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Sikkim, West, Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Uttar Pradesh, 12/2025, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_Uttar Pradesh, West Bengal",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__state_[8 GW] PART A [SPV Name POWERGRID West Central Transmission Limited] (Gujarat,",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__ministry_Department of Sports,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_705237,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_705728,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Adani Airport Holdings Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Adani Transmission Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_BCCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_BSNL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Banaras Hindu University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Bharat Coking Coal Limited [BCCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CAO/C/II/NR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CAO/C/NR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CAO/C/SECR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CORE,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CPM/ICF,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_CSPCC Projects,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Coalfields Limited [CCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Organisation for Railway Electrification [CORE],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central Tribal University of Andhra Pradesh,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central University of Gujarat,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Central University of Punjab,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Central University, Himachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Chennai Metro Rail Limited [CMRL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Chennai Petroleum Corporation Limited [CPCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Construction NER,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Deendayal Port Trust [DPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Delhi University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Sports & Youth Affairs,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Telecommunications,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Water Resources-JH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Department of Water Resources-MH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Gas Authority of India Limited [GAIL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Gujarat,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Haldia Dock Complex, Syama Prasad Mookerjee Port Authority",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Hindustan Copper Limited [HCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_INDIAN INSTITUTE OF TECHNOLOGY PALAKKAD,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Management, Jammu",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Management, Sirmaur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Technology, Hyderabad",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Technology, Indore",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Technology, Kharagpur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institute of Technology, Mandi",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian Institutes of Science Education and Research, Behrampur",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Indian Port Rail & Ropeway Corporation Ltd. [IPRCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Indian intitue of Management, Amritsar",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Inland Waterways Authority of India [IWAI],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Irrigation & Water Resources-UP,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Irrigation-UK,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_M/S SRC company Infra Private Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_MRIDC,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mangalore Refinary and Petrochemicals Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_Metro Railway, Kolkata",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Education,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Health & Family Welfare,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Mines,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Ministry of Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mumbai Metro Rail Corporation Limited [MMRC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mumbai Port Trust [MPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Mumbai Rail Vikas Corporation Ltd.[MRVC],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NER,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NIT Mizoram,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NIT Nagaland,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NIT Patna,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NIT Sikkim,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_NRL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Communication Academy - Finance (Erstwhile NICF,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Highways & Infrastructure Development Corporation Ltd. [NHIDCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Industrial Corridor Development Corporation,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Institute of Technology Delhi,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_National Institute of Technology Uttarakhand,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_National Institute of Technology, Arunachal Pradesh",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_National Institute of Technology, Meghalaya",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,"cat__agency_National Institute of Technology, Puducherry",0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_New Mangalore Port Authority,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_North Central Railway (NCR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Northeast Frontier Railway (NFR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Northen Railway [NR],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Northern Railways,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_PMSSY AND Institute of NATIONAL Importance,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_PMSSY/Institute of National Importance (INI,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Paradip Port Trust [PPT],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Patna Metro Rail Corporation Ltd. [PMRCL],0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_RCIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_RVNL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_RVNL - I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Rail Land Development Authority,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Rail Vikas Nigam Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Reliance Industries Ltd,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_SECL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_SR-ERS,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Sikkim University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Smart City Mission,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Central Railway [SCR] - I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South East Central Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_South Eastern Railway - JH,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Southern Railway (SR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Southern Railways [SR] - construction,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_THDC India Limited,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Tezpur University,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_WCL - CIL,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_WR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources Department-MN,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-BR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-CT,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-KA,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-MP,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water Resources-OR,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Water resource-mp,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_West Central Railway WCR I,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Western Railway,0.00000000
+future_cost_increase_5pct_6m,CORE_PLUS_CONDITIONAL,Random Forest balanced,cat__agency_Western Railway (WR,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__expenditure_current,0.16402117
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__original_cost_current,0.15978789
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__expenditure_to_original_cost,0.15566476
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_current,0.13630922
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__expenditure_change_1m,0.06045024
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_change_1m,0.03830332
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Electricity Generation,0.02988524
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Healthcare,0.02625240
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_change_3m,0.01685174
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_velocity_3m,0.01602065
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__expenditure_velocity_3m,0.01591509
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__expenditure_change_3m,0.01490318
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Oil & Gas,0.01482795
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Railways,0.01396338
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__schedule_revision_count_to_date,0.01184288
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__months_since_material_progress_change,0.01064662
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__months_observed,0.01052898
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__months_since_first_observation,0.01019122
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Coal,0.00879544
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Water Resources,0.00847172
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_months_since_material_progress_change,0.00843975
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_months_since_schedule_revision,0.00829910
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_acceleration_3m,0.00824201
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_progress_acceleration_3m,0.00616040
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__months_since_schedule_revision,0.00529081
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_change_1m,0.00480444
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__months_since_cost_revision,0.00381603
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_progress_change_1m,0.00365146
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Transmission & Distribution,0.00303496
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Aviation & Aviation Infrastructure,0.00273379
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Education,0.00272222
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Urban Public Transport,0.00262505
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Waste & Water,0.00243308
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_months_since_cost_revision,0.00229401
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__cost_revision_count_to_date,0.00227602
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_progress_velocity_3m,0.00199100
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_progress_change_3m,0.00197513
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_velocity_3m,0.00170859
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_change_3m,0.00156254
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Telecommunication,0.00081918
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__revised_cost_missing,0.00065056
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Real Estate,0.00027413
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Energy Storage,0.00025198
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Metals & Mining,0.00016982
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Steel,0.00014085
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,num__progress_missing,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Construction,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Inland Waterways,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Logistics Infrastructure,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,cat__sector_Shipping,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest,"cat__sector_Tourism, Hospitality & Wellness",0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__expenditure_current,0.19078443
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_current,0.15547028
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__original_cost_current,0.14704644
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__expenditure_to_original_cost,0.13800808
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Coal,0.05286346
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__expenditure_change_1m,0.04836913
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Water Resources,0.02529575
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Oil & Gas,0.02276059
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_change_1m,0.02228399
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__expenditure_velocity_3m,0.01489854
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__expenditure_change_3m,0.01481326
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_acceleration_3m,0.01334373
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_change_3m,0.01232898
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Railways,0.01213024
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Electricity Generation,0.01099016
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_velocity_3m,0.01034125
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__months_since_first_observation,0.00975968
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__months_observed,0.00821449
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_months_since_material_progress_change,0.00726989
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Healthcare,0.00717615
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__months_since_material_progress_change,0.00703990
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__schedule_revision_count_to_date,0.00664946
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Urban Public Transport,0.00512689
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Aviation & Aviation Infrastructure,0.00505796
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_progress_acceleration_3m,0.00497299
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_months_since_schedule_revision,0.00462568
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Steel,0.00388323
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Waste & Water,0.00387907
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Energy Storage,0.00367849
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_expenditure_change_1m,0.00321573
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_progress_change_1m,0.00320239
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Transmission & Distribution,0.00304509
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__months_since_cost_revision,0.00253169
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Education,0.00250155
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_months_since_cost_revision,0.00245957
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__cost_revision_count_to_date,0.00238415
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_progress_velocity_3m,0.00205479
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_progress_change_3m,0.00203666
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__months_since_schedule_revision,0.00168407
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_expenditure_change_3m,0.00148931
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__missingindicator_expenditure_velocity_3m,0.00129886
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Telecommunication,0.00118144
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Real Estate,0.00086377
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Metals & Mining,0.00060254
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__revised_cost_missing,0.00035623
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Shipping,0.00002996
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,num__progress_missing,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Construction,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Inland Waterways,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,cat__sector_Logistics Infrastructure,0.00000000
+future_cost_increase_5pct_6m,CORE_SAFE,Random Forest balanced,"cat__sector_Tourism, Hospitality & Wellness",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__effective_target_months_from_cutoff,0.21967643
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Roads & Highways,0.09681543
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Road Transport & Highways,0.06896803
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_current,0.04392776
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_to_original_cost,0.02939638
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_to_revised_cost,0.02689871
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__project_age_months,0.02536812
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_first_observation,0.02370242
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Railways,0.02330678
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_current,0.02309166
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_observed,0.02214465
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Highways Authority of India [NHAI],0.02109755
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Railways,0.02085374
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__original_cost_current,0.01948076
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_change_1m,0.01853768
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__revised_cost_current,0.01712571
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_change_1m,0.01695283
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__cost_revision_pct_current,0.01581840
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MoRTH,0.01518452
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_change_1m,0.01473020
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Housing & Urban Affairs,0.01224046
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_velocity_3m,0.01081094
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Waste & Water,0.00966072
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__expenditure_change_3m,0.00948980
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_acceleration_3m,0.00897028
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Coal,0.00812322
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Transmission & Distribution,0.00792862
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_velocity_3m,0.00735312
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Petroleum & Natural Gas,0.00702114
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_change_3m,0.00678318
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Aviation & Aviation Infrastructure,0.00608973
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Power Grid Corporation of India Limited [POWERGRID],0.00587966
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Oil & Gas,0.00546011
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_change_1m,0.00530309
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Petroleum & Natural Gas,0.00517855
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Civil Aviation,0.00477780
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Coal,0.00463780
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_change_3m,0.00461153
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_velocity_3m,0.00418369
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_schedule_revision,0.00413382
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NHIDCL,0.00404959
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Housing & Urban Affairs,0.00399976
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_acceleration_3m,0.00397822
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Airport Authority of India [AAI],0.00394510
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_progress_change_3m,0.00378680
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_material_progress_change,0.00349075
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Power,0.00346953
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_velocity_3m,0.00323717
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__schedule_revision_count_to_date,0.00318633
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__ministry_Department of Water Resources, River Development & GR",0.00285649
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_schedule_revision,0.00285612
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Oil and Natural Gas Corporation Limited [ONGC],0.00259450
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Water Resources,0.00222952
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Rajasthan,0.00216024
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Coalfields Limited [WCL],0.00184009
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_West Bengal,0.00182303
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Telecommunications,0.00173800
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Bihar,0.00142007
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Telecommunication,0.00140335
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__ministry_Ministry of Ports, Shipping and Waterways",0.00137422
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Maharashtra,0.00131568
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_material_progress_change,0.00129707
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Uttar Pradesh,0.00129190
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Electricity Generation,0.00122851
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Gujarat,0.00120703
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Jharkhand,0.00118837
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Labour and Employment,0.00114603
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Healthcare,0.00104119
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MinistryofPetroleumNaturalGas,0.00093507
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Assam,0.00093291
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Employee's State Insurance Company [ESIC],0.00090489
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Higher Education,0.00085690
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Central Railway [SCR] - II,0.00081511
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__revised_cost_missing,0.00080211
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Eastern Coal Fields Limited [ECL],0.00078069
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_expenditure_to_revised_cost,0.00077860
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Energy Storage,0.00073385
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__cost_revision_count_to_date,0.00072047
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_months_since_cost_revision,0.00071867
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Odisha,0.00070999
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_THDC India Limited,0.00068085
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NRL,0.00066125
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Urban Public Transport,0.00065125
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL - II,0.00064285
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Uttarakhand,0.00063544
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Madhya Pradesh,0.00063465
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Education,0.00063163
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Andhra Pradesh,0.00062385
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Central Railway [ECR] - I,0.00060714
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Chhattisgarh,0.00058179
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Karnataka,0.00055286
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL - I,0.00055283
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__missingindicator_revised_cost_current,0.00054839
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Telangana,0.00054245
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Coalfields Limited [SECL],0.00051778
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Tamil Nadu,0.00049296
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Steel,0.00049201
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Mission for Clean Ganga,0.00047614
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Western Railway [SWR] - II,0.00046357
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Coast Railway [ECoR] - II,0.00044911
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__months_since_cost_revision,0.00043731
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway [CR] - II,0.00043277
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Manipur,0.00040338
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Satluj Jal Vidyut Nigam [SJVN] Thermal Limited,0.00039953
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Western Railway [NWR],0.00039636
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Coal,0.00039442
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SECR,0.00036436
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Steel Authority of India Limited [SAIL],0.00035130
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_ministry of housing and urban affairs,0.00034131
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Offshore,0.00033808
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of water resources-MH - II,0.00032399
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Singareni Collieries Company Limited [SCCL],0.00032024
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Steel,0.00029788
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Health & Family Welfare,0.00029448
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Railway Construction International Limited [IRCON],0.00026746
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Kerala,0.00025120
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Telecommunications [DoT],0.00023847
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_BSNL,0.00023468
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Eastern Railway [NER],0.00021144
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PCE/WR,0.00020800
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Meghalaya,0.00019362
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Punjab,0.00019224
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway,0.00018157
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Real Estate,0.00017967
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Himachal Pradesh,0.00017600
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bharat Petroleum Corporation Limited [BPCL],0.00017440
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Sikkim,0.00017255
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Ministry of Mines,0.00017181
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Mizoram,0.00015950
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Shipping,0.00015814
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NLC India Limited [NLCIL],0.00015350
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway [WR] - II,0.00013503
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-MP,0.00012779
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Delhi,0.00012503
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Haryana,0.00012411
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Karnataka",0.00012057
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_EDTK[MC]/RB,0.00011491
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Metals & Mining,0.00010562
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northeast Frontier Railway [NFR],0.00010524
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Central Railway,0.00009010
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railway [SR] - II,0.00008916
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Hydroelectric Power Corporation Limited [NHPC],0.00008720
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Chhattisgarh, Odisha",0.00008016
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Oil Corporation Limited [IOCL],0.00007718
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Inland Waterways,0.00007034
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-AP,0.00006891
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway (WR,0.00006864
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Tripura,0.00006830
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Thermal Power Corporation [NTPC],0.00006275
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_WPO/Patna,0.00006171
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway,0.00006110
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Odisha",0.00006076
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, West, Bengal",0.00005921
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RVNL,0.00005876
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Deendayal Port Trust [DPT],0.00005807
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Petroleum Corporation Limited [HPCL],0.00005668
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Odisha, West, Bengal",0.00005483
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mahanadi Coalfields Limited (MCL,0.00005310
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_GM/C/ NFR,0.00005241
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Goa,0.00004705
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Petroleum Corporation Limited,0.00004532
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Railway [SER] - I,0.00004490
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Tezpur University,0.00004435
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_National Institute of Technology, Puducherry",0.00004130
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northern Coalfields Limited [NCL],0.00003861
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Uttar Pradesh metro rail corporation [UPMRC],0.00003844
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-PB,0.00003774
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Rajasthan, Uttar, Pradesh",0.00003637
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bengaluru Metro Rail,0.00003497
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Port Rail & Ropeway Corporation Ltd. [IPRCL],0.00003431
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Narmada and Water Resources, Water Supply and Kalpsar Department-GJ",0.00003312
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Eastern Railway [ER] - I,0.00003130
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Aluminium Company Limited [NALCO],0.00003124
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Mineral Development Corporation Limited [NMDC],0.00003032
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_PAN India,0.00002917
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Jharkhand",0.00002851
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northern Railways,0.00002833
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Punjab, Rajasthan",0.00002810
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Patna,0.00002660
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Maharashtra Metro Rail Corporation Limited [MMRCL],0.00002630
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Telangana",0.00002484
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-KA,0.00002468
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Karnataka Rail Infrastructure Development Company Limited [K-RIDE],0.00002430
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Uttar, Pradesh",0.00002282
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Damodar Valley Corporation,0.00002272
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Rajasthan",0.00002270
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MCL - CIL,0.00002142
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation and CAD-TG,0.00002109
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Madhya Pradesh Metro Rail Co Limited [MPMRCL],0.00002083
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gujarat Metro Rail Corporation Limited [GMRCL],0.00002073
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, West, Bengal",0.00001951
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Department of Water Resources, River Development & GR",0.00001939
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_West Central Railway [WCR] - II,0.00001882
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Inland Waterways Authority of India [IWAI],0.00001861
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Nagaland,0.00001665
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Railways,0.00001639
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gas Authority of India Limited [GAIL],0.00001626
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railway (CR,0.00001603
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PMSSY AND Institute of NATIONAL Importance,0.00001393
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Uttar Pradesh",0.00001362
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Hyderabad",0.00001351
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northeast Frontier Railway (NFR,0.00001305
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_ECL - CIL,0.00001300
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Puducherry,0.00001299
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh,",0.00001277
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Delhi Metro Rail Corporation Limited [DMRC],0.00001075
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/NR,0.00001063
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Petroleum and Natural Gas,0.00000944
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mahanadi Coalfields Limited [MCL],0.00000805
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Madhya Pradesh, Maharashtra",0.00000693
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Railway,0.00000689
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_East Central Railway [ECR] - II,0.00000577
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South East Central Railway,0.00000462
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Arunachal Pradesh,0.00000390
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Rajasthan",0.00000343
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Organisation for Railway Electrification [CORE],0.00000307
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Eastern Electric Power Corporation Limited,0.00000245
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Ladakh,0.00000189
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Assam, Nagaland",0.00000162
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water resource-mp,0.00000143
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mangalore Refinary and Petrochemicals Limited,0.00000132
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/SER,0.00000125
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CSPCC Projects,0.00000089
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Highways & Infrastructure Development Corporation Ltd. [NHIDCL],0.00000083
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Metro Railway, Kolkata",0.00000078
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Rail Vikas Nigam Limited,0.00000074
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MIS MoCoal Integration Logins,0.00000037
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/NCR,0.00000034
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Port Trust [MPT],0.00000024
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Rail Land Development Authority,0.00000019
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-JH,0.00000004
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,num__progress_missing,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Construction,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__sector_Logistics Infrastructure,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__sector_Tourism, Hospitality & Wellness",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_),0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_) (Arunachal, Pradesh, Assam",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- I) (Kerala, Tamil, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- II) (Arunachal, Pradesh, Assam",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- II) (Assam, Nagaland",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_- II) (Madhya Pradesh, Maharashtra",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_244 in UT of Jammu and Kashmir on EPC Mode Pkg-1,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_545.300 Sidhra to Domel Section of NH-44,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_566.520 Domel to Katra Section Phase II-Package XVII,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Andhra Pradesh, Tamil Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Arunachal, Pradesh, Assam",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Assam, Bihar, West Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Assam, West, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Banihal Pkg-III of Old NH-1A New NH-44,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Bengal,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Odisha, West Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, Uttar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Bihar, West, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Bound of Ramban to Banihal Pkg-I of Old NH-1A New NH-44,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Campus on Engineering, Procurement and Construction basis Delhi,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Central University, Himachal Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Chhattisgarh, Maharashtra",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Haryana, Rajasthan",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Madhya, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Maharashtra",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Gujarat, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Himachal Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Punjab",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Rajasthan",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haryana, Uttar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Haveli and Daman,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Haveli and Daman, & Diu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Himachal Pradesh,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Himachal, Pradesh, Punjab",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian Institute of Technology, Indore",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian Institute of Technology, Kharagpur",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Indian intitue of Management, Amritsar",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Jammu and,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jammu and, Kashmir, Punjab",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Maharashtra, Odisha",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Odisha",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Jharkhand, Uttar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Maharashtra",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Tamil, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Karnataka, Telangana",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_Kashmir,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kashmir, Ladakh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kashmir, Punjab",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kerala, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Kerala, Tamil, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Odisha",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Telangana",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Maharashtra, Telangana, Uttar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Meghalaya,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Meghalaya, Mizoram,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_NE, Phase 'A' in the State of Assam on EPC mode Pkg-I Road works & Toll Plaza Assam,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_National Institute of Technology, Arunachal Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_National Institute of Technology, Meghalaya",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Odisha, West Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Part I & 6L extension of dedicated port road of NH-67 Km 18.0 to Km 19.3, Part II Andhra Pradesh,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Port, Ship Service, Smart Solid Waste Management, Smart Public Transport System",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Assam",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Gujarat, Rajasthan",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Punjab",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Rajasthan, Uttar, Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, Uttarakhand",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Pradesh, West, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Puducherry, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Puducherry, Tamil, Nadu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Sikkim, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Sikkim, West, Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_State of Andhra Pradesh under Corridor Approach through Engineering, Procurement Andhra Pradesh,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_T4 ,Single tube tunnel of Ramban to Banihal Pkg-II of Old NH-1A New NH-44",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Telangana on Engineering, Procurement and Construction EPC Basis Telangana,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_Uttar Pradesh, West Bengal",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_[8 GW] PART A [SPV Name POWERGRID West Central Transmission Limited] (Gujarat,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_on Engineering, Procurement & Construction EPC Basis. Uttar Pradesh,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_residual NHDP component of Bharatmala Pariyojna,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__state_to km 31.430 near Old Tamenglong , near Barak River on EPC Mode Package-2 Manipur,",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_to km 514500],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__state_village from Km 468100 to Km 503250],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__ministry_Department of Sports,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_705237,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_705728,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Adani Airport Holdings Limited,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_BCCL - CIL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Banaras Hindu University,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Bharat Coking Coal Limited [BCCL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/II/NR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CAO/C/SECR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CCL - CIL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CERL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CPM/ICF,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Coalfields Limited [CCL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Public Works Department [CPWD],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Railways,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central Tribal University of Andhra Pradesh,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central University of Gujarat,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Central University of Punjab,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Central University, Himachal Pradesh",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_CentralRailway,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Chennai Metro Rail Limited [CMRL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Chennai Petroleum Corporation Limited [CPCL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Construction NER,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Deendayal Port Trust,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Delhi University,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Sports & Youth Affairs,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Telecommunications,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Department of Water Resources-MH,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_GAIL Gas,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Gujarat,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Haldia Dock Complex, Syama Prasad Mookerjee Port Authority",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Hindustan Copper Limited [HCL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_IISC Bangalore,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_INDIAN INSTITUTE OF TECHNOLOGY PALAKKAD,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Management, Jammu",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Management, Sirmaur",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Bhilai",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Bombay",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Kharagpur",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institute of Technology, Mandi",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian Institutes of Science Education and Research, Behrampur",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Oil Corporation Limited (IOCL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Indian Railway,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_Indian intitue of Management, Amritsar",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation & Water Resources-UP,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Irrigation-UK,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_M/S SRC company Infra Private Limited,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_MRIDC,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Education,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Ministry of Health & Family Welfare,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Metro Rail Corporation Limited [MMRC],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Mumbai Rail Vikas Corporation Ltd.[MRVC],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NER,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NHAI,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Mizoram,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Nagaland,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_NIT Sikkim,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Buildings Construction Corporation [NBCC],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Capital Region Transport Corporation [NCRTC],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Communication Academy - Finance (Erstwhile NICF,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Hydroelectric Power Corporation Limited (NHPC,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Industrial Corridor Development Corporation,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Institute of Technology Delhi,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_National Institute of Technology Uttarakhand,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,"cat__agency_National Institute of Technology, Meghalaya",0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_New Mangalore Port Authority,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_North Central Railway (NCR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Northen Railway [NR],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_PMSSY/Institute of National Importance (INI,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Paradip Port Trust [PPT],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Patna Metro Rail Corporation Ltd. [PMRCL],0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_RCIL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Reliance Industries Ltd,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SECL - CIL,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_SR-ERS,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Sikkim University,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Central Railway [SCR] - I,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South East Central Railway [SECR] - II,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Central Railway,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_South Eastern Railway - JH,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railway (SR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Southern Railways [SR] - construction,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Sterlite Power,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_WR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources Department-MN,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-BR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-CT,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Water Resources-OR,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_West Central Railway WCR I,0.00000000
+future_schedule_later_3m,CORE_PLUS_CONDITIONAL,Random Forest,cat__agency_Western Railway WR - II,0.00000000
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Roads & Highways,0.16494640
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_current,0.11998893
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__expenditure_to_original_cost,0.08669700
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__expenditure_current,0.06893974
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__original_cost_current,0.06846898
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Railways,0.05393777
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__months_since_first_observation,0.04843289
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__months_observed,0.04059493
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__expenditure_change_1m,0.03598627
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_progress_change_1m,0.03029100
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_change_1m,0.02477363
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__expenditure_change_3m,0.02438418
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Waste & Water,0.02324056
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__expenditure_velocity_3m,0.02263878
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Transmission & Distribution,0.02114223
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Aviation & Aviation Infrastructure,0.01704972
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Oil & Gas,0.01613523
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_change_1m,0.01260092
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_velocity_3m,0.01093272
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Coal,0.01076092
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_change_3m,0.01028804
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_acceleration_3m,0.00906169
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Water Resources,0.00806921
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_progress_acceleration_3m,0.00764180
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__schedule_revision_count_to_date,0.00677265
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__months_since_schedule_revision,0.00617861
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_months_since_schedule_revision,0.00605474
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_months_since_material_progress_change,0.00575050
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_progress_change_3m,0.00501466
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_progress_velocity_3m,0.00383803
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Telecommunication,0.00342254
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_velocity_3m,0.00340779
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__months_since_material_progress_change,0.00315199
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Healthcare,0.00259012
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Education,0.00254249
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_expenditure_change_3m,0.00246380
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Energy Storage,0.00196588
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Urban Public Transport,0.00184374
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__revised_cost_missing,0.00169288
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Electricity Generation,0.00163828
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__missingindicator_months_since_cost_revision,0.00139278
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__cost_revision_count_to_date,0.00121312
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Steel,0.00081300
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__months_since_cost_revision,0.00074275
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Metals & Mining,0.00032036
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Shipping,0.00015764
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Real Estate,0.00001412
+future_schedule_later_3m,CORE_SAFE,Random Forest,"cat__sector_Tourism, Hospitality & Wellness",0.00001397
+future_schedule_later_3m,CORE_SAFE,Random Forest,num__progress_missing,0.00000000
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Construction,0.00000000
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Inland Waterways,0.00000000
+future_schedule_later_3m,CORE_SAFE,Random Forest,cat__sector_Logistics Infrastructure,0.00000000
