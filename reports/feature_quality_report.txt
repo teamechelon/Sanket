@@ -1,0 +1,47 @@
+SANKET - POINT-IN-TIME FEATURE QUALITY
+====================================================
+Total point-in-time feature rows: 23061
+Schedule eligible rows: 11111
+Cost eligible rows: 5633
+Unique projects: 3959
+Features created: 30
+Identifierless observations excluded: 442
+Target-unknown observations are excluded from each supervised table, never converted to zero.
+
+Missingness (%):
+  months_since_cost_revision: 95.53
+  last_cost_revision_pct: 95.53
+  months_since_schedule_revision: 70.86
+  expenditure_change_3m: 50.19
+  progress_velocity_3m: 50.19
+  progress_change_3m: 50.19
+  expenditure_velocity_3m: 50.19
+  months_since_material_progress_change: 47.55
+  progress_acceleration_3m: 35.19
+  ministry: 21.26
+  progress_change_1m: 18.97
+  expenditure_to_revised_cost: 18.33
+  revised_cost_current: 18.33
+  expenditure_change_1m: 17.58
+  effective_target_months_from_cutoff: 2.19
+  progress_current: 1.99
+  agency: 1.33
+  state: 1.29
+  cost_revision_count_to_date: 0.00
+  sector: 0.00
+  schedule_revision_count_to_date: 0.00
+  original_cost_current: 0.00
+  expenditure_current: 0.00
+  expenditure_to_original_cost: 0.00
+  project_age_months: 0.00
+  cost_revision_pct_current: 0.00
+  months_observed: 0.00
+  months_since_first_observation: 0.00
+  revised_cost_missing: 0.00
+  progress_missing: 0.00
+
+Constant features: none
+Suspicious features: negative expenditure/progress changes can represent source corrections; values are retained for later train-only treatment.
+Unsafe features excluded: future_revised_cost, future_revised_completion, full_history_revision_count, last_observed_value
+Conditional features: state, ministry, agency, project_age_months, revised_cost_current, effective_target_months_from_cutoff, last_cost_revision_pct, expenditure_to_revised_cost, cost_revision_pct_current
+No imputation, scaling, model fitting, or accuracy calculation was performed.
