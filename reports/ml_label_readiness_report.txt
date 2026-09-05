@@ -1,0 +1,41 @@
+SANKET — ML LABEL READINESS REPORT
+==================================================
+
+Decision
+--------
+SCHEDULE DELAY: PARTIALLY READY
+COST OVERRUN: PARTIALLY READY
+OVERALL: NOT LABEL-READY
+
+First label to validate
+-----------------------
+future_schedule_later_3m is the strongest first candidate for source audit: a later completion target first published during the next three months relative to the target known at cutoff.
+It provides 11111 eligible project-month cutoffs, 4092 positives, 7019 negatives, and a 36.83% positive rate.
+Its class balance is usable, but 447 later revised-target transitions occur in March 2026. That concentration must be checked against source semantics before label approval.
+This predicts a future published schedule deterioration, not actual completion delay. It must be described that way and is not approved for training yet.
+
+Cost candidate
+--------------
+future_cost_increase_5pct_6m is the most meaningful cost candidate because it requires material escalation rather than any small correction.
+It provides 5633 eligible project-month cutoffs, 216 positives, 5417 negatives, and a 3.83% positive rate.
+Its 3.83% positive rate is materially imbalanced. Also, 77 of 145 observed month-to-month increases above 5% occur in July 2026, so that reporting boundary requires source audit.
+
+Prediction-time boundary
+------------------------
+AVAILABLE_AT_CUTOFF: the current report row, original cost/date, revised cost/date already published, current expenditure/progress, report month, and lagged values no later than the cutoff.
+ONLY_KNOWN_IN_FUTURE: later reports, future revised costs/dates, future expenditure/progress, whether a project remains listed, and the final observed month.
+
+Why approval is still required
+------------------------------
+The dataset contains only 16 report months and 442 identifierless rows excluded from longitudinal construction.
+A published target revision is observable and temporally defensible, but it is not the same as authoritative actual delay or formally approved cost overrun.
+Disappearance cannot be labeled completion because projects can disappear and reappear.
+Source anomalies include malformed dates, expenditure decreases, original-cost changes, and one progress value over 100; candidate rows need quality filtering before training.
+Class balance and project-level temporal splits must be reviewed after the label definition is approved. Multiple rows from one project must never cross train/test partitions.
+No candidate receives RECOMMENDED status in label_candidate_analysis.csv until the synchronized March schedule and July cost changes are source-verified.
+
+External data needed for outcome-grade labels
+---------------------------------------------
+Authoritative completion/status events with event dates; formal schedule-revision approval history; formal cost-revision approval history; and a stable project identifier across all reports.
+
+No model was trained in this phase.

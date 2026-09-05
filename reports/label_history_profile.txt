@@ -1,0 +1,23 @@
+SANKET — LABEL HISTORY PROFILE
+==================================================
+Input project-month rows: 23503
+Traceable project-month rows: 23061
+Identifierless rows excluded from longitudinal labels: 442
+Traceable projects: 3959
+
+Observation depth:
+  Projects with exactly 1 observation: 124
+  Projects with 2+ observations: 3835
+  Projects with 3+ observations: 3716
+  Projects with 6+ observations: 1871
+  Projects with 12+ observations: 567
+  Projects with at least one exact 3-month lookahead: 2081
+  Projects with at least one exact 6-month lookahead: 1443
+  Total exact 3-month cutoff observations: 11487
+  Total exact 6-month cutoff observations: 5633
+
+Definitions:
+  consecutive_months is the longest uninterrupted observed run.
+  gaps counts missing calendar months between first and last observation.
+  months_before_first/last_revision measure months from first observation to the first/last detected change in effective completion target or effective cost.
+  Projects are linked only by source-backed P: primary or L: alternate identity keys.

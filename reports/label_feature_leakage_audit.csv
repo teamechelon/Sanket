@@ -1,0 +1,19 @@
+feature,classification,reason
+original_cost,SAFE,Value printed in the cutoff report; retain cutoff value only.
+revised_cost,CONDITIONAL,Safe only as known at cutoff; unsafe for a target based on later cost revision if sourced from future rows.
+expenditure,CONDITIONAL,Cutoff value and lagged history are safe; future expenditure is unsafe.
+physical_progress,CONDITIONAL,Cutoff value and lagged history are safe; future progress is unsafe.
+original_end_date,SAFE,Original target printed by cutoff is available at prediction time.
+revised_end_date,CONDITIONAL,Latest value known at cutoff is safe; any later published revision is target information.
+report_month,SAFE,Defines the prediction cutoff and temporal split.
+project_age,CONDITIONAL,Safe when calculated only from approval/start information known by cutoff; invalid or future-corrected dates require exclusion.
+months_since_start,CONDITIONAL,Safe from a cutoff-known start date; do not backfill with future corrections.
+historical_expenditure_growth,SAFE,Use only observations at or before cutoff; never centered or future-filled windows.
+historical_progress_growth,SAFE,Use only observations at or before cutoff; do not use future progress.
+historical_cost_revisions,SAFE,Count/value changes observed no later than cutoff.
+future_expenditure,UNSAFE,Occurs inside the target window.
+future_progress,UNSAFE,Occurs inside the target window.
+future_revised_cost,UNSAFE,Directly constructs future cost targets.
+future_revised_end_date,UNSAFE,Directly constructs future schedule targets.
+last_observed_month,UNSAFE,Uses knowledge of future dataset availability and project disappearance.
+full_history_aggregates,UNSAFE,Aggregates after the cutoff leak future observations.
