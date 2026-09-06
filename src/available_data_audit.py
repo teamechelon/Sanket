@@ -36,6 +36,10 @@ ABLATIONS = {
     "STABLE_FOUR_FEATURES": STABLE_SUBSET,
 }
 EVALUATION_MONTHS = ["2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"]
+SLICE_FIELDS = (
+    "prediction_month", "progress_range", "roads_group", "sector",
+    "ministry", "agency", "age_range", "cost_ratio_range",
+)
 
 
 def _period(value: str) -> pd.Period:
@@ -113,14 +117,27 @@ def available_future_drift(all_features: pd.DataFrame, development: pd.DataFrame
     return pd.DataFrame(rows)
 
 
-def error_slices(predictions: pd.DataFrame, threshold: float=.40) -> tuple[pd.DataFrame,pd.DataFrame]:
-    d=predictions.copy(); actual=d[TARGET].to_numpy(); pred=(d.probability.to_numpy()>=threshold).astype(int); d["error"]=actual!=pred; d["fp"]=(actual==0)&(pred==1); d["fn"]=(actual==1)&(pred==0)
+def add_error_slice_groups(predictions: pd.DataFrame) -> pd.DataFrame:
+    """Apply the frozen Phase 15 slice definitions to observation rows."""
+    d=predictions.copy()
     d["progress_range"]=pd.cut(d.progress_current,[-np.inf,25,50,75,np.inf],labels=["<=25","25-50","50-75",">75"]); d["roads_group"]=np.where(d.sector.eq("Roads & Highways"),"Roads & Highways","Other sectors"); d["age_range"]=pd.cut(d.project_age_months,[-np.inf,36,84,144,np.inf],labels=["<=3y","3-7y","7-12y",">12y"]); d["cost_ratio_range"]=pd.cut(d.expenditure_to_original_cost,[-np.inf,.25,.5,.75,1,np.inf],labels=["<=.25",".25-.50",".50-.75",".75-1",">1"])
+    return d
+
+
+def slice_sample_status(group: pd.DataFrame) -> str:
+    """Return the exact Phase 15 support classification for one slice."""
+    positives=int(group[TARGET].sum()); negatives=len(group)-positives
+    adequate=len(group)>=50 and group.identity_key.nunique()>=25 and positives>=20 and negatives>=20
+    return "ADEQUATE" if adequate else "INSUFFICIENT_SAMPLE"
+
+
+def error_slices(predictions: pd.DataFrame, threshold: float=.40) -> tuple[pd.DataFrame,pd.DataFrame]:
+    d=add_error_slice_groups(predictions); actual=d[TARGET].to_numpy(); pred=(d.probability.to_numpy()>=threshold).astype(int); d["error"]=actual!=pred; d["fp"]=(actual==0)&(pred==1); d["fn"]=(actual==1)&(pred==0)
     rows=[]
-    for field in ("prediction_month","progress_range","roads_group","sector","ministry","agency","age_range","cost_ratio_range"):
+    for field in SLICE_FIELDS:
         for value,g in d.groupby(field,dropna=False,observed=True):
-            pos=int(g[TARGET].sum()); neg=len(g)-pos; adequate=len(g)>=50 and g.identity_key.nunique()>=25 and pos>=20 and neg>=20
-            rows.append({"slice_feature":field,"slice_value":str(value),"rows":len(g),"projects":g.identity_key.nunique(),"event_rate":g[TARGET].mean(),"roc_auc":roc_auc_score(g[TARGET],g.probability) if pos and neg else np.nan,"precision_at_40":precision_score(g[TARGET],g.probability>=.40,zero_division=0),"recall_at_40":recall_score(g[TARGET],g.probability>=.40,zero_division=0),"false_positives":int(g.fp.sum()),"false_negatives":int(g.fn.sum()),"error_rate":g.error.mean(),"sample_status":"ADEQUATE" if adequate else "INSUFFICIENT_SAMPLE"})
+            pos=int(g[TARGET].sum()); neg=len(g)-pos
+            rows.append({"slice_feature":field,"slice_value":str(value),"rows":len(g),"projects":g.identity_key.nunique(),"event_rate":g[TARGET].mean(),"roc_auc":roc_auc_score(g[TARGET],g.probability) if pos and neg else np.nan,"precision_at_40":precision_score(g[TARGET],g.probability>=.40,zero_division=0),"recall_at_40":recall_score(g[TARGET],g.probability>=.40,zero_division=0),"false_positives":int(g.fp.sum()),"false_negatives":int(g.fn.sum()),"error_rate":g.error.mean(),"sample_status":slice_sample_status(g)})
     errors=d[d.error].copy(); errors["error_type"]=np.where(errors.fp,"FALSE_POSITIVE","FALSE_NEGATIVE"); errors["confidence_mistake"]=np.where(errors.fp,errors.probability,1-errors.probability)
     highest=errors.sort_values(["confidence_mistake","prediction_month","identity_key"],ascending=[False,True,True]).groupby("error_type",sort=True).head(10)
     return pd.DataFrame(rows),highest[["error_type","project_code","identity_key","prediction_month",TARGET,"probability","confidence_mistake","sector","ministry","agency","progress_current","project_age_months","expenditure_to_original_cost"]]

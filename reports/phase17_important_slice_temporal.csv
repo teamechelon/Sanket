@@ -1,0 +1,11 @@
+important_slice,slice_feature,slice_value,evaluation_period,observations,projects,events,event_rate,sample_status,n_a_reason,baseline_roc_auc,xgb_roc_auc,baseline_pr_auc,xgb_pr_auc,baseline_precision_at_40,xgb_precision_at_40,baseline_recall_at_40,xgb_recall_at_40,baseline_f1_at_40,xgb_f1_at_40,baseline_precision_at_50,xgb_precision_at_50,baseline_recall_at_50,xgb_recall_at_50,baseline_f1_at_50,xgb_f1_at_50,delta_roc_auc,delta_pr_auc
+Electricity Generation,sector,Electricity Generation,2026-03,32,32,12,0.37500000,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Electricity Generation,sector,Electricity Generation,2026-04,37,37,20,0.54054054,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Ministry of Power,ministry,Ministry of Power,2026-03,87,87,14,0.16091954,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Ministry of Power,ministry,Ministry of Power,2026-04,92,92,30,0.32608696,ADEQUATE,,0.52204301,0.50591398,0.47672234,0.51180337,0.71428571,0.55555556,0.16666667,0.33333333,0.27027027,0.41666667,1.00000000,1.00000000,0.10000000,0.23333333,0.18181818,0.37837838,-0.01612903,0.03508104
+Education,sector,Education,2026-03,30,30,3,0.10000000,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Education,sector,Education,2026-04,31,31,8,0.25806452,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Railways,sector,Railways,2026-03,237,237,14,0.05907173,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Railways,sector,Railways,2026-04,188,188,11,0.05851064,INSUFFICIENT_SAMPLE,PHASE15_SUPPORT_RULE_NOT_MET,,,,,,,,,,,,,,,,,,
+Roads & Highways,sector,Roads & Highways,2026-03,951,951,601,0.63196635,ADEQUATE,,0.83362016,0.83925838,0.88520890,0.88800544,0.91764706,0.91105769,0.38935108,0.63061564,0.54672897,0.74532940,0.94545455,0.91269841,0.08652246,0.57404326,0.15853659,0.70480082,0.00563822,0.00279654
+Roads & Highways,sector,Roads & Highways,2026-04,947,947,526,0.55543823,ADEQUATE,,0.81064910,0.87091661,0.83861633,0.89178161,0.81168831,0.88425926,0.71292776,0.72623574,0.75910931,0.79749478,0.84498480,0.90585242,0.52851711,0.67680608,0.65029240,0.77475517,0.06026751,0.05316528

@@ -1,0 +1,88 @@
+SANKET - PHASE 17 XGBOOST ERROR-SLICE ROBUSTNESS AUDIT
+=================================================================
+PHASE 17 STATUS: MIXED SLICE ROBUSTNESS
+MODEL: XGBoost 2.1.4
+MODEL CHANGED: NO
+THRESHOLD CHANGED: NO
+FEATURES CHANGED: NO
+TEMPORAL FOLDS: 6
+SLICE DEFINITIONS: Same as Phase 15
+
+METHODOLOGY
+Phase 16 row-level predictions were not persisted, so they were technically reproduced using the frozen Random Forest and exact frozen XGBoost configuration. XGBoost parameters remain {'objective': 'binary:logistic', 'eval_metric': 'aucpr', 'n_estimators': 300, 'learning_rate': 0.05, 'max_depth': 3, 'min_child_weight': 5.0, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'random_state': 26103, 'scale_pos_weight': 1.0, 'missing': nan, 'n_jobs': 1, 'tree_method': 'hist', 'importance_type': 'gain'}.
+The imported Phase 15 fields, bins, group logic, and support rule are unchanged: >=50 observations, >=25 projects, >=20 events, and >=20 non-events.
+
+OVERALL SLICE RESULTS
+Supported slices: 48.
+XGBoost PR-AUC wins: 32; baseline wins: 14; negligible: 2 using +/-0.005.
+Material XGBoost degradations: 14 supported slices below -0.005 PR-AUC; severe degradations below -0.050: 5.
+Severe supported degradations: ministry=Ministry of Housing & Urban Affairs (N=267, delta PR=-0.133); sector=Waste & Water (N=155, delta PR=-0.100); sector=Healthcare (N=166, delta PR=-0.093); cost_ratio_range=>1 (N=726, delta PR=-0.087); sector=Coal (N=687, delta PR=-0.087).
+
+IMPORTANT SLICES
+slice | N/projects | event rate | baseline/XGB ROC | delta | baseline/XGB PR | delta | recall@.40 baseline/XGB
+Electricity Generation | 180/42 | 0.272 | 0.489/0.480 | -0.010 | 0.272/0.282 | +0.010 | 0.163/0.245
+Ministry of Power | 499/103 | 0.323 | 0.654/0.708 | +0.054 | 0.559/0.583 | +0.024 | 0.441/0.503
+Education | 178/31 | 0.152 | 0.659/0.648 | -0.012 | 0.202/0.234 | +0.032 | 0.444/0.593
+Railways | 1367/258 | 0.086 | 0.699/0.752 | +0.053 | 0.252/0.210 | -0.042 | 0.025/0.373
+  Railways false negatives @.40: baseline=115, XGBoost=74 out of 118 events.
+Roads & Highways | 4166/1115 | 0.672 | 0.782/0.844 | +0.061 | 0.855/0.893 | +0.039 | 0.488/0.731
+  Roads & Highways false negatives @.40: baseline=1432, XGBoost=754 out of 2799 events.
+
+ERROR TYPES
+Threshold 0.40:
+  BASELINE_RANDOM_FOREST: TN/FP/FN/TP=4508/464/1935/1703.
+  XGBOOST: TN/FP/FN/TP=4125/847/1105/2533.
+  Supported-slice direction: XGBoost precision improves in 24/48 and recall improves in 48/48. Lowest XGBoost precision=0.175 in ministry=Department of Water Resources, River Development & GR; lowest recall=0.245 in sector=Electricity Generation.
+Threshold 0.50:
+  BASELINE_RANDOM_FOREST: TN/FP/FN/TP=4831/141/3032/606.
+  XGBOOST: TN/FP/FN/TP=4326/646/1391/2247.
+  Supported-slice direction: XGBoost precision improves in 28/48 and recall improves in 48/48. Lowest XGBoost precision=0.180 in ministry=Department of Water Resources, River Development & GR; lowest recall=0.184 in sector=Electricity Generation.
+
+HIGH-CONFIDENCE ERRORS
+FALSE_POSITIVE BASELINE_RANDOM_FOREST: total=464, top-10 mean/min/max confidence mistake=0.659/0.631/0.685.
+FALSE_POSITIVE XGBOOST: total=847, top-10 mean/min/max confidence mistake=0.963/0.958/0.975.
+FALSE_NEGATIVE BASELINE_RANDOM_FOREST: total=1935, top-10 mean/min/max confidence mistake=0.980/0.970/0.989.
+FALSE_NEGATIVE XGBOOST: total=1105, top-10 mean/min/max confidence mistake=0.998/0.997/0.999.
+The Phase 15 top-ten method has no fixed high-confidence cutoff, so severity distributions—not an invented count threshold—are compared.
+XGBoost reduces false negatives but increases false positives at both fixed thresholds; its top-ten mistakes are also more extreme for both error types.
+
+TEMPORAL x SLICE
+Electricity Generation: no individual month meets the Phase 15 support rule; pooled result only.
+Ministry of Power: 1/6 supported months; XGB PR wins=1, baseline wins=0, delta PR range=+0.035..+0.035.
+Education: no individual month meets the Phase 15 support rule; pooled result only.
+Railways: no individual month meets the Phase 15 support rule; pooled result only.
+Roads & Highways: 2/6 supported months; XGB PR wins=1, baseline wins=0, delta PR range=+0.003..+0.053.
+
+DRIFT CONTEXT
+Among supported Phase 15 agency slices, 0 favor baseline and 8 favor XGBoost. Among supported age ranges, 2 favor baseline and 2 favor XGBoost.
+Schedule revision count, material-progress recency, months observed, and months since first observation are not Phase 15 slice fields, so no new diagnostic groups were invented. Associations are descriptive and not causal.
+
+UNKNOWN PERIOD
+May-July 2026 are excluded from labeled analysis.
+
+ROBUSTNESS CLASSIFICATION
+MIXED SLICE ROBUSTNESS
+
+INTERPRETATION
+XGBoost improves PR-AUC in most supported slices and improves recall in every supported slice at both fixed thresholds. However, 14 slices favor the baseline, five have PR degradation worse than 0.050, Railways loses 0.042 PR despite much better recall, and false-positive counts plus high-confidence error severity rise. That combination supports MIXED rather than uniformly robust performance.
+
+MODEL DECISION
+Retain XGBoost as the preferred ranking model unless this audit classifies SIGNIFICANT SLICE CONCERNS.
+
+CALIBRATION
+Still NOT calibrated.
+
+PRODUCTION READINESS
+NOT CLAIMED.
+
+TESTS
+PASSED — all 50 repository tests.
+
+REPRODUCIBILITY
+IDENTICAL — two complete audit runs matched at the declared 8-decimal artifact precision. One parallel Random Forest aggregation can differ at the 16th decimal before canonicalization; no reported value changes.
+
+CHANGED FILES
+src/available_data_audit.py; src/xgboost_slice_audit.py; tests/test_xgboost_slice_audit.py; five reports/phase17_* artifacts.
+
+NEXT STEP
+Run one frozen-model intervention-policy simulation using the existing 0.40 and 0.50 thresholds without selecting either threshold from these audit results.
