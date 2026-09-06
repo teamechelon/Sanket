@@ -1,0 +1,110 @@
+SANKET - PHASE 18 FROZEN-MODEL INTERVENTION-POLICY SIMULATION
+======================================================================
+PHASE 18 STATUS: OPERATIONALLY MIXED
+
+EXECUTIVE SUMMARY
+XGBoost captures substantially more schedule-error observations at both frozen thresholds, while also creating materially more false interventions and review workload. Without a real review-capacity or error-cost contract, the operational result is mixed rather than a threshold recommendation.
+
+OBJECTIVE
+Offline simulation of projects selected for human review by frozen ranking scores.
+
+FROZEN-MODEL DECLARATION
+Models, Phase 16 XGBoost parameters, 29 features, preprocessing, labels, folds, project-disjoint split, and thresholds 0.40/0.50 are unchanged. No calibration, selection, or tuning was performed.
+
+DATA AND EVALUATION SCOPE
+Six maturity-safe folds, November 2025-April 2026. Pooled results are observation-level review actions; a project can recur in multiple months. Within each monthly fold, each observation is one unique project. No across-month project aggregation rule was invented. May-July 2026 UNKNOWN rows are excluded.
+
+INTERVENTION-POLICY DEFINITION
+A score meeting a frozen threshold means selected for human review/intervention. It is not a literal 40% or 50% event probability. Intervention burden is flagged review actions divided by evaluated observations; workload ratio is reviews per observed schedule-error row.
+
+BASELINE VS XGBOOST RESULTS
+threshold | model | evaluated | unique projects | flagged | burden | TP | FP | FN | precision | recall | F1
+0.40 | BASELINE | 8610 | 1978 | 2167 | 0.252 | 1703 | 464 | 1935 | 0.786 | 0.468 | 0.587
+0.40 | XGBOOST | 8610 | 1978 | 3380 | 0.393 | 2533 | 847 | 1105 | 0.749 | 0.696 | 0.722
+0.50 | BASELINE | 8610 | 1978 | 747 | 0.087 | 606 | 141 | 3032 | 0.811 | 0.167 | 0.276
+0.50 | XGBOOST | 8610 | 1978 | 2893 | 0.336 | 2247 | 646 | 1391 | 0.777 | 0.618 | 0.688
+
+THRESHOLD 0.40 ANALYSIS
+XGBoost minus baseline: flagged actions +1213; burden +0.141; true errors captured +830; false interventions +383; missed errors -830.
+Additional false interventions per additional true error captured: 0.461.
+
+THRESHOLD 0.50 ANALYSIS
+XGBoost minus baseline: flagged actions +2146; burden +0.249; true errors captured +1641; false interventions +505; missed errors -1641.
+Additional false interventions per additional true error captured: 0.308.
+
+TEMPORAL FOLD ANALYSIS
+Fold 1 2025-11 @ 0.40: baseline/XGB burden=0.137/0.287, capture=0.198/0.642, precision=0.210/0.324, F1=0.204/0.430, FP=79/142, FN=85/38.
+Fold 1 2025-11 @ 0.50: baseline/XGB burden=0.033/0.233, capture=0.066/0.557, precision=0.292/0.347, F1=0.108/0.428, FP=17/111, FN=99/47.
+Fold 2 2025-12 @ 0.40: baseline/XGB burden=0.335/0.536, capture=0.568/0.873, precision=0.772/0.740, F1=0.654/0.801, FP=95/173, FN=244/72.
+Fold 2 2025-12 @ 0.50: baseline/XGB burden=0.072/0.481, capture=0.112/0.793, precision=0.700/0.749, F1=0.192/0.770, FP=27/150, FN=502/117.
+Fold 3 2026-01 @ 0.40: baseline/XGB burden=0.239/0.451, capture=0.444/0.770, precision=0.844/0.776, F1=0.582/0.773, FP=54/147, FN=367/152.
+Fold 3 2026-01 @ 0.50: baseline/XGB burden=0.045/0.379, capture=0.085/0.671, precision=0.862/0.804, F1=0.154/0.732, FP=9/108, FN=604/217.
+Fold 4 2026-02 @ 0.40: baseline/XGB burden=0.234/0.399, capture=0.394/0.618, precision=0.858/0.790, F1=0.540/0.694, FP=60/152, FN=561/353.
+Fold 4 2026-02 @ 0.50: baseline/XGB burden=0.057/0.331, capture=0.097/0.521, precision=0.865/0.803, F1=0.175/0.632, FP=14/118, FN=835/443.
+Fold 5 2026-03 @ 0.40: baseline/XGB burden=0.200/0.328, capture=0.386/0.616, precision=0.815/0.792, F1=0.524/0.693, FP=63/116, FN=440/275.
+Fold 5 2026-03 @ 0.50: baseline/XGB burden=0.056/0.287, capture=0.113/0.559, precision=0.853/0.820, F1=0.200/0.665, FP=14/88, FN=636/316.
+Fold 6 2026-04 @ 0.40: baseline/XGB burden=0.324/0.340, capture=0.642/0.677, precision=0.791/0.794, F1=0.709/0.731, FP=113/117, FN=238/215.
+Fold 6 2026-04 @ 0.50: baseline/XGB burden=0.221/0.291, capture=0.465/0.623, precision=0.837/0.854, F1=0.598/0.720, FP=60/71, FN=356/251.
+Across-fold mean/SD:
+BASELINE_RANDOM_FOREST @ 0.40: mean/SD burden=0.245/0.069; precision=0.715/0.228; recall=0.439/0.142; F1=0.535/0.161.
+XGBOOST @ 0.40: mean/SD burden=0.390/0.084; precision=0.703/0.170; recall=0.699/0.093; F1=0.687/0.121.
+BASELINE_RANDOM_FOREST @ 0.50: mean/SD burden=0.081/0.064; precision=0.735/0.206; recall=0.156/0.139; F1=0.238/0.164.
+XGBOOST @ 0.50: mean/SD burden=0.334/0.080; precision=0.730/0.174; recall=0.621/0.091; F1=0.658/0.112.
+All 24 model-threshold-fold rows remain visible in the fold CSV.
+
+IMPORTANT SLICE ANALYSIS
+Electricity Generation @ 0.40: baseline/XGB burden=0.144/0.244, precision=0.308/0.273, recall=0.163/0.245, FP=18/32, FN=41/37.
+Electricity Generation @ 0.50: baseline/XGB burden=0.039/0.194, precision=0.143/0.257, recall=0.020/0.184, FP=6/26, FN=48/40.
+Ministry of Power @ 0.40: baseline/XGB burden=0.295/0.291, precision=0.483/0.559, recall=0.441/0.503, FP=76/64, FN=90/80.
+Ministry of Power @ 0.50: baseline/XGB burden=0.142/0.228, precision=0.676/0.623, recall=0.298/0.441, FP=23/43, FN=113/90.
+Education @ 0.40: baseline/XGB burden=0.348/0.410, precision=0.194/0.219, recall=0.444/0.593, FP=50/57, FN=15/11.
+Education @ 0.50: baseline/XGB burden=0.079/0.292, precision=0.071/0.212, recall=0.037/0.407, FP=13/41, FN=26/16.
+Railways @ 0.40: baseline/XGB burden=0.003/0.141, precision=0.750/0.228, recall=0.025/0.373, FP=1/149, FN=115/74.
+Railways @ 0.50: baseline/XGB burden=0.000/0.080, precision=N/A/0.273, recall=0.000/0.254, FP=0/80, FN=118/88.
+  Precision N/A where a model flags no observations in this slice.
+Roads & Highways @ 0.40: baseline/XGB burden=0.374/0.550, precision=0.877/0.892, recall=0.488/0.731, FP=191/248, FN=1432/754.
+Roads & Highways @ 0.50: baseline/XGB burden=0.121/0.489, precision=0.867/0.900, recall=0.156/0.656, FP=67/204, FN=2361/964.
+
+FP/FN TRADEOFF
+XGBoost buys higher capture by expanding reviews and false interventions at both thresholds. The exact incremental false-intervention-per-capture ratios are reported above; they are observation-level, not monetary values.
+
+HYPOTHETICAL COST SENSITIVITY
+scenario | threshold | baseline cost | XGB cost | XGB-baseline
+A_EQUAL_COST | 0.40 | 2399 | 1952 | -447
+A_EQUAL_COST | 0.50 | 3173 | 2037 | -1136
+B_FN_DOUBLE | 0.40 | 4334 | 3057 | -1277
+B_FN_DOUBLE | 0.50 | 6205 | 3428 | -2777
+C_FN_FIVEFOLD | 0.40 | 10139 | 6372 | -3767
+C_FN_FIVEFOLD | 0.50 | 15301 | 7601 | -7700
+These are dimensionless sensitivity scenarios, not government or monetary costs.
+
+PROJECT-DISJOINT CONTEXT
+BASELINE_RANDOM_FOREST @ 0.40: rows/projects=659/351, burden=0.296, precision=0.785, recall=0.560, FP/FN=42/120.
+BASELINE_RANDOM_FOREST @ 0.50: rows/projects=659/351, burden=0.175, precision=0.852, recall=0.359, FP/FN=17/175.
+XGBOOST @ 0.40: rows/projects=659/351, burden=0.388, precision=0.707, recall=0.663, FP/FN=75/92.
+XGBOOST @ 0.50: rows/projects=659/351, burden=0.329, precision=0.774, recall=0.615, FP/FN=49/105.
+
+LIMITATIONS
+Published schedule-revision proxy rather than actual completion delay; repeated project-month observations; uncalibrated scores; hypothetical costs; no measured review capacity; only six folds; mixed slice robustness; no labels after April 2026.
+
+MODEL INTERPRETATION
+Scores are relative-risk ranking signals, not literal event probabilities.
+
+FRONTEND/DATA INTEGRATION STATUS
+Frontend remains disconnected from the model, database, API, prediction pipeline, and live data. No frontend or integration file was modified.
+
+FINAL DECISION
+OPERATIONALLY MIXED
+Phase 18 evaluates the operational consequences of two previously declared thresholds; it does not select an operational threshold.
+
+TESTS
+PASSED — all 58 repository tests.
+
+REPRODUCIBILITY
+IDENTICAL — two complete simulations matched at 8-decimal artifact precision and regenerated ranking metrics matched the Phase 16 artifacts.
+
+CHANGED FILES
+src/intervention_policy_simulation.py; tests/test_intervention_policy_simulation.py; six reports/phase18_* artifacts. Existing Phase 17 uncommitted changes are preserved.
+
+RECOMMENDED NEXT METHODOLOGICAL STEP
+Define one externally supplied human-review capacity constraint before evaluating any policy cutoff; do not derive that constraint from model results.
