@@ -1,0 +1,121 @@
+SANKET - PHASE 19 EXTERNALLY CONSTRAINED INTERVENTION-CAPACITY ANALYSIS
+===============================================================================
+PHASE 19 STATUS: CAPACITY CONSTRAINT NOT AVAILABLE
+
+1. EXECUTIVE SUMMARY
+No explicit, externally supplied human-review capacity constraint exists in the
+current repository. Phase 19 therefore stops before policy evaluation. No
+capacity percentage, project count, observation count, threshold, aggregation
+rule, or rounding rule is assumed.
+
+2. EXTERNAL CAPACITY SOURCE
+NOT FOUND.
+
+Sources checked:
+- README.md and data/requirments.md for project and operational requirements.
+- requirements.txt and repository configuration/specification files.
+- Existing text and Markdown reports, including the Phase 15-18 reports.
+- Existing policy-analysis source and tests.
+- Frontend configuration and text-bearing source files.
+- Repository file names for requirement, specification, configuration, policy,
+  and project-note material.
+
+The only relevant statements found are in Phase 18, which explicitly says that
+review capacity is not measured and calls for an externally supplied constraint.
+Occurrences of "capacity" in project names describe infrastructure assets or
+construction scope, not human-review capacity.
+
+3. EXACT CAPACITY CONSTRAINT
+NOT AVAILABLE.
+
+4. WHY THE CONSTRAINT IS EXTERNALLY SUPPLIED
+No qualifying external source is present. Inventing a percentage or count from
+model performance, fixed-threshold workload, dataset size, or an apparently
+reasonable workload would create an unsupported operational assumption. Phase
+18 review burdens are observed model outputs and are not capacity constraints.
+
+5. FROZEN-MODEL DECLARATION
+The Phase 16 XGBoost model and existing baseline remain frozen. Model
+architecture, hyperparameters, preprocessing, features, labels, validation
+folds, project-disjoint split, calibration status, and ranking scores are
+unchanged. XGBoost remains an uncalibrated relative-risk ranking model, not a
+literal probability model.
+
+6. EVALUATION DATA
+No capacity-constrained labeled evaluation was run. The six maturity-safe folds
+from November 2025 through April 2026 remain unchanged. May-July 2026 outcomes
+remain UNKNOWN and were not treated as negative, labeled, estimated, or
+extrapolated.
+
+7. POLICY METHODOLOGY
+The mandatory source-search gate was applied first. Because it returned no
+external operational constraint, ranking selection and policy calculation were
+stopped. No threshold was selected or optimized, and the Phase 18 thresholds of
+0.40 and 0.50 were not substituted for capacity.
+
+8. BASELINE VS XGBOOST
+NOT PERFORMED. A same-capacity comparison would require a real fixed capacity.
+No selected counts, confusion metrics, precision, recall, F1, error-capture
+rates, or model differences were computed.
+
+9. TEMPORAL RESULTS
+NOT PERFORMED. No fold-level capacity results or cross-fold mean/standard
+deviation were computed.
+
+10. CAPACITY UTILIZATION
+NOT PERFORMED. Utilization, unused capacity, rounding, and workload differences
+cannot be determined without an exact capacity and unit of application.
+
+11. IMPORTANT SLICE ANALYSIS
+NOT PERFORMED. Existing Phase 15/17 slice definitions and support rules remain
+unchanged; no capacity allocations or concentration claims were made.
+
+12. ERROR CAPTURE
+NOT PERFORMED. The frozen XGBoost ranking cannot yet be evaluated against a real
+intervention-capacity policy.
+
+13. FALSE-POSITIVE/FALSE-NEGATIVE TRADEOFF
+NOT PERFORMED. Phase 18 threshold results remain historical context only and
+were not used to manufacture a capacity policy.
+
+14. LIMITATIONS
+- No stakeholder, contract, requirement, specification, or configuration value
+  states a human-review capacity.
+- The unit is therefore unknown: project, observation, reviewer, or review
+  period.
+- XGBoost scores are uncalibrated relative-risk rankings.
+- The underlying outcome is a published schedule-revision proxy.
+- May-July 2026 labels are unavailable because the mature endpoint is absent.
+
+15. FRONTEND/DATA INTEGRATION STATUS
+Frontend remains disconnected from the model, API, database, prediction
+pipeline, and live data. No frontend, data, database, or integration file was
+modified.
+
+16. FINAL POLICY INTERPRETATION
+CAPACITY CONSTRAINT NOT AVAILABLE. Neither the baseline nor frozen XGBoost can
+be judged under a real fixed-capacity review policy until the operational limit
+is supplied externally. No Phase 19 policy classification is manufactured.
+
+TESTS
+PASSED - all 58 repository tests via unittest discovery. No Phase 19 policy
+tests were added because policy execution was stopped before capacity selection.
+
+REPRODUCIBILITY
+The Phase 19 result is a deterministic source-search finding and this report is
+the only Phase 19 artifact. The report was verified byte-identical across two
+consecutive SHA-256 checks. No policy result artifacts were generated.
+
+CHANGE CONTROL
+Created: reports/phase19_capacity_constrained_policy.txt
+Modified model code: NO
+Modified thresholds: NO
+Modified features: NO
+Modified labels or folds: NO
+Modified frontend: NO
+Connected live data: NO
+Existing Phase 15-18 work: PRESERVED
+Commit or push: NOT PERFORMED
+
+17. NEXT METHODOLOGICAL STEP
+Obtain an externally supplied human-review capacity constraint.
