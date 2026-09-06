@@ -1,0 +1,161 @@
+{
+  "contract_kind": "new_reproducibility_baseline_from_surviving_repository_evidence",
+  "fields": {
+    "calibration": {
+      "source_file": "reports/phase16_xgboost_specification.txt",
+      "source_location": "configuration section",
+      "value": "NONE",
+      "verification_status": "VERIFIED"
+    },
+    "class_weighting": {
+      "source_file": "reports/phase16_xgboost_specification.txt",
+      "source_location": "configuration section",
+      "value": "natural classes; scale_pos_weight=1.0",
+      "verification_status": "VERIFIED"
+    },
+    "feature_count": {
+      "source_file": "src/baseline_models.py",
+      "source_location": "lines 22-38",
+      "value": 29,
+      "verification_status": "VERIFIED"
+    },
+    "feature_list_ordered": {
+      "source_file": "src/baseline_models.py",
+      "source_location": "lines 22-38",
+      "value": [
+        "sector",
+        "progress_current",
+        "expenditure_current",
+        "original_cost_current",
+        "progress_change_1m",
+        "progress_change_3m",
+        "progress_velocity_3m",
+        "progress_acceleration_3m",
+        "expenditure_change_1m",
+        "expenditure_change_3m",
+        "expenditure_velocity_3m",
+        "cost_revision_count_to_date",
+        "months_since_cost_revision",
+        "schedule_revision_count_to_date",
+        "months_since_schedule_revision",
+        "months_since_material_progress_change",
+        "expenditure_to_original_cost",
+        "months_observed",
+        "months_since_first_observation",
+        "revised_cost_missing",
+        "progress_missing",
+        "state",
+        "ministry",
+        "agency",
+        "project_age_months",
+        "revised_cost_current",
+        "effective_target_months_from_cutoff",
+        "expenditure_to_revised_cost",
+        "cost_revision_pct_current"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    "hyperparameters": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 26-44",
+      "value": {
+        "colsample_bytree": 0.8,
+        "eval_metric": "aucpr",
+        "importance_type": "gain",
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 5.0,
+        "missing": "NaN",
+        "n_estimators": 300,
+        "n_jobs": 1,
+        "objective": "binary:logistic",
+        "random_state": 26103,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0,
+        "scale_pos_weight": 1.0,
+        "subsample": 0.8,
+        "tree_method": "hist"
+      },
+      "verification_status": "VERIFIED"
+    },
+    "label_definition": {
+      "source_file": "src/label_feasibility.py",
+      "source_location": "lines 149-185",
+      "value": "schedule target becomes later within the exact next three monthly endpoints; missing endpoint is UNKNOWN and excluded",
+      "verification_status": "VERIFIED"
+    },
+    "missing_value_handling": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 40, 87-92",
+      "value": "XGBoost missing=NaN plus training-fitted preprocessing",
+      "verification_status": "VERIFIED"
+    },
+    "model_family": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 10-13, 87-92",
+      "value": "XGBoost XGBClassifier",
+      "verification_status": "VERIFIED"
+    },
+    "prediction_semantics": {
+      "source_file": "reports/phase20_raw_calibration_audit.txt",
+      "source_location": "sections 1 and 12",
+      "value": "relative risk ranking; not calibrated event probability",
+      "verification_status": "VERIFIED"
+    },
+    "preprocessing": {
+      "source_file": "src/baseline_models.py",
+      "source_location": "lines 55-64",
+      "value": "numeric: median imputation + missing indicators + StandardScaler; categorical: most-frequent imputation + OneHotEncoder(handle_unknown=ignore)",
+      "verification_status": "VERIFIED"
+    },
+    "project_disjoint_split": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 177-199",
+      "value": "deterministic Phase 15/16 project-disjoint split",
+      "verification_status": "VERIFIED"
+    },
+    "random_seed": {
+      "source_file": "src/baseline_models.py",
+      "source_location": "line 21; src/xgboost_benchmark.py line 38",
+      "value": 26103,
+      "verification_status": "VERIFIED"
+    },
+    "target": {
+      "source_file": "src/schedule_robustness.py",
+      "source_location": "lines 16-17",
+      "value": "future_schedule_later_3m",
+      "verification_status": "VERIFIED"
+    },
+    "thresholds": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 104-106",
+      "value": [
+        0.4,
+        0.5
+      ],
+      "verification_status": "VERIFIED"
+    },
+    "training_dataset": {
+      "source_file": "src/xgboost_benchmark.py",
+      "source_location": "lines 378-414",
+      "value": "data/features/schedule_modeling.csv",
+      "verification_status": "VERIFIED"
+    },
+    "training_split": {
+      "source_file": "src/available_data_audit.py",
+      "source_location": "lines 38, 49-62",
+      "value": "six expanding maturity-safe walk-forward folds: train 2025-07 through evaluation month minus four; evaluate 2025-11 through 2026-04",
+      "verification_status": "VERIFIED"
+    },
+    "xgboost_version": {
+      "source_file": "requirements.txt",
+      "source_location": "line 8",
+      "value": "2.1.4",
+      "verification_status": "VERIFIED"
+    }
+  },
+  "historical_documented_contract_sha256": "6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149",
+  "new_reproducibility_baseline_contract_sha256": "aa6de32d90dccc9fb58fc7a61e493ad3ff1e802fee7bdeb615e36b7d7da78891",
+  "phase": 29,
+  "schema_version": 1
+}

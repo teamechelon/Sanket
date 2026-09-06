@@ -1,0 +1,56 @@
+PHASE 29 — MODEL ARTIFACT RECONSTRUCTION & REPRODUCIBILITY BASELINE
+==========================================================================
+
+A. HISTORICAL REPOSITORY EVIDENCE
+Phase 16/20 reports document prior metrics only; they are not new reproduction evidence.
+Historical documented logical-contract SHA-256: 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149
+This is a logical configuration hash, not a serialized fitted-model hash.
+
+B. NEWLY ESTABLISHED PHASE 29 EVIDENCE
+Source commit inspected: abb4dc58a01c139820629c0af435ee7fa35ea1cd
+New reproducibility-baseline contract SHA-256: aa6de32d90dccc9fb58fc7a61e493ad3ff1e802fee7bdeb615e36b7d7da78891
+The new hash is a canonical record of surviving-source contract fields, not historical provenance.
+
+C. MISSING HISTORICAL EVIDENCE
+Phase 23-27 historical artifacts and serialized historical model remain unavailable.
+
+D. TRAINING REPRODUCIBILITY
+BLOCKED before training. No substitute implementation, hyperparameter change, or replacement model was used.
+
+E. MODEL ARTIFACT STATUS
+Artifact path: models/phase29_reproducibility_baseline.joblib
+Artifact created: False
+Artifact SHA-256: NOT CREATED
+
+F. CONTRACT STATUS
+Model family/version: XGBoost XGBClassifier / 2.1.4
+Ordered features: 29
+Target: future_schedule_later_3m
+Thresholds: [0.4, 0.5]; calibration: NONE
+Every contract field, source file, source location, and verification status is in phase29_reproducibility_contract.json.
+
+G. DEPENDENCY STATUS
+Python runtime: 3.14.0
+scikit-learn available: False
+xgboost available: False
+BLOCKED: pip install --dry-run --no-cache-dir -r requirements.txt on the available Python 3.14 runtime reported no matching distribution for scikit-learn>=1.6,<2.
+ENVIRONMENT REPRODUCTION: BLOCKED
+
+H. KNOWN LIMITATIONS
+No serialization/loading path exists in surviving repository source. Phase 16/20 metrics are historical documented results only. No May-to-August holdout is mature or evaluated.
+
+I. PHASE 27 BLOCKER STATUS
+NOT RESOLVED. FINAL CANDIDATE: NOT APPROVED.
+
+REQUIRED STATUS FIELDS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+NEW MODEL ARTIFACT CREATED: NO
+HISTORICAL MODEL ARTIFACT RECOVERED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+AUGUST DATA CREATED: NO
+AUGUST HOLDOUT EVALUATED: NO
+HISTORICAL PHASE 23–27 ARTIFACTS RECOVERED: NO
+REPRODUCIBILITY STATUS: BLOCKED
