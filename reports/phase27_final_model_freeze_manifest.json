@@ -1,0 +1,191 @@
+{
+  "audit_type": "final_model_decision_and_freeze_audit",
+  "august_readiness": {
+    "august_data_available": false,
+    "future_holdout_status": "not_ready",
+    "mature_may_observations": 0,
+    "mature_may_projects": 0,
+    "may_to_august_holdout_evaluated": false
+  },
+  "change_control": {
+    "calibration_fitted": false,
+    "calibration_protocol_changed": false,
+    "features_changed": false,
+    "model_changed": false,
+    "model_retrained": false,
+    "thresholds_changed": false
+  },
+  "decision_blockers": [
+    "Required evidence is absent; Phase 27 does not recreate, infer, or substitute for the missing phase artifacts: phase23_readiness_monitoring, phase24_product_integration, phase25_generalization_error_analysis, phase26_calibration_protocol"
+  ],
+  "final_candidate_status": "NOT APPROVED",
+  "final_freeze_created": false,
+  "frozen_model_contract": {
+    "calibration_status": "not_calibrated",
+    "feature_list_ordered": [
+      "sector",
+      "progress_current",
+      "expenditure_current",
+      "original_cost_current",
+      "progress_change_1m",
+      "progress_change_3m",
+      "progress_velocity_3m",
+      "progress_acceleration_3m",
+      "expenditure_change_1m",
+      "expenditure_change_3m",
+      "expenditure_velocity_3m",
+      "cost_revision_count_to_date",
+      "months_since_cost_revision",
+      "schedule_revision_count_to_date",
+      "months_since_schedule_revision",
+      "months_since_material_progress_change",
+      "expenditure_to_original_cost",
+      "months_observed",
+      "months_since_first_observation",
+      "revised_cost_missing",
+      "progress_missing",
+      "state",
+      "ministry",
+      "agency",
+      "project_age_months",
+      "revised_cost_current",
+      "effective_target_months_from_cutoff",
+      "expenditure_to_revised_cost",
+      "cost_revision_pct_current"
+    ],
+    "future_holdout_status": "not_ready",
+    "known_limitations": [
+      "Published schedule-target deterioration is a proxy, not actual completion delay.",
+      "No mature post-April labeled holdout exists.",
+      "Raw scores are not calibrated probabilities.",
+      "Fixed threshold behavior and slice robustness are heterogeneous.",
+      "No serialized fitted model artifact exists in the repository."
+    ],
+    "label_definition": {
+      "horizon_months": 3,
+      "semantics": "future_published_schedule_target_deterioration",
+      "target": "future_schedule_later_3m",
+      "unknown_rule": "missing exact t_plus_3 endpoint is unknown, never negative"
+    },
+    "logical_model_contract_sha256": "6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149",
+    "model_artifact": {
+      "explanation": "The repository has no serialized fitted model. The immutable model identity is the logical contract SHA-256 below.",
+      "sha256": null,
+      "status": "not_serialized"
+    },
+    "model_identifier": "phase16_frozen_xgboost",
+    "model_version": "xgboost-2.1.4",
+    "preprocessing_identifier": "training_fitted_column_transformer_median_mode_onehot_standardscale",
+    "score_semantics": "relative_risk_ranking",
+    "thresholds": [
+      0.4,
+      0.5
+    ],
+    "training_data_cutoff": "2026-04",
+    "validation_data_scope": "six maturity-safe walk-forward folds from 2025-11 through 2026-04 plus the deterministic project-disjoint experiment",
+    "xgboost_configuration": {
+      "colsample_bytree": 0.8,
+      "eval_metric": "aucpr",
+      "importance_type": "gain",
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "min_child_weight": 5.0,
+      "missing": "NaN",
+      "n_estimators": 300,
+      "n_jobs": 1,
+      "objective": "binary:logistic",
+      "random_state": 26103,
+      "reg_alpha": 0.0,
+      "reg_lambda": 1.0,
+      "scale_pos_weight": 1.0,
+      "subsample": 0.8,
+      "tree_method": "hist"
+    }
+  },
+  "immutable_artifact_hashes": {
+    "feature_contract": {
+      "exists": true,
+      "path": "src/schedule_robustness.py",
+      "sha256": "6f905595bcaa3c056a69f557e17616da123c1e20a485553b305b72a6b4824711"
+    },
+    "label_definition": {
+      "exists": true,
+      "path": "reports/schedule_label_semantic_definition.md",
+      "sha256": "bd2551551f25895a8c5209fe2094fd206e6b7e830bd955f5d6f284d34e906632"
+    },
+    "phase16_specification": {
+      "exists": true,
+      "path": "reports/phase16_xgboost_specification.txt",
+      "sha256": "eb5263e40ed3f2f929d7cc376d9e0af4a5f78101e62231e23a2baa837088c010"
+    },
+    "phase20_calibration_audit": {
+      "exists": true,
+      "path": "reports/phase20_raw_calibration_audit.txt",
+      "sha256": "943c36dffb992ecdcb41954984d08232ef038acf021880310dd8b7f8c36d58bf"
+    },
+    "phase21_holdout_availability": {
+      "exists": true,
+      "path": "reports/phase21_post_april_forward_holdout_report.txt",
+      "sha256": "5c1865bcd26b3ea21976dfd1388235546e7a5490b9c0b76c8f5601dc58046519"
+    },
+    "phase22_readiness_gate": {
+      "exists": true,
+      "path": "reports/phase22_august_ingestion_report.txt",
+      "sha256": "b7af7cef1c5689973fcf66087724f0ad2d556ba216f68d44e04a930a6350c944"
+    },
+    "phase26_calibration_protocol": {
+      "exists": false,
+      "path": "reports/phase26_calibration_predeclaration.txt",
+      "sha256": null
+    },
+    "preprocessing_configuration": {
+      "exists": true,
+      "path": "src/baseline_models.py",
+      "sha256": "3e0deb65c0dafae763ac873f9b2377d68be24e0b867030fe76d74b0a6d6fdd32"
+    },
+    "threshold_configuration": {
+      "exists": true,
+      "path": "src/xgboost_benchmark.py",
+      "sha256": "a0032561660ccf3fd8daaea1083690f32eb534b84c90a9c414ee221ba2d7b33f"
+    }
+  },
+  "phase": 27,
+  "required_evidence": {
+    "phase20_validation": {
+      "exists": true,
+      "path": "reports/phase20_raw_calibration_audit.txt",
+      "sha256": "943c36dffb992ecdcb41954984d08232ef038acf021880310dd8b7f8c36d58bf"
+    },
+    "phase21_holdout_availability": {
+      "exists": true,
+      "path": "reports/phase21_post_april_forward_holdout_report.txt",
+      "sha256": "5c1865bcd26b3ea21976dfd1388235546e7a5490b9c0b76c8f5601dc58046519"
+    },
+    "phase22_august_source_validation": {
+      "exists": true,
+      "path": "reports/phase22_august_ingestion_report.txt",
+      "sha256": "b7af7cef1c5689973fcf66087724f0ad2d556ba216f68d44e04a930a6350c944"
+    },
+    "phase23_readiness_monitoring": {
+      "exists": false,
+      "path": "reports/phase23_readiness_monitoring_report.txt",
+      "sha256": null
+    },
+    "phase24_product_integration": {
+      "exists": false,
+      "path": "reports/phase24_product_integration_report.txt",
+      "sha256": null
+    },
+    "phase25_generalization_error_analysis": {
+      "exists": false,
+      "path": "reports/phase25_generalization_error_analysis.txt",
+      "sha256": null
+    },
+    "phase26_calibration_protocol": {
+      "exists": false,
+      "path": "reports/phase26_calibration_predeclaration.txt",
+      "sha256": null
+    }
+  },
+  "schema_version": 1
+}

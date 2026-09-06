@@ -1,0 +1,74 @@
+PHASE 27 — FINAL MODEL DECISION & FREEZE AUDIT
+======================================================================
+
+1. EXECUTIVE DECISION
+FINAL CANDIDATE STATUS: NOT APPROVED
+The frozen candidate is NOT APPROVED for final freeze because the repository does not contain the required Phase 23–26 evidence artifacts. This is an evidence-completeness decision, not a finding that the existing XGBoost ranking results are invalid.
+
+2. EVIDENCE REVIEWED
+Present and hashed: Phase 20 raw calibration audit; Phase 21 post-April holdout availability; Phase 22 August-source/readiness validation; frozen model sources and specification.
+Missing and therefore not verified: phase23_readiness_monitoring, phase24_product_integration, phase25_generalization_error_analysis, phase26_calibration_protocol.
+
+3. GENERALIZATION ASSESSMENT
+Directly measured evidence: Phase 16 reports mean six-fold XGBoost ROC-AUC 0.849 and PR-AUC 0.738; its project-disjoint ROC-AUC is 0.811 and PR-AUC 0.797. Phase 15's label-maturity sensitivity reports ROC-AUC 0.810 and PR-AUC 0.732. The six mature evaluation folds cover 2025-11 through 2026-04.
+Interpretation: the existing evidence supports the frozen model as a historical relative-risk ranking signal across these temporal and project-disjoint tests.
+Unresolved limitation: it does not measure performance after April 2026, and the required Phase 25 generalization/error-analysis artifact is absent.
+
+4. ERROR ANALYSIS ASSESSMENT
+Directly measured evidence: the Phase 17 supported-slice table at threshold 0.40 shows Electricity Generation 37/49 false negatives (75.5%), Railways 74/118 (62.7%), and Roads & Highways 754 false negatives (the largest absolute miss count, with a lower 26.9% miss rate). It also shows false-positive rates of 24/57 (42.1%) for Waste & Water, 36/138 (26.1%) for Healthcare, and 57/151 (37.7%) for Education.
+Interpretation: these are operational guardrail and monitoring requirements; they do not by themselves invalidate the historical ranking evidence or authorize a model, threshold, or feature change.
+Unresolved limitation: the requested Phase 25 artifact is absent and no post-April error distribution exists.
+
+5. CALIBRATION ASSESSMENT
+Directly measured evidence: Phase 20 classifies raw-score calibration evidence as mixed (overall Brier 0.169, ECE 0.099, intercept 0.527, slope 0.691) and states that scores are ranking signals rather than probabilities.
+Interpretation: no probability semantics are permitted for this candidate.
+Unresolved limitation: no Phase 26 predeclared calibration protocol is in the repository, so the stated future Platt/beta plan cannot be verified for internal consistency. No calibration was fitted.
+
+6. DATA, LABEL, AND DRIFT LIMITATIONS
+Directly measured evidence: Phase 21 and Phase 22 report no authentic August 2026 project-level source, zero mature May observations/projects, and an unready holdout. Phase 15 flags drift in several May–July feature distributions.
+Interpretation: data maturity and drift monitoring remain prerequisites for a future evaluation, not reasons to fabricate labels or score August.
+Unresolved limitation: Phase 23 readiness-monitoring evidence is absent.
+
+7. SECTOR AND OPERATIONAL LIMITATIONS
+The known sector error patterns require sector-aware review, false-negative and false-positive monitoring, and no interpretation of a score as a probability. No operational capacity contract is present; Phase 19 explicitly stopped before selecting a policy threshold. Product-integration evidence required by Phase 24 is absent.
+
+8. AUGUST HOLDOUT STATUS
+AUGUST DATA AVAILABLE: NO
+MATURE MAY OBSERVATIONS: 0
+MATURE MAY PROJECTS: 0
+MAY→AUGUST HOLDOUT EVALUATED: NO
+The next data action is to authenticate, validate, schema-check, identity-match, and leakage-check an official August source through the readiness gate. It is not automatic authorization to evaluate the holdout.
+
+9. FROZEN MODEL CONTRACT (AUDITED, NOT FINALLY FROZEN)
+model_identifier = phase16_frozen_xgboost
+model_version = xgboost-2.1.4
+model_artifact_sha256 = None
+logical_model_contract_sha256 = 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149
+feature_list_ordered = ["sector", "progress_current", "expenditure_current", "original_cost_current", "progress_change_1m", "progress_change_3m", "progress_velocity_3m", "progress_acceleration_3m", "expenditure_change_1m", "expenditure_change_3m", "expenditure_velocity_3m", "cost_revision_count_to_date", "months_since_cost_revision", "schedule_revision_count_to_date", "months_since_schedule_revision", "months_since_material_progress_change", "expenditure_to_original_cost", "months_observed", "months_since_first_observation", "revised_cost_missing", "progress_missing", "state", "ministry", "agency", "project_age_months", "revised_cost_current", "effective_target_months_from_cutoff", "expenditure_to_revised_cost", "cost_revision_pct_current"]
+preprocessing_identifier = training_fitted_column_transformer_median_mode_onehot_standardscale
+thresholds = [0.4, 0.5]
+label_definition = future_schedule_later_3m at t+3
+calibration_status = "not_calibrated"
+score_semantics = "relative_risk_ranking"
+future_holdout_status = "not_ready"
+
+10. CHANGE CONTROL
+Allowed before a future evaluation: acquire and validate authentic source data; run the already-defined readiness gate; document evidence gaps. No model output or frozen artifact may be changed as part of those actions.
+Prohibited before the May→August holdout: model, XGBoost configuration, features or their order, preprocessing, label definition, thresholds, calibration fitting, or calibration-protocol changes. Any necessary change requires a new model version and a new validation cycle.
+
+11. EXACT NEXT STEP ONCE AUGUST ARRIVES
+Authenticate the official August 2026 report; validate its reporting period, schema, project identities, duplicates, and leakage boundary; then run the Phase 23 readiness gate. Keep the holdout as a separate event and evaluate only if that gate passes and the missing Phase 23–26 evidence requirements have been resolved.
+
+12. REQUIRED STATUS DECLARATIONS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+CALIBRATION PROTOCOL CHANGED: NO
+AUGUST DATA AVAILABLE: NO
+MAY→AUGUST HOLDOUT EVALUATED: NO
+FINAL CANDIDATE: NOT APPROVED
+
+13. REPRODUCIBILITY
+Two deterministic Phase 27 audit passes produced byte-identical manifests. The logical model-contract SHA-256 was unchanged. The Phase 23–26 files are missing, so they cannot be reported unchanged or treated as verified.
