@@ -1,0 +1,63 @@
+SANKET - PHASE 22 AUTHENTIC AUGUST 2026 INGESTION + MAY HOLDOUT READINESS
+==============================================================================
+
+EXECUTIVE SUMMARY
+No authentic August 2026 PAIMANA project-level report was available from an official MoSPI source on the retrieval date. The unavailable-source fail-safe was activated: nothing was downloaded, no August rows or May labels were manufactured, and model performance was not evaluated.
+
+FROZEN MODEL CONTRACT
+XGBoost version: 2.1.4.
+Contract SHA-256: 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149.
+PASS - model configuration, 29 feature names/order, feature engineering, target, thresholds 0.40/0.50, and no-calibration status are unchanged. No model was fit.
+
+17-PDF HISTORICAL FOUNDATION
+PASS - 17 existing PDFs, 116877949 total bytes, aggregate manifest SHA-256 a3ff9bc142f5ac659142462a11ca3a726c8c6a1bbbba2f0ea0e6f1f2a175ea3d.
+All files remain intact and tracked; August would be an additional report.
+
+AUGUST SOURCE PROVENANCE
+Official listing checked: https://paimana-proj.mospi.gov.in/WhatsNewViewMore/ViewMore
+Retrieval date: 2026-09-06.
+Report name/publication date/file type/file size/file SHA-256/row count/project count/schema: NOT AVAILABLE because no official report file was found.
+No unofficial mirror, third-party dataset, search snippet, reconstruction, synthetic data, predicted value, or July carry-forward was used.
+
+AVAILABLE / VALID / MATURE / HOLDOUT READY
+AVAILABLE: NO - official August project-level file not found.
+VALID: NOT CHECKABLE - no file exists to authenticate, parse, or validate.
+MATURE: NO - May has no exact August t+3 endpoint.
+HOLDOUT READY: NO - source, authenticity, ingestion, matching, and maturity gates fail.
+
+MAY TO AUGUST MATCHING
+May observations/projects: 1987/1976.
+Valid August endpoint observations/projects: 0/0.
+Unmatched observations/projects: 1987/1976; ambiguous matches=0; duplicate matches=0; maturity coverage=0.000%. No project match was forced.
+
+DATA QUALITY
+NOT CHECKABLE for August. Schema, period, IDs, duplicates, dates, numeric ranges, progress bounds, and row/project counts are blocked rather than assumed valid.
+
+LEAKAGE PREVENTION
+PASS - August data was not ingested and cannot enter May features. The frozen 29 feature names/order match the contract. No label, score, prediction, or metric was created.
+
+REPRODUCIBILITY
+PASS - two Phase 22 runs matched exactly; artifacts are deterministic and hashable.
+
+CHANGE CONTROL
+Added only the Phase 22 validator, tests, report, data-quality status, and readiness status. Model, features, labels, thresholds, calibration, frontend, database, live-data integration, and 17-PDF foundation are untouched.
+
+PHASE 22 STATUS: NOT READY
+AUGUST SOURCE: UNAVAILABLE
+AUGUST AUTHENTICITY: NOT CHECKABLE
+MAY T+3 MATURITY: NOT AVAILABLE
+MATURE MAY OBSERVATIONS: 0
+MATURE MAY PROJECTS: 0
+MAY HOLDOUT READY: FALSE
+MODEL CHANGED: NO
+FEATURES CHANGED: NO
+LABELS CHANGED: NO
+CALIBRATION CHANGED: NO
+THRESHOLDS CHANGED: NO
+17-PDF FOUNDATION CHANGED: NO
+LEAKAGE DETECTED: NO
+TESTS: 92 passed / 0 failed
+REPRODUCIBILITY: PASS
+
+NEXT ACTION:
+Wait for authentic August 2026 project-level PAIMANA data from an official MoSPI source.
