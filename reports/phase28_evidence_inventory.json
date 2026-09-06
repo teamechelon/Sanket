@@ -1,0 +1,346 @@
+{
+  "artifact_inventory": [
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase23_holdout_readiness_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 23,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase23_readiness_manifest.json",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 23,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase23_readiness_monitoring_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 23,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase24_product_integration_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 24,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase24_change_manifest.json",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 24,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase25_generalization_error_analysis_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 25,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase25_generalization_error_analysis.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 25,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase25_analysis_manifest.json",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 25,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase26_calibration_decision_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 26,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase26_calibration_protocol.json",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 26,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": null,
+      "current_status": "MISSING",
+      "evidence_type": "missing",
+      "expected_path": "reports/phase26_calibration_predeclaration.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": false,
+      "found_in_worktree": false,
+      "phase": 26,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [],
+      "verification_status": "missing_from_worktree_and_reachable_git_history"
+    },
+    {
+      "current_sha256": "95b9e59f0c306e2fbfc19f6b4effa70c060b3e38a6e3c851def65145de679146",
+      "current_status": "PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT",
+      "evidence_type": "historical_repository_artifact",
+      "expected_path": "reports/phase27_final_model_decision_report.txt",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": true,
+      "found_in_worktree": true,
+      "phase": 27,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [
+        {
+          "blob": "f69ecb86b0236064040199ea64fc479235ae1716",
+          "tree": "2ed441feb71007f8017b2ed55edede910a0e3987"
+        }
+      ],
+      "verification_status": "verified_against_unreachable_git_object_without_commit_provenance"
+    },
+    {
+      "current_sha256": "5bdb744487a56979d0835e6d7cc4a1eb18512303d93f90468d8131d127e924d3",
+      "current_status": "PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT",
+      "evidence_type": "historical_repository_artifact",
+      "expected_path": "reports/phase27_final_model_freeze_manifest.json",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": true,
+      "found_in_worktree": true,
+      "phase": 27,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [
+        {
+          "blob": "412e500a092ccbe4bd36735d4776270396cd952f",
+          "tree": "2ed441feb71007f8017b2ed55edede910a0e3987"
+        }
+      ],
+      "verification_status": "verified_against_unreachable_git_object_without_commit_provenance"
+    },
+    {
+      "current_sha256": "fb43174a2f3f8ddbd5ed3a32cdb842c8cad2e8499c3b429408068060e8789bbd",
+      "current_status": "PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT",
+      "evidence_type": "historical_repository_artifact",
+      "expected_path": "src/final_model_freeze_audit.py",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": true,
+      "found_in_worktree": true,
+      "phase": 27,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [
+        {
+          "blob": "19874932fac6d088ff10bbe099e7e86735ae7c9e",
+          "tree": "2ed441feb71007f8017b2ed55edede910a0e3987"
+        }
+      ],
+      "verification_status": "verified_against_unreachable_git_object_without_commit_provenance"
+    },
+    {
+      "current_sha256": "9a1d64f459d35a516c26c01224f593526cc573bba0ba914d10896b0c4a37edca",
+      "current_status": "PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT",
+      "evidence_type": "historical_repository_artifact",
+      "expected_path": "tests/test_final_model_freeze_audit.py",
+      "found_in_git_history": false,
+      "found_in_unreachable_git_objects": true,
+      "found_in_worktree": true,
+      "phase": 27,
+      "recovered": false,
+      "source_commit": null,
+      "source_git_objects": [
+        {
+          "blob": "376d56a882c6342a0e24102c14b3fd846ea59fd7",
+          "tree": "2ed441feb71007f8017b2ed55edede910a0e3987"
+        }
+      ],
+      "verification_status": "verified_against_unreachable_git_object_without_commit_provenance"
+    }
+  ],
+  "audit_kind": "repository_evidence_recovery_and_freeze_prerequisite_audit",
+  "final_candidate_status": "NOT APPROVED",
+  "frozen_contract_verification": {
+    "computed_sha256": "6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149",
+    "expected_sha256": "6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149",
+    "frozen_artifact_verification": "BLOCKED_NO_SERIALIZED_MODEL_ARTIFACT",
+    "hashing_method": "SHA-256 of canonical JSON (sorted keys, compact separators) for the logical Phase 21 contract payload",
+    "matches_expected": true,
+    "reference_paths": [
+      "src/august_2026_ingestion_validation.py",
+      "reports/phase21_post_april_forward_holdout_report.txt",
+      "reports/phase22_august_ingestion_report.txt"
+    ],
+    "referenced_artifact": "logical configuration contract, not a serialized fitted-model artifact"
+  },
+  "missing_evidence": [
+    "reports/phase23_holdout_readiness_report.txt",
+    "reports/phase23_readiness_manifest.json",
+    "reports/phase23_readiness_monitoring_report.txt",
+    "reports/phase24_product_integration_report.txt",
+    "reports/phase24_change_manifest.json",
+    "reports/phase25_generalization_error_analysis_report.txt",
+    "reports/phase25_generalization_error_analysis.txt",
+    "reports/phase25_analysis_manifest.json",
+    "reports/phase26_calibration_decision_report.txt",
+    "reports/phase26_calibration_protocol.json",
+    "reports/phase26_calibration_predeclaration.txt"
+  ],
+  "model_artifact_investigation": {
+    "frozen_model_artifact_status": "NOT_PRESERVED",
+    "generic_json_files_examined_but_not_model_candidates": 20,
+    "model_loading_code": [
+      "No persisted-model loader found; Phase 16 constructs XGBClassifier within make_xgb_pipeline."
+    ],
+    "models_directory_exists": true,
+    "serialized_model_files_in_worktree": [],
+    "serialized_model_paths_in_reachable_git_history": [],
+    "serialized_model_paths_in_unreachable_git_objects": [],
+    "unreachable_git_object_counts": {
+      "blob": 17,
+      "commit": 0,
+      "tree": 24
+    },
+    "verification_status": "BLOCKED_NO_SERIALIZED_MODEL_ARTIFACT"
+  },
+  "phase": 28,
+  "phase27_blocker_status": "NOT_RESOLVED",
+  "phase28_actions": {
+    "august_data_created": false,
+    "august_holdout_evaluated": false,
+    "calibration_fitted": false,
+    "features_changed": false,
+    "ml_fitting_performed": false,
+    "model_changed": false,
+    "model_retrained": false,
+    "thresholds_changed": false
+  },
+  "recovered_historical_evidence": [],
+  "repository_state": {
+    "ahead_of_origin_main": 9,
+    "behind_origin_main": 0,
+    "branch": "main",
+    "head": "8aef305d1c2d12c7acf88fac9658ebba572b53c7",
+    "latest_commits": [
+      "8aef305 (HEAD -> main) Audit repository evidence recovery prerequisites",
+      "3bed7cf Validate August source and May holdout readiness",
+      "154646b Validate post-April holdout maturity",
+      "ec7de0e Audit frozen XGBoost calibration",
+      "1289821 Record missing review capacity constraint",
+      "d033a26 Simulate frozen intervention policy",
+      "c4f1cfc Audit XGBoost slice robustness",
+      "5925591 Benchmark untuned XGBoost model",
+      "a06e198 Audit available schedule data robustness",
+      "2520ed4 (origin/main, origin/HEAD) Validate schedule baseline robustness",
+      "9fb642e Establish temporal baseline models",
+      "83404fe Build point-in-time feature datasets",
+      "2d34623 Validate first ML target semantics",
+      "b6b3aea Assess longitudinal label feasibility",
+      "6cdba76 phase 7",
+      "d02b22f ui changes",
+      "26c0e28 Validate PDF extraction formats and source counts",
+      "43def04 data processing"
+    ],
+    "local_branches": [
+      "main"
+    ],
+    "origin_url": "https://github.com/RonnyHamilton/Sanket.git",
+    "phase28_output_status_excluded_for_determinism": [
+      " M reports/phase28_evidence_inventory.json",
+      " M reports/phase28_evidence_recovery_report.txt"
+    ],
+    "phase_commit_message_search": {
+      "Phase 23": [],
+      "Phase 24": [],
+      "Phase 25": [],
+      "Phase 26": [],
+      "Phase 27": []
+    },
+    "remote_branches": [
+      "origin",
+      "origin/main"
+    ],
+    "tags": [],
+    "working_tree_status": "M frontend/next-env.d.ts\n M src/phase28_evidence_recovery.py\n M tests/test_phase28_evidence_recovery.py\n?? reports/phase27_final_model_decision_report.txt\n?? reports/phase27_final_model_freeze_manifest.json\n?? src/final_model_freeze_audit.py\n?? tests/test_final_model_freeze_audit.py"
+  },
+  "schema_version": 1,
+  "unreachable_git_object_evidence": [
+    "reports/phase27_final_model_decision_report.txt",
+    "reports/phase27_final_model_freeze_manifest.json",
+    "src/final_model_freeze_audit.py",
+    "tests/test_final_model_freeze_audit.py"
+  ]
+}

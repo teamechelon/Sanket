@@ -1,0 +1,121 @@
+PHASE 28 — REPOSITORY EVIDENCE RECOVERY & FREEZE PREREQUISITE AUDIT
+==========================================================================
+
+1. REPOSITORY STATE
+Branch: main
+HEAD: 8aef305d1c2d12c7acf88fac9658ebba572b53c7
+Origin: https://github.com/RonnyHamilton/Sanket.git
+Ahead/behind origin/main: 9/0
+Working tree status (excluding Phase 28 generated outputs so repeated audits are comparable):
+M frontend/next-env.d.ts
+ M src/phase28_evidence_recovery.py
+ M tests/test_phase28_evidence_recovery.py
+?? reports/phase27_final_model_decision_report.txt
+?? reports/phase27_final_model_freeze_manifest.json
+?? src/final_model_freeze_audit.py
+?? tests/test_final_model_freeze_audit.py
+Excluded Phase 28 output status:  M reports/phase28_evidence_inventory.json;  M reports/phase28_evidence_recovery_report.txt
+Latest commits:
+8aef305 (HEAD -> main) Audit repository evidence recovery prerequisites
+3bed7cf Validate August source and May holdout readiness
+154646b Validate post-April holdout maturity
+ec7de0e Audit frozen XGBoost calibration
+1289821 Record missing review capacity constraint
+d033a26 Simulate frozen intervention policy
+c4f1cfc Audit XGBoost slice robustness
+5925591 Benchmark untuned XGBoost model
+a06e198 Audit available schedule data robustness
+2520ed4 (origin/main, origin/HEAD) Validate schedule baseline robustness
+9fb642e Establish temporal baseline models
+83404fe Build point-in-time feature datasets
+2d34623 Validate first ML target semantics
+b6b3aea Assess longitudinal label feasibility
+6cdba76 phase 7
+d02b22f ui changes
+26c0e28 Validate PDF extraction formats and source counts
+43def04 data processing
+Local branches: main
+Remote branches: origin, origin/main
+Tags: NONE
+
+Phase 23–27 commit-message search:
+Phase 23: NONE
+Phase 24: NONE
+Phase 25: NONE
+Phase 26: NONE
+Phase 27: NONE
+
+2. PHASE 23–27 ARTIFACT STATUS
+phase | expected path | worktree | git history | dangling object | evidence type | status | source commit
+23 | reports/phase23_holdout_readiness_report.txt | False | False | False | missing | MISSING | NONE
+23 | reports/phase23_readiness_manifest.json | False | False | False | missing | MISSING | NONE
+23 | reports/phase23_readiness_monitoring_report.txt | False | False | False | missing | MISSING | NONE
+24 | reports/phase24_product_integration_report.txt | False | False | False | missing | MISSING | NONE
+24 | reports/phase24_change_manifest.json | False | False | False | missing | MISSING | NONE
+25 | reports/phase25_generalization_error_analysis_report.txt | False | False | False | missing | MISSING | NONE
+25 | reports/phase25_generalization_error_analysis.txt | False | False | False | missing | MISSING | NONE
+25 | reports/phase25_analysis_manifest.json | False | False | False | missing | MISSING | NONE
+26 | reports/phase26_calibration_decision_report.txt | False | False | False | missing | MISSING | NONE
+26 | reports/phase26_calibration_protocol.json | False | False | False | missing | MISSING | NONE
+26 | reports/phase26_calibration_predeclaration.txt | False | False | False | missing | MISSING | NONE
+27 | reports/phase27_final_model_decision_report.txt | True | False | True | historical_repository_artifact | PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT | NONE
+27 | reports/phase27_final_model_freeze_manifest.json | True | False | True | historical_repository_artifact | PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT | NONE
+27 | src/final_model_freeze_audit.py | True | False | True | historical_repository_artifact | PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT | NONE
+27 | tests/test_final_model_freeze_audit.py | True | False | True | historical_repository_artifact | PRESENT_VERIFIED_UNREACHABLE_GIT_OBJECT | NONE
+
+3. FROZEN MODEL ARTIFACT STATUS
+Model artifact status: NOT_PRESERVED
+Worktree serialized model candidates: NONE
+Reachable-history serialized model candidates: NONE
+Unreachable-object serialized model candidates: NONE
+Generic JSON files were examined but excluded unless their name or path identified a model/artifact: 20
+Model loading/persistence finding: ['No persisted-model loader found; Phase 16 constructs XGBClassifier within make_xgb_pipeline.']
+Unreachable Git object counts: {'commit': 0, 'tree': 24, 'blob': 17}
+Frozen artifact verification: BLOCKED_NO_SERIALIZED_MODEL_ARTIFACT
+
+4. CONTRACT HASH VERIFICATION
+Expected contract SHA-256: 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149
+Computed logical-contract SHA-256: 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149
+Contract match: True
+Hashing method: SHA-256 of canonical JSON (sorted keys, compact separators) for the logical Phase 21 contract payload
+References: src/august_2026_ingestion_validation.py, reports/phase21_post_april_forward_holdout_report.txt, reports/phase22_august_ingestion_report.txt
+Referenced artifact: logical configuration contract, not a serialized fitted-model artifact
+FROZEN ARTIFACT VERIFICATION: BLOCKED_NO_SERIALIZED_MODEL_ARTIFACT
+
+5. RECOVERED HISTORICAL EVIDENCE
+NONE. No Phase 23–27 expected artifact exists in reachable commit history.
+Unreachable Git-object evidence (not recovered because no commit provenance exists): reports/phase27_final_model_decision_report.txt, reports/phase27_final_model_freeze_manifest.json, src/final_model_freeze_audit.py, tests/test_final_model_freeze_audit.py
+
+6. MISSING EVIDENCE
+reports/phase23_holdout_readiness_report.txt
+reports/phase23_readiness_manifest.json
+reports/phase23_readiness_monitoring_report.txt
+reports/phase24_product_integration_report.txt
+reports/phase24_change_manifest.json
+reports/phase25_generalization_error_analysis_report.txt
+reports/phase25_generalization_error_analysis.txt
+reports/phase25_analysis_manifest.json
+reports/phase26_calibration_decision_report.txt
+reports/phase26_calibration_protocol.json
+reports/phase26_calibration_predeclaration.txt
+
+7. EVIDENCE INTEGRITY ASSESSMENT
+The Phase 27 worktree files match dangling Git blobs, but the enclosing Git tree has no reachable commit or ref. They are authentic Git-object findings with insufficient commit provenance, not independently verifiable historical validation evidence. No Phase 23–26 experiment or result was recreated. The logical configuration contract matches its documented hash, but the serialized fitted model is not preserved.
+
+8. PHASE 27 BLOCKER STATUS
+NOT RESOLVED. FINAL CANDIDATE: NOT APPROVED.
+
+9. EXACT PREREQUISITES FOR A PHASE 27 RE-RUN
+Recover authentic Phase 23–26 artifacts from an authoritative repository source and preserve a serialized model artifact with a verifiable digest. Then independently verify the artifacts and run Phase 27 as a new audit. Authentic August data and the readiness gate remain separate requirements.
+
+10. REQUIRED DECLARATIONS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+AUGUST DATA CREATED: NO
+AUGUST HOLDOUT EVALUATED: NO
+
+11. DETERMINISM
+Two Phase 28 read-only audit passes produced byte-identical inventory JSON and report content. No runtime metadata is included.
