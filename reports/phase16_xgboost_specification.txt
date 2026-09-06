@@ -1,0 +1,45 @@
+SANKET - PHASE 16 PREDECLARED XGBOOST SPECIFICATION
+==========================================================
+This specification is frozen before results are generated.
+
+EXACT CONFIGURATION
+- objective: binary:logistic
+- eval_metric: aucpr
+- n_estimators: 300
+- learning_rate: 0.05
+- max_depth: 3
+- min_child_weight: 5.0
+- subsample: 0.8
+- colsample_bytree: 0.8
+- reg_alpha: 0.0
+- reg_lambda: 1.0
+- random_state: 26103
+- scale_pos_weight: 1.0
+- missing: nan
+- n_jobs: 1
+- tree_method: hist
+- importance_type: gain
+- class weighting strategy: natural classes; no reweighting
+- missing-value handling: existing training-fitted median/mode imputation,
+  numeric missing indicators, and XGBoost missing=NaN safety handling
+- early stopping: NONE
+- hyperparameter search: NONE
+- threshold tuning: NONE; evaluate fixed 0.40 and 0.50 only
+- calibration: NONE
+- feature selection after results: NONE
+- feature population: the existing 29 CORE_PLUS_CONDITIONAL features
+- folds: exactly the six Phase 15 maturity-safe walk-forward folds
+- project-disjoint split: exactly the Phase 15 deterministic split
+
+PRIMARY DECISION RULE
+PR-AUC is primary and ROC-AUC secondary. A paired fold is an XGBoost win when
+delta PR-AUC > 0.005, a baseline win when delta PR-AUC <
+-0.005, and otherwise negligible/tied.
+
+XGBOOST CLEARLY BETTER requires mean delta PR >= 0.010, mean delta ROC >=
+0.005, at least four PR wins, no more than one PR loss, and non-negative
+project-disjoint deltas with project-disjoint delta PR >= 0.005.
+XGBOOST WORSE requires mean delta PR <= -0.010, mean delta ROC <= -0.005,
+at least four baseline PR wins, and a negative project-disjoint delta PR.
+Positive but non-gating evidence is XGBOOST MARGINALLY BETTER. Otherwise the
+BASELINE REMAINS PREFERRED. The final model changes only for CLEARLY BETTER.

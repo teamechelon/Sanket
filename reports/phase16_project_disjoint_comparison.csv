@@ -1,0 +1,3 @@
+model,train_rows,train_projects,test_rows,test_projects,project_overlap,event_rate,roc_auc,pr_auc,mean_prediction,precision_at_40,recall_at_40,f1_at_40,false_positive_rate_at_40,tn_at_40,fp_at_40,fn_at_40,tp_at_40,precision_at_50,recall_at_50,f1_at_50,false_positive_rate_at_50,tn_at_50,fp_at_50,fn_at_50,tp_at_50
+BASELINE_RANDOM_FOREST,2670,789,659,351,0,0.41426404,0.80813358,0.75611786,0.31037437,0.78461538,0.56043956,0.65384615,0.10880829,344,42,120,153,0.85217391,0.35897436,0.50515464,0.04404145,369,17,175,98
+XGBOOST,2670,789,659,351,0,0.41426404,0.81057242,0.79687480,0.33099133,0.70703125,0.66300366,0.68431002,0.19430052,311,75,92,181,0.77419355,0.61538462,0.68571429,0.12694301,337,49,105,168

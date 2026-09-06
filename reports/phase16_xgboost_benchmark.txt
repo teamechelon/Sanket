@@ -1,0 +1,141 @@
+SANKET - PHASE 16 PREDECLARED UNTUNED XGBOOST BENCHMARK
+==================================================================
+PHASE 16 STATUS: XGBOOST CLEARLY BETTER
+
+EXPERIMENT SPECIFICATION
+SANKET - PHASE 16 PREDECLARED XGBOOST SPECIFICATION
+==========================================================
+This specification is frozen before results are generated.
+
+EXACT CONFIGURATION
+- objective: binary:logistic
+- eval_metric: aucpr
+- n_estimators: 300
+- learning_rate: 0.05
+- max_depth: 3
+- min_child_weight: 5.0
+- subsample: 0.8
+- colsample_bytree: 0.8
+- reg_alpha: 0.0
+- reg_lambda: 1.0
+- random_state: 26103
+- scale_pos_weight: 1.0
+- missing: nan
+- n_jobs: 1
+- tree_method: hist
+- importance_type: gain
+- class weighting strategy: natural classes; no reweighting
+- missing-value handling: existing training-fitted median/mode imputation,
+  numeric missing indicators, and XGBoost missing=NaN safety handling
+- early stopping: NONE
+- hyperparameter search: NONE
+- threshold tuning: NONE; evaluate fixed 0.40 and 0.50 only
+- calibration: NONE
+- feature selection after results: NONE
+- feature population: the existing 29 CORE_PLUS_CONDITIONAL features
+- folds: exactly the six Phase 15 maturity-safe walk-forward folds
+- project-disjoint split: exactly the Phase 15 deterministic split
+
+PRIMARY DECISION RULE
+PR-AUC is primary and ROC-AUC secondary. A paired fold is an XGBoost win when
+delta PR-AUC > 0.005, a baseline win when delta PR-AUC <
+-0.005, and otherwise negligible/tied.
+
+XGBOOST CLEARLY BETTER requires mean delta PR >= 0.010, mean delta ROC >=
+0.005, at least four PR wins, no more than one PR loss, and non-negative
+project-disjoint deltas with project-disjoint delta PR >= 0.005.
+XGBOOST WORSE requires mean delta PR <= -0.010, mean delta ROC <= -0.005,
+at least four baseline PR wins, and a negative project-disjoint delta PR.
+Positive but non-gating evidence is XGBOOST MARGINALLY BETTER. Otherwise the
+BASELINE REMAINS PREFERRED. The final model changes only for CLEARLY BETTER.
+- installed xgboost version: 2.1.4
+
+TEMPORAL RESULTS
+fold | month | baseline ROC | XGB ROC | delta ROC | baseline PR | XGB PR | delta PR
+1 | 2025-11 | 0.778 | 0.819 | +0.041 | 0.310 | 0.401 | +0.091
+2 | 2025-12 | 0.850 | 0.861 | +0.012 | 0.756 | 0.788 | +0.033
+3 | 2026-01 | 0.871 | 0.870 | -0.000 | 0.811 | 0.818 | +0.007
+4 | 2026-02 | 0.850 | 0.839 | -0.011 | 0.826 | 0.814 | -0.012
+5 | 2026-03 | 0.812 | 0.841 | +0.030 | 0.742 | 0.793 | +0.051
+6 | 2026-04 | 0.841 | 0.860 | +0.019 | 0.778 | 0.814 | +0.035
+
+SUMMARY
+Baseline/XGB mean ROC: 0.834/0.849; mean delta=+0.015.
+Baseline/XGB mean PR: 0.704/0.738; mean delta=+0.034.
+Primary PR direction: XGB wins=5, baseline wins=1, negligible/ties=0 using +/-0.005.
+
+TEMPORAL STABILITY
+Baseline/XGB ROC SD: 0.030/0.017; minimum: 0.778/0.819.
+Baseline/XGB PR SD: 0.179/0.151; minimum: 0.310/0.401.
+
+NOVEMBER
+Baseline/XGB ROC: 0.778/0.819.
+Baseline/XGB PR: 0.310/0.401.
+The weak fold remains included in every aggregate and decision count.
+
+PROJECT-DISJOINT
+Baseline/XGB ROC: 0.808/0.811; delta=+0.002.
+Baseline/XGB PR: 0.756/0.797; delta=+0.041.
+All train/validation/test project overlaps are zero; preprocessing is training-only.
+
+THRESHOLD RESULTS
+2025-11 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.210/0.198/0.204 | @.50=0.292/0.066/0.108
+2025-11 | XGBOOST | @.40 P/R/F1=0.324/0.642/0.430 | @.50=0.347/0.557/0.428
+2025-12 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.772/0.568/0.654 | @.50=0.700/0.112/0.192
+2025-12 | XGBOOST | @.40 P/R/F1=0.740/0.873/0.801 | @.50=0.749/0.793/0.770
+2026-01 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.844/0.444/0.582 | @.50=0.862/0.085/0.154
+2026-01 | XGBOOST | @.40 P/R/F1=0.776/0.770/0.773 | @.50=0.804/0.671/0.732
+2026-02 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.858/0.394/0.540 | @.50=0.865/0.097/0.175
+2026-02 | XGBOOST | @.40 P/R/F1=0.790/0.618/0.694 | @.50=0.803/0.521/0.632
+2026-03 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.815/0.386/0.524 | @.50=0.853/0.113/0.200
+2026-03 | XGBOOST | @.40 P/R/F1=0.792/0.616/0.693 | @.50=0.820/0.559/0.665
+2026-04 | BASELINE_RANDOM_FOREST | @.40 P/R/F1=0.791/0.642/0.709 | @.50=0.837/0.465/0.598
+2026-04 | XGBOOST | @.40 P/R/F1=0.794/0.677/0.731 | @.50=0.854/0.623/0.720
+
+FEATURE IMPORTANCE (NORMALIZED GAIN; INTERPRETIVE ONLY)
+sector: 0.2507 (prior-drift)
+ministry: 0.2201 (prior-drift)
+effective_target_months_from_cutoff: 0.1087
+agency: 0.0812 (prior-drift)
+state: 0.0558
+progress_current: 0.0242 (stable)
+project_age_months: 0.0194
+progress_change_1m: 0.0182
+revised_cost_current: 0.0178
+expenditure_change_1m: 0.0175
+expenditure_to_revised_cost: 0.0174
+expenditure_current: 0.0173 (stable)
+Gain importance does not establish causality and was not used for feature selection.
+
+STATISTICAL EVIDENCE
+Only six temporal folds exist. No significance test or p-value is claimed.
+
+PRACTICAL PERFORMANCE DIFFERENCE
+The predeclared consistency gate classifies the result as XGBOOST CLEARLY BETTER.
+
+CALIBRATION
+NOT PERFORMED — XGBoost outputs remain relative risk rankings, not calibrated probabilities.
+
+UNKNOWN PERIOD
+May-July 2026 are excluded because approved t+3 labels remain unavailable.
+
+COMPLEXITY VS BENEFIT
+The gains satisfy the frozen consistency gate across temporal and project-disjoint evaluation, so the added boosting dependency is justified for promotion as the preferred ranking model. This is not a production gate.
+
+FINAL MODEL DECISION
+XGBOOST
+
+REASON
+XGBoost improves mean PR by 0.034 and mean ROC by 0.015, wins five of six folds on primary PR-AUC, strengthens November, and improves project-disjoint PR by 0.041.
+
+TESTS
+PASSED — all 45 repository tests.
+
+REPRODUCIBILITY
+IDENTICAL — two complete in-process experiment runs matched exactly.
+
+CHANGED FILES
+requirements.txt; src/xgboost_benchmark.py; tests/test_xgboost_benchmark.py; six reports/phase16_* artifacts.
+
+NEXT STEP
+Conduct one predefined XGBoost error-slice robustness audit using only the existing Phase 15 slice definitions.
