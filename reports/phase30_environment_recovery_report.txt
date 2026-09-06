@@ -1,0 +1,63 @@
+PHASE 30 — REPRODUCIBLE ML ENVIRONMENT & DEPENDENCY RECOVERY
+======================================================================
+
+1. PHASE 29 BLOCKER
+Python 3.14 could not resolve scikit-learn>=1.6,<2 and XGBoost was unavailable.
+
+2. REPOSITORY DEPENDENCY EVIDENCE
+Found declarations: requirements.txt.
+Absent declaration types: pyproject.toml, setup.py, setup.cfg, Pipfile, Pipfile.lock, poetry.lock, uv.lock, environment.yml, environment.yaml, Dockerfile, docker-compose.yml, docker-compose.yaml.
+requirements.txt declares: pandas>=2.0; numpy>=1.24; pdfplumber>=0.10; scikit-learn>=1.6,<2; xgboost==2.1.4.
+Python and scipy have no direct repository version pin; scipy is a transitive XGBoost dependency.
+
+3. GIT HISTORY ENVIRONMENT INVESTIGATION
+59255911aa3238f4d38a824a16f99377d3a41135 2026-09-06 Benchmark untuned XGBoost model
+9fb642e7ffcd6520701de707beac9690ae840f3e 2026-09-05 Establish temporal baseline models
+43def04b1163cfd678cda49d32c1af101780f134 2026-09-04 data processing
+43def04 introduced pandas, numpy, and pdfplumber minimum versions; 9fb642e added the scikit-learn range; 5925591 added the XGBoost 2.1.4 pin.
+No older lockfile, Dockerfile, CI workflow, or known-working Python-version specification exists in history.
+
+4. PYTHON COMPATIBILITY ANALYSIS
+Repository evidence does not declare a Python version. Python 3.13.5 was selected because it is installed and resolved the unchanged requirements; the Phase 29 Python 3.14 attempt did not.
+
+5. ENVIRONMENT SELECTED
+venv at C:\Users\ronny\AppData\Local\Temp\sih26103-phase30-py313-recovery\Scripts\python.exe
+Python: 3.13.5; pip: pip 25.1.1 from C:\Users\ronny\AppData\Local\Temp\sih26103-phase30-py313-recovery\Lib\site-packages\pip (python 3.13)
+
+6. INSTALLED PACKAGE VERSIONS
+cffi==2.1.1, charset-normalizer==3.5.1, cloudpickle==3.1.2, cryptography==50.0.1, joblib==1.6.0, narwhals==2.25.0, numpy==2.5.3, pandas==3.0.5, pdfminer-six==20260107, pdfplumber==0.11.10, pillow==12.3.0, pip==25.1.1, pycparser==3.0, pypdfium2==5.13.0, python-dateutil==2.9.0.post0, scikit-learn==1.9.0, scipy==1.18.1, six==1.17.0, threadpoolctl==3.6.0, tzdata==2026.3, xgboost==2.1.4
+
+7. IMPORT VALIDATION
+All required runtime and project training imports succeeded: True.
+XGBoost: 2.1.4 satisfies ==2.1.4.
+scikit-learn: 1.9.0 satisfies >=1.6,<2.
+
+8. TRAINING DRY-RUN RESULT
+NOT RUN: no repository dry-run mode exists; Phase 30 does not train before the final gate.
+The safe CLI import/argument check succeeded; no training, evaluation, calibration, or artifact creation occurred.
+
+8A. TEST COLLECTION
+Full unittest collection return code: 0; collected tests: 118.
+NOT RUN: existing model tests fit estimators; Phase 30 forbids retraining.
+
+9. CONTROLLED REPRODUCTION RESULT
+NOT RUN: final execution gate was not reached.
+
+10. REMAINING BLOCKER
+NOT REACHED: the training CLI has no non-mutating dry-run mode, and training is intentionally not run in Phase 30.
+
+11. EXACT NEXT STEP
+Add a documented non-mutating training dry-run mode or separately authorize one unchanged controlled training run; do not alter dependency constraints or methodology.
+
+REQUIRED STATUS FIELDS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+NEW MODEL ARTIFACT CREATED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+AUGUST DATA CREATED: NO
+AUGUST HOLDOUT EVALUATED: NO
+HISTORICAL MODEL RECOVERED: NO
+ENVIRONMENT STATUS: READY
+REPRODUCIBILITY STATUS: BLOCKED
