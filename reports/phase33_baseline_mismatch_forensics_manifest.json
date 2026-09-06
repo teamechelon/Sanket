@@ -1,0 +1,375 @@
+{
+  "classification": {
+    "confirmed_finding": "H \u2014 historical reference inconsistency is confirmed: 0.855136/0.804918 belongs to the earlier fixed-split baseline, not the Phase 15 assertion's six-fold reference.",
+    "decision": "ROOT CAUSE PARTIALLY IDENTIFIED",
+    "reproduction_status": "BLOCKED",
+    "root_cause": "J \u2014 Unresolved",
+    "unresolved_finding": "The actual recomputed fold metric was not retained by the failed run. With no historical predictions/version lock and a no-fit instruction, the direct cause of the roc_auc assertion failure cannot be isolated."
+  },
+  "current_state": {
+    "branch": "main",
+    "commit": "5f0d6b7173c8cc5cee49e031294a1d58de242e02",
+    "dataset": {
+      "column_count": 34,
+      "columns": [
+        "project_code",
+        "identity_key",
+        "prediction_month",
+        "state",
+        "sector",
+        "ministry",
+        "agency",
+        "project_age_months",
+        "progress_current",
+        "expenditure_current",
+        "original_cost_current",
+        "revised_cost_current",
+        "effective_target_months_from_cutoff",
+        "progress_change_1m",
+        "progress_change_3m",
+        "progress_velocity_3m",
+        "progress_acceleration_3m",
+        "expenditure_change_1m",
+        "expenditure_change_3m",
+        "expenditure_velocity_3m",
+        "cost_revision_count_to_date",
+        "last_cost_revision_pct",
+        "months_since_cost_revision",
+        "schedule_revision_count_to_date",
+        "months_since_schedule_revision",
+        "months_since_material_progress_change",
+        "expenditure_to_original_cost",
+        "expenditure_to_revised_cost",
+        "cost_revision_pct_current",
+        "months_observed",
+        "months_since_first_observation",
+        "revised_cost_missing",
+        "progress_missing",
+        "future_schedule_later_3m"
+      ],
+      "duplicate_rows": 0,
+      "month_rows": {
+        "2025-07": 439,
+        "2025-08": 622,
+        "2025-09": 704,
+        "2025-10": 736,
+        "2025-11": 731,
+        "2025-12": 1243,
+        "2026-01": 1453,
+        "2026-02": 1815,
+        "2026-03": 1701,
+        "2026-04": 1667
+      },
+      "path": "C:/Users/ronny/Desktop/hamilton/college/SIH/2nd/SIH26103/data/features/schedule_modeling.csv",
+      "rows": 11111,
+      "sha256": "3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33"
+    },
+    "feature_contract": {
+      "count": 29,
+      "expected_phase32_sha256": "9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440",
+      "ordered_features": [
+        "sector",
+        "progress_current",
+        "expenditure_current",
+        "original_cost_current",
+        "progress_change_1m",
+        "progress_change_3m",
+        "progress_velocity_3m",
+        "progress_acceleration_3m",
+        "expenditure_change_1m",
+        "expenditure_change_3m",
+        "expenditure_velocity_3m",
+        "cost_revision_count_to_date",
+        "months_since_cost_revision",
+        "schedule_revision_count_to_date",
+        "months_since_schedule_revision",
+        "months_since_material_progress_change",
+        "expenditure_to_original_cost",
+        "months_observed",
+        "months_since_first_observation",
+        "revised_cost_missing",
+        "progress_missing",
+        "state",
+        "ministry",
+        "agency",
+        "project_age_months",
+        "revised_cost_current",
+        "effective_target_months_from_cutoff",
+        "expenditure_to_revised_cost",
+        "cost_revision_pct_current"
+      ],
+      "sha256": "9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440"
+    },
+    "package_versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scikit_learn": "1.9.0",
+      "scipy": "1.18.1",
+      "xgboost": "2.1.4"
+    },
+    "python_executable": "C:\\Users\\ronny\\AppData\\Local\\Temp\\sih26103-phase30-py313-recovery\\Scripts\\python.exe",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "random_seed": 26103,
+    "target": "future_schedule_later_3m",
+    "working_tree_status_excluding_phase33_outputs": [
+      "A  phase32_diff.txt",
+      "A  reports/phase32_model_artifact_manifest.json",
+      "A  reports/phase32_model_artifact_report.txt",
+      "A  src/model_inference.py",
+      "A  src/phase32_model_artifact_audit.py",
+      "M  src/xgboost_benchmark.py"
+    ],
+    "xgboost_config_source_sha256": "87b1a271240c0f8d3322d7278b9a7bcb66ac55770b7b9e604e97286df07e4ca6",
+    "xgboost_configuration": {
+      "colsample_bytree": 0.8,
+      "eval_metric": "aucpr",
+      "importance_type": "gain",
+      "learning_rate": 0.05,
+      "max_depth": 3,
+      "min_child_weight": 5.0,
+      "missing": "np.nan",
+      "n_estimators": 300,
+      "n_jobs": 1,
+      "objective": "binary:logistic",
+      "random_state": "SEED",
+      "reg_alpha": 0.0,
+      "reg_lambda": 1.0,
+      "scale_pos_weight": 1.0,
+      "subsample": 0.8,
+      "tree_method": "hist"
+    }
+  },
+  "diagnostic_only": true,
+  "evidence": {
+    "phase11_fixed_split_metrics": {
+      "exists": true,
+      "path": "reports/baseline_model_results.csv",
+      "sha256": "53ee24b5d639fd179754f0c3317323e7308cff5bdd552dcd22070fa4912c60a2"
+    },
+    "phase11_fixed_split_report": {
+      "exists": true,
+      "path": "reports/baseline_model_report.txt",
+      "sha256": "a8d4f324fd1f21177ae41cd4a625ad022d9e8d526f85d7000bd1c3143653377a"
+    },
+    "phase12_robustness_narrative": {
+      "exists": true,
+      "path": "reports/schedule_baseline_robustness_report.txt",
+      "sha256": "4ad14f8933236dde147125052e21dac399e104a8151d2e85834a4a94b66521db"
+    },
+    "phase15_fold_metrics": {
+      "exists": true,
+      "path": "reports/phase15_walk_forward_results.csv",
+      "sha256": "bdc1a0a0b1b80da1ae95ace0991fc0c571c5600d37af770979457ac609600c0e"
+    },
+    "phase15_window_csv": {
+      "exists": true,
+      "path": "reports/phase15_valid_temporal_windows.csv",
+      "sha256": "7f2c94739c8336d62203e519166fc5995a4484b25c132c419183afb3d702f715"
+    },
+    "phase15_window_report": {
+      "exists": true,
+      "path": "reports/phase15_available_data_audit.txt",
+      "sha256": "8a467d2f73d3dda7b05ab278e4d296a2cfd759f0ae3f11ee84d5295cc2c46dae"
+    },
+    "phase32_failed_run": {
+      "exists": true,
+      "path": "reports/phase32_model_artifact_report.txt",
+      "sha256": "b82c8bb5a82adbd4fe371dfb4f4035a189f962a13f4d579500c6222dbe3f24cc"
+    }
+  },
+  "forensics": {
+    "dataset": "Git blob is identical at Phase 15 and HEAD; current SHA-256 is recorded above. Historical standalone SHA-256 was not preserved, but the Git object identity proves repository bytes are unchanged.",
+    "dependencies": "Historical package versions were not recorded in Phase 15 evidence. Current environment is recorded above; unpinned numpy/pandas/scipy/scikit-learn requirements leave a numerical dependency difference plausible but unproven.",
+    "exact_mismatch": "Historical fixed-split ROC-AUC/PR-AUC are 0.855136/0.804918. The Phase 32 failed run exposes no current recomputed ROC-AUC or PR-AUC, so absolute differences cannot be calculated without prohibited fitting.",
+    "features": "The 29-feature contract hashes to the stated Phase 32 value. baseline_models.py and schedule_robustness.py Git blobs are identical at Phase 15 and HEAD.",
+    "labels_and_maturity": "Target is future_schedule_later_3m. Current maturity_windows source blob is identical to Phase 15; it creates six expanding folds with a t+3 endpoint before evaluation.",
+    "predictions": "HISTORICAL PREDICTIONS: NOT AVAILABLE. Exact prediction-level comparison is impossible without fitting, which this phase forbids.",
+    "splits": "Stored Phase 15 rows define six folds: July 2025 through December 2025 expanding training, evaluated November 2025 through April 2026. These are not the Phase 11 fixed split."
+  },
+  "historical_evidence_records": [
+    {
+      "commit": "9fb642e7ffcd6520701de707beac9690ae840f3e",
+      "content": "ROC-AUC=0.855136; PR-AUC=0.804918; train_rows=4475; test_rows=3368",
+      "date": "2026-09-05T12:55:02+05:30",
+      "evidence_type": "narrative",
+      "file": "reports/baseline_model_results.csv",
+      "location": "line 11",
+      "name": "phase11_fixed_split_metric"
+    },
+    {
+      "commit": "9fb642e7ffcd6520701de707beac9690ae840f3e",
+      "content": "fixed train/validation/test split, training-only pipeline, sklearn ROC/PR metrics",
+      "date": "2026-09-05T12:55:02+05:30",
+      "evidence_type": "executable",
+      "file": "src/baseline_models.py",
+      "location": "lines 39-79",
+      "name": "phase11_fixed_split_implementation"
+    },
+    {
+      "commit": "a06e1989cd3d7219d99512150899a3e215a5bc0f",
+      "content": "six maturity-safe expanding folds and fold-wise sklearn ROC/PR metrics",
+      "date": "2026-09-06T00:34:04+05:30",
+      "evidence_type": "executable",
+      "file": "src/available_data_audit.py",
+      "location": "lines 49-102",
+      "name": "phase15_implementation"
+    },
+    {
+      "commit": "a06e1989cd3d7219d99512150899a3e215a5bc0f",
+      "content": "six stored fold references; not fitted predictions",
+      "date": "2026-09-06T00:34:04+05:30",
+      "evidence_type": "narrative",
+      "file": "reports/phase15_walk_forward_results.csv",
+      "location": "FULL_EXISTING_BASELINE rows 2, 5, 8, 11, 14, 17",
+      "name": "phase15_fold_reference"
+    },
+    {
+      "commit": "a06e1989cd3d7219d99512150899a3e215a5bc0f",
+      "content": "window definitions and fold-level metric narrative",
+      "date": "2026-09-06T00:34:04+05:30",
+      "evidence_type": "narrative",
+      "file": "reports/phase15_available_data_audit.txt",
+      "location": "lines 29-48",
+      "name": "phase15_window_narrative"
+    },
+    {
+      "commit": "UNCOMMITTED_PHASE32",
+      "content": "assertion failed for roc_auc before artifact fitting; no recomputed numeric value logged",
+      "date": null,
+      "evidence_type": "narrative",
+      "file": "reports/phase32_model_artifact_report.txt",
+      "location": "lines 13-37",
+      "name": "phase32_failure_record"
+    }
+  ],
+  "historical_metric_evidence": {
+    "executable_evidence": false,
+    "meaning": "This is a stored narrative/result CSV; its fitted estimator and predictions do not survive.",
+    "method": "fixed split: train 2025-07..2025-12; validation 2026-01..2026-02; test 2026-03..2026-04; threshold selected on validation",
+    "reference": {
+      "pr_auc": 0.804918,
+      "roc_auc": 0.855136
+    },
+    "source": "reports/baseline_model_results.csv, CORE_PLUS_CONDITIONAL Random Forest",
+    "source_commit": "9fb642e7ffcd6520701de707beac9690ae840f3e"
+  },
+  "history": {
+    "phase11_baseline_introduction": {
+      "commit": "9fb642e7ffcd6520701de707beac9690ae840f3e",
+      "date": "2026-09-05T12:55:02+05:30",
+      "subject": "Establish temporal baseline models"
+    },
+    "phase11_baseline_results_blob": "cc1a2502888c208355f3ef2dc9ca220021fc9c02",
+    "phase15_benchmark_introduction": {
+      "commit": "a06e1989cd3d7219d99512150899a3e215a5bc0f",
+      "date": "2026-09-06T00:34:04+05:30",
+      "subject": "Audit available schedule data robustness"
+    },
+    "phase15_fold_results_blob": "1081e18fb8bfde3992a822c0975ac4e3ad49ecbc",
+    "phase15_to_current_source_blob_unchanged": {
+      "data/features/schedule_modeling.csv": true,
+      "requirements.txt": false,
+      "src/available_data_audit.py": false,
+      "src/baseline_models.py": true,
+      "src/schedule_robustness.py": true
+    },
+    "phase15_xgboost_configuration": "None: xgboost_benchmark.py was introduced by Phase 16 after Phase 15.",
+    "post_phase15_available_data_change": {
+      "commit": "c4f1cfc4d480b353a175449099e92ad50f627c28",
+      "finding": "Only error-slice factoring; maturity_windows and walk_forward metric logic are unchanged."
+    }
+  },
+  "phase": 33,
+  "phase15_assertion_evidence": {
+    "assertion_target": "Each Phase 15 fold metric in phase15_walk_forward_results.csv; not the 0.855136/0.804918 fixed-split result.",
+    "current_failed_run": "Phase 32 recorded ValueError: Phase 15 baseline changed for roc_auc, without logging the recomputed value.",
+    "metric_implementation": "sklearn.metrics.roc_auc_score and average_precision_score, calculated separately per fold; no pooling or averaging occurs inside the assertion.",
+    "stored_fold_metrics": [
+      {
+        "evaluation_period": "2025-11",
+        "evaluation_rows": "731",
+        "event_rate": "0.145007",
+        "fold": "1",
+        "positive_rows": "106",
+        "pr_auc": "0.309756",
+        "roc_auc": "0.778113",
+        "train_rows": "439",
+        "training_period_end": "2025-07",
+        "training_period_start": "2025-07"
+      },
+      {
+        "evaluation_period": "2025-12",
+        "evaluation_rows": "1243",
+        "event_rate": "0.454545",
+        "fold": "2",
+        "positive_rows": "565",
+        "pr_auc": "0.755563",
+        "roc_auc": "0.849554",
+        "train_rows": "1061",
+        "training_period_end": "2025-08",
+        "training_period_start": "2025-07"
+      },
+      {
+        "evaluation_period": "2026-01",
+        "evaluation_rows": "1453",
+        "event_rate": "0.454233",
+        "fold": "3",
+        "positive_rows": "660",
+        "pr_auc": "0.810729",
+        "roc_auc": "0.870650",
+        "train_rows": "1765",
+        "training_period_end": "2025-09",
+        "training_period_start": "2025-07"
+      },
+      {
+        "evaluation_period": "2026-02",
+        "evaluation_rows": "1815",
+        "event_rate": "0.509642",
+        "fold": "4",
+        "positive_rows": "925",
+        "pr_auc": "0.826288",
+        "roc_auc": "0.850208",
+        "train_rows": "2501",
+        "training_period_end": "2025-10",
+        "training_period_start": "2025-07"
+      },
+      {
+        "evaluation_period": "2026-03",
+        "evaluation_rows": "1701",
+        "event_rate": "0.421517",
+        "fold": "5",
+        "positive_rows": "717",
+        "pr_auc": "0.742160",
+        "roc_auc": "0.811567",
+        "train_rows": "3232",
+        "training_period_end": "2025-11",
+        "training_period_start": "2025-07"
+      },
+      {
+        "evaluation_period": "2026-04",
+        "evaluation_rows": "1667",
+        "event_rate": "0.398920",
+        "fold": "6",
+        "positive_rows": "665",
+        "pr_auc": "0.778319",
+        "roc_auc": "0.841256",
+        "train_rows": "4475",
+        "training_period_end": "2025-12",
+        "training_period_start": "2025-07"
+      }
+    ]
+  },
+  "phase32_modification_audit": {
+    "artifact_path": "METHODOLOGY CHANGE \u2014 invokes fit_final_temporal_fold after benchmark completion.",
+    "caused_phase15_mismatch": false,
+    "fit_final_temporal_fold": "METHODOLOGY CHANGE \u2014 it fits a newly selected standalone fold.",
+    "load_pipeline": "SAFE DEPLOYMENT INFRASTRUCTURE",
+    "model_inference_py": "SAFE DEPLOYMENT INFRASTRUCTURE",
+    "ordering_evidence": "run() calls experiment(), which calls _phase15_baseline(), before the artifact-path branch; the recorded Phase 32 run failed in _phase15_baseline().",
+    "phase32_audit_reports": "SAFE DEPLOYMENT INFRASTRUCTURE / diagnostic records; the existing report confirms artifact fitting was not reached.",
+    "predict_risk_scores": "SAFE DEPLOYMENT INFRASTRUCTURE",
+    "serialize_pipeline": "SAFE DEPLOYMENT INFRASTRUCTURE \u2014 persistence only; no fit or estimator assignment.",
+    "validate_feature_frame": "SAFE DEPLOYMENT INFRASTRUCTURE"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,69 @@
+PHASE 33 — PHASE 15 BASELINE MISMATCH FORENSICS
+========================================================================
+
+DIAGNOSTIC SCOPE
+No estimator was fitted, no artifact was created, and no model, dataset, feature, label, split, threshold, calibration, dependency, or Phase 15 assertion was changed.
+
+1. CURRENT STATE
+Commit/branch: 5f0d6b7173c8cc5cee49e031294a1d58de242e02 / main
+Working tree (excluding this Phase 33 artifact set): ['A  phase32_diff.txt', 'A  reports/phase32_model_artifact_manifest.json', 'A  reports/phase32_model_artifact_report.txt', 'A  src/model_inference.py', 'A  src/phase32_model_artifact_audit.py', 'M  src/xgboost_benchmark.py']
+Python: C:\Users\ronny\AppData\Local\Temp\sih26103-phase30-py313-recovery\Scripts\python.exe | 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+Packages: {'numpy': '2.5.3', 'pandas': '3.0.5', 'scipy': '1.18.1', 'scikit_learn': '1.9.0', 'xgboost': '2.1.4'}
+Dataset: C:/Users/ronny/Desktop/hamilton/college/SIH/2nd/SIH26103/data/features/schedule_modeling.csv | SHA-256=3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33 | rows=11111 | columns=34 | duplicate rows=0
+Feature contract: 29 features | SHA-256=9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440
+Target/seed/XGB-config-source-hash: future_schedule_later_3m / 26103 / 87b1a271240c0f8d3322d7278b9a7bcb66ac55770b7b9e604e97286df07e4ca6
+
+Current XGBoost configuration: {'objective': 'binary:logistic', 'eval_metric': 'aucpr', 'n_estimators': 300, 'learning_rate': 0.05, 'max_depth': 3, 'min_child_weight': 5.0, 'subsample': 0.8, 'colsample_bytree': 0.8, 'reg_alpha': 0.0, 'reg_lambda': 1.0, 'random_state': 'SEED', 'scale_pos_weight': 1.0, 'missing': 'np.nan', 'n_jobs': 1, 'tree_method': 'hist', 'importance_type': 'gain'}
+
+2. HISTORICAL EVIDENCE AND GIT HISTORY
+Phase 11 fixed-split baseline: {'commit': '9fb642e7ffcd6520701de707beac9690ae840f3e', 'date': '2026-09-05T12:55:02+05:30', 'subject': 'Establish temporal baseline models'}
+Phase 15 available-data benchmark: {'commit': 'a06e1989cd3d7219d99512150899a3e215a5bc0f', 'date': '2026-09-06T00:34:04+05:30', 'subject': 'Audit available schedule data robustness'}
+The 0.855136 ROC-AUC and 0.804918 PR-AUC values are stored in baseline_model_results.csv for the CORE_PLUS_CONDITIONAL Random Forest fixed split. That CSV is narrative/result evidence, not surviving predictions or a fitted estimator.
+Phase 15's stored reference is instead phase15_walk_forward_results.csv: six separately-scored maturity-safe folds. The assertion compares those fold columns, not a pooled/mean 0.855136/0.804918 value.
+
+Phase 15 had no XGBoost configuration: the XGBoost benchmark was introduced only in Phase 16. The current XGBoost configuration therefore cannot explain a Phase 15 Random Forest assertion mismatch.
+
+3. PHASE 15 FOLDS
+fold 1: train 2025-07..2025-07 (439); eval 2025-11 (731), positives=106, prevalence=0.145007, ROC=0.778113, PR=0.309756
+fold 2: train 2025-07..2025-08 (1061); eval 2025-12 (1243), positives=565, prevalence=0.454545, ROC=0.849554, PR=0.755563
+fold 3: train 2025-07..2025-09 (1765); eval 2026-01 (1453), positives=660, prevalence=0.454233, ROC=0.870650, PR=0.810729
+fold 4: train 2025-07..2025-10 (2501); eval 2026-02 (1815), positives=925, prevalence=0.509642, ROC=0.850208, PR=0.826288
+fold 5: train 2025-07..2025-11 (3232); eval 2026-03 (1701), positives=717, prevalence=0.421517, ROC=0.811567, PR=0.742160
+fold 6: train 2025-07..2025-12 (4475); eval 2026-04 (1667), positives=665, prevalence=0.398920, ROC=0.841256, PR=0.778319
+
+4. SOURCE, DATA, FEATURE, LABEL, AND SPLIT FORENSICS
+Git blob is identical at Phase 15 and HEAD; current SHA-256 is recorded above. Historical standalone SHA-256 was not preserved, but the Git object identity proves repository bytes are unchanged.
+The 29-feature contract hashes to the stated Phase 32 value. baseline_models.py and schedule_robustness.py Git blobs are identical at Phase 15 and HEAD.
+Target is future_schedule_later_3m. Current maturity_windows source blob is identical to Phase 15; it creates six expanding folds with a t+3 endpoint before evaluation.
+Stored Phase 15 rows define six folds: July 2025 through December 2025 expanding training, evaluated November 2025 through April 2026. These are not the Phase 11 fixed split.
+The only post-Phase-15 available_data_audit change is error-slice factoring; it does not change maturity windows or walk-forward metrics.
+
+5. MODEL, PREDICTION, METRIC, AND DEPENDENCY FORENSICS
+The Phase 15 baseline is RandomForestClassifier(200 trees, min_samples_leaf=5, max_features=sqrt, random_state=26103, n_jobs=-1) within training-only median/mode imputation, numeric indicators/scaling, and categorical one-hot encoding.
+CSV columns and their order are preserved by the identical Git dataset blob. Historical pandas-inferred dtypes, feature-value missingness totals, and stored predictions were not preserved separately; no reconstruction was attempted.
+HISTORICAL PREDICTIONS: NOT AVAILABLE. Exact prediction-level comparison is impossible without fitting, which this phase forbids.
+sklearn.metrics.roc_auc_score and average_precision_score, calculated separately per fold; no pooling or averaging occurs inside the assertion.
+Historical package versions were not recorded in Phase 15 evidence. Current environment is recorded above; unpinned numpy/pandas/scipy/scikit-learn requirements leave a numerical dependency difference plausible but unproven.
+
+6. EXACT MISMATCH
+Historical fixed-split ROC-AUC/PR-AUC are 0.855136/0.804918. The Phase 32 failed run exposes no current recomputed ROC-AUC or PR-AUC, so absolute differences cannot be calculated without prohibited fitting.
+Therefore current ROC-AUC=?, current PR-AUC=?, and exact absolute differences are NOT AVAILABLE from surviving non-training evidence.
+
+7. PHASE 32 MODIFICATION AUDIT
+model_inference_py: SAFE DEPLOYMENT INFRASTRUCTURE
+serialize_pipeline: SAFE DEPLOYMENT INFRASTRUCTURE — persistence only; no fit or estimator assignment.
+load_pipeline: SAFE DEPLOYMENT INFRASTRUCTURE
+validate_feature_frame: SAFE DEPLOYMENT INFRASTRUCTURE
+predict_risk_scores: SAFE DEPLOYMENT INFRASTRUCTURE
+fit_final_temporal_fold: METHODOLOGY CHANGE — it fits a newly selected standalone fold.
+artifact_path: METHODOLOGY CHANGE — invokes fit_final_temporal_fold after benchmark completion.
+phase32_audit_reports: SAFE DEPLOYMENT INFRASTRUCTURE / diagnostic records; the existing report confirms artifact fitting was not reached.
+caused_phase15_mismatch: False
+ordering_evidence: run() calls experiment(), which calls _phase15_baseline(), before the artifact-path branch; the recorded Phase 32 run failed in _phase15_baseline().
+
+8. FINAL DECISION
+ROOT CAUSE PARTIALLY IDENTIFIED
+ROOT-CAUSE CLASSIFICATION: J — Unresolved
+REPRODUCTION STATUS: BLOCKED
+H — historical reference inconsistency is confirmed: 0.855136/0.804918 belongs to the earlier fixed-split baseline, not the Phase 15 assertion's six-fold reference.
+The actual recomputed fold metric was not retained by the failed run. With no historical predictions/version lock and a no-fit instruction, the direct cause of the roc_auc assertion failure cannot be isolated.
