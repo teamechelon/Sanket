@@ -1,0 +1,57 @@
+SANKET - PHASE 21 FIRST MATURE POST-APRIL FORWARD HOLDOUT VALIDATION
+============================================================================
+PHASE 21 STATUS: INVALID HOLDOUT
+
+EXECUTIVE SUMMARY
+No genuinely mature post-April 2026 labeled holdout exists in the current repository. The exact t+3 schedule-label rule was preserved, and model evaluation stopped before fitting, prediction, metric calculation, threshold application, calibration, drift analysis, or slice analysis.
+
+LABEL MATURITY DEFINITION
+The existing target is future_schedule_later_3m: the effective completion target becomes later within t+1 through t+3 relative to its cutoff value, and the same traceable project must be observed at the exact t+3 endpoint. A missing endpoint is UNKNOWN, never negative.
+
+POST-APRIL DATA AVAILABILITY
+cutoff | observations/projects | required endpoint | endpoint present | exact pairs | mature labels/events | status
+2026-05 | 1987/1976 | 2026-08 | False | 0 | 0/0 | IMMATURE_MISSING_T_PLUS_3_ENDPOINT
+2026-06 | 1847/1836 | 2026-09 | False | 0 | 0/0 | IMMATURE_MISSING_T_PLUS_3_ENDPOINT
+2026-07 | 1775/1764 | 2026-10 | False | 0 | 0/0 | IMMATURE_MISSING_T_PLUS_3_ENDPOINT
+Latest local report month: 2026-07.
+Post-April observations/projects: 5609/2036; mature labeled observations: 0.
+
+EXTERNAL AVAILABILITY CHECK
+The official PAIMANA/MoSPI report listing was checked on 2026-09-06: https://paimana-proj.mospi.gov.in/WhatsNewViewMore/ViewMore
+No August 2026 Monthly Flash Report was found. No external file was downloaded or substituted, and no data source was fabricated.
+
+WHY THE HOLDOUT IS INVALID
+May 2026 is the first post-April cutoff, but it requires an August 2026 record for the same project. Local data ends in July 2026, so May, June, and July lack their August, September, and October exact endpoints respectively. Zero rows are label-mature. Weakening the endpoint rule would introduce unsupported labels and invalidate the forward holdout.
+
+EARLIEST POTENTIALLY USABLE PERIOD
+May 2026 can become the first candidate holdout only after an authentic August 2026 report is available, ingested, parsed, validated, and linked by the existing source-backed identity rule. The eventual eligible row count cannot be known until that endpoint is processed.
+
+FROZEN MODEL RECORD
+Model family/version: XGBOOST 2.1.4.
+Logical model-contract SHA-256: 6fa4aca992807c741fa7e24d969db161966760562ddf9f48193d21dd7559f149.
+No serialized fitted-model artifact exists; Phase 16 deterministically fits the frozen configuration within each validation split. Contract: 300 trees, learning rate 0.05, depth 3, minimum child weight 5, row/column subsampling 0.8/0.8, L1/L2 0/1, natural class weighting, histogram trees, seed 26103, one thread, 29 unchanged features, no calibration, and frozen thresholds 0.40/0.50.
+
+EVALUATION RESULTS
+NOT PERFORMED. Observation/project metrics, score distribution, ROC-AUC, PR-AUC, Brier, Brier skill, ECE, diagnostic intercept/slope, fixed-threshold results, ranking metrics, project aggregation, slices, drift, and robustness comparison would all be invalid without mature labels.
+
+GENERALIZATION CLASSIFICATION
+INVALID HOLDOUT
+No conclusion about post-April discrimination, ranking, or calibration is made.
+
+MISSING EVIDENCE
+An authentic August 2026 project-level endpoint is missing for May maturity. September and October endpoints would be required for June and July cutoffs. Project continuity and effective completion targets must then pass the unchanged parser, identity, and label-validation rules.
+
+FRONTEND/DATA INTEGRATION STATUS
+Frontend remains disconnected from the model, API, database, prediction pipeline, and live data. Existing source data was inspected read-only; no ingestion or integration path was changed.
+
+TESTS
+PASSED - all 80 repository tests.
+
+REPRODUCIBILITY
+IDENTICAL - two complete Phase 21 maturity audits matched exactly in memory; the report and availability artifact are deterministic and hashable.
+
+CHANGE CONTROL
+Created src/post_april_holdout_validation.py; tests/test_post_april_holdout_validation.py; reports/phase21_post_april_forward_holdout_report.txt; and reports/phase21_post_april_holdout_availability.csv. No model, feature, label, threshold, calibration, frontend, database, or live-data code was modified.
+
+NEXT PHASE
+Ingest and validate the authentic August 2026 project-level report before constructing the frozen May 2026 forward holdout.

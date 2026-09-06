@@ -1,0 +1,4 @@
+cutoff_month,cutoff_observations,cutoff_projects,traceable_observations,required_t_plus_3_endpoint,endpoint_month_available,endpoint_observations,exact_endpoint_project_pairs,mature_label_rows,mature_events,immature_or_unknown_rows,maturity_status
+2026-05,1987,1976,1976,2026-08,False,0,0,0,0,1987,IMMATURE_MISSING_T_PLUS_3_ENDPOINT
+2026-06,1847,1836,1836,2026-09,False,0,0,0,0,1847,IMMATURE_MISSING_T_PLUS_3_ENDPOINT
+2026-07,1775,1764,1764,2026-10,False,0,0,0,0,1775,IMMATURE_MISSING_T_PLUS_3_ENDPOINT
