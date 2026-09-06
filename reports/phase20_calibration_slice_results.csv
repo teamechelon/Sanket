@@ -1,0 +1,6 @@
+important_slice,slice_feature,slice_value,observations,projects,events,non_events,sample_status,n_a_reason,event_rate,mean_predicted_score,mean_minus_event_rate,brier_score,prevalence_only_brier,brier_skill,ece_10_equal_width
+Electricity Generation,sector,Electricity Generation,180,42,49,131,ADEQUATE,,0.27222222,0.22577506,-0.04644717,0.28848619,0.19811728,-0.45613845,0.26984855
+Ministry of Power,ministry,Ministry of Power,499,103,161,338,ADEQUATE,,0.32264529,0.27529990,-0.04734539,0.20362255,0.21854531,0.06828223,0.13216757
+Education,sector,Education,178,31,27,151,ADEQUATE,,0.15168539,0.31303869,0.16135330,0.19301390,0.12867693,-0.49998832,0.17563183
+Railways,sector,Railways,1367,258,118,1249,ADEQUATE,,0.08632041,0.13676591,0.05044550,0.09299194,0.07886920,-0.17906541,0.08364352
+Roads & Highways,sector,Roads & Highways,4166,1115,2799,1367,ADEQUATE,,0.67186750,0.44758590,-0.22428160,0.20387000,0.22046156,0.07525832,0.22428160

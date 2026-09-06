@@ -1,0 +1,97 @@
+SANKET - PHASE 20 FROZEN XGBOOST RAW CALIBRATION AUDIT
+======================================================================
+PHASE 20 STATUS: CALIBRATION EVIDENCE MIXED
+
+1. EXECUTIVE SUMMARY
+The frozen XGBoost output remains appropriate as a relative-risk ranking score, not as a literal probability of schedule error. Calibration evidence is judged from reliability, proper scoring, diagnostic intercept/slope, temporal folds, the project-disjoint experiment, and supported slices together; no universal ECE cutoff is invented.
+
+2. OBJECTIVE
+Audit whether raw Phase 16 XGBoost scores track observed event frequencies. This is an offline diagnostic audit, not model or calibration fitting.
+
+3. FROZEN MODEL
+XGBoost 2.1.4; 300 trees; learning rate 0.05; depth 3; minimum child weight 5; row/column subsampling 0.8/0.8; L1/L2 0/1; natural class weighting; histogram trees; seed 26103; one thread; the existing 29 features. No parameter, feature, threshold, preprocessing, label, or fold changed.
+Phase 16 row predictions were not persisted. They were reproduced with the exact frozen implementation, and all stored fold discrimination/threshold metrics plus project-disjoint ROC, PR, mean score, and split counts matched the Phase 16 artifacts at their stored 8-decimal precision.
+
+4. DATA SCOPE
+8610 label-eligible observations and 3638 events across the six mature November 2025-April 2026 walk-forward folds. May-July 2026 remain UNKNOWN and are excluded. The project-disjoint setup is the unchanged deterministic Phase 15/16 split.
+
+5. CALIBRATION METHODOLOGY
+Brier score is mean squared score error. The prevalence-only reference predicts the evaluated sample prevalence for every row; Brier skill is 1 - model Brier / reference Brier. ECE reuses the existing ten fixed equal-width bins over [0,1], right-closed with zero included in the first bin; empty bins remain visible and contribute zero weight. Calibration gap is mean score minus observed event rate.
+Intercept and slope are joint diagnostic logistic-regression coefficients of the binary outcome on logit(raw score), with scores clipped only at fixed 1e-6 bounds for a finite diagnostic. These coefficients are never applied to scores and no calibrator or transformed predictions are created.
+Discrimination asks whether ranking separates events; calibration asks whether score levels match event frequencies. Phase 16 PR-AUC/ROC-AUC are not evidence of probability calibration.
+
+6. RAW SCORE DISTRIBUTION
+Minimum/maximum=0.000/0.992; mean/median/SD=0.329/0.206/0.321.
+Selected quantiles: q01=0.002, q05=0.005, q25=0.027, q50=0.206, q75=0.635, q95=0.876, q99=0.943.
+Observed prevalence=0.423; mean score minus prevalence=-0.094.
+
+7. OVERALL CALIBRATION RESULTS
+Brier=0.169; prevalence-only Brier=0.244; Brier skill=0.308; ECE=0.099; calibration intercept=0.527; calibration slope=0.691.
+A positive Brier skill indicates better squared-error performance than a constant prevalence score, but does not by itself establish calibrated probabilities.
+
+8. RELIABILITY ANALYSIS
+bin | N | mean score | observed rate | gap | absolute gap | status
+[0.0, 0.1] | 3618 | 0.030 | 0.108 | -0.079 | 0.079 | SUPPORTED
+(0.1, 0.2] | 663 | 0.143 | 0.335 | -0.192 | 0.192 | SUPPORTED
+(0.2, 0.3] | 494 | 0.247 | 0.492 | -0.245 | 0.245 | SUPPORTED
+(0.3, 0.4] | 455 | 0.352 | 0.547 | -0.195 | 0.195 | SUPPORTED
+(0.4, 0.5] | 487 | 0.451 | 0.587 | -0.137 | 0.137 | SUPPORTED
+(0.5, 0.6] | 530 | 0.549 | 0.706 | -0.156 | 0.156 | SUPPORTED
+(0.6, 0.7] | 614 | 0.651 | 0.726 | -0.075 | 0.075 | SUPPORTED
+(0.7, 0.8] | 716 | 0.750 | 0.772 | -0.022 | 0.022 | SUPPORTED
+(0.8, 0.9] | 758 | 0.848 | 0.843 | 0.005 | 0.005 | SUPPORTED
+(0.9, 1.0] | 275 | 0.931 | 0.855 | 0.077 | 0.077 | SUPPORTED
+
+9. TEMPORAL CALIBRATION
+Fold 1 2025-11: N=731, event rate=0.145, mean score=0.249, Brier=0.141, ECE=0.122, intercept=-1.175, slope=0.546.
+Fold 2 2025-12: N=1243, event rate=0.455, mean score=0.438, Brier=0.147, ECE=0.055, intercept=0.148, slope=0.753.
+Fold 3 2026-01: N=1453, event rate=0.454, mean score=0.364, Brier=0.153, ECE=0.096, intercept=0.614, slope=0.803.
+Fold 4 2026-02: N=1815, event rate=0.510, mean score=0.335, Brier=0.205, ECE=0.182, intercept=1.008, slope=0.696.
+Fold 5 2026-03: N=1701, event rate=0.422, mean score=0.268, Brier=0.188, ECE=0.153, intercept=0.846, slope=0.639.
+Fold 6 2026-04: N=1667, event rate=0.399, mean score=0.306, Brier=0.153, ECE=0.094, intercept=0.587, slope=0.833.
+Across-fold mean / SD / minimum / maximum:
+event_rate: 0.397 / 0.118 / 0.145 / 0.510 (6/6 supported folds).
+mean_predicted_score: 0.327 / 0.063 / 0.249 / 0.438 (6/6 supported folds).
+mean_minus_event_rate: -0.070 / 0.093 / -0.175 / 0.104 (6/6 supported folds).
+brier_score: 0.164 / 0.023 / 0.141 / 0.205 (6/6 supported folds).
+ece_10_equal_width: 0.117 / 0.042 / 0.055 / 0.182 (6/6 supported folds).
+calibration_slope: 0.712 / 0.098 / 0.546 / 0.833 (6/6 supported folds).
+calibration_intercept: 0.338 / 0.727 / -1.175 / 1.008 (6/6 supported folds).
+Calibration behavior is not treated as stable merely because discrimination remained useful; fold-level gaps, ECE, intercepts, and slopes must be considered.
+
+10. PROJECT-DISJOINT CALIBRATION
+N=659; projects=351; event prevalence=0.414; mean score=0.331; Brier=0.177; ECE=0.118; intercept=0.343; slope=0.609. This is the existing cold-start transfer experiment and does not establish broader deployment generalization.
+
+11. SLICE CALIBRATION
+slice | N/projects/events | event rate | mean score | Brier | ECE | status
+Electricity Generation | 180/42/49 | 0.272 | 0.226 | 0.288 | 0.270 | ADEQUATE
+Ministry of Power | 499/103/161 | 0.323 | 0.275 | 0.204 | 0.132 | ADEQUATE
+Education | 178/31/27 | 0.152 | 0.313 | 0.193 | 0.176 | ADEQUATE
+Railways | 1367/258/118 | 0.086 | 0.137 | 0.093 | 0.084 | ADEQUATE
+Roads & Highways | 4166/1115/2799 | 0.672 | 0.448 | 0.204 | 0.224 | ADEQUATE
+Only slices meeting the exact Phase 15 rule (at least 50 observations, 25 projects, 20 events, and 20 non-events) are interpreted. No new slice or support rule was created.
+
+12. PROBABILITY VS RANKING INTERPRETATION
+The system should expose XGBoost output only as a relative-risk ranking score, not as a probability of schedule error. No percentage-risk language should be introduced into the frontend.
+
+13. LIMITATIONS
+Published schedule-revision proxy rather than actual completion delay; repeated project-month observations in pooled metrics; six mature folds only; no mature post-April labeled holdout; May-July outcomes UNKNOWN; uncalibrated raw score; mixed prior slice robustness; project-disjoint evidence limited to its existing deterministic sample; bin estimates can be noisy where counts are small.
+
+14. FRONTEND/DATA INTEGRATION STATUS
+Frontend remains disconnected from the model, API, database, prediction pipeline, and live data. No frontend, database, ingestion, or integration file was modified.
+
+15. FINAL CALIBRATION CLASSIFICATION
+CALIBRATION EVIDENCE MIXED
+Raw scores remain ranking signals. No calibrated probabilities were produced.
+
+TESTS
+PASSED - all 71 repository tests.
+
+REPRODUCIBILITY
+IDENTICAL - two complete Phase 20 audit runs matched exactly in memory; generated artifacts are written deterministically at eight-decimal precision.
+
+CHANGE CONTROL
+Created src/raw_calibration_audit.py; tests/test_raw_calibration_audit.py; reports/phase20_raw_calibration_audit.txt; and four reports/phase20_calibration_* CSV artifacts. Existing Phase 15-19 changes are preserved. No commit or push.
+
+16. NEXT METHODOLOGICAL STEP
+Acquire the first mature post-April labeled holdout before evaluating any predeclared calibration method.
