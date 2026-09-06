@@ -1,0 +1,102 @@
+{
+  "dataset": {
+    "path": "data/features/schedule_modeling.csv",
+    "sha256": "3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33",
+    "size_bytes": 3009445
+  },
+  "documented_command_not_executed": "python -m src.xgboost_benchmark --data data/features/schedule_modeling.csv --report-dir reports",
+  "environment": {
+    "package_versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.1",
+      "xgboost": "2.1.4"
+    },
+    "python_executable": "C:\\Users\\ronny\\AppData\\Local\\Temp\\sih26103-phase30-py313-recovery\\Scripts\\python.exe"
+  },
+  "execution_gate": {
+    "existing_entry_point_has_serializer": false,
+    "existing_prediction_path_has_loader": false,
+    "reason": "The surviving XGBoost training entry point has no serializer and the repository has no persisted-model loader. Phase 31 requires a real artifact and normal load-back validation; altering source would violate the methodology freeze.",
+    "result": "BLOCKED"
+  },
+  "feature_contract": {
+    "feature_contract_sha256": "9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440",
+    "feature_count": 29,
+    "ordered_features": [
+      "sector",
+      "progress_current",
+      "expenditure_current",
+      "original_cost_current",
+      "progress_change_1m",
+      "progress_change_3m",
+      "progress_velocity_3m",
+      "progress_acceleration_3m",
+      "expenditure_change_1m",
+      "expenditure_change_3m",
+      "expenditure_velocity_3m",
+      "cost_revision_count_to_date",
+      "months_since_cost_revision",
+      "schedule_revision_count_to_date",
+      "months_since_schedule_revision",
+      "months_since_material_progress_change",
+      "expenditure_to_original_cost",
+      "months_observed",
+      "months_since_first_observation",
+      "revised_cost_missing",
+      "progress_missing",
+      "state",
+      "ministry",
+      "agency",
+      "project_age_months",
+      "revised_cost_current",
+      "effective_target_months_from_cutoff",
+      "expenditure_to_revised_cost",
+      "cost_revision_pct_current"
+    ],
+    "source": "src/baseline_models.py: CORE + CONDITIONAL_INCLUDED",
+    "source_sha256": "3e0deb65c0dafae763ac873f9b2377d68be24e0b867030fe76d74b0a6d6fdd32"
+  },
+  "label_contract": {
+    "definition_source": "src/label_feasibility.py: maturity-safe next-three-endpoint label construction",
+    "source_sha256": "17124b26186f5fda70bef9552cc2df49b9f54b6b41e90fc9208cef2d1dca26c8",
+    "target": "future_schedule_later_3m"
+  },
+  "phase": 31,
+  "preprocessing": {
+    "source": "src/baseline_models.py: training-fitted imputation, indicators, scaling, and one-hot encoding",
+    "source_sha256": "3e0deb65c0dafae763ac873f9b2377d68be24e0b867030fe76d74b0a6d6fdd32"
+  },
+  "schema_version": 1,
+  "serialization_evidence": {
+    "loading_sources": [],
+    "serialization_sources": []
+  },
+  "source_commit": "fb1b1181e903db937821e9faebce473b1a8997b5",
+  "source_hashes": {
+    "requirements.txt": "f5ce226fb782d23dd155f1df222d5e19e4f4945a04733d8fd785725bb0d75077",
+    "src/available_data_audit.py": "4bfa7abb8b0d0561bace0ea17918ebc777de02b66afaebd269ef7a6a29e1512b",
+    "src/baseline_models.py": "3e0deb65c0dafae763ac873f9b2377d68be24e0b867030fe76d74b0a6d6fdd32",
+    "src/label_feasibility.py": "17124b26186f5fda70bef9552cc2df49b9f54b6b41e90fc9208cef2d1dca26c8",
+    "src/schedule_robustness.py": "6f905595bcaa3c056a69f557e17616da123c1e20a485553b305b72a6b4824711",
+    "src/xgboost_benchmark.py": "a0032561660ccf3fd8daaea1083690f32eb534b84c90a9c414ee221ba2d7b33f"
+  },
+  "split_logic": {
+    "source": "src/available_data_audit.py and src/schedule_robustness.py",
+    "source_sha256": "4bfa7abb8b0d0561bace0ea17918ebc777de02b66afaebd269ef7a6a29e1512b"
+  },
+  "test_execution": {
+    "full_suite": "NOT RUN: its estimator-fitting tests are outside the failed pre-execution gate.",
+    "phase31_tests": "Run after preflight manifest generation."
+  },
+  "training_entry_point": "src/xgboost_benchmark.py",
+  "working_tree_diff_before_training": "",
+  "working_tree_status_before_training": "",
+  "xgboost_configuration": {
+    "configuration_text": "XGB_CONFIG = {\n    \"objective\": \"binary:logistic\",\n    \"eval_metric\": \"aucpr\",\n    \"n_estimators\": 300,\n    \"learning_rate\": 0.05,\n    \"max_depth\": 3,\n    \"min_child_weight\": 5.0,\n    \"subsample\": 0.8,\n    \"colsample_bytree\": 0.8,\n    \"reg_alpha\": 0.0,\n    \"reg_lambda\": 1.0,\n    \"random_state\": SEED,\n    \"scale_pos_weight\": 1.0,\n    \"missing\": np.nan,\n    \"n_jobs\": 1,\n    \"tree_method\": \"hist\",\n    \"importance_type\": \"gain\",\n}",
+    "random_seed": 26103,
+    "source": "src/xgboost_benchmark.py: XGB_CONFIG",
+    "source_sha256": "c2ba0af8c59341261749071c007ec825054e2857edbe50e4274c2e4c6cc8af31"
+  }
+}

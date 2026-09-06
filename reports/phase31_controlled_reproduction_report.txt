@@ -1,0 +1,75 @@
+PHASE 31 — CONTROLLED MODEL REPRODUCTION & ARTIFACT CREATION
+====================================================================
+
+1. OBJECTIVE
+Establish a new Phase 31 reproducibility-baseline artifact only if the unchanged surviving pipeline can serialize and load it.
+
+2. REPOSITORY STATE
+Source commit: fb1b1181e903db937821e9faebce473b1a8997b5
+Working tree before training: clean
+
+3. TRAINING SOURCE
+Entry point: src/xgboost_benchmark.py.
+Documented command: python -m src.xgboost_benchmark --data data/features/schedule_modeling.csv --report-dir reports.
+
+4. ENVIRONMENT
+numpy=2.5.3, pandas=3.0.5, scikit-learn=1.9.0, scipy=1.18.1, xgboost=2.1.4
+
+5. DATASET EVIDENCE
+data/features/schedule_modeling.csv SHA-256: 3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33
+
+6. FEATURE/LABEL CONTRACT
+Feature count: 29; feature contract SHA-256: 9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440
+Target: future_schedule_later_3m.
+Random seed: 26103; XGBoost configuration SHA-256: c2ba0af8c59341261749071c007ec825054e2857edbe50e4274c2e4c6cc8af31
+
+7. EXECUTION GATE
+The surviving XGBoost training entry point has no serializer and the repository has no persisted-model loader. Phase 31 requires a real artifact and normal load-back validation; altering source would violate the methodology freeze.
+Serializer sources: NONE.
+Loader sources: NONE.
+
+8. FIRST EXECUTION RESULT
+NOT RUN. The gate failed before training; no model was fitted.
+
+9. MODEL ARTIFACT RESULT
+NOT CREATED. No existing serializer or normal inference loader exists.
+
+10. LOAD-BACK VALIDATION
+NOT POSSIBLE without changing source, which Phase 31 forbids.
+
+11. SECOND EXECUTION RESULT
+NOT RUN because the first controlled execution was blocked.
+
+12. REPRODUCIBILITY CLASSIFICATION
+BLOCKED.
+
+13. HISTORICAL COMPARISON
+HISTORICAL DOCUMENTED RESULT: ROC-AUC approximately 0.855 and PR-AUC approximately 0.805. PHASE 31 NEW REPRODUCED RESULT: none; no comparison is possible.
+
+14. CALIBRATION STATUS
+NOT FITTED. Scores remain relative-risk rankings, not probabilities.
+
+15. AUGUST HOLDOUT STATUS
+Not created or evaluated.
+
+16. LIMITATIONS
+This is not historical artifact recovery. The missing serialization and loading capability is an execution blocker, not a reason to change methodology.
+
+17. EXACT NEXT STEP
+Obtain an existing approved serialization/inference implementation, or separately authorize a source change in a later phase; do not modify the frozen training pipeline in Phase 31.
+
+18. TEST EXECUTION
+Phase 31 tests validate the integrity and block conditions. The full suite is not executed because it fits estimators after the serialization gate has failed.
+
+REQUIRED STATUS FIELDS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+NEW MODEL ARTIFACT CREATED: NO
+HISTORICAL MODEL RECOVERED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+AUGUST DATA CREATED: NO
+AUGUST HOLDOUT EVALUATED: NO
+METHODOLOGY CHANGED: NO
+REPRODUCIBILITY STATUS: BLOCKED
