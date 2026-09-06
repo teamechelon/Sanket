@@ -1,0 +1,44 @@
+PHASE 34 — CONTROLLED PHASE 15 WALK-FORWARD REPRODUCTION
+========================================================================
+
+SCOPE
+The existing Phase 15 Random Forest walk-forward computation was run twice. No XGBoost, artifact serialization, deployment model, calibration, tuning, August data, or Phase 15 assertion modification was used.
+
+ENVIRONMENT
+Commit/branch: 831cf58de1727edce909450b87041be4cc4ce6d0 / main
+Python: C:\Users\ronny\AppData\Local\Temp\sih26103-phase30-py313-recovery\Scripts\python.exe | 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+Packages: {'numpy': '2.5.3', 'pandas': '3.0.5', 'scipy': '1.18.1', 'scikit-learn': '1.9.0'}
+Dataset SHA-256: 3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33
+Target/features/hash/seed: future_schedule_later_3m / 29 / 9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440 / 26103
+
+HISTORICAL DEPENDENCY LOCK: NOT AVAILABLE
+HISTORICAL PREDICTIONS: NOT AVAILABLE
+
+RANDOM FOREST CONTRACT
+{"class": "RandomForestClassifier", "class_weight": null, "criterion": "gini", "max_features": "sqrt", "min_samples_leaf": 5, "n_estimators": 200, "n_jobs": -1, "pipeline_steps": ["preprocess", "model"], "preprocessing": "ColumnTransformer(transformers=[('num',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(add_indicator=True,\n                                                                keep_empty_features=True,\n                                                                strategy='median')),\n                                                 ('scale', StandardScaler())]),\n                                 ['progress_current', 'expenditure_current',\n                                  'original_cost_current', 'progress_change_1m',\n                                  'progress_change_3m', 'progress_velocity_3m',\n                                  'progress_acceleration_3m',\n                                  'expenditure_change...\n                                  'revised_cost_missing', 'progress_missing',\n                                  'project_age_months', 'revised_cost_current',\n                                  'effective_target_months_from_cutoff',\n                                  'expenditure_to_revised_cost',\n                                  'cost_revision_pct_current']),\n                                ('cat',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('onehot',\n                                                  OneHotEncoder(handle_unknown='ignore'))]),\n                                 ['sector', 'state', 'ministry', 'agency'])])", "random_state": 26103}
+
+FOLD COMPARISON
+fold | train/eval/positives | historical ROC/PR | current ROC/PR | ROC delta | PR delta | prediction SHA-256
+1 | 439/731/106 | 0.778113000000000/0.309756000000000 | 0.778113207547170/0.309755614009961 | +0.000000207547170 | -0.000000385990039 | efa77b971f0ae1d2449a18c11956028b33ec37be4e1df672f17199f128310821
+2 | 1061/1243/565 | 0.849554000000000/0.755563000000000 | 0.849120265225677/0.754383652872058 | -0.000433734774323 | -0.001179347127942 | c7cffe692a0ccd566de97320d0c764e744f3362a6c0e2444182165c181fef987
+3 | 1765/1453/660 | 0.870650000000000/0.810729000000000 | 0.870530016431656/0.810235749611896 | -0.000119983568344 | -0.000493250388104 | 7291a4e48cdee1aba078c4408c91aaff50ceae7898ce15d125538cef81e1223f
+4 | 2501/1815/925 | 0.850208000000000/0.826288000000000 | 0.849729729729730/0.825516423614330 | -0.000478270270270 | -0.000771576385670 | c58f32e48904e679e37154e2d04b6f125ef5ef52b04b41d360ecfa4db3b773ec
+5 | 3232/1701/717 | 0.811567000000000/0.742160000000000 | 0.811716898549739/0.741913983394585 | +0.000149898549739 | -0.000246016605415 | 485393e3070b4fbdca1f3888e2368ff9761190d22fb89bfb47cc4fab88d96608
+6 | 4475/1667/665 | 0.841256000000000/0.778319000000000 | 0.841557486530698/0.779755213594856 | +0.000301486530698 | +0.001436213594856 | bcf1ad58a5d8a76f18b19bc075bdc7706bfbbc17cd81dd032332c72d1dd2161d
+
+INTEGRITY
+Expected data/split/label counts match: True
+Phase 15 assertion unchanged: True
+No impact: the Phase 15 assertion executes in experiment() before the artifact-path branch and before fit_final_temporal_fold().
+
+REPEATED EXECUTION
+{"classification": "NUMERICALLY IDENTICAL / BYTE-DIFFERENT", "fold_comparison": [{"first_prediction_sha256": "efa77b971f0ae1d2449a18c11956028b33ec37be4e1df672f17199f128310821", "fold": 1, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.309755614009961, "pr_auc_second": 0.309755614009961, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 3.33066907387547e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.77811320754717, "roc_auc_second": 0.77811320754717, "second_prediction_sha256": "1639c6309afcffb7666df4d177dd3d67f3b91b6be5a5c8090fe2192c99e0babf"}, {"first_prediction_sha256": "c7cffe692a0ccd566de97320d0c764e744f3362a6c0e2444182165c181fef987", "fold": 2, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.754383652872058, "pr_auc_second": 0.754383652872058, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 3.33066907387547e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.849120265225677, "roc_auc_second": 0.849120265225677, "second_prediction_sha256": "f8da80e0967f4d2b6d4f327f75ccdd0a443bb19529325de26517a0315fdb2612"}, {"first_prediction_sha256": "7291a4e48cdee1aba078c4408c91aaff50ceae7898ce15d125538cef81e1223f", "fold": 3, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.810235749611896, "pr_auc_second": 0.810235749611896, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 2.77555756156289e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.870530016431656, "roc_auc_second": 0.870530016431656, "second_prediction_sha256": "56dc35e515f8a0dc8b974df4bcb8ed1e64228891febc31561ea36f0aeb85f093"}, {"first_prediction_sha256": "c58f32e48904e679e37154e2d04b6f125ef5ef52b04b41d360ecfa4db3b773ec", "fold": 4, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.82551642361433, "pr_auc_second": 0.82551642361433, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 3.33066907387547e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.84972972972973, "roc_auc_second": 0.84972972972973, "second_prediction_sha256": "8fc3c0064d92af1faea6852e6897fe31302e44648d0518a8d6eee723e6dfa341"}, {"first_prediction_sha256": "485393e3070b4fbdca1f3888e2368ff9761190d22fb89bfb47cc4fab88d96608", "fold": 5, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.741913983394585, "pr_auc_second": 0.741913983394585, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 2.22044604925031e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.811716898549739, "roc_auc_second": 0.811716898549739, "second_prediction_sha256": "ae07b9fa3aa8845088a37d4dba0afe5c9ec1fa8bc380febc68c68670467cdc79"}, {"first_prediction_sha256": "bcf1ad58a5d8a76f18b19bc075bdc7706bfbbc17cd81dd032332c72d1dd2161d", "fold": 6, "pr_auc_absolute_delta": 0.0, "pr_auc_delta": 0.0, "pr_auc_first": 0.779755213594856, "pr_auc_second": 0.779755213594856, "prediction_arrays_allclose_at_1e12": true, "prediction_arrays_exactly_equal": false, "prediction_max_absolute_difference": 2.22044604925031e-16, "roc_auc_absolute_delta": 0.0, "roc_auc_delta": 0.0, "roc_auc_first": 0.841557486530698, "roc_auc_second": 0.841557486530698, "second_prediction_sha256": "af398ac2f962f391eaad8b61a106de6696f852ced8c90f55b722c3657667f46a"}], "metrics_byte_identical": true, "numerically_identical_at_1e12": true, "predictions_byte_identical": false}
+
+FINAL DECISION
+PHASE 15 REPRODUCTION: FAIL
+ROOT CAUSE: J
+J — Multiple reproducible metric differences remain after matching data, feature, label, and split counts; historical dependency lock and prediction artifacts are unavailable, so no individual cause is proven.
+First divergent fold: 2
+Largest ROC/PR absolute difference: 0.000478270270270 / 0.001436213594856
+All folds differ: False
+NEXT ACTION: Preserve the assertion and historical values. Obtain the historical dependency lock or prediction artifacts before attributing the remaining difference.
