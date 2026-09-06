@@ -20,6 +20,7 @@ from src.available_data_audit import (
     walk_forward,
 )
 from src.baseline_models import SEED, make_pipeline
+from src.model_inference import serialize_pipeline
 from src.schedule_robustness import FEATURES, TARGET, project_disjoint_split
 
 
@@ -250,6 +251,26 @@ def experiment(df: pd.DataFrame, report_dir: Path) -> dict[str, pd.DataFrame]:
     }
 
 
+def fit_final_temporal_fold(df: pd.DataFrame) -> tuple[Pipeline, dict[str, object]]:
+    """Fit the existing last expanding walk-forward fold for artifact persistence."""
+    windows = maturity_windows(df)
+    if windows.empty:
+        raise ValueError("no maturity-safe training windows available")
+    window = windows.iloc[-1]
+    train = df[df.prediction_month.between(
+        window.training_period_start, window.training_period_end
+    )].sort_values(["prediction_month", "identity_key"])
+    model = make_xgb_pipeline()
+    model.fit(train[FEATURES], train[TARGET])
+    return model, {
+        "fold": int(window.fold),
+        "training_period_start": str(window.training_period_start),
+        "training_period_end": str(window.training_period_end),
+        "evaluation_period": str(window.evaluation_period),
+        "train_rows": len(train),
+    }
+
+
 def _assert_identical(first: dict[str, pd.DataFrame], second: dict[str, pd.DataFrame]) -> None:
     for name in first:
         pd.testing.assert_frame_equal(first[name], second[name], check_exact=True)
@@ -375,7 +396,7 @@ def write_report(frames: dict[str, pd.DataFrame], path: Path) -> None:
     path.write_text("\n".join(lines) + "\n")
 
 
-def run(data_path: Path, report_dir: Path) -> None:
+def run(data_path: Path, report_dir: Path, artifact_path: Path | None = None) -> dict[str, object] | None:
     report_dir.mkdir(parents=True, exist_ok=True)
     (report_dir / "phase16_xgboost_specification.txt").write_text(specification_text())
     df = pd.read_csv(data_path, dtype={"project_code": "string", "identity_key": "string"})
@@ -405,6 +426,10 @@ def run(data_path: Path, report_dir: Path) -> None:
         float_format="%.8f",
     )
     write_report(first, report_dir / "phase16_xgboost_benchmark.txt")
+    if artifact_path is None:
+        return None
+    model, fold = fit_final_temporal_fold(df)
+    return {"artifact": serialize_pipeline(model, artifact_path), "training_fold": fold}
 
 
 def main() -> None:
@@ -413,8 +438,9 @@ def main() -> None:
         "--data", type=Path, default=Path("data/features/schedule_modeling.csv")
     )
     parser.add_argument("--report-dir", type=Path, default=Path("reports"))
+    parser.add_argument("--artifact-path", type=Path, default=None)
     args = parser.parse_args()
-    run(args.data, args.report_dir)
+    run(args.data, args.report_dir, args.artifact_path)
 
 
 if __name__ == "__main__":

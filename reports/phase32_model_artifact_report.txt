@@ -1,0 +1,58 @@
+PHASE 32 — MODEL SERIALIZATION, INFERENCE IMPLEMENTATION & DEPLOYMENT ARTIFACT
+==============================================================================
+
+RESULT
+BLOCKED during the first unchanged controlled pipeline execution.
+
+AUTHORITATIVE BASELINE
+Source commit: 5f0d6b7173c8cc5cee49e031294a1d58de242e02
+Dataset SHA-256: 3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33
+Feature count/hash: 29 / 9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440
+Environment: {'numpy': '2.5.3', 'pandas': '3.0.5', 'scikit-learn': '1.9.0', 'scipy': '1.18.1', 'xgboost': '2.1.4'}
+
+EXACT TRAINING FAILURE
+Command: C:\Users\ronny\AppData\Local\Temp\sih26103-phase30-py313-recovery\Scripts\python.exe -m src.xgboost_benchmark --data C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\data\features\schedule_modeling.csv --report-dir C:\Users\ronny\AppData\Local\Temp\sih26103-phase32-runs-01\run1 --artifact-path C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\models\phase32_reproduced_xgboost_model_run1.joblib
+Exit code/runtime: 1 / 4.344325 seconds
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\src\xgboost_benchmark.py", line 447, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\src\xgboost_benchmark.py", line 443, in main
+    run(args.data, args.report_dir, args.artifact_path)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\src\xgboost_benchmark.py", line 403, in run
+    first = experiment(df, report_dir)
+  File "C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\src\xgboost_benchmark.py", line 234, in experiment
+    baseline = _phase15_baseline(df, report_dir)
+  File "C:\Users\ronny\Desktop\hamilton\college\SIH\2nd\SIH26103\src\xgboost_benchmark.py", line 229, in _phase15_baseline
+    raise ValueError(f"Phase 15 baseline changed for {metric}")
+ValueError: Phase 15 baseline changed for roc_auc
+
+INTERPRETATION
+The surviving pipeline aborted when its unchanged Phase 15 baseline-integrity assertion found that recalculated ROC-AUC differed from the stored reference. No dependency, source-data, feature, label, split, threshold, calibration, or tolerance change was made to bypass it.
+
+ARTIFACT AND INFERENCE
+No Phase 32 artifact was created. Load-back, inference, and the second reproduction were not run after the first pipeline failure.
+
+HISTORICAL EVIDENCE
+Historical ROC-AUC approximately 0.855 and PR-AUC approximately 0.805 remain reference evidence only. No historical model was recovered.
+
+EXACT NEXT STEP
+Diagnose the Phase 15 baseline mismatch in a separately authorized reproducibility investigation; do not weaken the frozen integrity assertion in Phase 32.
+
+REQUIRED STATUS FIELDS
+MODEL CHANGED: NO
+MODEL RETRAINED: NO
+NEW MODEL ARTIFACT CREATED: NO
+MODEL ARTIFACT LOAD-BACK: NO
+MODEL INFERENCE: NO
+HISTORICAL MODEL RECOVERED: NO
+FEATURES CHANGED: NO
+THRESHOLDS CHANGED: NO
+CALIBRATION FITTED: NO
+AUGUST DATA USED: NO
+AUGUST HOLDOUT EVALUATED: NO
+METHODOLOGY CHANGED: NO
+REPRODUCIBILITY STATUS: BLOCKED

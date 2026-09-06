@@ -1,0 +1,96 @@
+{
+  "baseline": {
+    "branch": "main",
+    "dataset": {
+      "path": "data/features/schedule_modeling.csv",
+      "sha256": "3fce02db80a58bc9c98639b0013a787b9791dc479cf1f27c911de4729543fd33",
+      "size_bytes": 3009445
+    },
+    "environment_versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.0",
+      "scipy": "1.18.1",
+      "xgboost": "2.1.4"
+    },
+    "existing_phase_artifacts": [
+      "phase29_model_reproducibility_report.txt",
+      "phase29_reproducibility_contract.json",
+      "phase30_environment_manifest.json",
+      "phase30_environment_recovery_report.txt",
+      "phase31_controlled_reproduction_report.txt",
+      "phase31_pretraining_manifest.json"
+    ],
+    "feature_contract": {
+      "feature_count": 29,
+      "ordered_features": [
+        "sector",
+        "progress_current",
+        "expenditure_current",
+        "original_cost_current",
+        "progress_change_1m",
+        "progress_change_3m",
+        "progress_velocity_3m",
+        "progress_acceleration_3m",
+        "expenditure_change_1m",
+        "expenditure_change_3m",
+        "expenditure_velocity_3m",
+        "cost_revision_count_to_date",
+        "months_since_cost_revision",
+        "schedule_revision_count_to_date",
+        "months_since_schedule_revision",
+        "months_since_material_progress_change",
+        "expenditure_to_original_cost",
+        "months_observed",
+        "months_since_first_observation",
+        "revised_cost_missing",
+        "progress_missing",
+        "state",
+        "ministry",
+        "agency",
+        "project_age_months",
+        "revised_cost_current",
+        "effective_target_months_from_cutoff",
+        "expenditure_to_revised_cost",
+        "cost_revision_pct_current"
+      ],
+      "sha256": "9330da27a587945d3235869573f1638ea3df82069cac1e7c30bd8bbc11543440"
+    },
+    "platform": {
+      "architecture": "AMD64",
+      "os": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5"
+    },
+    "random_seed": 26103,
+    "source_commit": "5f0d6b7173c8cc5cee49e031294a1d58de242e02",
+    "source_hashes": {
+      "requirements.txt": "f5ce226fb782d23dd155f1df222d5e19e4f4945a04733d8fd785725bb0d75077",
+      "src/baseline_models.py": "3e0deb65c0dafae763ac873f9b2377d68be24e0b867030fe76d74b0a6d6fdd32",
+      "src/model_inference.py": "6899b688fb6e2d90fc218244682787135780da19adf664c3d3110126ea6827f6",
+      "src/schedule_robustness.py": "6f905595bcaa3c056a69f557e17616da123c1e20a485553b305b72a6b4824711",
+      "src/xgboost_benchmark.py": "e3b85f126fd5bdc04ab4a291aa6ddf20e73ca163d136bb43f644bde76b576d52"
+    },
+    "target": "future_schedule_later_3m",
+    "working_tree_before_phase32": "M src/xgboost_benchmark.py\n?? src/model_inference.py\n?? src/phase32_model_artifact_audit.py",
+    "xgboost_configuration_sha256": "c2ba0af8c59341261749071c007ec825054e2857edbe50e4274c2e4c6cc8af31"
+  },
+  "first_reproduction": {
+    "artifact_path": "models/phase32_reproduced_xgboost_model_run1.joblib",
+    "command": [
+      "C:\\Users\\ronny\\AppData\\Local\\Temp\\sih26103-phase30-py313-recovery\\Scripts\\python.exe",
+      "-m",
+      "src.xgboost_benchmark",
+      "--data",
+      "C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\data\\features\\schedule_modeling.csv",
+      "--report-dir",
+      "C:\\Users\\ronny\\AppData\\Local\\Temp\\sih26103-phase32-runs-01\\run1",
+      "--artifact-path",
+      "C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\models\\phase32_reproduced_xgboost_model_run1.joblib"
+    ],
+    "exit_code": 1,
+    "runtime_seconds": 4.344325,
+    "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\src\\xgboost_benchmark.py\", line 447, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\src\\xgboost_benchmark.py\", line 443, in main\n    run(args.data, args.report_dir, args.artifact_path)\n    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\src\\xgboost_benchmark.py\", line 403, in run\n    first = experiment(df, report_dir)\n  File \"C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\src\\xgboost_benchmark.py\", line 234, in experiment\n    baseline = _phase15_baseline(df, report_dir)\n  File \"C:\\Users\\ronny\\Desktop\\hamilton\\college\\SIH\\2nd\\SIH26103\\src\\xgboost_benchmark.py\", line 229, in _phase15_baseline\n    raise ValueError(f\"Phase 15 baseline changed for {metric}\")\nValueError: Phase 15 baseline changed for roc_auc\n",
+    "stdout": ""
+  },
+  "status": "BLOCKED"
+}
